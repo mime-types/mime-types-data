@@ -21,7 +21,7 @@ implementation that wishes to use the data as a MIME types registry, so I am
 particularly interested in tools that will create a mime-types-data package for
 other languages.
 
-=== Adding or Modifying MIME Types
+### Adding or Modifying MIME Types
 
 The Ruby mime-types gem loads its data from files encoded in the `data`
 directory in this gem by loading `mime-types-data` and reading
@@ -60,7 +60,7 @@ If you are making a change for a private fork, use `rake convert:yaml:json` to
 convert the YAML to JSON, or `rake convert:yaml:columnar` to convert it to the
 new columnar format.
 
-==== Updating Types from the IANA or Apache Lists
+#### Updating Types from the IANA or Apache Lists
 
 If you are maintaining a private fork and wish to update your copy of the MIME
 types registry used by this gem, you can do this with the rake tasks:
@@ -68,7 +68,7 @@ types registry used by this gem, you can do this with the rake tasks:
     $ rake mime:iana
     $ rake mime:apache
 
-=== Test Dependencies
+### Test Dependencies
 
 mime-types-data uses Ryan Davis’s {Hoe}[https://github.com/seattlerb/hoe] to
 manage the release process, and it adds a number of rake tasks. You will mostly
@@ -101,7 +101,7 @@ You can run tests with code coverage analysis by running:
 
     $ rake test:coverage
 
-=== Workflow
+### Workflow
 
 Here's the most direct way to get your work merged into the project:
 
@@ -117,7 +117,7 @@ Here's the most direct way to get your work merged into the project:
 * Create a pull request against mime-types/mime-types-data and describe what
   your change does and the why you think it should be merged.
 
-=== Contributors
+### Contributors
 
 * Austin Ziegler created mime-types.
 
