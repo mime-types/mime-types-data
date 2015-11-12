@@ -3,6 +3,7 @@
 ## 3.2015.1110 / 2015-11-10
 
 *   Extracted from [ruby-mime-types][rmt].
+*   Added a [Code of Conduct][].
 *   The versioning has changed to be semantic on format plus date in two parts.
 
 ## 2.6.2 / 2015-09-13
@@ -274,3 +275,4 @@
     text/plain.
 
 [rmt]: https://github.com/mime-types/ruby-mime-types
+[Code of Conduct]: Code-of-Conduct.md

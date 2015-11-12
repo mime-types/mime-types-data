@@ -1,8 +1,8 @@
 # mime-types-data
 
-* https://github.com/mime-types/mime-types-data/
-* https://github.com/mime-types/mime-types-data/
-* https://github.com/mime-types/mime-types-data/issues
+* home :: https://github.com/mime-types/mime-types-data/
+* code :: https://github.com/mime-types/mime-types-data/
+* issues :: https://github.com/mime-types/mime-types-data/issues
 
 ## Description
 

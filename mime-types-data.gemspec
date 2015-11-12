@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Austin Ziegler"]
-  s.date = "2015-11-10"
+  s.date = "2015-11-12"
   s.description = "mime-types-data provides a registry for information about MIME media type\ndefinitions. It can be used with the Ruby mime-types library or other software\nto determine defined filename extensions for MIME types, or to use filename\nextensions to look up the likely MIME type definitions."
   s.email = ["halostatue@gmail.com"]
   s.extra_rdoc_files = ["Code-of-Conduct.md", "Contributing.md", "History.md", "Licence.md", "Manifest.txt", "README.md"]
@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<hoe-git>, ["~> 1.6"])
       s.add_development_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_development_dependency(%q<rake>, ["~> 10.0"])
-      s.add_development_dependency(%q<mime-types>, [">= 2.6.2"])
+      s.add_development_dependency(%q<mime-types>, ["~> 3.0"])
       s.add_development_dependency(%q<hoe>, ["~> 3.14"])
     else
       s.add_dependency(%q<rdoc>, ["~> 4.0"])
@@ -41,7 +41,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<hoe-git>, ["~> 1.6"])
       s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
       s.add_dependency(%q<rake>, ["~> 10.0"])
-      s.add_dependency(%q<mime-types>, [">= 2.6.2"])
+      s.add_dependency(%q<mime-types>, ["~> 3.0"])
       s.add_dependency(%q<hoe>, ["~> 3.14"])
     end
   else
@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<hoe-git>, ["~> 1.6"])
     s.add_dependency(%q<hoe-rubygems>, ["~> 1.0"])
     s.add_dependency(%q<rake>, ["~> 10.0"])
-    s.add_dependency(%q<mime-types>, [">= 2.6.2"])
+    s.add_dependency(%q<mime-types>, ["~> 3.0"])
     s.add_dependency(%q<hoe>, ["~> 3.14"])
   end
 end

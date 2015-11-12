@@ -13,7 +13,7 @@ module MIME
       # System maintainer note: this is the constant to change when packaging
       # mime-types for your system. It is recommended that the path be
       # something like /usr/share/ruby/mime-types/.
-      PATH = File.expand_path('../data', __FILE__)
+      PATH = File.expand_path('../../data', __FILE__)
     end
   end
 end
