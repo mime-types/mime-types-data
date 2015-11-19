@@ -11,12 +11,9 @@ data/mime-types.json
 data/mime.content_type.column
 data/mime.docs.column
 data/mime.encoding.column
+data/mime.flags.column
 data/mime.friendly.column
-data/mime.obsolete.column
-data/mime.references.column
-data/mime.registered.column
-data/mime.signature.column
-data/mime.system.column
+data/mime.pext.column
 data/mime.use_instead.column
 data/mime.xrefs.column
 lib/mime-types-data.rb

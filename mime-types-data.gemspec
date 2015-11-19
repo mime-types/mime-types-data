@@ -8,11 +8,11 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Austin Ziegler"]
-  s.date = "2015-11-12"
+  s.date = "2015-11-19"
   s.description = "mime-types-data provides a registry for information about MIME media type\ndefinitions. It can be used with the Ruby mime-types library or other software\nto determine defined filename extensions for MIME types, or to use filename\nextensions to look up the likely MIME type definitions."
   s.email = ["halostatue@gmail.com"]
   s.extra_rdoc_files = ["Code-of-Conduct.md", "Contributing.md", "History.md", "Licence.md", "Manifest.txt", "README.md"]
-  s.files = [".gitignore", ".hoerc", "Code-of-Conduct.md", "Contributing.md", "History.md", "Licence.md", "Manifest.txt", "README.md", "Rakefile", "data/mime-types.json", "data/mime.content_type.column", "data/mime.docs.column", "data/mime.encoding.column", "data/mime.friendly.column", "data/mime.obsolete.column", "data/mime.references.column", "data/mime.registered.column", "data/mime.signature.column", "data/mime.system.column", "data/mime.use_instead.column", "data/mime.xrefs.column", "lib/mime-types-data.rb"]
+  s.files = [".gitignore", ".hoerc", "Code-of-Conduct.md", "Contributing.md", "History.md", "Licence.md", "Manifest.txt", "README.md", "Rakefile", "data/mime-types.json", "data/mime.content_type.column", "data/mime.docs.column", "data/mime.encoding.column", "data/mime.friendly.column", "data/mime.obsolete.column", "data/mime.registered.column", "data/mime.signature.column", "data/mime.use_instead.column", "data/mime.xrefs.column", "lib/mime-types-data.rb"]
   s.homepage = "https://github.com/mime-types/mime-types-data/"
   s.licenses = ["MIT"]
   s.rdoc_options = ["--main", "README.md"]
