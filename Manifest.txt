@@ -17,3 +17,4 @@ data/mime.pext.column
 data/mime.use_instead.column
 data/mime.xrefs.column
 lib/mime-types-data.rb
+lib/mime/types/data.rb

@@ -6,11 +6,11 @@ exclude: !ruby/regexp '/
   |
   \.(git|DS_Store|hoerc)\/
   |
-  Gemfile(?:\.lock)?
+  ^Gemfile(?:\.lock)?$
   |
-  support\/
+  ^support\/
   |
-  types\/
+  ^types\/
   |
-  \.gemspec
+  \.gemspec$
   /x'
