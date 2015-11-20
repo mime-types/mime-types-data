@@ -20,7 +20,7 @@ end
 class IANARegistry
   DEFAULTS = {
     url: %q(https://www.iana.org/assignments/media-types/media-types.xml),
-    to: Pathname(__FILE__).join('../../type-lists')
+    to: Pathname(__FILE__).join('../../types')
   }.freeze.each_value(&:freeze)
 
   def self.download(options = {})
@@ -69,7 +69,7 @@ class IANARegistry
 
       subtype, notes = subtype.split(/ /, 2)
 
-      refs, xrefs = parse_refs_and_files(
+      xrefs = parse_refs_and_files(
         record.css('xref'),
         record.css('file'),
         subtype
@@ -85,7 +85,6 @@ class IANARegistry
 
       if types.empty?
         MIME::Type.new(content_type) do |mt|
-          mt.references  = %w(IANA) + refs
           mt.xrefs       = xrefs
           mt.registered  = true
           mt.obsolete    = obsolete if obsolete
@@ -94,7 +93,6 @@ class IANARegistry
         end
       else
         types.each { |mt|
-          mt.references  = %w(IANA) + refs
           mt.registered  = true
           mt.xrefs       = xrefs
           mt.obsolete    = obsolete if obsolete
@@ -121,15 +119,12 @@ class IANARegistry
 
   def parse_refs_and_files(refs, files, subtype)
     xr = MIME::Types::Container.new
-    r  = []
 
     refs.each do |xref|
       type = xref['type']
       data = xref['data']
 
       next if data.nil? || data.empty?
-
-      r << ref_from_type(type, data)
 
       xr[type] << data
     end
@@ -141,30 +136,9 @@ class IANARegistry
                     file.text
                   end
 
-      if file['type'] == 'template'
-        r << (ASSIGNMENT_FILE_REF % [ file_name, file_name ])
-      end
-
       xr[file['type']] << file_name
     end
 
-    [ r, xr ]
-  end
-
-  def ref_from_type(type, data)
-    case type
-    when 'person'
-      "[#{data}]"
-    when 'rfc'
-      data.upcase
-    when 'draft'
-      "DRAFT:#{data.sub(/^RFC-/, 'draft-')}"
-    when 'rfc-errata'
-      "{RFC Errata #{data}=http://www.rfc-editor.org/errata_search.php?eid=#{data}}"
-    when 'uri'
-      "{#{data}}"
-    else # 'text' or something else
-      data
-    end
+    xr
   end
 end

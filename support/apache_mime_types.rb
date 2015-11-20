@@ -11,10 +11,6 @@ require 'yaml'
 ENV['RUBY_MIME_TYPES_LAZY_LOAD'] = 'yes'
 require 'mime/types'
 
-class MIME::Type
-  public_constant :UNREGISTERED_RE
-end
-
 class MIME::Types
   def self.deprecated(*_args, &_block)
     # We are an internal tool. Silence deprecation warnings.
@@ -24,8 +20,10 @@ end
 class ApacheMIMETypes
   DEFAULTS = {
     url: %q(http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types),
-    to: Pathname(__FILE__).join('../../type-lists')
+    to: Pathname(__FILE__).join('../../types')
   }.freeze.each_value(&:freeze)
+
+  X_PREFIX_RE = /^x-/
 
   def self.download(options = {})
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
@@ -40,7 +38,7 @@ class ApacheMIMETypes
 
     data.each do |line|
       type = line.split(/\t+/)
-      key  = type.first.split(%r{/}).first.gsub(MIME::Type::UNREGISTERED_RE, '')
+      key  = type.first.split(%r{/}).first.gsub(X_PREFIX_RE, '')
       conf[key] << type
     end
 
@@ -81,7 +79,7 @@ class ApacheMIMETypes
         MIME::Type.new(content_type) do |mt|
           mt.extensions = extensions
           mt.registered = false
-          @types << mt
+          @types.add(mt)
         end
       else
         types.each { |mt|
