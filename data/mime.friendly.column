@@ -61,6 +61,8 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
+-
 en^CU-SeeMe
 -
 -
@@ -272,6 +274,7 @@ en^XML Resource Lists
 en^XML Resource Lists Diff
 -
 -
+-
 en^XML Resource Lists
 -
 -
@@ -358,9 +361,12 @@ en^Time Stamped Data Envelope
 -
 -
 -
+-
 en^3rd Generation Partnership Project - Pic Large
 en^3rd Generation Partnership Project - Pic Small
 en^3rd Generation Partnership Project - Pic Var
+-
+-
 -
 -
 -
@@ -772,6 +778,8 @@ en^Microsoft Project
 -
 -
 -
+-
+-
 en^Micosoft Word - Macro-Enabled Document
 en^Micosoft Word - Macro-Enabled Template
 en^Microsoft Works
@@ -976,6 +984,8 @@ en^Microsoft Office - OOXML - Word Document Template
 en^MapGuide DBXML
 -
 en^OSGi Deployment Package
+-
+-
 -
 -
 en^PalmOS Data
@@ -1896,6 +1906,7 @@ en^Microsoft PlayReady Ecosystem Video
 -
 en^DECE MP4
 en^Vivo
+-
 en^Open Web Media Project - Video
 -
 -

@@ -1,10 +1,28 @@
 # MIME Types Changes by Version
 
-## 3.2015.1110 / 2015-11-10
+## 3.2015.1120 / 2015-11-20
 
 *   Extracted from [ruby-mime-types][rmt].
 *   Added a [Code of Conduct][].
 *   The versioning has changed to be semantic on format plus date in two parts.
+
+    *   All registry formats have been updated to remove deprecated data.
+    *   The columnar format has been updated to store three boolean flags in a
+        single flags file.
+
+*   Updated the conversion and management utilities to work with
+    ruby-mime-types 3.x.
+
+*   Updated the IANA media registry entries as of release date:
+
+    *  Updated metadata for application/scim+json, audio/G711-0, text/markdown. 
+
+    *  Added application/cdni, application/csvm+json, application/rfc+xml,
+       application/vnd.3gpp.access-transfer-events+xml,
+       application/vnd.3gpp.srvcc-ext+xml, application/vnd.3gpp.SRVCC-info+xml,
+       application/vnd.ms-windows.devicepairing,
+       application/vnd.ms-windows.wsd.oob, application/vnd.oxli.countgraph,
+       application/vnd.pagerduty+json, video/VP8.
 
 ## 2.6.2 / 2015-09-13
 

@@ -16,7 +16,7 @@
   encoding: base64
   extensions:
   - cgm
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Alan_Francis
     template:
@@ -31,7 +31,7 @@
 - !ruby/object:MIME::Type
   content-type: image/example
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc4735
     template:
@@ -40,7 +40,7 @@
 - !ruby/object:MIME::Type
   content-type: image/fits
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc4047
     template:
@@ -53,7 +53,7 @@
   encoding: base64
   extensions:
   - g3
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc1494
     template:
@@ -66,7 +66,7 @@
   encoding: base64
   extensions:
   - gif
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc2045
     - rfc2046
@@ -78,7 +78,7 @@
   encoding: base64
   extensions:
   - ief
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc1314
   registered: true
@@ -88,7 +88,7 @@
   extensions:
   - jp2
   - jpg2
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3745
     template:
@@ -103,7 +103,7 @@
   - jpeg
   - jpg
   - jpe
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc2045
     - rfc2046
@@ -114,7 +114,7 @@
   extensions:
   - jpm
   - jpgm
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3745
     template:
@@ -126,7 +126,7 @@
   extensions:
   - jpx
   - jpf
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3745
     template:
@@ -139,17 +139,17 @@
   encoding: base64
   extensions:
   - ktx
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
-    - Khronos
     - Mark_Callow
+    - Khronos
     uri:
     - http://www.khronos.org/opengles/sdk/tools/KTX/file_format_spec/#mimeregistration
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/naplps
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Ilya_Ferber
     template:
@@ -167,7 +167,7 @@
   encoding: base64
   extensions:
   - png
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Glenn_Randers-Pehrson
     template:
@@ -180,7 +180,7 @@
   encoding: base64
   extensions:
   - btif
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Ben_Simon
     template:
@@ -189,7 +189,7 @@
 - !ruby/object:MIME::Type
   content-type: image/prs.pti
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Juern_Laun
     template:
@@ -198,7 +198,7 @@
 - !ruby/object:MIME::Type
   content-type: image/pwg-raster
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Michael_Sweet
     template:
@@ -218,7 +218,7 @@
   extensions:
   - svg
   - svgz
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - W3C
     uri:
@@ -227,7 +227,7 @@
 - !ruby/object:MIME::Type
   content-type: image/t38
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3362
     template:
@@ -249,7 +249,7 @@
   extensions:
   - tiff
   - tif
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3302
     template:
@@ -258,7 +258,7 @@
 - !ruby/object:MIME::Type
   content-type: image/tiff-fx
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3950
     template:
@@ -271,7 +271,7 @@
   encoding: base64
   extensions:
   - psd
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Kim_Scarborough
     template:
@@ -280,7 +280,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.airzip.accelerator.azv
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Gary_Clueit
     template:
@@ -289,7 +289,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.cns.inf2
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Ann_McLaughlin
     template:
@@ -305,7 +305,7 @@
   - uvi
   - uvvg
   - uvvi
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Michael_A_Dolan
     template:
@@ -327,7 +327,7 @@
   extensions:
   - djvu
   - djv
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Leon_Bottou
     template:
@@ -340,10 +340,10 @@
   encoding: base64
   extensions:
   - sub
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
-    - Michael_Lagally
     - Peter_Siebert
+    - Michael_Lagally
     template:
     - image/vnd.dvb.subtitle
   registered: true
@@ -354,7 +354,7 @@
   encoding: base64
   extensions:
   - dwg
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Jodi_Moline
     template:
@@ -367,7 +367,7 @@
   encoding: base64
   extensions:
   - dxf
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Jodi_Moline
     template:
@@ -380,7 +380,7 @@
   encoding: base64
   extensions:
   - fbs
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Scott_Becker
     template:
@@ -393,7 +393,7 @@
   encoding: base64
   extensions:
   - fpx
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Marc_Douglas_Spencer
     template:
@@ -406,7 +406,7 @@
   encoding: base64
   extensions:
   - fst
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Arild_Fuldseth
     template:
@@ -419,7 +419,7 @@
   encoding: base64
   extensions:
   - mmr
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Masanori_Onda
     template:
@@ -432,7 +432,7 @@
   encoding: base64
   extensions:
   - rlc
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Masanori_Onda
     template:
@@ -443,7 +443,7 @@
   encoding: base64
   extensions:
   - pgb
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Martin_Bailey
     template:
@@ -454,7 +454,7 @@
   encoding: base64
   extensions:
   - ico
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Simon_Butcher
     template:
@@ -463,7 +463,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.mix
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Saveen_Reddy
     template:
@@ -472,7 +472,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.mozilla.apng
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Stuart_Parmenter
     template:
@@ -485,7 +485,7 @@
   encoding: base64
   extensions:
   - mdi
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Gregory_Vaughan
     template:
@@ -504,7 +504,7 @@
   encoding: base64
   extensions:
   - npx
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Marc_Douglas_Spencer
     template:
@@ -519,17 +519,17 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.radiance
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
-    - Greg_Ward
     - Randolph_Fritz
+    - Greg_Ward
     template:
     - image/vnd.radiance
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealed.png
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - David_Petersen
     template:
@@ -538,7 +538,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealedmedia.softseal.gif
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - David_Petersen
     template:
@@ -547,7 +547,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealedmedia.softseal.jpg
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - David_Petersen
     template:
@@ -556,7 +556,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.svf
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Jodi_Moline
     template:
@@ -565,7 +565,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.tencent.tap
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Ni_Hui
     template:
@@ -574,7 +574,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.valve.source.texture
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Henrik_Andersson
     template:
@@ -587,7 +587,7 @@
   encoding: base64
   extensions:
   - wbmp
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Peter_Stark
     template:
@@ -600,7 +600,7 @@
   encoding: base64
   extensions:
   - xif
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Steven_Martin
     template:
@@ -609,7 +609,7 @@
 - !ruby/object:MIME::Type
   content-type: image/vnd.zbrush.pcx
   encoding: base64
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs: !ruby/object:MIME::Types::Container
     person:
     - Chris_Charabaruk
     template:

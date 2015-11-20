@@ -92,6 +92,8 @@ application/cals-1840
 -
 -
 -
+-
+-
 application/vnd.ms-excel
 -
 -
@@ -309,6 +311,7 @@ application/remote-printing
 -
 -
 -
+-
 application/smil+xml
 -
 -
@@ -354,6 +357,9 @@ application/x-toolbook
 -
 -
 application/x-VMSBACKUP
+-
+-
+-
 -
 -
 -
@@ -809,7 +815,11 @@ application/vnd.visionary
 -
 -
 -
+-
+-
 application/vnd.nokia.ncd
+-
+-
 -
 -
 -
@@ -1829,6 +1839,7 @@ video/x-dl
 -
 -
 video/x-gl
+-
 -
 -
 -
