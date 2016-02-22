@@ -1,0 +1,105 @@
+---
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  TargetRubyVersion: 2.3
+  Exclude:
+    - mime-types-data.gemspec
+
+Style/AlignHash:
+  EnforcedColonStyle: key
+  EnforcedHashRocketStyle: key
+  EnforcedLastArgumentHashStyle: enforce_implicit
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/AndOr:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+Style/AsciiIdentifiers:
+  Enabled: false
+
+Style/BarePercentLiterals:
+  EnforcedStyle: percent_q
+
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/BracesAroundHashParameters:
+  EnforcedStyle: context_dependent
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ClassCheck:
+  EnforcedStyle: kind_of?
+
+Style/CommandLiteral:
+  EnforcedStyle: percent_x
+
+Style/CommentAnnotation:
+  Enabled: true
+
+Style/Copyright:
+  Enabled: false
+
+Style/DotPosition:
+  EnforcedStyle: trailing
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/Encoding: # For a gem that is using Ruby 1.9, change this to true.
+  Enabled: false
+
+Style/FileName:
+  Exclude:
+    - lib/mime-types-data.rb
+
+Style/FormatString:
+  EnforcedStyle: percent
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Style/ParallelAssignment:
+  Enabled: false
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/UnneededPercentQ:
+  Enabled: false
+
+# This is one of the hobgoblins.
+Metrics/AbcSize:
+  Enabled: false
+
+# This is one of the hobgoblins.
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/LineLength:
+  Exclude:
+    - Rakefile
+
+# This is one of the hobgoblins.
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false

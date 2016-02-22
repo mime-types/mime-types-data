@@ -1,4 +1,4 @@
-# -*- ruby encoding: utf-8 -*-
+# frozen_string_literal: true
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
@@ -9,14 +9,9 @@ require 'pathname'
 require 'yaml'
 
 ENV['RUBY_MIME_TYPES_LAZY_LOAD'] = 'yes'
-require 'mime/types'
+require 'mime/types/support'
 
-class MIME::Types
-  def self.deprecated(*_args, &_block)
-    # We are an internal tool. Silence deprecation warnings.
-  end
-end
-
+# IANA Registry importing
 class IANARegistry
   DEFAULTS = {
     url: %q(https://www.iana.org/assignments/media-types/media-types.xml),
@@ -25,11 +20,11 @@ class IANARegistry
 
   def self.download(options = {})
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
-    url  = options.fetch(:url, DEFAULTS[:url])
+    url = options.fetch(:url, DEFAULTS[:url])
 
     puts 'Downloading IANA MIME type assignments.'
     puts "\t#{url}"
-    xml  = Nokogiri::XML(open(url) { |f| f.read })
+    xml = Nokogiri::XML(open(url, &:read))
 
     xml.css('registry registry').each do |registry|
       next if registry.at_css('title').text == 'example'
@@ -45,11 +40,11 @@ class IANARegistry
 
   def initialize(options = {})
     @registry = options.fetch(:registry)
-    @to       = Pathname(options.fetch(:to)).expand_path
-    @type     = @registry.at_css('title').text
-    @name     = "#{@type}.yaml"
-    @file     = @to.join(@name)
-    @types    = mime_types_for(@file)
+    @to = Pathname(options.fetch(:to)).expand_path
+    @type = @registry.at_css('title').text
+    @name = "#{@type}.yaml"
+    @file = @to.join(@name)
+    @types = mime_types_for(@file)
 
     yield self if block_given?
   end
@@ -58,13 +53,13 @@ class IANARegistry
 
   def parse
     @registry.css('record').each do |record|
-      subtype       = record.at_css('name').text
-      obsolete      = record.at_css('obsolete').text rescue nil
-      use_instead   = record.at_css('deprecated').text rescue nil
+      subtype = record.at_css('name').text
+      obsolete = record.at_css('obsolete')&.text
+      use_instead = record.at_css('deprecated')&.text
 
       if subtype =~ /OBSOLETE|DEPRECATE/i
-        use_instead ||= $1 if subtype =~ /in favou?r of (.*)/
         obsolete = true
+        use_instead ||= Regexp.last_match(1) if subtype =~ /in favou?r of (.*)/
       end
 
       subtype, notes = subtype.split(/ /, 2)
@@ -77,25 +72,22 @@ class IANARegistry
 
       xrefs['notes'] << notes if notes
 
-      content_type  = [ @type, subtype ].join('/')
-
-      types         = @types.select { |t|
-        (t.content_type.downcase == content_type.downcase)
-      }
+      content_type = [ @type, subtype ].join('/')
+      types = @types.select { |t| t.content_type.casecmp(content_type).zero? }
 
       if types.empty?
         MIME::Type.new(content_type) do |mt|
-          mt.xrefs       = xrefs
-          mt.registered  = true
-          mt.obsolete    = obsolete if obsolete
+          mt.xrefs = xrefs
+          mt.registered = true
+          mt.obsolete = obsolete if obsolete
           mt.use_instead = use_instead if use_instead
           @types << mt
         end
       else
         types.each { |mt|
-          mt.registered  = true
-          mt.xrefs       = xrefs
-          mt.obsolete    = obsolete if obsolete
+          mt.registered = true
+          mt.xrefs = xrefs
+          mt.obsolete = obsolete if obsolete
           mt.use_instead = use_instead if use_instead
         }
       end

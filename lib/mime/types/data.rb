@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module MIME
   class Types
     module Data
-      VERSION = '3.2015.1120'
+      VERSION = '3.2016.0221'
 
       # The path that will be used for loading the MIME::Types data. The
       # default location is __FILE__/../../../../data, which is where the data

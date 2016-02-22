@@ -1,5 +1,33 @@
 # MIME Types Changes by Version
 
+## 3.2016.0221 / 2016-02-21
+
+*   Updated the known extensions list for audio/mp4.
+*   Updated the IANA media registry entries as of release date:
+
+    *   Updated metadata for 3GPP-defined types (there are many),
+        application/cdni, and application/rfc+xml.
+    *   Added application/EmergencyCallData.Comment+xml,
+        application/EmergencyCallData.DeviceInfo+xml,
+        application/EmergencyCallData.ProviderInfo+xml,
+        application/EmergencyCallData.ServiceInfo+xml,
+        application/ppsp-tracker+json, application/problem+json,
+        application/problem+xml, application/vnd.filmit.zfc,
+        application/vnd.hdt, application/vnd.mapbox-vector-tile,
+        application/vnd.ms-PrintDeviceCapabilities+xml,
+        application/vnd.ms-PrintSchemaTicket+xml,
+        application/vnd.ms-windows.nwprinting.oob, application/vnd.tml,
+        model/vnd.rosette.annotated-data-model, and video/H265.
+
+*   Updated to [Contributor Covenant 1.4][Code of Conduct].
+*   Shift the support code in this repository to be developed with Ruby 2.3.
+    This involves:
+
+    *   Adding `frozen_string_literal: true` to all Ruby files.
+    *   Applied some recommended readability and performance suggestions from
+        Rubocop. Ignored some style recommendations, too.
+    *   Replaced some cases of `foo.bar rescue nil` with `foo&.bar`.
+
 ## 3.2015.1120 / 2015-11-20
 
 *   Extracted from [ruby-mime-types][rmt].

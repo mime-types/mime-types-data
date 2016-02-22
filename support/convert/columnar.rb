@@ -1,5 +1,8 @@
+# frozen_string_literal: true
+
 require 'convert'
 
+# Columnar conversion.
 class Convert::Columnar < Convert
   class << self
     # Converts from YAML to Columnar format. This *always* converts to multiple
