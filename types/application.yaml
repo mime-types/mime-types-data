@@ -2147,6 +2147,7 @@
   - class
   - ani
   - pgp
+  - gpg
   - so
   - dll
   - dylib
@@ -2303,6 +2304,7 @@
   encoding: 7bit
   extensions:
   - pgp
+  - gpg
   xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc3156
