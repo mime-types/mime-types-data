@@ -87,6 +87,12 @@ en^ECMAScript
 -
 -
 -
+-
+-
+-
+-
+-
+-
 en^Extensible MultiModal Annotation
 -
 -
@@ -253,6 +259,9 @@ en^PostScript
 -
 -
 -
+-
+-
+-
 en^CU-Writer
 -
 -
@@ -372,7 +381,9 @@ en^3rd Generation Partnership Project - Pic Var
 -
 -
 -
+-
 en^3rd Generation Partnership Project - Transaction Capabilities Application Part
+-
 en^3M Post It Notes
 en^Simply Accounting
 en^Simply Accounting - Data Import
@@ -444,6 +455,7 @@ en^ClueTrust CartoMobile - Config Package
 -
 en^Sixth Floor Media - CommonSpace
 en^CIM Database
+-
 en^CosmoCaller
 en^CrickSoftware - Clicker
 en^CrickSoftware - Clicker - Keyboard
@@ -561,6 +573,7 @@ en^Digital Siesmograph Networks - SEED Datafiles
 -
 -
 -
+-
 en^NpGraphIt
 en^FluxTime Clip
 -
@@ -613,6 +626,7 @@ en^Groove - Vcard
 en^Hypertext Application Language
 en^ZVUE Media Manager
 en^Homebanking Computer Interface (HBCI)
+-
 -
 -
 en^Archipelago Lesson Player
@@ -714,6 +728,7 @@ en^MacPorts Port System
 -
 -
 -
+-
 en^Micro CADAM Helix D&D
 en^MedCalc
 en^MediaRemote
@@ -771,7 +786,10 @@ en^Microsoft PowerPoint - Macro-Enabled Presentation File
 en^Microsoft PowerPoint - Macro-Enabled Open XML Slide
 en^Microsoft PowerPoint - Macro-Enabled Slide Show File
 en^Micosoft PowerPoint - Macro-Enabled Template File
+-
+-
 en^Microsoft Project
+-
 -
 -
 -
@@ -903,6 +921,8 @@ en^OMA Download Agents
 -
 -
 -
+-
+-
 en^Open Office Extension
 -
 -
@@ -1014,6 +1034,7 @@ en^Princeton Video Image
 -
 -
 -
+-
 en^QuarkXPress
 -
 -
@@ -1118,6 +1139,7 @@ en^SyncML - Device Management
 en^Tao Intent
 -
 -
+-
 en^MobileTV
 en^TRI Systems Config
 en^Triscape Map Explorer
@@ -1145,6 +1167,7 @@ en^Unique Object Markup Language
 -
 -
 en^VirtualCatalog
+-
 -
 -
 -
@@ -1484,6 +1507,7 @@ en^Sun Audio - Au file format
 -
 -
 -
+-
 en^MIDI - Musical Instrument Digital Interface
 -
 en^MPEG-4 Audio
@@ -1591,6 +1615,7 @@ en^Computer Graphics Metafile
 -
 -
 -
+-
 en^G3 Fax Image
 en^Graphics Interchange Format
 en^Image Exchange Format
@@ -1644,6 +1669,7 @@ en^WAP Bitamp (WBMP)
 en^eXtended Image File Format (XIFF)
 -
 en^WebP Image
+-
 -
 -
 en^CMU Image
@@ -1707,6 +1733,7 @@ en^Virtue MTS
 -
 -
 -
+-
 en^Virtue VTU
 en^Virtual Reality Modeling Language
 -
@@ -1762,6 +1789,7 @@ en^Text File
 -
 -
 en^PRS Lines Tag
+-
 -
 -
 -
@@ -1844,6 +1872,7 @@ en^H.263
 -
 -
 en^H.264
+-
 -
 -
 -
