@@ -30,8 +30,8 @@ data in the `types` directory. Pull requests that include changes to these
 files will require amendment to revert these files.
 
 New or modified MIME types should be edited in the appropriate YAML file under
-`type`. The format is as shown below for the `application/xml` MIME type
-in `type-lists/application.yml`.
+`types`. The format is as shown below for the `application/xml` MIME type
+in `types/application.yml`.
 
 ```yaml
   - !ruby/object:MIME::Type
@@ -68,7 +68,7 @@ types registry used by this gem, you can do this with the rake tasks:
     $ rake mime:iana
     $ rake mime:apache
 
-### Test Dependencies
+### Development Dependencies
 
 mime-types-data uses Ryan Davis’s {Hoe}[https://github.com/seattlerb/hoe] to
 manage the release process, and it adds a number of rake tasks. You will mostly
@@ -149,6 +149,7 @@ Thanks to everyone else who has contributed to mime-types:
 * Richard Hirner
 * Richard Hurt
 * Richard Schneeman
+* Tao Guo
 * Tibor Szolár
 * Todd Carrico
 

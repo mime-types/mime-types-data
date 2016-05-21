@@ -17,7 +17,6 @@ Hoe.spec 'mime-types-data' do
 
   self.history_file = 'History.md'
   self.readme_file = 'README.md'
-  # self.extra_rdoc_files = FileList['*.rdoc'].to_a
 
   license 'MIT'
 
@@ -73,5 +72,9 @@ end
 
 desc 'Default conversion from YAML to JSON and Columnar'
 task convert: [ 'convert:yaml:json', 'convert:yaml:columnar' ]
+
+Rake::Task['gem'].prerequisites.unshift('convert')
+Rake::Task['gem'].prerequisites.unshift('git:manifest')
+Rake::Task['gem'].prerequisites.unshift('gemspec')
 
 # vim: syntax=ruby

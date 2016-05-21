@@ -1,5 +1,29 @@
 # MIME Types Changes by Version
 
+## 3.2016.0521 / 2016-05-21
+
+*   Updated the known extension list for application/octet-stream and
+    application/pgp-encrypted to include gpg as an extension. Fixes
+    [#3](https://github.com/mime-types/mime-types-data/pull/3) by Tao Guo
+    (@taoza).
+*   Updated the IANA media registry entries as of release date:
+
+    *   Updated metadata for application/EmergencyCallData.Comment\+xml,
+        application/EmergencyCallData.DeviceInfo\+xml,
+        application/EmergencyCallData.ProviderInfo\+xml,
+        application/EmergencyCallData.ServiceInfo\+xml,
+        application/EmergencyCallData.SubscriberInfo\+xml,
+        application/ogg, application/problem\+json, application/problem\+xml,
+        audio/ogg, teext/markdown, video/H265, video/ogg.
+    *   Added application/efi, application/vnd.3gpp.sms\+xml,
+        application/vnd.3lightssoftware.imagescal,
+        application/vnd.coreos.ignition\+json, application/vnd.oma.lwm2m\+json,
+        application/vnd.onepager, application/vnd.quarantainenet,
+        application/vnd.vel\+json, image/emf, image/wmf, text/prs.prop.logic.
+    *   image/bmp has a draft RFC which would make it official; it has been
+        finally been registered. As such, this version *reverses* the
+        use-instead relationship of image/bmp and image/x-bmp.
+
 ## 3.2016.0221 / 2016-02-21
 
 *   Updated the known extensions list for audio/mp4.

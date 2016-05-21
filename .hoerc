@@ -2,15 +2,29 @@
 exclude: !ruby/regexp '/
   \.(tmp|swp)$
   |
-  (?i:TAGS)
+  \.(?:autotest|gemtest|gitignore|hoerc|minitest.rb|simplecov-prelude.rb)
   |
-  \.(git|DS_Store|hoerc)\/
+  ^(?i:TAGS)
   |
-  ^Gemfile(?:\.lock)?$
+  \.(?:
+      DS_Store|
+      bundle|
+      git|
+      hg|
+      idea|
+      svn|
+      vagrant
+    )\/
   |
-  ^support\/
+  [gG]emfile(?:\.lock)?
   |
-  ^types\/
+  support\/
+  |
+  types\/.*\.yaml
+  |
+  \.(?:coveralls|pullreview|travis|rubocop.*)\.yml
+  |
+  .byebug_history
   |
   \.gemspec$
   /x'

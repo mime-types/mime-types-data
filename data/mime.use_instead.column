@@ -94,6 +94,12 @@ application/cals-1840
 -
 -
 -
+-
+-
+-
+-
+-
+-
 application/vnd.ms-excel
 -
 -
@@ -167,6 +173,9 @@ application/x-mac-compactpro
 application/vnd.mcd
 -
 application/x-mathematica-old
+-
+-
+-
 -
 -
 -
@@ -406,7 +415,12 @@ application/x-VMSBACKUP
 -
 -
 -
+-
+-
 application/vnd.aristanetworks.swi
+-
+-
+-
 -
 -
 -
@@ -817,7 +831,16 @@ application/vnd.visionary
 -
 -
 -
+-
+-
+-
+-
 application/vnd.nokia.ncd
+-
+-
+-
+-
+-
 -
 -
 -
@@ -1555,6 +1578,7 @@ application/x400-bp
 -
 -
 -
+-
 audio/qcelp
 -
 -
@@ -1608,6 +1632,7 @@ image/x-cmu-raster
 -
 -
 -
+-
 image/x-targa
 -
 -
@@ -1633,6 +1658,8 @@ image/x-vnd.dgn
 -
 -
 image/vnd.net-fpx
+-
+-
 -
 -
 -
@@ -1788,6 +1815,7 @@ application/javascript
 -
 -
 -
+-
 model/vnd.flatland.3dml
 -
 -
@@ -1839,6 +1867,7 @@ video/x-dl
 -
 -
 video/x-gl
+-
 -
 -
 -
