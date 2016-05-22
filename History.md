@@ -14,7 +14,7 @@
         application/EmergencyCallData.ServiceInfo\+xml,
         application/EmergencyCallData.SubscriberInfo\+xml,
         application/ogg, application/problem\+json, application/problem\+xml,
-        audio/ogg, teext/markdown, video/H265, video/ogg.
+        audio/ogg, text/markdown, video/H265, video/ogg.
     *   Added application/efi, application/vnd.3gpp.sms\+xml,
         application/vnd.3lightssoftware.imagescal,
         application/vnd.coreos.ignition\+json, application/vnd.oma.lwm2m\+json,
@@ -23,6 +23,9 @@
     *   image/bmp has a draft RFC which would make it official; it has been
         finally been registered. As such, this version *reverses* the
         use-instead relationship of image/bmp and image/x-bmp.
+
+*   This version requires mime-types 3.1 or later to manage data because of an
+    issue with JSON data encoding for the `xrefs` field.
 
 ## 3.2016.0221 / 2016-02-21
 
