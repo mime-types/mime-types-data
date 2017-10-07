@@ -83,7 +83,7 @@ application/dssc+der dssc
 application/dssc+xml xdssc
 application/dvcs
 application/dxf
-application/ecmascript ecma
+application/ecmascript js ecma mjs
 application/EDI-consent
 application/EDI-X12
 application/EDIFACT
@@ -143,7 +143,7 @@ application/its+xml
 application/java-archive jar
 application/java-serialized-object ser
 application/java-vm class
-application/javascript js sj
+application/javascript js mjs sj
 application/jose
 application/jose+json
 application/jrd+json
@@ -1314,7 +1314,7 @@ application/x-java-archive jar
 application/x-java-jnlp-file jnlp
 application/x-java-serialized-object ser
 application/x-java-vm class
-application/x-javascript js
+application/x-javascript js mjs
 application/x-koan skp skd skt skm
 application/x-latex ltx latex
 application/x-lotus-123 wks
@@ -1771,14 +1771,14 @@ text/csv csv
 text/csv-schema
 text/directory
 text/dns
-text/ecmascript
+text/ecmascript js mjs
 text/encaprtp
 text/enriched
 text/example
 text/fwdred
 text/grammar-ref-list
 text/html html htm htmlx shtml htx
-text/javascript js
+text/javascript js mjs
 text/jcr-cnd
 text/markdown
 text/mizar

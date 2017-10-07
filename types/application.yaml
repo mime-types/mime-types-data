@@ -808,6 +808,8 @@
   encoding: base64
   extensions:
   - ecma
+  - js
+  - mjs
   xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc4329
@@ -1366,6 +1368,7 @@
   encoding: 8bit
   extensions:
   - js
+  - mjs
   - sj
   xrefs: !ruby/object:MIME::Types::Container
     rfc:
@@ -13511,6 +13514,7 @@
   encoding: 8bit
   extensions:
   - js
+  - mjs
   obsolete: true
   use-instead: application/javascript
   registered: false
