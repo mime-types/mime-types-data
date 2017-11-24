@@ -1780,12 +1780,12 @@ text/grammar-ref-list
 text/html html htm htmlx shtml htx
 text/javascript js
 text/jcr-cnd
-text/markdown
+text/markdown markdown md mkd
 text/mizar
 text/n3 n3
 text/parameters
 text/parityfec
-text/plain txt asc c cc h hh cpp hpp dat hlp conf def doc in list log markdown md rst text textile
+text/plain txt asc c cc h hh cpp hpp dat hlp conf def doc in list log rst text textile
 text/provenance-notation
 text/prs.fallenstein.rst rst
 text/prs.lines.tag dsc
@@ -1882,7 +1882,7 @@ video/jpm jpgm jpm
 video/MJ2 mj2 mjp2
 video/MP1S
 video/MP2P
-video/MP2T ts
+video/MP2T ts mts m2ts cpi clpi mpl mpls bdm
 video/mp4 mp4 mpg4 f4v f4p mp4v
 video/MP4V-ES
 video/mpeg mp2 mp3g mpe mpeg mpg m1v m2v
