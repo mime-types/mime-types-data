@@ -2173,6 +2173,7 @@
   - lrf
   - mar
   - pkg
+  - ipa
   xrefs: !ruby/object:MIME::Types::Container
     rfc:
     - rfc2045
