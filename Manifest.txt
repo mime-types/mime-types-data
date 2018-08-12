@@ -16,3 +16,16 @@ data/mime.use_instead.column
 data/mime.xrefs.column
 lib/mime-types-data.rb
 lib/mime/types/data.rb
+types/application.yaml
+types/audio.yaml
+types/chemical.yaml
+types/conference.yaml
+types/drawing.yaml
+types/font.yaml
+types/image.yaml
+types/message.yaml
+types/model.yaml
+types/multipart.yaml
+types/text.yaml
+types/video.yaml
+types/world.yaml
