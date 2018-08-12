@@ -128,6 +128,7 @@ Thanks to everyone else who has contributed to mime-types:
 * Andre Pankratz
 * Andy Brody
 * Arnaud Meuret
+* Bradley Meck
 * Brandon Galbraith
 * Chris Gat
 * David Genord
@@ -149,7 +150,9 @@ Thanks to everyone else who has contributed to mime-types:
 * Richard Hirner
 * Richard Hurt
 * Richard Schneeman
+* Sergio Baptista
 * Tao Guo
+* Thomas Leese
 * Tibor Szolár
 * Todd Carrico
 

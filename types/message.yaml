@@ -2,7 +2,7 @@
 - !ruby/object:MIME::Type
   content-type: message/CPIM
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3862
     template:
@@ -11,7 +11,7 @@
 - !ruby/object:MIME::Type
   content-type: message/delivery-status
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc1894
     template:
@@ -20,16 +20,16 @@
 - !ruby/object:MIME::Type
   content-type: message/disposition-notification
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc3798
+    - rfc8098
     template:
     - message/disposition-notification
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/example
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4735
     template:
@@ -38,7 +38,7 @@
 - !ruby/object:MIME::Type
   content-type: message/external-body
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2045
     - rfc2046
@@ -46,7 +46,7 @@
 - !ruby/object:MIME::Type
   content-type: message/feedback-report
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5965
     template:
@@ -55,7 +55,7 @@
 - !ruby/object:MIME::Type
   content-type: message/global
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6532
     template:
@@ -64,7 +64,7 @@
 - !ruby/object:MIME::Type
   content-type: message/global-delivery-status
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6533
     template:
@@ -73,7 +73,7 @@
 - !ruby/object:MIME::Type
   content-type: message/global-disposition-notification
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6533
     template:
@@ -82,7 +82,7 @@
 - !ruby/object:MIME::Type
   content-type: message/global-headers
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6533
     template:
@@ -91,7 +91,7 @@
 - !ruby/object:MIME::Type
   content-type: message/http
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7230
     template:
@@ -100,7 +100,7 @@
 - !ruby/object:MIME::Type
   content-type: message/imdn+xml
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5438
     template:
@@ -110,7 +110,7 @@
   content-type: message/news
   encoding: 8bit
   obsolete: true
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5537
     person:
@@ -123,7 +123,7 @@
 - !ruby/object:MIME::Type
   content-type: message/partial
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2045
     - rfc2046
@@ -136,7 +136,7 @@
   extensions:
   - eml
   - mime
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2045
     - rfc2046
@@ -144,7 +144,7 @@
 - !ruby/object:MIME::Type
   content-type: message/s-http
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2660
     template:
@@ -153,7 +153,7 @@
 - !ruby/object:MIME::Type
   content-type: message/sip
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3261
     template:
@@ -162,7 +162,7 @@
 - !ruby/object:MIME::Type
   content-type: message/sipfrag
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3420
     template:
@@ -171,7 +171,7 @@
 - !ruby/object:MIME::Type
   content-type: message/tracking-status
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3886
     template:
@@ -181,7 +181,7 @@
   content-type: message/vnd.si.simp
   encoding: base64
   obsolete: true
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Nicholas_Parks_Young
     template:
@@ -192,7 +192,7 @@
 - !ruby/object:MIME::Type
   content-type: message/vnd.wfa.wsc
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Mick_Conley
     template:

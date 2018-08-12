@@ -35,7 +35,7 @@ class ApacheMIMETypes
     data.each do |line|
       type = line.split(/\t+/)
       key = type.first.split(%r{/}).first.gsub(X_PREFIX_RE, '')
-      conf[key] << type
+      conf.add(key, type)
     end
 
     conf.each do |type, types|

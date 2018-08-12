@@ -16,6 +16,7 @@
 -
 -
 -
+-
 en^Andrew Toolkit
 -
 -
@@ -27,6 +28,7 @@ en^Atom Publishing Protocol
 -
 -
 en^Atom Publishing Protocol Service Document
+-
 -
 -
 -
@@ -63,11 +65,20 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
+-
+-
+-
+-
 en^CU-SeeMe
 -
 -
 -
+-
 en^Web Distributed Authoring and Versioning
+-
+-
+-
 -
 -
 -
@@ -93,6 +104,9 @@ en^ECMAScript
 -
 -
 -
+-
+-
+-
 en^Extensible MultiModal Annotation
 -
 -
@@ -107,8 +121,15 @@ en^Efficient XML Interchange
 -
 -
 -
+-
+-
 en^Portable Font Resource
 en^Web Open Font Format
+-
+-
+-
+-
+-
 -
 -
 -
@@ -147,7 +168,9 @@ en^JavaScript
 -
 -
 -
+-
 en^JavaScript Object Notation (JSON)
+-
 -
 -
 -
@@ -197,6 +220,7 @@ en^Metalink
 en^Metadata Encoding and Transmission Standard
 -
 -
+-
 en^Metadata Object Description Schema
 -
 -
@@ -212,7 +236,11 @@ en^MPEG4
 -
 -
 en^Microsoft Word
+-
 en^Material Exchange Format
+-
+-
+-
 -
 -
 -
@@ -233,6 +261,7 @@ en^Microsoft OneNote
 -
 -
 -
+-
 en^XML Patch Framework
 en^Adobe Portable Document Format
 -
@@ -247,6 +276,7 @@ en^PKCS #10 - Certification Request Standard
 en^PKCS #7 - Cryptographic Message Syntax Standard
 en^PKCS #7 - Cryptographic Message Syntax Standard
 en^PKCS #8 - Private-Key Information Syntax Standard
+-
 en^Attribute Certificate
 en^Internet Public Key Infrastructure - Certificate
 en^Internet Public Key Infrastructure - Certificate Revocation Lists
@@ -289,6 +319,10 @@ en^XML Resource Lists
 -
 -
 -
+-
+-
+-
+-
 en^Really Simple Discovery
 en^RSS - Really Simple Syndication
 en^Rich Text Format
@@ -304,6 +338,15 @@ en^Server-Based Certificate Validation Protocol - Validation Response
 en^Server-Based Certificate Validation Protocol - Validation Policies - Request
 en^Server-Based Certificate Validation Protocol - Validation Policies - Response
 en^Session Description Protocol
+-
+-
+-
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -348,11 +391,30 @@ en^Speech Synthesis Markup Language
 -
 -
 -
+-
+-
 en^Text Encoding and Interchange
 en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -398,10 +460,14 @@ en^Adobe XML Data Package
 en^Adobe XML Forms Data Format
 -
 -
+-
+-
 en^Ahead AIR Application
 en^AirZip FileSECURE
 en^AirZip FileSECURE
+-
 en^Amazon Kindle eBook format
+-
 en^Active Content Compression
 en^AmigaDE
 -
@@ -414,14 +480,25 @@ en^Antix Game Player
 -
 -
 -
+-
 en^Apple Installer Package
+-
 en^Multimedia Playlist Unicode
+-
+-
 -
 -
 en^Arista Networks Software Image
 -
 -
+-
 en^Audiograph
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -438,7 +515,10 @@ en^BusinessObjects
 -
 -
 -
+-
+-
 en^CambridgeSoft Chem Draw
+-
 en^Karaoke on Chipnuts Chipsets
 en^Interactive Geometry Software Cinderella
 -
@@ -448,6 +528,14 @@ en^RetroPlatform Player
 en^Clonk Game
 en^ClueTrust CartoMobile - Config
 en^ClueTrust CartoMobile - Config Package
+-
+-
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -476,7 +564,10 @@ en^CURL Applet
 -
 -
 -
+-
 en^RemoteDocs R-Viewer
+-
+-
 -
 -
 -
@@ -523,7 +614,10 @@ en^DynaGeo
 -
 -
 -
+-
 en^EcoWin Chart
+-
+-
 -
 -
 -
@@ -539,7 +633,11 @@ en^QuickAnime Player
 en^SimpleAnimeLite Player
 en^QUASS Stream Player
 -
+-
 en^MICROSEC e-Szign¢
+-
+-
+-
 -
 -
 -
@@ -594,6 +692,7 @@ en^Fujitsu - Xerox DocuWorks Binder
 -
 -
 -
+-
 en^FuzzySheet
 en^Genomatix Tuxedo Framework
 -
@@ -629,6 +728,7 @@ en^Homebanking Computer Interface (HBCI)
 -
 -
 -
+-
 en^Archipelago Lesson Player
 en^HP-GL/2 and HP RTL
 en^Hewlett Packard Instant Delivery
@@ -638,6 +738,8 @@ en^HP Printer Command Language
 en^PCL 6 Enhanced (Formely PCL XL)
 -
 en^Hydrostatix Master Suite
+-
+-
 -
 en^3D Crossword Plugin
 -
@@ -649,6 +751,8 @@ en^IBM Electronic Media Management System - Secure Container
 en^ICC profile
 -
 en^igLoader
+-
+-
 en^ImmerVision PURE Players
 en^ImmerVision PURE Players
 -
@@ -710,7 +814,9 @@ en^Kidspiration
 en^Kinar Applications
 en^SSEYO Koan Play File
 en^Kodak Storyshare
+-
 en^Laser App Enterprise
+-
 -
 en^Life Balance - Desktop Edition
 en^Life Balance - Exchange Format
@@ -738,6 +844,7 @@ en^Melody Format for Mobile Platform
 -
 en^Micrografx
 en^Micrografx iGrafx Professional
+-
 -
 -
 en^FrameMaker Interchange Format
@@ -816,7 +923,9 @@ en^Muvee Automatic Video Editing
 -
 -
 -
+-
 en^neuroLanguage
+-
 -
 -
 -
@@ -878,6 +987,7 @@ en^Open Document Text Web
 -
 -
 -
+-
 en^Sugar Linux Application Bundle
 -
 -
@@ -923,7 +1033,14 @@ en^OMA Download Agents
 -
 -
 -
+-
+-
+-
+-
+-
+-
 en^Open Office Extension
+-
 -
 -
 -
@@ -1011,6 +1128,7 @@ en^OSGi Deployment Package
 en^PalmOS Data
 -
 -
+-
 en^PawaaFILE
 -
 en^Proprietary P&G Standard Reporting System
@@ -1029,6 +1147,7 @@ en^PowerBuilder
 -
 en^Preview Systems ZipLock/VBox
 en^EFI Proteus
+-
 en^PubliShare Objects
 en^Princeton Video Image
 -
@@ -1054,9 +1173,11 @@ en^QuarkXPress
 -
 -
 -
+-
 en^RealVNC
 en^Recordare Applications
 en^Recordare Applications
+-
 -
 en^CryptoNote
 en^Blackberry COD File
@@ -1089,6 +1210,8 @@ en^Shana Informed Filler
 en^Shana Informed Filler
 en^Shana Informed Filler
 en^Shana Informed Filler
+-
+-
 en^SimTech MindMapper
 -
 en^SMAF File
@@ -1099,6 +1222,7 @@ en^SMART Technologies Apps
 en^SudokuMagic
 en^TIBCO Spotfire
 en^TIBCO Spotfire
+-
 -
 -
 -
@@ -1136,11 +1260,14 @@ en^SyncML - Device Management
 -
 -
 -
+-
 en^Tao Intent
 -
 -
 -
+-
 en^MobileTV
+-
 en^TRI Systems Config
 en^Triscape Map Explorer
 en^True BASIC
@@ -1219,9 +1346,12 @@ en^SMAF Phrase
 -
 -
 en^CustomMenu
+-
 en^Z.U.L. Geometry
 en^Zzazz Deck
 en^VoiceXML
+-
+-
 -
 -
 -
@@ -1425,6 +1555,7 @@ en^XML Configuration Access Protocol - XCAP Diff
 en^XML Encryption Syntax and Processing
 en^XHTML - The Extensible HyperText Markup Language
 -
+-
 en^XML - Extensible Markup Language
 en^Document Type Definition
 -
@@ -1436,8 +1567,14 @@ en^XML Transformations
 en^XSPF - XML Shareable Playlist Format
 en^MXML
 en^YANG Data Modeling Language
+-
+-
+-
+-
 en^YIN (YANG - XML)
 en^Zip Archive
+-
+-
 -
 -
 -
@@ -1454,6 +1591,10 @@ en^Adaptive differential pulse-code modulation
 -
 -
 en^Sun Audio - Au file format
+-
+-
+-
+-
 -
 -
 -
@@ -1554,6 +1695,7 @@ en^Ogg Audio
 -
 -
 -
+-
 en^DECE Audio
 en^Digital Winds Music
 -
@@ -1578,6 +1720,7 @@ en^Microsoft PlayReady Ecosystem
 en^Nuera ECELP 4800
 en^Nuera ECELP 7470
 en^Nuera ECELP 9600
+-
 -
 -
 -
@@ -1610,15 +1753,30 @@ en^Chemical Style Markup Language
 -
 en^XYZ File Format
 -
+-
+-
+-
+-
+-
+-
+-
+-
+-
 en^Bitmap Image File
 en^Computer Graphics Metafile
 -
 -
 -
 -
+-
 en^G3 Fax Image
 en^Graphics Interchange Format
+-
+-
+-
+-
 en^Image Exchange Format
+-
 -
 en^JPEG Image
 -
@@ -1675,6 +1833,7 @@ en^WebP Image
 en^CMU Image
 en^Corel Metafile Exchange (CMX)
 -
+-
 en^FreeHand MX
 -
 en^Icon Image
@@ -1688,6 +1847,7 @@ en^Portable Bitmap Format
 en^Portable Graymap Format
 en^Portable Pixmap Format
 en^Silicon Graphics RGB Bitmap
+-
 -
 -
 -
@@ -1719,8 +1879,12 @@ en^Email Message
 -
 -
 -
+-
+-
+-
 en^Initial Graphics Exchange Specification (IGES)
 en^Mesh Data Type
+-
 en^COLLADA
 en^Autodesk Design Web Format (DWF)
 -
@@ -1734,8 +1898,11 @@ en^Virtue MTS
 -
 -
 -
+-
 en^Virtue VTU
 en^Virtual Reality Modeling Language
+-
+-
 -
 -
 -
@@ -1800,11 +1967,13 @@ en^Rich Text Format (RTF)
 -
 en^Standard Generalized Markup Language (SGML)
 -
+-
 en^Tab Separated Values
 en^troff
 en^Turtle (Terse RDF Triple Language)
 -
 en^URI Resolution Services
+-
 -
 -
 -
@@ -1819,7 +1988,9 @@ en^Curl - Source Code
 -
 en^mod_fly / fly.cgi
 en^FLEXSTOR
+-
 en^Graphviz
+-
 en^In3D - 3DML
 en^In3D - 3DML
 -
@@ -1902,6 +2073,7 @@ en^Quicktime Video
 -
 -
 -
+-
 en^DECE High Definition Video
 en^DECE Mobile Video
 -
@@ -1924,6 +2096,7 @@ en^FAST Search & Transfer ASA
 -
 en^MPEG Url
 en^Microsoft PlayReady Ecosystem Video
+-
 -
 -
 -

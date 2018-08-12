@@ -5,6 +5,7 @@ application/A2L
 application/acad
 application/access mdf mda mdb mde
 application/activemessage
+application/activity+json
 application/alto-costmap+json
 application/alto-costmapfilter+json
 application/alto-directory+json
@@ -39,6 +40,7 @@ application/call-completion
 application/cals-1840
 application/cals1840
 application/cbor
+application/cccex
 application/ccmp+xml
 application/ccxml+xml ccxml
 application/CDFX+XML
@@ -53,17 +55,23 @@ application/cea-2018+xml
 application/cellml+xml
 application/cfw
 application/clariscad
+application/clue_info+xml
 application/cms
 application/cnrp+xml
 application/coap-group+json
+application/coap-payload
 application/commonground
 application/conference-info+xml
+application/cose
+application/cose-key
+application/cose-key-set
 application/cpl+xml
 application/csrattrs
 application/csta+xml
 application/CSTAdata+xml
 application/csvm+json
 application/cu-seeme cu
+application/cwt
 application/cybercash
 application/dash+xml
 application/dashdelta
@@ -73,9 +81,12 @@ application/DCD
 application/dec-dx
 application/dialog-info+xml
 application/dicom dcm
+application/dicom+json
+application/dicom+xml
 application/DII
 application/DIT
 application/dns
+application/dns+json
 application/docbook+xml dbk
 application/drafting
 application/dskpp+xml
@@ -83,16 +94,19 @@ application/dssc+der dssc
 application/dssc+xml xdssc
 application/dvcs
 application/dxf
-application/ecmascript js ecma mjs
+application/ecmascript ecma js mjs
 application/EDI-consent
 application/EDI-X12
 application/EDIFACT
 application/efi
 application/EmergencyCallData.Comment+xml
+application/EmergencyCallData.Control+xml
 application/EmergencyCallData.DeviceInfo+xml
+application/EmergencyCallData.eCall.MSD
 application/EmergencyCallData.ProviderInfo+xml
 application/EmergencyCallData.ServiceInfo+xml
 application/EmergencyCallData.SubscriberInfo+xml
+application/EmergencyCallData.VEDS+xml
 application/emma+xml emma
 application/emotionml+xml
 application/encaprtp
@@ -105,6 +119,8 @@ application/exi exi
 application/fastinfoset
 application/fastsoap
 application/fdt+xml
+application/fhir+json
+application/fhir+xml
 application/fits
 application/font-sfnt otf ttf
 application/font-tdpfr pfr
@@ -112,7 +128,12 @@ application/font-woff woff woff2
 application/fractals
 application/framework-attributes+xml
 application/futuresplash spl
+application/geo+json
+application/geo+json-seq
+application/geopackage+sqlite3
+application/geoxacml+xml
 application/ghostview
+application/gltf-buffer
 application/gml+xml gml
 application/gpx+xml gpx
 application/gxf gxf
@@ -144,6 +165,7 @@ application/java-archive jar
 application/java-serialized-object ser
 application/java-vm class
 application/javascript js mjs sj
+application/jf2feed+json
 application/jose
 application/jose+json
 application/jrd+json
@@ -157,6 +179,7 @@ application/jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json
+application/lgr+xml
 application/link-format
 application/load-control+xml
 application/lost+xml lostxml
@@ -197,6 +220,7 @@ application/metalink4+xml meta4
 application/mets+xml mets
 application/MF4
 application/mikey
+application/mmt-usd+xml
 application/mods+xml mods
 application/moss-keys
 application/moss-signature
@@ -212,7 +236,10 @@ application/mrb-publish+xml
 application/msc-ivr+xml
 application/msc-mixer+xml
 application/msword doc dot wrd
+application/mud+json
 application/mxf mxf
+application/n-quads
+application/n-triples
 application/nasdata
 application/netcdf nc cdf
 application/news-checkgroups
@@ -220,10 +247,11 @@ application/news-groupinfo
 application/news-message-id
 application/news-transmission
 application/nlsml+xml
+application/node
 application/nss
 application/ocsp-request
 application/ocsp-response
-application/octet-stream bin dms lha lzh exe class ani pgp gpg so dll dylib bpk deploy dist distz dump elc lrf mar pkg
+application/octet-stream bin dms lha lzh exe class ani pgp gpg so dll dylib bpk deploy dist distz dump elc lrf mar pkg ipa
 application/oda oda
 application/ODX
 application/oebps-package+xml opf
@@ -233,6 +261,7 @@ application/onenote onepkg onetmp onetoc onetoc2
 application/oxps oxps
 application/p2p-overlay+xml
 application/parityfec
+application/passport
 application/patch-ops-error+xml xer
 application/pdf pdf
 application/PDX
@@ -247,6 +276,7 @@ application/pkcs12
 application/pkcs7-mime p7m p7c
 application/pkcs7-signature p7s
 application/pkcs8 p8
+application/pkcs8-encrypted
 application/pkix-attr-cert ac
 application/pkix-cert cer
 application/pkix-crl crl
@@ -285,8 +315,12 @@ application/rfc+xml
 application/riscos
 application/rlmi+xml
 application/rls-services+xml rs
+application/route-apd+xml
+application/route-s-tsid+xml
+application/route-usd+xml
 application/rpki-ghostbusters gbr
 application/rpki-manifest mft
+application/rpki-publication
 application/rpki-roa roa
 application/rpki-updown
 application/rsd+xml rsd
@@ -304,6 +338,15 @@ application/scvp-cv-response scs
 application/scvp-vp-request spq
 application/scvp-vp-response spp
 application/sdp sdp
+application/secevent+jwt
+application/senml+cbor
+application/senml+json
+application/senml+xml
+application/senml-exi
+application/sensml+cbor
+application/sensml+json
+application/sensml+xml
+application/sensml-exi
 application/sep+xml
 application/sep-exi
 application/session-info
@@ -337,6 +380,7 @@ application/sru+xml sru
 application/ssdl+xml ssdl
 application/ssml+xml ssml
 application/STEP
+application/stix+json
 application/tamp-apex-update
 application/tamp-apex-update-confirm
 application/tamp-community-update
@@ -348,12 +392,18 @@ application/tamp-status-query
 application/tamp-status-response
 application/tamp-update
 application/tamp-update-confirm
+application/taxii+json
 application/tei+xml tei teicorpus
 application/thraud+xml tfi
 application/timestamp-query
 application/timestamp-reply
 application/timestamped-data tsd
+application/tlsrpt+gzip
+application/tlsrpt+json
+application/tnauthlist
 application/toolbook tbk
+application/trickle-ice-sdpfrag
+application/trig
 application/ttml+xml
 application/tve-trigger
 application/ulpfec
@@ -366,10 +416,22 @@ application/vcard+xml
 application/vda
 application/vemmi
 application/VMSBACKUP bck
+application/vnd.1000minds.decision-model+xml
 application/vnd.3gpp-prose+xml
 application/vnd.3gpp-prose-pc3ch+xml
+application/vnd.3gpp-v2x-local-service-information
 application/vnd.3gpp.access-transfer-events+xml
 application/vnd.3gpp.bsf+xml
+application/vnd.3gpp.GMOP+xml
+application/vnd.3gpp.mc-signalling-ear
+application/vnd.3gpp.mcdata-payload
+application/vnd.3gpp.mcdata-signalling
+application/vnd.3gpp.mcptt-affiliation-command+xml
+application/vnd.3gpp.mcptt-floor-request+xml
+application/vnd.3gpp.mcptt-info+xml
+application/vnd.3gpp.mcptt-location-info+xml
+application/vnd.3gpp.mcptt-mbms-usage-info+xml
+application/vnd.3gpp.mcptt-signed+xml
 application/vnd.3gpp.mid-call+xml
 application/vnd.3gpp.pic-bw-large plb
 application/vnd.3gpp.pic-bw-small psb
@@ -397,11 +459,15 @@ application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml xdp
 application/vnd.adobe.xfdf xfdf
 application/vnd.aether.imp
+application/vnd.afpc.afplinedata
+application/vnd.afpc.modca
 application/vnd.ah-barcode
 application/vnd.ahead.space ahead
 application/vnd.airzip.filesecure.azf azf
 application/vnd.airzip.filesecure.azs azs
+application/vnd.amadeus+json
 application/vnd.amazon.ebook azw
+application/vnd.amazon.mobi8-ebook
 application/vnd.americandynamics.acc acc
 application/vnd.amiga.ami ami
 application/vnd.amundsen.maze+xml
@@ -414,31 +480,45 @@ application/vnd.apache.thrift.binary
 application/vnd.apache.thrift.compact
 application/vnd.apache.thrift.json
 application/vnd.api+json
+application/vnd.apothekende.reservation+json
 application/vnd.apple.installer+xml mpkg
+application/vnd.apple.keynote
 application/vnd.apple.mpegurl m3u8
+application/vnd.apple.numbers
+application/vnd.apple.pages
 application/vnd.apple.pkpass pkpass
 application/vnd.arastra.swi
 application/vnd.aristanetworks.swi swi
+application/vnd.artisan+json
 application/vnd.artsquare
 application/vnd.astraea-software.iota iota
 application/vnd.audiograph aep
 application/vnd.autopackage
+application/vnd.avalon+json
 application/vnd.avistar+xml
 application/vnd.balsamiq.bmml+xml
 application/vnd.balsamiq.bmpr
+application/vnd.banana-accounting
+application/vnd.bbf.usp.msg
+application/vnd.bbf.usp.msg+json
 application/vnd.bekitzur-stech+json
+application/vnd.bint.med-content
 application/vnd.biopax.rdf+xml
+application/vnd.blink-idb-value-wrapper
 application/vnd.blueice.multipass mpm
 application/vnd.bluetooth.ep.oob
 application/vnd.bluetooth.le.oob
 application/vnd.bmi bmi
 application/vnd.businessobjects rep
+application/vnd.byu.uapi+json
 application/vnd.cab-jscript
 application/vnd.canon-cpdl
 application/vnd.canon-lips
+application/vnd.capasystems-pg+json
 application/vnd.cendio.thinlinc.clientconf
 application/vnd.century-systems.tcp_stream
 application/vnd.chemdraw+xml cdxml
+application/vnd.chess-pgn
 application/vnd.chipnuts.karaoke-mmd mmd
 application/vnd.cinderella cdy
 application/vnd.cirpack.isdn-ext
@@ -449,9 +529,17 @@ application/vnd.clonk.c4group c4d c4f c4g c4p c4u
 application/vnd.cluetrust.cartomobile-config c11amc
 application/vnd.cluetrust.cartomobile-config-pkg c11amz
 application/vnd.coffeescript
+application/vnd.collabio.xodocuments.document
+application/vnd.collabio.xodocuments.document-template
+application/vnd.collabio.xodocuments.presentation
+application/vnd.collabio.xodocuments.presentation-template
+application/vnd.collabio.xodocuments.spreadsheet
+application/vnd.collabio.xodocuments.spreadsheet-template
 application/vnd.collection+json
 application/vnd.collection.doc+json
 application/vnd.collection.next+json
+application/vnd.comicbook+zip
+application/vnd.comicbook-rar
 application/vnd.commerce-battelle
 application/vnd.commonspace csp
 application/vnd.contact.cmsg cdbcmsg
@@ -475,8 +563,11 @@ application/vnd.curl.car car
 application/vnd.curl.pcurl pcurl
 application/vnd.cyan.dean.root+xml
 application/vnd.cybank
+application/vnd.d2l.coursepackage1p0+zip
 application/vnd.dart dart
 application/vnd.data-vision.rdz rdz
+application/vnd.datapackage+json
+application/vnd.dataresource+json
 application/vnd.debian.binary-package
 application/vnd.dece.data uvd uvf uvvd uvvf
 application/vnd.dece.ttml+xml uvt uvvt
@@ -523,12 +614,15 @@ application/vnd.dynageo geo
 application/vnd.dzr
 application/vnd.easykaraoke.cdgdownload
 application/vnd.ecdis-update
+application/vnd.ecip.rlp
 application/vnd.ecowin.chart mag
 application/vnd.ecowin.filerequest
 application/vnd.ecowin.fileupdate
 application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
+application/vnd.efi.img
+application/vnd.efi.iso
 application/vnd.emclient.accessrequest+xml
 application/vnd.enliven nml
 application/vnd.enphase.envoy
@@ -539,6 +633,7 @@ application/vnd.epson.quickanime qam
 application/vnd.epson.salt slt
 application/vnd.epson.ssf ssf
 application/vnd.ericsson.quickcall
+application/vnd.espass-espass+zip
 application/vnd.eszigno3+xml es3 et3
 application/vnd.etsi.aoc+xml
 application/vnd.etsi.asic-e+zip
@@ -563,6 +658,9 @@ application/vnd.etsi.timestamp-token
 application/vnd.etsi.tsl+xml
 application/vnd.etsi.tsl.der
 application/vnd.eudora.data
+application/vnd.evolv.ecig.profile
+application/vnd.evolv.ecig.settings
+application/vnd.evolv.ecig.theme
 application/vnd.ezpix-album ez2
 application/vnd.ezpix-package ez3
 application/vnd.f-secure.mobile
@@ -594,6 +692,7 @@ application/vnd.fujixerox.docuworks.binder xbd
 application/vnd.fujixerox.docuworks.container
 application/vnd.fujixerox.HBPL
 application/vnd.fut-misnet
+application/vnd.futoin+json
 application/vnd.fuzzysheet fzs
 application/vnd.genomatix.tuxedo txd
 application/vnd.geo+json
@@ -626,6 +725,7 @@ application/vnd.hal+json
 application/vnd.hal+xml hal
 application/vnd.HandHeld-Entertainment+xml zmm
 application/vnd.hbci hbci hbc kom upa pkd bpd
+application/vnd.hc+json
 application/vnd.hcl-bireports
 application/vnd.hdt
 application/vnd.heroku+json
@@ -638,6 +738,8 @@ application/vnd.hp-PCL pcl
 application/vnd.hp-PCLXL pclxl
 application/vnd.httphone
 application/vnd.hydrostatix.sof-data sfd-hdstx
+application/vnd.hyper+json
+application/vnd.hyper-item+json
 application/vnd.hyperdrive+json
 application/vnd.hzn-3d-crossword
 application/vnd.ibm.afplinedata
@@ -649,6 +751,8 @@ application/vnd.ibm.secure-container sc
 application/vnd.iccprofile icc icm
 application/vnd.ieee.1905
 application/vnd.igloader igl
+application/vnd.imagemeter.folder+zip
+application/vnd.imagemeter.image+zip
 application/vnd.immervision-ivp ivp
 application/vnd.immervision-ivu ivu
 application/vnd.ims.imsccv1p1
@@ -710,7 +814,9 @@ application/vnd.kidspiration kia
 application/vnd.Kinar kne knp sdf
 application/vnd.koan skd skm skp skt
 application/vnd.kodak-descriptor sse
+application/vnd.las.las+json
 application/vnd.las.las+xml lasxml
+application/vnd.leap+json
 application/vnd.liberty-request+xml
 application/vnd.llamagraphics.life-balance.desktop lbd
 application/vnd.llamagraphics.life-balance.exchange+xml lbe
@@ -739,6 +845,7 @@ application/vnd.micro+json
 application/vnd.micrografx.flo flo
 application/vnd.micrografx.igx igx
 application/vnd.microsoft.portable-executable
+application/vnd.microsoft.windows.thumbnail-cache
 application/vnd.miele+json
 application/vnd.mif mif
 application/vnd.minisoft-hp3000-save
@@ -814,9 +921,11 @@ application/vnd.muvee.style msty
 application/vnd.mynfc taglet
 application/vnd.ncd.control
 application/vnd.ncd.reference
+application/vnd.nearst.inv+json
 application/vnd.nervana ent entity req request bkm kcm
 application/vnd.netfpx
 application/vnd.neurolanguage.nlu nlu
+application/vnd.nimn
 application/vnd.nintendo.nitro.rom
 application/vnd.nintendo.snes.rom
 application/vnd.nitf nitf ntf
@@ -866,6 +975,7 @@ application/vnd.oasis.opendocument.text-master odm
 application/vnd.oasis.opendocument.text-template ott
 application/vnd.oasis.opendocument.text-web oth
 application/vnd.obn
+application/vnd.ocf+cbor
 application/vnd.oftn.l10n+json
 application/vnd.oipf.contentaccessdownload+xml
 application/vnd.oipf.contentaccessstreaming+xml
@@ -906,6 +1016,7 @@ application/vnd.oma.dd2+xml dd2
 application/vnd.oma.drm.risd+xml
 application/vnd.oma.group-usage-list+xml
 application/vnd.oma.lwm2m+json
+application/vnd.oma.lwm2m+tlv
 application/vnd.oma.pal+xml
 application/vnd.oma.poc.detailed-progress-report+xml
 application/vnd.oma.poc.final-report+xml
@@ -920,10 +1031,16 @@ application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
 application/vnd.onepager
+application/vnd.onepagertamp
+application/vnd.onepagertamx
+application/vnd.onepagertat
+application/vnd.onepagertatp
+application/vnd.onepagertatx
 application/vnd.openblox.game+xml
 application/vnd.openblox.game-binary
 application/vnd.openeye.oeb
 application/vnd.openofficeorg.extension oxt
+application/vnd.openstreetmap.data+xml
 application/vnd.openxmlformats-officedocument.custom-properties+xml
 application/vnd.openxmlformats-officedocument.customXmlProperties+xml
 application/vnd.openxmlformats-officedocument.drawing+xml
@@ -1011,6 +1128,7 @@ application/vnd.pagerduty+json
 application/vnd.palm prc pdb pqa oprc
 application/vnd.panoply
 application/vnd.paos.xml
+application/vnd.patentdive
 application/vnd.pawaafile paw
 application/vnd.pcos
 application/vnd.pg.format str
@@ -1029,6 +1147,7 @@ application/vnd.powerbuilder75-s
 application/vnd.preminet
 application/vnd.previewsystems.box box
 application/vnd.proteus.magazine mgz
+application/vnd.psfs
 application/vnd.publishare-delta-tree qps
 application/vnd.pvi.ptid1 pti ptid
 application/vnd.pwg-multiplexed
@@ -1054,10 +1173,12 @@ application/vnd.radisys.msml-dialog-speech+xml
 application/vnd.radisys.msml-dialog-transform+xml
 application/vnd.rainstor.data
 application/vnd.rapid
+application/vnd.rar
 application/vnd.realvnc.bed bed
 application/vnd.recordare.musicxml mxl
 application/vnd.recordare.musicxml+xml musicxml
 application/vnd.RenLearn.rlprint
+application/vnd.restful+json
 application/vnd.rig.cryptonote cryptonote
 application/vnd.rim.cod cod
 application/vnd.rn-realmedia rm
@@ -1089,6 +1210,8 @@ application/vnd.shana.informed.formdata ifm
 application/vnd.shana.informed.formtemplate itp
 application/vnd.shana.informed.interchange iif
 application/vnd.shana.informed.package ipk
+application/vnd.shootproof+json
+application/vnd.sigrok.session
 application/vnd.SimTech-MindMapper twd twds
 application/vnd.siren+json
 application/vnd.smaf mmf
@@ -1099,6 +1222,7 @@ application/vnd.software602.filler.form-xml-zip
 application/vnd.solent.sdkm+xml sdkd sdkm
 application/vnd.spotfire.dxp dxp
 application/vnd.spotfire.sfs sfs
+application/vnd.sqlite3
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
@@ -1136,11 +1260,14 @@ application/vnd.syncml.dmddf+xml
 application/vnd.syncml.dmtnds+wbxml
 application/vnd.syncml.dmtnds+xml
 application/vnd.syncml.ds.notification
+application/vnd.tableschema+json
 application/vnd.tao.intent-module-archive tao
 application/vnd.tcpdump.pcap cap dmp pcap
+application/vnd.think-cell.ppttc+json
 application/vnd.tmd.mediaflex.api+xml
 application/vnd.tml
 application/vnd.tmobile-livetv tmo
+application/vnd.tri.onesource
 application/vnd.trid.tpt tpt
 application/vnd.triscape.mxs mxs
 application/vnd.trueapp tra
@@ -1219,11 +1346,14 @@ application/vnd.yamaha.through-ngn
 application/vnd.yamaha.tunnel-udpencap
 application/vnd.yaoweme
 application/vnd.yellowriver-custom-menu cmp
+application/vnd.youtube.yt
 application/vnd.zul zir zirz
 application/vnd.zzazz.deck+xml zaz
 application/voicexml+xml vxml
+application/voucher-cms+json
 application/vq-rtcpxr
 application/watcherinfo+xml wif
+application/webpush-options+json
 application/whoispp-query
 application/whoispp-response
 application/widget wgt
@@ -1425,6 +1555,7 @@ application/xcon-conference-info-diff+xml
 application/xenc+xml xenc
 application/xhtml+xml xht xhtml
 application/xhtml-voice+xml
+application/xliff+xml
 application/xml xml xsl
 application/xml-dtd dtd
 application/xml-external-parsed-entity
@@ -1436,13 +1567,19 @@ application/xslt+xml xslt
 application/xspf+xml xspf
 application/xv+xml mxml xhvml xvm xvml
 application/yang yang
+application/yang-data+json
+application/yang-data+xml
+application/yang-patch+json
+application/yang-patch+xml
 application/yin+xml yin
 application/zip zip
 application/zlib
+application/zstd
 audio/1d-interleaved-parityfec
 audio/32kadpcm
 audio/3gpp
 audio/3gpp2
+audio/aac
 audio/ac3
 audio/adpcm adp
 audio/AMR amr
@@ -1508,6 +1645,10 @@ audio/L20
 audio/L24
 audio/L8
 audio/LPC
+audio/MELP
+audio/MELP1200
+audio/MELP2400
+audio/MELP600
 audio/midi kar mid midi rmi
 audio/mobile-xmf
 audio/mp4 mp4 mpg4 f4a f4b mp4a m4a
@@ -1544,6 +1685,7 @@ audio/telephone-event
 audio/tone
 audio/UEMCLIP
 audio/ulpfec
+audio/usac
 audio/VDVI
 audio/VMR-WB
 audio/vnd.3gpp.iufp
@@ -1579,6 +1721,7 @@ audio/vnd.nuera.ecelp4800 ecelp4800
 audio/vnd.nuera.ecelp7470 ecelp7470
 audio/vnd.nuera.ecelp9600 ecelp9600
 audio/vnd.octel.sbc
+audio/vnd.presonus.multitrack
 audio/vnd.qcelp qcp
 audio/vnd.rhetorex.32kadpcm
 audio/vnd.rip rip
@@ -1610,15 +1753,30 @@ chemical/x-csml csml
 chemical/x-pdb pdb
 chemical/x-xyz xyz
 drawing/dwf dwf
+font/collection ttc
+font/otf otf
+font/sfnt
+font/ttf ttf
+font/woff woff
+font/woff2 woff2
+image/aces
+image/avci
+image/avcs
 image/bmp bmp
 image/cgm cgm
 image/cmu-raster
+image/dicom-rle
 image/emf
 image/example
 image/fits
 image/g3fax g3
 image/gif gif
+image/heic
+image/heic-sequence
+image/heif
+image/heif-sequence
 image/ief ief
+image/jls
 image/jp2 jp2 jpg2
 image/jpeg jpeg jpg jpe
 image/jpm jpm jpgm
@@ -1675,6 +1833,7 @@ image/x-bmp bmp
 image/x-cmu-raster ras
 image/x-cmx cmx
 image/x-compressed-xcf xcfbz2 xcfgz
+image/x-emf
 image/x-freehand fh fh4 fh5 fh7 fhc
 image/x-hasselblad-3fr 3fr
 image/x-icon ico
@@ -1692,6 +1851,7 @@ image/x-targa tga
 image/x-tga tga
 image/x-vnd.dgn dgn
 image/x-win-bmp
+image/x-wmf
 image/x-xbitmap xbm
 image/x-xbm xbm
 image/x-xcf xcf
@@ -1718,9 +1878,13 @@ message/sipfrag
 message/tracking-status
 message/vnd.si.simp
 message/vnd.wfa.wsc
+model/3mf
 model/example
+model/gltf+json
+model/gltf-binary
 model/iges igs iges
 model/mesh msh mesh silo
+model/stl
 model/vnd.collada+xml dae
 model/vnd.dwf dwf
 model/vnd.flatland.3dml
@@ -1733,6 +1897,7 @@ model/vnd.opengex
 model/vnd.parasolid.transmit.binary x_b xmt_bin
 model/vnd.parasolid.transmit.text x_t xmt_txt
 model/vnd.rosette.annotated-data-model
+model/vnd.usdz+zip
 model/vnd.valve.source.compiled-map
 model/vnd.vtu vtu
 model/vrml wrl vrml
@@ -1750,10 +1915,12 @@ multipart/example
 multipart/form-data
 multipart/header-set
 multipart/mixed
+multipart/multilingual
 multipart/parallel
 multipart/related
 multipart/report
 multipart/signed
+multipart/vnd.bint.med-plus
 multipart/voice-message
 multipart/x-gzip
 multipart/x-mixed-replace
@@ -1799,6 +1966,7 @@ text/rtp-enc-aescm128
 text/rtploopback
 text/rtx
 text/sgml sgml sgm
+text/strings
 text/t140
 text/tab-separated-values tsv
 text/troff t tr roff troff man me ms
@@ -1808,6 +1976,7 @@ text/uri-list uri uris urls
 text/vcard vcard
 text/vnd.a
 text/vnd.abc
+text/vnd.ascii-art
 text/vnd.curl curl
 text/vnd.curl.dcurl dcurl
 text/vnd.curl.mcurl mcurl
@@ -1819,7 +1988,9 @@ text/vnd.esmertec.theme-descriptor
 text/vnd.flatland.3dml
 text/vnd.fly fly
 text/vnd.fmi.flexstor flx
+text/vnd.gml
 text/vnd.graphviz gv
+text/vnd.hgl
 text/vnd.in3d.3dml 3dml
 text/vnd.in3d.spot spot
 text/vnd.IPTC.NewsML
@@ -1853,7 +2024,7 @@ text/x-vcalendar vcs
 text/x-vcard vcf
 text/x-vnd.flatland.3dml
 text/x-yaml yaml yml
-text/xml xml dtd
+text/xml xml dtd xsd
 text/xml-external-parsed-entity
 video/1d-interleaved-parityfec
 video/3gpp 3gp 3gpp
@@ -1898,6 +2069,7 @@ video/raw
 video/rtp-enc-aescm128
 video/rtploopback
 video/rtx
+video/smpte291
 video/SMPTE292M
 video/ulpfec
 video/vc1
@@ -1925,6 +2097,7 @@ video/vnd.motorola.videop
 video/vnd.mpegurl mxu m4u
 video/vnd.ms-playready.media.pyv pyv
 video/vnd.nokia.interleaved-multimedia nim
+video/vnd.nokia.mp4vr
 video/vnd.nokia.videovoip
 video/vnd.objectvideo mp4 m4v
 video/vnd.radgamettools.bink

@@ -2,15 +2,15 @@
 - !ruby/object:MIME::Type
   content-type: multipart/alternative
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc2046
     - rfc2045
+    - rfc2046
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/appledouble
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Patrik_Faltstrom
     template:
@@ -19,7 +19,7 @@
 - !ruby/object:MIME::Type
   content-type: multipart/byteranges
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7233
     template:
@@ -28,15 +28,15 @@
 - !ruby/object:MIME::Type
   content-type: multipart/digest
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc2046
     - rfc2045
+    - rfc2046
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/encrypted
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc1847
     template:
@@ -45,7 +45,7 @@
 - !ruby/object:MIME::Type
   content-type: multipart/example
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4735
     template:
@@ -54,7 +54,7 @@
 - !ruby/object:MIME::Type
   content-type: multipart/form-data
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7578
     template:
@@ -63,7 +63,7 @@
 - !ruby/object:MIME::Type
   content-type: multipart/header-set
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Dave_Crocker
     template:
@@ -72,23 +72,32 @@
 - !ruby/object:MIME::Type
   content-type: multipart/mixed
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc2046
     - rfc2045
+    - rfc2046
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: multipart/multilingual
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8255
+    template:
+    - multipart/multilingual
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/parallel
   encoding: 8bit
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc2046
     - rfc2045
+    - rfc2046
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/related
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2387
     template:
@@ -97,7 +106,7 @@
 - !ruby/object:MIME::Type
   content-type: multipart/report
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6522
     template:
@@ -106,19 +115,27 @@
 - !ruby/object:MIME::Type
   content-type: multipart/signed
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc1847
     template:
     - multipart/signed
   registered: true
 - !ruby/object:MIME::Type
+  content-type: multipart/vnd.bint.med-plus
+  encoding: base64
+  xrefs:
+    person:
+    - Heinz-Peter_Schütz
+    template:
+    - multipart/vnd.bint.med-plus
+  registered: true
+- !ruby/object:MIME::Type
   content-type: multipart/voice-message
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc2421
-    - rfc2423
+    - rfc3801
     template:
     - multipart/voice-message
   registered: true
@@ -129,10 +146,10 @@
 - !ruby/object:MIME::Type
   content-type: multipart/x-mixed-replace
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
-    - W3C
     - Robin_Berjon
+    - W3C
     template:
     - multipart/x-mixed-replace
   registered: true

@@ -27,10 +27,12 @@ contributions. It conforms to RFCs 2045 and 2231.
 This registry contains the MIME media types in three formats:
 
 *   A YAML format matching the Ruby mime-types library objects (MIME::Type).
-    This is the primary user-editable format.
+    This is the primary user-editable format for developers. It is *not*
+    shipped with the gem due to size considerations.
 *   A JSON format converted from the YAML format. Prior to Ruby mime-types 3.0,
     this was the main consumption format and is still recommended for any
-    implementation that does not wish to implement the columnar format.
+    implementation that does not wish to implement the columnar format, which
+    has a significant implementation effort cost.
 *   An encoded text format splitting the data for each MIME type across
     multiple files. This columnar data format reduces the minimal data load
     substantially, resulting in a performance improvement at the cost of more

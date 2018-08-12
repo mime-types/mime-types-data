@@ -2,7 +2,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/1d-interleaved-parityfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6015
     template:
@@ -11,17 +11,17 @@
 - !ruby/object:MIME::Type
   content-type: audio/32kadpcm
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
-    - rfc3802
     - rfc2421
+    - rfc3802
     template:
     - audio/32kadpcm
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/3gpp
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3839
     - rfc6381
@@ -31,7 +31,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/3gpp2
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4393
     - rfc6381
@@ -39,9 +39,19 @@
     - audio/3gpp2
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/aac
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC1
+    - Max_Neuendorf
+    template:
+    - audio/aac
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/ac3
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4184
     template:
@@ -60,7 +70,7 @@
   encoding: base64
   extensions:
   - amr
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4867
     template:
@@ -71,7 +81,7 @@
   encoding: base64
   extensions:
   - awb
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4867
     template:
@@ -80,7 +90,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/amr-wb+
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4352
     template:
@@ -89,7 +99,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/aptx
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7310
     template:
@@ -98,7 +108,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/asc
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6295
     template:
@@ -107,7 +117,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC-ADVANCED-LOSSLESS
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5584
     template:
@@ -116,7 +126,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC-X
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5584
     template:
@@ -125,7 +135,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC3
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5584
     template:
@@ -139,7 +149,7 @@
   extensions:
   - au
   - snd
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2045
     - rfc2046
@@ -149,7 +159,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/BV16
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4298
     template:
@@ -158,7 +168,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/BV32
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4298
     template:
@@ -167,7 +177,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/clearmode
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4040
     template:
@@ -176,7 +186,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/CN
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3389
     template:
@@ -185,7 +195,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/DAT12
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3190
     template:
@@ -194,7 +204,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/dls
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4613
     template:
@@ -203,7 +213,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es201108
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3557
     template:
@@ -212,7 +222,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202050
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4060
     template:
@@ -221,7 +231,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202211
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4060
     template:
@@ -230,7 +240,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202212
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4060
     template:
@@ -239,7 +249,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/DV
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6469
     template:
@@ -248,7 +258,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/DVI4
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -257,7 +267,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/eac3
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4598
     template:
@@ -266,7 +276,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/encaprtp
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6849
     template:
@@ -277,7 +287,7 @@
   encoding: base64
   extensions:
   - evc
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4788
     template:
@@ -286,7 +296,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRC-QCP
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3625
     template:
@@ -295,7 +305,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRC0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4788
     template:
@@ -304,7 +314,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRC1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4788
     template:
@@ -313,7 +323,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5188
     template:
@@ -322,7 +332,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5188
     template:
@@ -331,7 +341,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4788
     template:
@@ -340,7 +350,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6884
     template:
@@ -349,7 +359,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6884
     template:
@@ -358,7 +368,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6884
     template:
@@ -367,7 +377,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5188
     template:
@@ -376,7 +386,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5188
     template:
@@ -385,7 +395,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5188
     template:
@@ -394,17 +404,17 @@
 - !ruby/object:MIME::Type
   content-type: audio/EVS
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
-    - _3GPP
     - Kyunghun_Jung
+    - _3GPP
     template:
     - audio/EVS
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/example
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4735
     template:
@@ -413,7 +423,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/fwdred
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6354
     template:
@@ -422,7 +432,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G711-0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7655
     template:
@@ -431,7 +441,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G719
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5404
     rfc-errata:
@@ -442,7 +452,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G722
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -451,7 +461,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G7221
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5577
     template:
@@ -460,7 +470,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G723
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -469,7 +479,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G726-16
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -478,7 +488,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G726-24
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -487,7 +497,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G726-32
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -496,7 +506,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G726-40
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -505,7 +515,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G728
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -514,7 +524,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G729
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -523,7 +533,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G7291
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4749
     - rfc5459
@@ -531,7 +541,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G729D
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -540,7 +550,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/G729E
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -549,7 +559,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/GSM
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -558,7 +568,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/GSM-EFR
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -567,7 +577,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/GSM-HR-08
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5993
     template:
@@ -576,7 +586,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/iLBC
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3952
     template:
@@ -585,7 +595,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/ip-mr_v2.5
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6262
     template:
@@ -596,7 +606,7 @@
   encoding: base64
   extensions:
   - l16
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -605,7 +615,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/L20
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3190
     template:
@@ -614,7 +624,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/L24
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3190
     template:
@@ -623,7 +633,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/L8
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -632,11 +642,47 @@
 - !ruby/object:MIME::Type
   content-type: audio/LPC
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
     - audio/LPC
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/MELP
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8130
+    template:
+    - audio/MELP
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/MELP1200
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8130
+    template:
+    - audio/MELP1200
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/MELP2400
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8130
+    template:
+    - audio/MELP2400
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/MELP600
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8130
+    template:
+    - audio/MELP600
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/midi
@@ -652,7 +698,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/mobile-xmf
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4723
     template:
@@ -670,7 +716,7 @@
   - f4b
   - mp4a
   - m4a
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4337
     - rfc6381
@@ -682,7 +728,7 @@
   encoding: base64
   extensions:
   - m4a
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6416
     template:
@@ -691,7 +737,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/MPA
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -700,7 +746,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/mpa-robust
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5219
     template:
@@ -718,7 +764,7 @@
   - m2a
   - m3a
   - mp2a
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3003
     template:
@@ -727,7 +773,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/mpeg4-generic
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3640
     - rfc5691
@@ -744,7 +790,7 @@
   - oga
   - ogg
   - spx
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5334
     - rfc7845
@@ -754,7 +800,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/opus
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc7587
     template:
@@ -763,14 +809,14 @@
 - !ruby/object:MIME::Type
   content-type: audio/parityfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5109
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/PCMA
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -779,7 +825,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/PCMA-WB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5391
     template:
@@ -788,7 +834,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/PCMU
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -797,7 +843,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/PCMU-WB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5391
     template:
@@ -806,7 +852,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/prs.sid
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Linus_Walleij
     template:
@@ -815,7 +861,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/QCELP
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     - rfc3625
@@ -823,7 +869,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/raptorfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6682
     template:
@@ -832,7 +878,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/RED
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3555
     template:
@@ -841,7 +887,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/rtp-enc-aescm128
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - _3GPP
     template:
@@ -850,7 +896,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/rtp-midi
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6295
     template:
@@ -859,7 +905,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/rtploopback
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc6849
     template:
@@ -868,7 +914,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/rtx
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4588
     template:
@@ -891,7 +937,7 @@
   encoding: base64
   extensions:
   - smv
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3558
     template:
@@ -900,7 +946,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/SMV-QCP
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3625
     template:
@@ -909,7 +955,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/SMV0
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3558
     template:
@@ -918,7 +964,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/sp-midi
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Timo_Kosonen
     - Tom_White
@@ -928,7 +974,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/speex
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5574
     template:
@@ -937,7 +983,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/t140c
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4351
     template:
@@ -946,7 +992,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/t38
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4612
     template:
@@ -955,7 +1001,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/telephone-event
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4733
     template:
@@ -964,7 +1010,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/tone
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4733
     template:
@@ -973,7 +1019,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/UEMCLIP
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5686
     template:
@@ -982,16 +1028,26 @@
 - !ruby/object:MIME::Type
   content-type: audio/ulpfec
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5109
     template:
     - audio/ulpfec
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/usac
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC1
+    - Max_Neuendorf
+    template:
+    - audio/usac
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/VDVI
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4856
     template:
@@ -1000,7 +1056,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/VMR-WB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4348
     - rfc4424
@@ -1010,7 +1066,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.3gpp.iufp
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Thomas_Belling
     template:
@@ -1019,7 +1075,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.4SB
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Serge_De_Jaham
     template:
@@ -1028,7 +1084,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.audiokoz
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Vicki_DeBarros
     template:
@@ -1037,7 +1093,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.CELP
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Serge_De_Jaham
     template:
@@ -1046,7 +1102,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cisco.nse
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Rajesh_Kumar
     template:
@@ -1055,7 +1111,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cmles.radio-events
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Jean-Philippe_Goulet
     template:
@@ -1064,7 +1120,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cns.anp1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Ann_McLaughlin
     template:
@@ -1073,7 +1129,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cns.inf1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Ann_McLaughlin
     template:
@@ -1087,7 +1143,7 @@
   extensions:
   - uva
   - uvva
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_A_Dolan
     template:
@@ -1100,7 +1156,7 @@
   encoding: 7bit
   extensions:
   - eol
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Armands_Strazds
     template:
@@ -1109,7 +1165,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dlna.adts
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Edwin_Heredia
     template:
@@ -1118,7 +1174,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.heaac.1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1127,7 +1183,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.heaac.2
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1136,7 +1192,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.mlp
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Mike_Ward
     template:
@@ -1145,7 +1201,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.mps
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1154,7 +1210,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1163,7 +1219,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2x
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1172,7 +1228,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2z
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1181,7 +1237,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pulse.1
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_Hattersley
     template:
@@ -1194,7 +1250,7 @@
   encoding: base64
   extensions:
   - dra
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Jiang_Tian
     template:
@@ -1207,7 +1263,7 @@
   encoding: base64
   extensions:
   - dts
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - William_Zou
     template:
@@ -1220,7 +1276,7 @@
   encoding: base64
   extensions:
   - dtshd
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - William_Zou
     template:
@@ -1229,7 +1285,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dvb.file
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Peter_Siebert
     template:
@@ -1240,7 +1296,7 @@
   encoding: base64
   extensions:
   - plj
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Shay_Cicelsky
     template:
@@ -1249,7 +1305,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.hns.audio
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Swaminathan
     template:
@@ -1262,7 +1318,7 @@
   encoding: base64
   extensions:
   - lvp
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Greg_Vaudreuil
     template:
@@ -1275,7 +1331,7 @@
   encoding: base64
   extensions:
   - pya
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Steve_DiAcetis
     template:
@@ -1286,7 +1342,7 @@
   encoding: base64
   extensions:
   - mxmf
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Nokia
     template:
@@ -1297,7 +1353,7 @@
   encoding: base64
   extensions:
   - vbk
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Glenn_Parsons
     template:
@@ -1310,7 +1366,7 @@
   encoding: base64
   extensions:
   - ecelp4800
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_Fox
     template:
@@ -1323,7 +1379,7 @@
   encoding: base64
   extensions:
   - ecelp7470
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_Fox
     template:
@@ -1336,7 +1392,7 @@
   encoding: base64
   extensions:
   - ecelp9600
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_Fox
     template:
@@ -1345,11 +1401,20 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.octel.sbc
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Greg_Vaudreuil
     template:
     - audio/vnd.octel.sbc
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/vnd.presonus.multitrack
+  encoding: base64
+  xrefs:
+    person:
+    - Matthias_Juwan
+    template:
+    - audio/vnd.presonus.multitrack
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/vnd.qcelp
@@ -1358,7 +1423,7 @@
   - qcp
   obsolete: true
   use-instead: audio/qcelp
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc3625
     template:
@@ -1369,7 +1434,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vnd.rhetorex.32kadpcm
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Greg_Vaudreuil
     template:
@@ -1382,7 +1447,7 @@
   encoding: base64
   extensions:
   - rip
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Martin_Dawe
     template:
@@ -1395,16 +1460,16 @@
   - smp3
   - smp
   - s1m
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - David_Petersen
     template:
-    - audio/vnd.sealedmedia.softseal-mpeg
+    - audio/vnd.sealedmedia.softseal.mpeg
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/vnd.vmx.cvsd
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Greg_Vaudreuil
     template:
@@ -1413,7 +1478,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vorbis
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5215
     template:
@@ -1422,7 +1487,7 @@
 - !ruby/object:MIME::Type
   content-type: audio/vorbis-config
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc5215
     template:

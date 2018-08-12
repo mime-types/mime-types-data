@@ -1,12 +1,44 @@
 ---
 - !ruby/object:MIME::Type
+  content-type: model/3mf
+  encoding: base64
+  xrefs:
+    uri:
+    - http://www.3mf.io/specification
+    person:
+    - Michael_Sweet
+    - _3MF
+    template:
+    - model/3mf
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/example
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc4735
     template:
     - model/example
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/gltf+json
+  encoding: base64
+  xrefs:
+    person:
+    - Khronos
+    - Uli_Klumpp
+    template:
+    - model/gltf+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/gltf-binary
+  encoding: base64
+  xrefs:
+    person:
+    - Khronos
+    - Saurabh_Bhatia
+    template:
+    - model/gltf-binary
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/iges
@@ -16,7 +48,7 @@
   extensions:
   - igs
   - iges
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Curtis_Parks
     template:
@@ -31,9 +63,19 @@
   - msh
   - mesh
   - silo
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2077
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/stl
+  encoding: base64
+  xrefs:
+    person:
+    - DICOM_Standards_Committee
+    - Lisa_Spellman
+    template:
+    - model/stl
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.collada+xml
@@ -42,7 +84,7 @@
   encoding: base64
   extensions:
   - dae
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - James_Riordon
     template:
@@ -55,16 +97,16 @@
   encoding: base64
   extensions:
   - dwf
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Jason_Pratt
     template:
-    - model/vnd-dwf
+    - model/vnd.dwf
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.flatland.3dml
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Michael_Powers
     template:
@@ -77,7 +119,7 @@
   encoding: base64
   extensions:
   - gdl
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Attila_Babits
     template:
@@ -86,7 +128,7 @@
 - !ruby/object:MIME::Type
   content-type: model/vnd.gs-gdl
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Attila_Babits
     template:
@@ -99,7 +141,7 @@
   encoding: base64
   extensions:
   - gtw
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Yutaka_Ozaki
     template:
@@ -108,7 +150,7 @@
 - !ruby/object:MIME::Type
   content-type: model/vnd.moml+xml
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Christopher_Brooks
     template:
@@ -121,7 +163,7 @@
   encoding: base64
   extensions:
   - mts
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Boris_Rabinovitch
     template:
@@ -130,7 +172,7 @@
 - !ruby/object:MIME::Type
   content-type: model/vnd.opengex
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Eric_Lengyel
     template:
@@ -142,11 +184,11 @@
   extensions:
   - x_b
   - xmt_bin
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Parasolid
     template:
-    - model/vnd.parasolid.transmit-binary
+    - model/vnd.parasolid.transmit.binary
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.parasolid.transmit.text
@@ -154,25 +196,34 @@
   extensions:
   - x_t
   - xmt_txt
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Parasolid
     template:
-    - model/vnd.parasolid.transmit-text
+    - model/vnd.parasolid.transmit.text
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.rosette.annotated-data-model
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Benson_Margulies
     template:
     - model/vnd.rosette.annotated-data-model
   registered: true
 - !ruby/object:MIME::Type
+  content-type: model/vnd.usdz+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Sebastian_Grassia
+    template:
+    - model/vnd.usdz+zip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/vnd.valve.source.compiled-map
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Henrik_Andersson
     template:
@@ -185,7 +236,7 @@
   encoding: base64
   extensions:
   - vtu
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Boris_Rabinovitch
     template:
@@ -199,7 +250,7 @@
   extensions:
   - wrl
   - vrml
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     rfc:
     - rfc2077
   registered: true
@@ -213,7 +264,7 @@
 - !ruby/object:MIME::Type
   content-type: model/x3d+fastinfoset
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Web3D_X3D
     template:
@@ -232,7 +283,7 @@
   extensions:
   - x3d
   - x3dz
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Web3D
     - Web3D_X3D
@@ -242,7 +293,7 @@
 - !ruby/object:MIME::Type
   content-type: model/x3d-vrml
   encoding: base64
-  xrefs: !ruby/object:MIME::Types::Container
+  xrefs:
     person:
     - Web3D
     - Web3D_X3D

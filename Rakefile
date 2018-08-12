@@ -26,7 +26,7 @@ Hoe.spec 'mime-types-data' do
   extra_dev_deps << ['hoe-git', '~> 1.6']
   extra_dev_deps << ['hoe-rubygems', '~> 1.0']
   extra_dev_deps << ['rake', '~> 10.0']
-  extra_dev_deps << ['mime-types', '~> 3.0']
+  extra_dev_deps << ['mime-types', '>= 3.2.1', '< 4']
 end
 
 $LOAD_PATH.unshift 'lib'

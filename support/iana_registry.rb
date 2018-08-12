@@ -70,7 +70,7 @@ class IANARegistry
         subtype
       )
 
-      xrefs['notes'] << notes if notes
+      xrefs.add('notes', notes) if notes
 
       content_type = [ @type, subtype ].join('/')
       types = @types.select { |t| t.content_type.casecmp(content_type).zero? }
@@ -118,7 +118,7 @@ class IANARegistry
 
       next if data.nil? || data.empty?
 
-      xr[type] << data
+      xr.add(type, data)
     end
 
     files.each do |file|
@@ -128,7 +128,7 @@ class IANARegistry
                     file.text
                   end
 
-      xr[file['type']] << file_name
+      xr.add(file['type'], file_name)
     end
 
     xr

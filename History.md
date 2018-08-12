@@ -1,5 +1,29 @@
 # MIME Types Changes by Version
 
+## 3.2018.0812 / 2018-08-12
+
+*   Added `.xsd` extension to `text/xml`. [#10][]
+
+*   Added `.js` and `.mjs` extensions to `text/ecmascript` and
+    `text/javascript`. [#11][]
+
+*   Added `.ipa` extension to `application/octet-stream`. [#12][]
+
+*   Moved extensions `.markdown` and `.md` and added `.mkd` extension to
+    `text/markdown`. [#13][]
+
+*   Because of a bug found with mime-types 3 before 3.2.1, this version
+    requires mime-types 3.1 or later to manage data.
+
+*   Updated the IANA media registry entries as of release date. The biggest
+    major change here is the addition of the `font/` top-level media type.
+
+*   MIME type changes not introduced by pull requests will no longer be
+    individually tracked.
+
+*   Clarified that the YAML editable format is not shipped with the Ruby gem
+    for size considerations.
+
 ## 3.2016.0521 / 2016-05-21
 
 *   Updated the known extension list for application/octet-stream and
@@ -8,18 +32,18 @@
     (@taoza).
 *   Updated the IANA media registry entries as of release date:
 
-    *   Updated metadata for application/EmergencyCallData.Comment\+xml,
-        application/EmergencyCallData.DeviceInfo\+xml,
-        application/EmergencyCallData.ProviderInfo\+xml,
-        application/EmergencyCallData.ServiceInfo\+xml,
-        application/EmergencyCallData.SubscriberInfo\+xml,
-        application/ogg, application/problem\+json, application/problem\+xml,
+    *   Updated metadata for application/EmergencyCallData.Comment+xml,
+        application/EmergencyCallData.DeviceInfo+xml,
+        application/EmergencyCallData.ProviderInfo+xml,
+        application/EmergencyCallData.ServiceInfo+xml,
+        application/EmergencyCallData.SubscriberInfo+xml,
+        application/ogg, application/problem+json, application/problem+xml,
         audio/ogg, text/markdown, video/H265, video/ogg.
-    *   Added application/efi, application/vnd.3gpp.sms\+xml,
+    *   Added application/efi, application/vnd.3gpp.sms+xml,
         application/vnd.3lightssoftware.imagescal,
-        application/vnd.coreos.ignition\+json, application/vnd.oma.lwm2m\+json,
+        application/vnd.coreos.ignition+json, application/vnd.oma.lwm2m+json,
         application/vnd.onepager, application/vnd.quarantainenet,
-        application/vnd.vel\+json, image/emf, image/wmf, text/prs.prop.logic.
+        application/vnd.vel+json, image/emf, image/wmf, text/prs.prop.logic.
     *   image/bmp has a draft RFC which would make it official; it has been
         finally been registered. As such, this version *reverses* the
         use-instead relationship of image/bmp and image/x-bmp.
@@ -347,5 +371,9 @@
 *   Merged the non-standard VMS platform text/plain with the standard
     text/plain.
 
+[#10]: https://github.com/mime-types/mime-types-data/pull/10
+[#11]: https://github.com/mime-types/mime-types-data/pull/11
+[#12]: https://github.com/mime-types/mime-types-data/pull/12
+[#13]: https://github.com/mime-types/mime-types-data/pull/13
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [Code of Conduct]: Code-of-Conduct.md
