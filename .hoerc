@@ -20,8 +20,6 @@ exclude: !ruby/regexp '/
   |
   support\/
   |
-  types\/.*\.yaml
-  |
   \.(?:coveralls|pullreview|travis|rubocop.*)\.yml
   |
   .byebug_history
