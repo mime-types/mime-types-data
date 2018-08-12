@@ -105,6 +105,9 @@
 - !ruby/object:MIME::Type
   content-type: text/ecmascript
   encoding: quoted-printable
+  extensions:
+  - js
+  - mjs
   obsolete: true
   use-instead: application/ecmascript
   xrefs: !ruby/object:MIME::Types::Container
@@ -181,6 +184,7 @@
   encoding: quoted-printable
   extensions:
   - js
+  - mjs
   obsolete: true
   use-instead: application/javascript
   xrefs: !ruby/object:MIME::Types::Container
