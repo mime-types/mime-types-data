@@ -106,8 +106,8 @@
   content-type: text/ecmascript
   encoding: quoted-printable
   extensions:
-  - js
-  - mjs
+  - es
+  - ecma
   obsolete: true
   use-instead: application/ecmascript
   xrefs:
