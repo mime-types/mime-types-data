@@ -14028,6 +14028,19 @@
     - application/vq-rtcpxr
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/wasm
+  friendly:
+    en: WebAssembly
+  encoding: 8bit
+  extensions:
+  - wasm
+  xrefs:
+    uri:
+    - https://www.w3.org/TR/wasm-web-api-1/
+    template:
+    - application/wasm
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/watcherinfo+xml
   encoding: base64
   extensions:
