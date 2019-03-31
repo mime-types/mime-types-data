@@ -779,6 +779,15 @@
     - text/vnd.radisys.msml-basic-layout
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/vnd.senx.warpscript
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Pierre_Papin
+    template:
+    - text/vnd.senx.warpscript
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/vnd.si.uricatalogue
   encoding: quoted-printable
   obsolete: true

@@ -71,6 +71,7 @@ namespace :convert do
 end
 
 namespace :update do
+  desc 'Update the release version'
   task :version do
     require 'mime/types'
 
