@@ -94,7 +94,7 @@ application/dssc+der dssc
 application/dssc+xml xdssc
 application/dvcs
 application/dxf
-application/ecmascript ecma js mjs
+application/ecmascript ecma es
 application/EDI-consent
 application/EDI-X12
 application/EDIFACT
@@ -1938,7 +1938,7 @@ text/csv csv
 text/csv-schema
 text/directory
 text/dns
-text/ecmascript js mjs
+text/ecmascript es ecma
 text/encaprtp
 text/enriched
 text/example

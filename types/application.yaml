@@ -912,8 +912,7 @@
   encoding: base64
   extensions:
   - ecma
-  - js
-  - mjs
+  - es
   xrefs:
     rfc:
     - rfc4329
