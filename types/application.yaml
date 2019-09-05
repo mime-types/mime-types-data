@@ -2660,6 +2660,7 @@
     en: Adobe Portable Document Format
   encoding: base64
   extensions:
+  - ai
   - pdf
   xrefs:
     rfc:
@@ -2918,7 +2919,6 @@
     en: PostScript
   encoding: 8bit
   extensions:
-  - ai
   - eps
   - ps
   xrefs:
