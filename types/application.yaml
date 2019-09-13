@@ -2679,8 +2679,8 @@
     en: Adobe Portable Document Format
   encoding: base64
   extensions:
+  - pdf  
   - ai
-  - pdf
   xrefs:
     rfc:
     - rfc8118
