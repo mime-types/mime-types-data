@@ -15468,6 +15468,11 @@
   - vbs
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/x-ms-dos-executable
+  extensions:
+  - exe
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/x-msdownload
   friendly:
     en: Microsoft Application
