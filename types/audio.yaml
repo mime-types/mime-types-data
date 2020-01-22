@@ -1637,6 +1637,14 @@
   - wav
   registered: false
 - !ruby/object:MIME::Type
+  content-type: audio/wav
+  friendly:
+    en: Waveform Audio File Format (WAV)
+  encoding: base64
+  extensions:
+  - wav
+  registered: false
+- !ruby/object:MIME::Type
   content-type: audio/xm
   encoding: base64
   extensions:
