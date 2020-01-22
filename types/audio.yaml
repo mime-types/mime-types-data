@@ -733,6 +733,11 @@
     - audio/mp4
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/x-m4a
+  encoding: base64
+  extensions:
+  - m4a
+- !ruby/object:MIME::Type
   content-type: audio/MP4A-LATM
   encoding: base64
   extensions:
