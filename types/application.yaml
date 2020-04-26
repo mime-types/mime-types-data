@@ -2522,7 +2522,6 @@
   - dms
   - lha
   - lzh
-  - exe
   - class
   - ani
   - pgp
@@ -15471,6 +15470,11 @@
   - reg
   - ps1
   - vbs
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: application/x-ms-dos-executable
+  extensions:
+  - exe
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/x-msdownload
