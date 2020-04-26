@@ -694,6 +694,17 @@
     - audio/MELP600
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/mhas
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC1
+    - Ingo_Hofmann
+    - Nils_Peters
+    template:
+    - audio/mhas
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/midi
   friendly:
     en: MIDI - Musical Instrument Digital Interface
@@ -1030,6 +1041,16 @@
     - Miguel_Angel_Reina_Ortega
     template:
     - audio/TETRA_ACELP
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/TETRA_ACELP_BB
+  encoding: base64
+  xrefs:
+    person:
+    - ETSI
+    - Miguel_Angel_Reina_Ortega
+    template:
+    - audio/TETRA_ACELP_BB
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/tone

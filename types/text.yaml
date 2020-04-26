@@ -428,7 +428,7 @@
     rfc:
     - rfc1874
     template:
-    - text/sgml
+    - text/SGML
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/strings
@@ -895,6 +895,16 @@
     - Peter_Stark
     template:
     - text/vnd.wap.wmlscript
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/vtt
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Silvia_Pfeiffer
+    - W3C
+    template:
+    - text/vtt
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/x-asm
