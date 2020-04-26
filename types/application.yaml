@@ -13112,6 +13112,11 @@
     - application/vnd.smart.notebook
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/x-smarttech-notebook
+  encoding: base64
+  extensions:
+  - notebook
+- !ruby/object:MIME::Type
   content-type: application/vnd.smart.teacher
   friendly:
     en: SMART Technologies Apps
