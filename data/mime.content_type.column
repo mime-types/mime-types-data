@@ -1872,10 +1872,10 @@ image/example
 image/fits
 image/g3fax g3
 image/gif gif
-image/heic
-image/heic-sequence
-image/heif
-image/heif-sequence
+image/heic heic hif
+image/heic-sequence heics hif
+image/heif heif hif
+image/heif-sequence heifs hif
 image/hej2k
 image/hsj2
 image/ief ief
