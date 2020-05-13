@@ -747,8 +747,8 @@ person^Dick_Floersch|template^application/vnd.FloGraphIt
 person^Marc_Winter|template^application/vnd.fluxtime.clip
 person^George_Williams|template^application/vnd.font-fontforge-sfd
 person^Mike_Wexler|template^application/vnd.framemaker
-person^Alexis_Tamas|template^application/vnd.frogans.fnc
-person^Alexis_Tamas|template^application/vnd.frogans.ltf
+notes^- OBSOLETE|person^Alexis_Tamas^OP3FT|template^application/vnd.frogans.fnc
+notes^- OBSOLETE|person^Alexis_Tamas^OP3FT|template^application/vnd.frogans.ltf
 person^Derek_Smith|template^application/vnd.fsc.weblaunch
 person^Nobukazu_Togashi|template^application/vnd.fujitsu.oasys
 person^Nobukazu_Togashi|template^application/vnd.fujitsu.oasys2
@@ -2098,6 +2098,7 @@ person^_3GPP|template^text/rtp-enc-aescm128
 rfc^rfc6849|template^text/rtploopback
 rfc^rfc4588|template^text/rtx
 rfc^rfc1874|template^text/SGML
+person^Linux_Foundation^Rose_Judge|template^text/spdx
 person^IEEE-ISTO-PWG-PPP|template^text/strings
 rfc^rfc4103|template^text/t140
 person^Paul_Lindner|template^text/tab-separated-values

@@ -141,9 +141,10 @@ Thanks to everyone else who has contributed to mime-types:
 - Jeremy Evans
 - John Gardner
 - Juanito Fatas
-- Łukasz Śliwa
 - Keerthi Siva
 - Ken Ip
+- Łukasz Śliwa
+- Lucia
 - Martin d'Allens
 - Mauricio Linhares
 - nycvotes-dev

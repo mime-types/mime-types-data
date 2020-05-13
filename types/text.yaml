@@ -431,6 +431,16 @@
     - text/SGML
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/spdx
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Linux_Foundation
+    - Rose_Judge
+    template:
+    - text/spdx
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/strings
   encoding: quoted-printable
   xrefs:

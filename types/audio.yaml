@@ -744,11 +744,6 @@
     - audio/mp4
   registered: true
 - !ruby/object:MIME::Type
-  content-type: audio/x-m4a
-  encoding: base64
-  extensions:
-  - m4a
-- !ruby/object:MIME::Type
   content-type: audio/MP4A-LATM
   encoding: base64
   extensions:
@@ -1548,6 +1543,14 @@
     - audio/vorbis-config
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/wav
+  friendly:
+    en: Waveform Audio File Format (WAV)
+  encoding: base64
+  extensions:
+  - wav
+  registered: false
+- !ruby/object:MIME::Type
   content-type: audio/webm
   friendly:
     en: Open Web Media Project - Audio
@@ -1585,6 +1588,12 @@
   encoding: base64
   extensions:
   - flac
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: audio/x-m4a
+  encoding: base64
+  extensions:
+  - m4a
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-matroska
@@ -1656,14 +1665,6 @@
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-wav
-  friendly:
-    en: Waveform Audio File Format (WAV)
-  encoding: base64
-  extensions:
-  - wav
-  registered: false
-- !ruby/object:MIME::Type
-  content-type: audio/wav
   friendly:
     en: Waveform Audio File Format (WAV)
   encoding: base64

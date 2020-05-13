@@ -1,5 +1,11 @@
 # MIME Types Changes by Version
 
+## 3.2020.05.12 / 2020-05-12
+
+- Updated the IANA media registry entires as of release date.
+
+- Added file extensions for HEIC image types. [#34][].
+
 ## 3.2020.04.25 / 2020-04-25
 
 - Updated the IANA media registry entires as of release date.
@@ -425,5 +431,6 @@
 [#31]: https://github.com/mime-types/mime-types-data/pull/31
 [#32]: https://github.com/mime-types/mime-types-data/issues/32
 [#33]: https://github.com/mime-types/mime-types-data/pull/33
+[#34]: https://github.com/mime-types/mime-types-data/pull/34
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md

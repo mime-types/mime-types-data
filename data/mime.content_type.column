@@ -2098,6 +2098,7 @@ text/rtp-enc-aescm128
 text/rtploopback
 text/rtx
 text/sgml sgml sgm
+text/spdx
 text/strings
 text/t140
 text/tab-separated-values tsv

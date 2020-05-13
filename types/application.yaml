@@ -7449,11 +7449,15 @@
   encoding: base64
   extensions:
   - fnc
+  obsolete: true
   xrefs:
     person:
     - Alexis_Tamas
+    - OP3FT
     template:
     - application/vnd.frogans.fnc
+    notes:
+    - "- OBSOLETE"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.frogans.ltf
@@ -7462,11 +7466,15 @@
   encoding: base64
   extensions:
   - ltf
+  obsolete: true
   xrefs:
     person:
     - Alexis_Tamas
+    - OP3FT
     template:
     - application/vnd.frogans.ltf
+    notes:
+    - "- OBSOLETE"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.fsc.weblaunch
@@ -13393,11 +13401,6 @@
     - application/vnd.smart.notebook
   registered: true
 - !ruby/object:MIME::Type
-  content-type: application/x-smarttech-notebook
-  encoding: base64
-  extensions:
-  - notebook
-- !ruby/object:MIME::Type
   content-type: application/vnd.smart.teacher
   friendly:
     en: SMART Technologies Apps
@@ -15686,6 +15689,12 @@
   - application
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/x-ms-dos-executable
+  encoding: base64
+  extensions:
+  - exe
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/x-ms-shortcut
   encoding: base64
   extensions:
@@ -15761,11 +15770,6 @@
   - reg
   - ps1
   - vbs
-  registered: false
-- !ruby/object:MIME::Type
-  content-type: application/x-ms-dos-executable
-  extensions:
-  - exe
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/x-msdownload
@@ -16020,6 +16024,12 @@
 - !ruby/object:MIME::Type
   content-type: application/x-SLA
   encoding: base64
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: application/x-smarttech-notebook
+  encoding: base64
+  extensions:
+  - notebook
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/x-solids
