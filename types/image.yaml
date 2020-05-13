@@ -128,6 +128,9 @@
 - !ruby/object:MIME::Type
   content-type: image/heic
   encoding: base64
+  extensions:
+  - heic
+  - hif
   xrefs:
     person:
     - David_Singer
@@ -138,6 +141,9 @@
 - !ruby/object:MIME::Type
   content-type: image/heic-sequence
   encoding: base64
+  extensions:
+  - heics
+  - hif
   xrefs:
     person:
     - David_Singer
@@ -148,6 +154,9 @@
 - !ruby/object:MIME::Type
   content-type: image/heif
   encoding: base64
+  extensions:
+  - heif
+  - hif
   xrefs:
     person:
     - David_Singer
@@ -158,6 +167,9 @@
 - !ruby/object:MIME::Type
   content-type: image/heif-sequence
   encoding: base64
+  extensions:
+  - heifs
+  - hif
   xrefs:
     person:
     - David_Singer
