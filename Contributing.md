@@ -157,7 +157,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Thomas Leese
 - Tibor Szolár
 - Todd Carrico
-- Yoren Brondsema
+- Yoran Brondsema
 
 [qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [rmt]: https://github.com/mime-types/ruby-mime-types/
