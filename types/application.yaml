@@ -16684,6 +16684,14 @@
     - application/zip
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/x-compressed-zip
+  friendly:
+    en: Zip Archive
+  encoding: base64
+  extensions:
+  - zip
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/zlib
   encoding: base64
   xrefs:
