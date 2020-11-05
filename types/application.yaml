@@ -24,6 +24,7 @@
   xrefs:
     person:
     - John_M_Meredith
+    - _3GPP
     template:
     - application/3gpp-ims+xml
   registered: true
@@ -453,11 +454,20 @@
     - application/cap+xml
   registered: true
 - !ruby/object:MIME::Type
-  content-type: application/cbor
+  content-type: application/captive+json
   encoding: base64
   xrefs:
     rfc:
-    - rfc7049
+    - rfc8908
+    template:
+    - application/captive+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cbor-7049bis-16
     template:
     - application/cbor
   registered: true
@@ -626,6 +636,16 @@
   content-type: application/clariscad
   encoding: base64
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/clr
+  encoding: base64
+  xrefs:
+    person:
+    - Andy_Miller
+    - IMS_Global
+    template:
+    - application/clr
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/clue+xml
   encoding: base64
@@ -956,8 +976,8 @@
   content-type: application/dots+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-dots-signal-channel-41
+    rfc:
+    - rfc8782
     template:
     - application/dots+cbor
   registered: true
@@ -1065,6 +1085,15 @@
     - application/efi
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/EmergencyCallData.cap+xml
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8876
+    template:
+    - application/EmergencyCallData.cap+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/EmergencyCallData.Comment+xml
   encoding: base64
   xrefs:
@@ -1149,6 +1178,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/2007/CR-emma-20071211/#media-type-registration
+    template:
+    - application/emma+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/emotionml+xml
@@ -1231,6 +1262,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration
+    template:
+    - application/exi
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/expect-ct-report+json
@@ -2040,6 +2073,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/MathML3/appendixb.html
+    template:
+    - application/mathml+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/mathml-content+xml
@@ -2049,6 +2084,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/MathML3/appendixb.html
+    template:
+    - application/mathml-content+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/mathml-presentation+xml
@@ -2058,6 +2095,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/MathML3/appendixb.html
+    template:
+    - application/mathml-presentation+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/mbms-associated-procedure-description+xml
@@ -2706,6 +2745,15 @@
   - onetoc2
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/opc-nodeset+xml
+  encoding: base64
+  xrefs:
+    person:
+    - OPC_Foundation
+    template:
+    - application/opc-nodeset+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/oscore
   encoding: base64
   xrefs:
@@ -2739,7 +2787,9 @@
   encoding: base64
   xrefs:
     rfc:
-    - rfc5109
+    - rfc3009
+    template:
+    - application/parityfec
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/passport
@@ -2816,6 +2866,8 @@
   xrefs:
     rfc:
     - rfc3156
+    template:
+    - application/pgp-keys
   registered: true
   signature: true
 - !ruby/object:MIME::Type
@@ -3110,6 +3162,15 @@
     - application/prs.cww
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/prs.cyn
+  encoding: base64
+  xrefs:
+    person:
+    - Cynthia_Revström
+    template:
+    - application/prs.cyn
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/prs.hpub+zip
   encoding: base64
   xrefs:
@@ -3174,8 +3235,8 @@
   content-type: application/pvd+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-intarea-provisioning-domains-11
+    rfc:
+    - rfc8801
     template:
     - application/pvd+json
   registered: true
@@ -3489,6 +3550,17 @@
     - application/samlmetadata+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/sarif+json
+  encoding: base64
+  xrefs:
+    person:
+    - Laurence_J._Golding
+    - Michael_C._Fanning
+    - OASIS
+    template:
+    - application/sarif+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/sbe
   encoding: base64
   xrefs:
@@ -3635,8 +3707,8 @@
   content-type: application/senml-etch+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-core-senml-etch-07
+    rfc:
+    - rfc8790
     template:
     - application/senml-etch+cbor
   registered: true
@@ -3644,8 +3716,8 @@
   content-type: application/senml-etch+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-core-senml-etch-07
+    rfc:
+    - rfc8790
     template:
     - application/senml-etch+json
   registered: true
@@ -3941,6 +4013,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/#mediaType
+    template:
+    - application/sparql-query
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/sparql-results+xml
@@ -3954,6 +4028,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/2007/CR-rdf-sparql-XMLres-20070925/#mime
+    template:
+    - application/sparql-results+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/spirits-event+xml
@@ -4483,6 +4559,15 @@
     - Frederic_Firmin
     template:
     - application/vnd.3gpp.GMOP+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.interworking-data
+  encoding: base64
+  xrefs:
+    person:
+    - Frederic_Firmin
+    template:
+    - application/vnd.3gpp.interworking-data
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.mc-signalling-ear
@@ -5048,6 +5133,15 @@
     - application/vnd.afpc.afplinedata-pagedef
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.afpc.cmoca-cmresource
+  encoding: base64
+  xrefs:
+    person:
+    - Jörg_Palmer
+    template:
+    - application/vnd.afpc.cmoca-cmresource
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.afpc.foca-charset
   encoding: base64
   xrefs:
@@ -5082,6 +5176,15 @@
     - Jörg_Palmer
     template:
     - application/vnd.afpc.modca
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.afpc.modca-cmtable
+  encoding: base64
+  xrefs:
+    person:
+    - Jörg_Palmer
+    template:
+    - application/vnd.afpc.modca-cmtable
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.afpc.modca-formdef
@@ -6266,6 +6369,24 @@
     - Viktor_Haag
     template:
     - application/vnd.d2l.coursepackage1p0+zip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.d3m-dataset
+  encoding: base64
+  xrefs:
+    person:
+    - Mi_Tar
+    template:
+    - application/vnd.d3m-dataset
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.d3m-problem
+  encoding: base64
+  xrefs:
+    person:
+    - Mi_Tar
+    template:
+    - application/vnd.d3m-problem
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.dart
@@ -7731,6 +7852,17 @@
     - Yves_Kreis
     template:
     - application/vnd.geogebra.file
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.geogebra.slides
+  encoding: base64
+  xrefs:
+    person:
+    - GeoGebra
+    - Markus_Hohenwarter
+    - Michael_Borcherds
+    template:
+    - application/vnd.geogebra.slides
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.geogebra.tool
@@ -11341,6 +11473,16 @@
     - application/vnd.oma.group-usage-list+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.oma.lwm2m+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - John_Mudge
+    - Open_Mobile_Naming_Authority
+    template:
+    - application/vnd.oma.lwm2m+cbor
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.oma.lwm2m+json
   encoding: base64
   xrefs:
@@ -13211,6 +13353,15 @@
     - application/vnd.seemail
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.seis+json
+  encoding: base64
+  xrefs:
+    person:
+    - ICT_Manager
+    template:
+    - application/vnd.seis+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.sema
   friendly:
     en: Secured eMail
@@ -13731,6 +13882,15 @@
     - Glenn_Widener
     template:
     - application/vnd.swiftview-ics
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.sycle+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Johann_Terblanche
+    template:
+    - application/vnd.sycle+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.symbian.install
@@ -14382,6 +14542,16 @@
     - Yaser_Rehem
     template:
     - application/vnd.webturbo
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.wfa.dpp
+  encoding: base64
+  xrefs:
+    person:
+    - Dr._Jun_Tian
+    - Wi-Fi_Alliance
+    template:
+    - application/vnd.wfa.dpp
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.wfa.p2p
@@ -15935,8 +16105,8 @@
   content-type: application/x-pki-message
   encoding: base64
   xrefs:
-    draft:
-    - RFC-gutmann-scep-16
+    rfc:
+    - rfc8894
     template:
     - application/x-pki-message
   registered: true
@@ -16263,8 +16433,8 @@
   encoding: 7bit
   xrefs:
     person:
-    - Robin_Berjon
-    - W3C
+    - Anne_van_Kesteren
+    - WHATWG
     template:
     - application/x-www-form-urlencoded
   registered: true
@@ -16277,8 +16447,8 @@
   - crt
   - der
   xrefs:
-    draft:
-    - RFC-gutmann-scep-16
+    rfc:
+    - rfc8894
     template:
     - application/x-x509-ca-cert
   registered: true
@@ -16286,8 +16456,8 @@
   content-type: application/x-x509-ca-ra-cert
   encoding: base64
   xrefs:
-    draft:
-    - RFC-gutmann-scep-16
+    rfc:
+    - rfc8894
     template:
     - application/x-x509-ca-ra-cert
   registered: true
@@ -16295,8 +16465,8 @@
   content-type: application/x-x509-next-ca-cert
   encoding: base64
   xrefs:
-    draft:
-    - RFC-gutmann-scep-16
+    rfc:
+    - rfc8894
     template:
     - application/x-x509-next-ca-cert
   registered: true
@@ -16327,6 +16497,14 @@
   encoding: base64
   extensions:
   - xz
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: application/x-zip-compressed
+  friendly:
+    en: Zip Archive
+  encoding: base64
+  extensions:
+  - zip
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/x-zmachine
@@ -16583,6 +16761,8 @@
     - W3C
     uri:
     - http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration
+    template:
+    - application/xslt+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/xspf+xml
@@ -16684,14 +16864,6 @@
     - application/zip
   registered: true
 - !ruby/object:MIME::Type
-  content-type: application/x-zip-compressed
-  friendly:
-    en: Zip Archive
-  encoding: base64
-  extensions:
-  - zip
-  registered: false
-- !ruby/object:MIME::Type
   content-type: application/zlib
   encoding: base64
   xrefs:
@@ -16704,8 +16876,8 @@
   content-type: application/zstd
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8478
+    draft:
+    - RFC-kucherawy-rfc8478bis-05
     template:
     - application/zstd
   registered: true

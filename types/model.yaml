@@ -12,6 +12,15 @@
     - model/3mf
   registered: true
 - !ruby/object:MIME::Type
+  content-type: model/e57
+  encoding: base64
+  xrefs:
+    person:
+    - ASTM
+    template:
+    - model/e57
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/example
   encoding: base64
   xrefs:

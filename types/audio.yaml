@@ -546,6 +546,8 @@
     rfc:
     - rfc4749
     - rfc5459
+    template:
+    - audio/G7291
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/G729D
@@ -831,7 +833,9 @@
   encoding: base64
   xrefs:
     rfc:
-    - rfc5109
+    - rfc3009
+    template:
+    - audio/parityfec
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/PCMA
@@ -982,6 +986,16 @@
     - audio/SMV0
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/sofa
+  encoding: base64
+  xrefs:
+    person:
+    - AES
+    - Piotr_Majdak
+    template:
+    - audio/sofa
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/sp-midi
   encoding: base64
   xrefs:
@@ -1055,6 +1069,15 @@
     - rfc4733
     template:
     - audio/tone
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: audio/TSVCIS
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc8817
+    template:
+    - audio/TSVCIS
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/UEMCLIP

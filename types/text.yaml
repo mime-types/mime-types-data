@@ -162,6 +162,15 @@
     - text/fwdred
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/gff3
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Sequence_Ontology
+    template:
+    - text/gff3
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/grammar-ref-list
   encoding: quoted-printable
   xrefs:
@@ -263,7 +272,9 @@
   encoding: quoted-printable
   xrefs:
     rfc:
-    - rfc5109
+    - rfc3009
+    template:
+    - text/parityfec
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/plain
@@ -429,6 +440,16 @@
     - rfc1874
     template:
     - text/SGML
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/shaclc
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Vladimir_Alexiev
+    - W3C_SHACL_Community_Group
+    template:
+    - text/shaclc
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/spdx
@@ -705,6 +726,15 @@
     - John_Ellson
     template:
     - text/vnd.graphviz
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/vnd.hans
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Hill_Hanxv
+    template:
+    - text/vnd.hans
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/vnd.hgl

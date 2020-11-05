@@ -1,14 +1,25 @@
 # MIME Types Changes by Version
 
-## 3.2020.05.12 / 2020-05-12
+## 3.2020.1104 / 2020-11-04
 
-- Updated the IANA media registry entires as of release date.
+- Updated the IANA media registry entries as of release date.
+
+- Added `application/x-zip-compressed`. [#36][].
+
+- Updated the contributing guide to include information about the release
+  process as described in [#18][].
+
+- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35][].
+
+## 3.2020.0512 / 2020-05-12
+
+- Updated the IANA media registry entries as of release date.
 
 - Added file extensions for HEIC image types. [#34][].
 
-## 3.2020.04.25 / 2020-04-25
+## 3.2020.0425 / 2020-04-25
 
-- Updated the IANA media registry entires as of release date.
+- Updated the IANA media registry entries as of release date.
 
 - Added several RAW image types based on data from GNOME RAW Thumbnailer.
   [#33][] fixing [#32][].
@@ -21,7 +32,7 @@
 
 - Added application/x-ms-dos-executable. [#28][].
 
-## 3.2019.10.09 / 2019-10-09
+## 3.2019.1009 / 2019-10-09
 
 - Updated the IANA media registry entries as of release date.
 
@@ -420,6 +431,7 @@
 [#11]: https://github.com/mime-types/mime-types-data/pull/11
 [#12]: https://github.com/mime-types/mime-types-data/pull/12
 [#13]: https://github.com/mime-types/mime-types-data/pull/13
+[#18]: https://github.com/mime-types/mime-types-data/issues/18
 [#20]: https://github.com/mime-types/mime-types-data/pull/20
 [#21]: https://github.com/mime-types/mime-types-data/pull/21
 [#22]: https://github.com/mime-types/mime-types-data/issues/22
@@ -432,5 +444,7 @@
 [#32]: https://github.com/mime-types/mime-types-data/issues/32
 [#33]: https://github.com/mime-types/mime-types-data/pull/33
 [#34]: https://github.com/mime-types/mime-types-data/pull/34
+[#35]: https://github.com/mime-types/mime-types-data/pull/35
+[#36]: https://github.com/mime-types/mime-types-data/pull/36
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md

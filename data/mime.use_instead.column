@@ -126,6 +126,9 @@ application/cals-1840
 -
 -
 -
+-
+-
+-
 application/vnd.ms-excel
 -
 -
@@ -322,6 +325,8 @@ application/x-mathematica-old
 -
 -
 -
+-
+-
 application/x-quicktimeplayer
 -
 -
@@ -330,6 +335,7 @@ application/x-quicktimeplayer
 -
 -
 application/remote-printing
+-
 -
 -
 -
@@ -473,7 +479,10 @@ application/x-VMSBACKUP
 -
 -
 -
+-
 application/vnd.3gpp.mcvideo-info+xml
+-
+-
 -
 -
 -
@@ -768,7 +777,10 @@ application/vnd.aristanetworks.swi
 -
 -
 -
+-
+-
 application/geo+json)
+-
 -
 -
 -
@@ -1434,6 +1446,10 @@ application/vnd.nokia.ncd
 -
 -
 -
+-
+-
+-
+-
 video/vnd.youtube.yt
 -
 -
@@ -1635,7 +1651,10 @@ application/vnd.wordperfect
 -
 -
 -
+-
 application/x400-bp
+-
+-
 -
 -
 -
@@ -1903,6 +1922,7 @@ image/x-cmu-raster
 -
 -
 -
+-
 image/x-targa
 -
 -
@@ -1928,6 +1948,7 @@ image/x-vnd.dgn
 -
 -
 image/vnd.net-fpx
+-
 -
 -
 -
@@ -2055,6 +2076,7 @@ image/wmf
 -
 -
 -
+-
 multipart/parallel
 -
 -
@@ -2070,6 +2092,7 @@ text/csv
 -
 -
 application/ecmascript
+-
 -
 -
 -
@@ -2119,7 +2142,9 @@ application/javascript
 -
 -
 -
+-
 model/vnd.flatland.3dml
+-
 -
 -
 -
