@@ -48,6 +48,15 @@
     - video/3gpp2
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/AV1
+  encoding: base64
+  xrefs:
+    person:
+    - Alliance_for_Open_Media
+    template:
+    - video/AV1
+  registered: true
+- !ruby/object:MIME::Type
   content-type: video/BMPEG
   encoding: base64
   xrefs:
@@ -469,6 +478,17 @@
     - rfc4588
     template:
     - video/rtx
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: video/scip
+  encoding: base64
+  xrefs:
+    person:
+    - Daniel_Hanson
+    - Michael_Faller
+    - SCIP
+    template:
+    - video/scip
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/smpte291

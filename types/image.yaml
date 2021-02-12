@@ -30,6 +30,16 @@
     - image/avcs
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/avif
+  encoding: base64
+  xrefs:
+    person:
+    - Alliance_for_Open_Media
+    - Cyril_Concolato
+    template:
+    - image/avif
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/bmp
   friendly:
     en: Bitmap Image File

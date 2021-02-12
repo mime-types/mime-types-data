@@ -812,6 +812,7 @@
   - oga
   - ogg
   - spx
+  - opus
   xrefs:
     rfc:
     - rfc5334
@@ -950,6 +951,17 @@
   extensions:
   - s3m
   registered: false
+- !ruby/object:MIME::Type
+  content-type: audio/scip
+  encoding: base64
+  xrefs:
+    person:
+    - Daniel_Hanson
+    - Michael_Faller
+    - SCIP
+    template:
+    - audio/scip
+  registered: true
 - !ruby/object:MIME::Type
   content-type: audio/silk
   encoding: base64

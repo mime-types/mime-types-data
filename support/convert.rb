@@ -74,11 +74,8 @@ class Convert
   end
 
   def initialize(options = {})
-    if options[:path].nil? or options[:path].empty?
-      raise ArgumentError, ':path is required'
-    elsif options[:from].nil? or options[:from].empty?
-      raise ArgumentError, ':from is required'
-    end
+    raise ArgumentError, ':path is required' if options[:path].nil? or options[:path].empty?
+    raise ArgumentError, ':from is required' if options[:from].nil? or options[:from].empty?
 
     @loader = MIME::Types::Loader.new(options[:path])
     load_from(options[:from])
@@ -143,9 +140,7 @@ class Convert
   end
 
   def must_be_directory!(path)
-    if File.exist?(path) and !File.directory?(path)
-      raise ArgumentError, 'Cannot write multiple files to a file.'
-    end
+    raise ArgumentError, 'Cannot write multiple files to a file.' if File.exist?(path) && !File.directory?(path)
 
     FileUtils.mkdir_p(path) unless File.exist?(path)
     path

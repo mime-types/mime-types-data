@@ -6,8 +6,8 @@
 
 source 'https://rubygems.org/'
 
-gem 'mime-types', path: '../ruby-mime-types' if ENV['DEV']
 gem 'byebug'
+gem 'mime-types', path: '../ruby-mime-types' if ENV['DEV']
 
 gemspec
 

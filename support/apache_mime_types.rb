@@ -19,7 +19,7 @@ class ApacheMIMETypes
     to: Pathname(__FILE__).join('../../types')
   }.freeze.each_value(&:freeze)
 
-  X_PREFIX_RE = /^x-/
+  X_PREFIX_RE = /^x-/.freeze
 
   def self.download(options = {})
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
@@ -27,7 +27,7 @@ class ApacheMIMETypes
 
     puts 'Downloading Apache MIME type list.'
     puts "\t#{url}"
-    data = open(url, &:read).split($INPUT_RECORD_SEPARATOR)
+    data = URI.parse(url).open(&:read).split($INPUT_RECORD_SEPARATOR)
     data.delete_if { |line| line.start_with?('#') }
 
     conf = MIME::Types::Container.new

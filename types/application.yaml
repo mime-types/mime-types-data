@@ -166,8 +166,8 @@
   content-type: application/alto-updatestreamcontrol+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-alto-incr-update-sse-22
+    rfc:
+    - rfc8895
     template:
     - application/alto-updatestreamcontrol+json
   registered: true
@@ -175,8 +175,8 @@
   content-type: application/alto-updatestreamparams+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-alto-incr-update-sse-22
+    rfc:
+    - rfc8895
     template:
     - application/alto-updatestreamparams+json
   registered: true
@@ -466,8 +466,8 @@
   content-type: application/cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cbor-7049bis-16
+    rfc:
+    - rfc8949
     template:
     - application/cbor
   registered: true
@@ -650,8 +650,8 @@
   content-type: application/clue+xml
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-clue-protocol-19
+    rfc:
+    - rfc8847
     template:
     - application/clue+xml
   registered: true
@@ -659,8 +659,8 @@
   content-type: application/clue_info+xml
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-clue-data-model-schema-17
+    rfc:
+    - rfc8846
     template:
     - application/clue_info+xml
   registered: true
@@ -722,8 +722,8 @@
   content-type: application/cose
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8152
+    draft:
+    - RFC-ietf-cose-rfc8152bis-struct-15
     template:
     - application/cose
   registered: true
@@ -731,8 +731,8 @@
   content-type: application/cose-key
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8152
+    draft:
+    - RFC-ietf-cose-rfc8152bis-struct-15
     template:
     - application/cose-key
   registered: true
@@ -740,8 +740,8 @@
   content-type: application/cose-key-set
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8152
+    draft:
+    - RFC-ietf-cose-rfc8152bis-struct-15
     template:
     - application/cose-key-set
   registered: true
@@ -1083,6 +1083,26 @@
     - UEFI_Forum
     template:
     - application/efi
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/elm+json
+  encoding: base64
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - application/elm+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/elm+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - application/elm+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/EmergencyCallData.cap+xml
@@ -1789,6 +1809,15 @@
     - rfc7033
     template:
     - application/jrd+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/jscalendar+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-calext-jscalendar-32
+    template:
+    - application/jscalendar+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/json
@@ -3662,8 +3691,8 @@
   extensions:
   - sdp
   xrefs:
-    draft:
-    - RFC-ietf-mmusic-rfc4566bis-37
+    rfc:
+    - rfc8866
     template:
     - application/sdp
   registered: true
@@ -4358,8 +4387,8 @@
   content-type: application/trickle-ice-sdpfrag
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-mmusic-trickle-ice-sip-18
+    rfc:
+    - rfc8840
     template:
     - application/trickle-ice-sdpfrag
   registered: true
@@ -6360,6 +6389,24 @@
     - Nor_Helmee
     template:
     - application/vnd.cybank
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cyclonedx+json
+  encoding: base64
+  xrefs:
+    person:
+    - Patrick_Dwyer
+    template:
+    - application/vnd.cyclonedx+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cyclonedx+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Patrick_Dwyer
+    template:
+    - application/vnd.cyclonedx+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.d2l.coursepackage1p0+zip
@@ -16876,8 +16923,8 @@
   content-type: application/zstd
   encoding: base64
   xrefs:
-    draft:
-    - RFC-kucherawy-rfc8478bis-05
+    rfc:
+    - rfc8878
     template:
     - application/zstd
   registered: true

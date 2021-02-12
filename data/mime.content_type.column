@@ -113,6 +113,8 @@ application/EDI-consent
 application/EDI-X12
 application/EDIFACT
 application/efi
+application/elm+json
+application/elm+xml
 application/EmergencyCallData.cap+xml
 application/EmergencyCallData.Comment+xml
 application/EmergencyCallData.Control+xml
@@ -186,6 +188,7 @@ application/jf2feed+json
 application/jose
 application/jose+json
 application/jrd+json
+application/jscalendar+json
 application/json json
 application/json-patch+json
 application/json-seq
@@ -638,6 +641,8 @@ application/vnd.curl.car car
 application/vnd.curl.pcurl pcurl
 application/vnd.cyan.dean.root+xml
 application/vnd.cybank
+application/vnd.cyclonedx+json
+application/vnd.cyclonedx+xml
 application/vnd.d2l.coursepackage1p0+zip
 application/vnd.d3m-dataset
 application/vnd.d3m-problem
@@ -1770,7 +1775,7 @@ audio/MPA
 audio/mpa-robust
 audio/mpeg mpga mp2 mp3 m2a m3a mp2a
 audio/mpeg4-generic
-audio/ogg oga ogg spx
+audio/ogg oga ogg spx opus
 audio/opus
 audio/parityfec
 audio/PCMA
@@ -1786,6 +1791,7 @@ audio/rtp-midi
 audio/rtploopback
 audio/rtx
 audio/s3m s3m
+audio/scip
 audio/silk sil
 audio/SMV smv
 audio/SMV-QCP
@@ -1882,6 +1888,7 @@ font/woff2 woff2
 image/aces
 image/avci
 image/avcs
+image/avif
 image/bmp bmp
 image/cgm cgm
 image/cmu-raster
@@ -2086,6 +2093,9 @@ text/1d-interleaved-parityfec
 text/cache-manifest appcache manifest
 text/calendar ics ifb
 text/comma-separated-values csv
+text/cql
+text/cql-expression
+text/cql-identifier
 text/css css
 text/csv csv
 text/csv-schema
@@ -2095,6 +2105,7 @@ text/ecmascript es ecma
 text/encaprtp
 text/enriched
 text/example
+text/fhirpath
 text/flexfec
 text/fwdred
 text/gff3
@@ -2192,6 +2203,7 @@ video/1d-interleaved-parityfec
 video/3gpp 3gp 3gpp
 video/3gpp-tt
 video/3gpp2 3g2 3gpp2
+video/AV1
 video/BMPEG
 video/BT656
 video/CelB
@@ -2232,6 +2244,7 @@ video/raw
 video/rtp-enc-aescm128
 video/rtploopback
 video/rtx
+video/scip
 video/smpte291
 video/SMPTE292M
 video/ulpfec

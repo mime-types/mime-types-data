@@ -1,70 +1,81 @@
 # MIME Types Changes by Version
 
+<!-- automatic-release -->
+
+## 3.2021.0212 / 2021-02-12
+
+- Updated the IANA media registry entries as of release date.
+
+- Added a new rake task (`release:automatic`) that downloads and converts the
+  data from Apache and IANA; if there are changes detected, it updates the
+  release version, changelog, manifest, and gemspec and commits the changes
+  to git.
+
 ## 3.2020.1104 / 2020-11-04
 
 - Updated the IANA media registry entries as of release date.
 
-- Added `application/x-zip-compressed`. [#36][].
+- Added `application/x-zip-compressed`. [#36].
 
 - Updated the contributing guide to include information about the release
-  process as described in [#18][].
+  process as described in [#18].
 
-- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35][].
+- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35].
 
 ## 3.2020.0512 / 2020-05-12
 
 - Updated the IANA media registry entries as of release date.
 
-- Added file extensions for HEIC image types. [#34][].
+- Added file extensions for HEIC image types. [#34].
 
 ## 3.2020.0425 / 2020-04-25
 
 - Updated the IANA media registry entries as of release date.
 
 - Added several RAW image types based on data from GNOME RAW Thumbnailer.
-  [#33][] fixing [#32][].
+  [#33] fixing [#32].
 
-- Added `audio/wav`. [#31][].
+- Added `audio/wav`. [#31].
 
-- Added a type for Smarttech notebook files. [#30][].
+- Added a type for Smarttech notebook files. [#30].
 
-- Added an alias for audio/m4a files. [#29][].
+- Added an alias for audio/m4a files. [#29].
 
-- Added application/x-ms-dos-executable. [#28][].
+- Added application/x-ms-dos-executable. [#28].
 
 ## 3.2019.1009 / 2019-10-09
 
 - Updated the IANA media registry entries as of release date.
 
 - Reordered the `.ai` extension so that it is not the preferred extension for
-  `application/pdf` [#24][].
+  `application/pdf` [#24].
 
 ## 3.2019.0904 / 2019-09-04
 
 - Updated the IANA media registry entries as of release date.
 
 - Moved the `.ai` extension from `application/postscript` to `application/pdf`.
-  [#23][] fixing [#22][].
+  [#23] fixing [#22].
 
 ## 3.2019.0331 / 2019-03-31
 
 - Updated the IANA media registry entries as of release date.
 
-- Added support for `application/wasm` with extension `.wasm`. [#21][]
+- Added support for `application/wasm` with extension `.wasm`. [#21]
 
-- Fixed `application/ecmascript` extensions. [#20][]
+- Fixed `application/ecmascript` extensions. [#20]
 
 ## 3.2018.0812 / 2018-08-12
 
-- Added `.xsd` extension to `text/xml`. [#10][]
+- Added `.xsd` extension to `text/xml`. [#10]
 
 - Added `.js` and `.mjs` extensions to `text/ecmascript` and
-  `text/javascript`. [#11][]
+  `text/javascript`. [#11]
 
-- Added `.ipa` extension to `application/octet-stream`. [#12][]
+- Added `.ipa` extension to `application/octet-stream`. [#12]
 
 - Moved extensions `.markdown` and `.md` and added `.mkd` extension to
-  `text/markdown`. [#13][]
+  `text/markdown`. [#13]
 
 - Because of a bug found with mime-types 3 before 3.2.1, this version
   requires mime-types 3.1 or later to manage data.
@@ -136,7 +147,7 @@
 ## 3.2015.1120 / 2015-11-20
 
 - Extracted from [ruby-mime-types][rmt].
-- Added a [Code of Conduct][].
+- Added a [Code of Conduct].
 - The versioning has changed to be semantic on format plus date in two parts.
 
   - All registry formats have been updated to remove deprecated data.

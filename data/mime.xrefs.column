@@ -16,8 +16,8 @@ rfc^rfc7285|template^application/alto-endpointpropparams+json
 rfc^rfc7285|template^application/alto-error+json
 rfc^rfc7285|template^application/alto-networkmap+json
 rfc^rfc7285|template^application/alto-networkmapfilter+json
-draft^RFC-ietf-alto-incr-update-sse-22|template^application/alto-updatestreamcontrol+json
-draft^RFC-ietf-alto-incr-update-sse-22|template^application/alto-updatestreamparams+json
+rfc^rfc8895|template^application/alto-updatestreamcontrol+json
+rfc^rfc8895|template^application/alto-updatestreamparams+json
 person^ASAM^Thomas_Thomsen|template^application/AML
 person^Nathaniel_Borenstein|template^application/andrew-inset
 -
@@ -48,7 +48,7 @@ rfc^rfc1895|template^application/CALS-1840
 -
 draft^RFC-ietf-ecrit-data-only-ea-22|template^application/cap+xml
 rfc^rfc8908|template^application/captive+json
-draft^RFC-ietf-cbor-7049bis-16|template^application/cbor
+rfc^rfc8949|template^application/cbor
 rfc^rfc8742|template^application/cbor-seq
 person^_3GPP|template^application/cccex
 rfc^rfc6503|template^application/ccmp+xml
@@ -66,17 +66,17 @@ rfc^rfc4708|template^application/cellml+xml
 rfc^rfc6230|template^application/cfw
 -
 person^Andy_Miller^IMS_Global|template^application/clr
-draft^RFC-ietf-clue-protocol-19|template^application/clue+xml
-draft^RFC-ietf-clue-data-model-schema-17|template^application/clue_info+xml
+rfc^rfc8847|template^application/clue+xml
+rfc^rfc8846|template^application/clue_info+xml
 rfc^rfc7193|template^application/cms
 rfc^rfc3367|template^application/cnrp+xml
 rfc^rfc7390|template^application/coap-group+json
 rfc^rfc8075|template^application/coap-payload
 person^David_Glazer|template^application/commonground
 rfc^rfc4575|template^application/conference-info+xml
-rfc^rfc8152|template^application/cose
-rfc^rfc8152|template^application/cose-key
-rfc^rfc8152|template^application/cose-key-set
+draft^RFC-ietf-cose-rfc8152bis-struct-15|template^application/cose
+draft^RFC-ietf-cose-rfc8152bis-struct-15|template^application/cose-key
+draft^RFC-ietf-cose-rfc8152bis-struct-15|template^application/cose-key-set
 rfc^rfc3880|template^application/cpl+xml
 rfc^rfc7030|template^application/csrattrs
 person^Ecma_International_Helpdesk|template^application/csta+xml
@@ -113,6 +113,8 @@ rfc^rfc1767|template^application/EDI-consent
 rfc^rfc1767|template^application/EDI-X12
 rfc^rfc1767|template^application/EDIFACT
 person^Samer_El-Haj-Mahmoud^UEFI_Forum|template^application/efi
+person^Bryn_Rhodes^HL7|template^application/elm+json
+person^Bryn_Rhodes^HL7|template^application/elm+xml
 rfc^rfc8876|template^application/EmergencyCallData.cap+xml
 rfc^rfc7852|template^application/EmergencyCallData.Comment+xml
 rfc^rfc8147|template^application/EmergencyCallData.Control+xml
@@ -186,6 +188,7 @@ person^Ivan_Herman^W3C|template^application/jf2feed+json
 rfc^rfc7515|template^application/jose
 rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
+draft^RFC-ietf-calext-jscalendar-32|template^application/jscalendar+json
 rfc^rfc8259|template^application/json
 rfc^rfc6902|template^application/json-patch+json
 rfc^rfc7464|template^application/json-seq
@@ -366,7 +369,7 @@ rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
 rfc^rfc5055|template^application/scvp-vp-response
-draft^RFC-ietf-mmusic-rfc4566bis-37|template^application/sdp
+rfc^rfc8866|template^application/sdp
 rfc^rfc8417|template^application/secevent+jwt
 rfc^rfc8428|template^application/senml+cbor
 rfc^rfc8428|template^application/senml+json
@@ -437,7 +440,7 @@ rfc^rfc8460|template^application/tlsrpt+gzip
 rfc^rfc8460|template^application/tlsrpt+json
 rfc^rfc8226|template^application/tnauthlist
 -
-draft^RFC-ietf-mmusic-trickle-ice-sip-18|template^application/trickle-ice-sdpfrag
+rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_Working_Group|template^application/trig
 person^W3C^W3C_Timed_Text_Working_Group|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
@@ -638,6 +641,8 @@ person^Robert_Byrnes|template^application/vnd.curl
 -
 person^Matt_Kern|template^application/vnd.cyan.dean.root+xml
 person^Nor_Helmee|template^application/vnd.cybank
+person^Patrick_Dwyer|template^application/vnd.cyclonedx+json
+person^Patrick_Dwyer|template^application/vnd.cyclonedx+xml
 person^Viktor_Haag|template^application/vnd.d2l.coursepackage1p0+zip
 person^Mi_Tar|template^application/vnd.d3m-dataset
 person^Mi_Tar|template^application/vnd.d3m-problem
@@ -1685,7 +1690,7 @@ rfc^rfc8072|template^application/yang-patch+xml
 rfc^rfc6020|template^application/yin+xml
 person^Paul_Lindner|template^application/zip
 rfc^rfc6713|template^application/zlib
-draft^RFC-kucherawy-rfc8478bis-05|template^application/zstd
+rfc^rfc8878|template^application/zstd
 rfc^rfc6015|template^audio/1d-interleaved-parityfec
 rfc^rfc2421^rfc3802|template^audio/32kadpcm
 rfc^rfc3839^rfc6381|template^audio/3gpp
@@ -1786,6 +1791,7 @@ rfc^rfc6295|template^audio/rtp-midi
 rfc^rfc6849|template^audio/rtploopback
 rfc^rfc4588|template^audio/rtx
 -
+person^Daniel_Hanson^Michael_Faller^SCIP|template^audio/scip
 -
 rfc^rfc3558|template^audio/SMV
 rfc^rfc3625|template^audio/SMV-QCP
@@ -1882,6 +1888,7 @@ rfc^rfc8081|template^font/woff2
 person^Howard_Lukk^SMPTE|template^image/aces
 person^David_Singer^ISO-IEC_JTC1|template^image/avci
 person^David_Singer^ISO-IEC_JTC1|template^image/avcs
+person^Alliance_for_Open_Media^Cyril_Concolato|template^image/avif
 rfc^rfc7903|template^image/bmp
 person^Alan_Francis|template^image/cgm
 -
@@ -2086,6 +2093,9 @@ rfc^rfc6015|template^text/1d-interleaved-parityfec
 person^Robin_Berjon^W3C|template^text/cache-manifest
 rfc^rfc5545|template^text/calendar
 -
+person^Bryn_Rhodes^HL7|template^text/cql
+person^Bryn_Rhodes^HL7|template^text/cql-expression
+person^Bryn_Rhodes^HL7|template^text/cql-identifier
 rfc^rfc2318|template^text/css
 rfc^rfc4180^rfc7111|template^text/csv
 person^David_Underdown^National_Archives_UK|template^text/csv-schema
@@ -2095,6 +2105,7 @@ notes^- OBSOLETED in favor of application/ecmascript|rfc^rfc4329|template^text/e
 rfc^rfc6849|template^text/encaprtp
 rfc^rfc1896
 rfc^rfc4735|template^text/example
+person^Bryn_Rhodes^HL7|template^text/fhirpath
 rfc^rfc8627|template^text/flexfec
 rfc^rfc6354|template^text/fwdred
 person^Sequence_Ontology|template^text/gff3
@@ -2192,6 +2203,7 @@ rfc^rfc6015|template^video/1d-interleaved-parityfec
 rfc^rfc3839^rfc6381|template^video/3gpp
 rfc^rfc4396|template^video/3gpp-tt
 rfc^rfc4393^rfc6381|template^video/3gpp2
+person^Alliance_for_Open_Media|template^video/AV1
 rfc^rfc3555|template^video/BMPEG
 rfc^rfc3555|template^video/BT656
 rfc^rfc3555|template^video/CelB
@@ -2232,6 +2244,7 @@ rfc^rfc4175|template^video/raw
 person^_3GPP|template^video/rtp-enc-aescm128
 rfc^rfc6849|template^video/rtploopback
 rfc^rfc4588|template^video/rtx
+person^Daniel_Hanson^Michael_Faller^SCIP|template^video/scip
 rfc^rfc8331|template^video/smpte291
 rfc^rfc3497|template^video/SMPTE292M
 rfc^rfc5109|template^video/ulpfec

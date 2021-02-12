@@ -3,7 +3,7 @@
 module MIME
   class Types
     module Data
-      VERSION = '3.2020.1104'
+      VERSION = '3.2021.0212'
 
       # The path that will be used for loading the MIME::Types data. The
       # default location is __FILE__/../../../../data, which is where the data

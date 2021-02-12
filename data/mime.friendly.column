@@ -122,6 +122,8 @@ en^ECMAScript
 -
 -
 -
+-
+-
 en^Extensible MultiModal Annotation
 -
 -
@@ -182,6 +184,7 @@ en^Java Archive
 en^Java Serialized Object
 en^Java Bytecode File
 en^JavaScript
+-
 -
 -
 -
@@ -636,6 +639,8 @@ en^Adobe PostScript Printer Description File Format
 -
 en^CURL Applet
 en^CURL Applet
+-
+-
 -
 -
 -
@@ -1813,6 +1818,7 @@ en^Ogg Audio
 -
 -
 -
+-
 en^DECE Audio
 en^Digital Winds Music
 -
@@ -1872,6 +1878,7 @@ en^Chemical Markup Language
 en^Chemical Style Markup Language
 -
 en^XYZ File Format
+-
 -
 -
 -
@@ -2086,8 +2093,12 @@ en^Virtual Reality Modeling Language
 -
 en^iCalendar
 -
+-
+-
+-
 en^Cascading Style Sheets (CSS)
 en^Comma-Separated Values
+-
 -
 -
 -
@@ -2201,6 +2212,7 @@ en^3GP2
 -
 -
 -
+-
 en^H.261
 en^H.263
 -
@@ -2227,6 +2239,7 @@ en^Ogg Video
 -
 -
 en^Quicktime Video
+-
 -
 -
 -

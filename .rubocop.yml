@@ -3,17 +3,58 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   ExtraDetails: true
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.6
+  UseCache: true
+  NewCops: enable
   Exclude:
-    - mime-types-data.gemspec
+    - '**/*.gemspec'
 
-Style/AlignHash:
+##
+# Disable items that may require a Ruby > 2.0, our minimum supported version.
+# When we can comfortably require Ruby >= 2.6 (version 4.x), these can be
+# enabled.
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Layout/HeredocIndentation:
+  Enabled: false
+##
+
+##
+# There are cases where Rubocop's default is just wrong to my eyes of having
+# used Ruby for the last twenty years. Sometimes, we just disable the cop
+# because it doesn't offer any useful configuration. Where we can, we change
+# the configuration. Where we can't, we disable.
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    default: ()
+    '%i': ()
+    '%I': ()
+    '%w': ()
+    '%W': ()
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Layout/HashAlignment:
   EnforcedColonStyle: key
   EnforcedHashRocketStyle: key
-  EnforcedLastArgumentHashStyle: enforce_implicit
+  EnforcedLastArgumentHashStyle: ignore_implicit
 
-Style/AlignParameters:
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/ParameterAlignment:
   EnforcedStyle: with_fixed_indentation
+
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: compact
 
 Style/AndOr:
   Enabled: false
@@ -21,7 +62,7 @@ Style/AndOr:
 Style/AsciiComments:
   Enabled: false
 
-Style/AsciiIdentifiers:
+Naming/AsciiIdentifiers:
   Enabled: false
 
 Style/BarePercentLiterals:
@@ -29,9 +70,6 @@ Style/BarePercentLiterals:
 
 Style/BlockDelimiters:
   Enabled: false
-
-Style/BracesAroundHashParameters:
-  EnforcedStyle: context_dependent
 
 Style/ClassAndModuleChildren:
   Enabled: false
@@ -42,14 +80,8 @@ Style/ClassCheck:
 Style/CommandLiteral:
   EnforcedStyle: percent_x
 
-Style/CommentAnnotation:
-  Enabled: true
-
 Style/Copyright:
   Enabled: false
-
-Style/DotPosition:
-  EnforcedStyle: trailing
 
 Style/DoubleNegation:
   Enabled: false
@@ -57,7 +89,7 @@ Style/DoubleNegation:
 Style/Encoding: # For a gem that is using Ruby 1.9, change this to true.
   Enabled: false
 
-Style/FileName:
+Naming/FileName:
   Exclude:
     - lib/mime-types-data.rb
 
@@ -67,8 +99,6 @@ Style/FormatString:
 Style/MultilineBlockChain:
   Enabled: false
 
-Style/MultilineOperationIndentation:
-  EnforcedStyle: indented
 
 Style/ParallelAssignment:
   Enabled: false
@@ -76,30 +106,29 @@ Style/ParallelAssignment:
 Style/RegexpLiteral:
   Enabled: false
 
-Style/SpaceInsideBrackets:
+Style/RedundantPercentQ:
   Enabled: false
 
-Style/UnneededPercentQ:
-  Enabled: false
+##
+# Disable all of the stupid hobgoblins
 
-# This is one of the hobgoblins.
 Metrics/AbcSize:
   Enabled: false
 
-# This is one of the hobgoblins.
 Metrics/ClassLength:
+  Enabled: false
+
+Metrics/BlockLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
   Enabled: false
 
-Metrics/LineLength:
-  Exclude:
-    - Rakefile
-
-# This is one of the hobgoblins.
 Metrics/MethodLength:
   Enabled: false
 
 Metrics/PerceivedComplexity:
   Enabled: false
+
+# End of hobgoblins
+##

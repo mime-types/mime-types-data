@@ -24,10 +24,11 @@ class IANARegistry
 
     puts 'Downloading IANA MIME type assignments.'
     puts "\t#{url}"
-    xml = Nokogiri::XML(open(url, &:read))
+    xml = Nokogiri::XML(URI.parse(url).open(&:read))
 
     xml.css('registry registry').each do |registry|
       next if registry.at_css('title').text == 'example'
+
       new(registry: registry, to: dest) do |parser|
         puts "Extracting #{parser.type}/*."
         parser.parse

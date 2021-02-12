@@ -129,6 +129,8 @@ application/cals-1840
 -
 -
 -
+-
+-
 application/vnd.ms-excel
 -
 -
@@ -167,6 +169,7 @@ application/x-hep
 -
 -
 application/x-imagemap
+-
 -
 -
 -
@@ -557,6 +560,8 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 application/vnd.aristanetworks.swi
+-
+-
 -
 -
 -
@@ -1840,6 +1845,7 @@ application/x400-bp
 -
 -
 -
+-
 audio/qcelp
 -
 -
@@ -1873,6 +1879,7 @@ audio/qcelp
 x-chemical/x-pdb
 x-chemical/x-xyz
 x-drawing/dwf
+-
 -
 -
 -
@@ -2091,7 +2098,11 @@ text/csv
 -
 -
 -
+-
+-
+-
 application/ecmascript
+-
 -
 -
 -
@@ -2195,12 +2206,14 @@ model/vnd.flatland.3dml
 -
 -
 -
+-
 video/x-dl
 -
 -
 -
 -
 video/x-gl
+-
 -
 -
 -

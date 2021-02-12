@@ -44,6 +44,36 @@
   use-instead: text/csv
   registered: false
 - !ruby/object:MIME::Type
+  content-type: text/cql
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - text/cql
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/cql-expression
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - text/cql-expression
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/cql-identifier
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - text/cql-identifier
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/css
   friendly:
     en: Cascading Style Sheets (CSS)
@@ -142,6 +172,16 @@
     - rfc4735
     template:
     - text/example
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/fhirpath
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Bryn_Rhodes
+    - HL7
+    template:
+    - text/fhirpath
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/flexfec
