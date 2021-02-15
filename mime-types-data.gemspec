@@ -19,6 +19,13 @@ Gem::Specification.new do |s|
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
   s.rubygems_version = "3.0.3".freeze
   s.summary = "mime-types-data provides a registry for information about MIME media type definitions".freeze
+  s.metadata = {
+    'bug_tracker_uri' => "#{s.homepage}/issues".freeze,
+    'changelog_uri' => "#{s.homepage}/blob/master/History.md".freeze,
+    'documentation_uri' => "https://www.rubydoc.info/gems/#{s.name}".freeze,
+    'homepage_uri' => s.homepage,
+    'source_code_uri' => s.homepage
+  }
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
