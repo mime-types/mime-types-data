@@ -32,6 +32,8 @@
 - !ruby/object:MIME::Type
   content-type: image/avif
   encoding: base64
+  extensions:
+    - avif
   xrefs:
     person:
     - Alliance_for_Open_Media
