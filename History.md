@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2021.0212 / 2021-02-25
+
+- Added file extension for AVIF video format. [#40].
+
 ## 3.2021.0212 / 2021-02-12
 
 - Updated the IANA media registry entries as of release date.
@@ -457,5 +461,6 @@
 [#34]: https://github.com/mime-types/mime-types-data/pull/34
 [#35]: https://github.com/mime-types/mime-types-data/pull/35
 [#36]: https://github.com/mime-types/mime-types-data/pull/36
+[#40]: https://github.com/mime-types/mime-types-data/pull/40
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md

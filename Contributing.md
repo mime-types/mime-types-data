@@ -211,6 +211,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Richard Hirner
 - Richard Hurt
 - Richard Schneeman
+- Robert Buchberger
 - Sergio Baptista
 - Tao Guo
 - Thomas Leese
