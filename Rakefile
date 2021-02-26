@@ -135,11 +135,11 @@ namespace :update do
 
     if history !~ /^## #{release_header}$/
       note = <<-NOTE
-  <!-- automatic-release -->
+<!-- automatic-release -->
 
-  #{release_header}
+## #{release_header}
 
-  - Updated the IANA media registry entries as of release date.
+- Updated the Apache and IANA media registry entries as of release date.
       NOTE
 
       updated = history.sub(/<!-- automatic-release -->\n/, note)
