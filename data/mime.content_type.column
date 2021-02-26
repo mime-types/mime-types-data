@@ -1888,7 +1888,7 @@ font/woff2 woff2
 image/aces
 image/avci
 image/avcs
-image/avif
+image/avif avif
 image/bmp bmp
 image/cgm cgm
 image/cmu-raster

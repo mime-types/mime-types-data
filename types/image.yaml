@@ -33,7 +33,7 @@
   content-type: image/avif
   encoding: base64
   extensions:
-    - avif
+  - avif
   xrefs:
     person:
     - Alliance_for_Open_Media

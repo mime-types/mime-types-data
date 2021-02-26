@@ -134,8 +134,8 @@ rfc^rfc4735|template^application/example
 -
 person^W3C|template^application/exi|uri^http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration
 draft^RFC-ietf-httpbis-expect-ct-08|template^application/expect-ct-report+json
-person^ITU-T_ASN.1_Rapporteur|template^application/fastinfoset
-person^ITU-T_ASN.1_Rapporteur|template^application/fastsoap
+person^ISO-IEC_JTC1_SC6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastinfoset
+person^ISO-IEC_JTC1_SC6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastsoap
 rfc^rfc6726|template^application/fdt+xml
 person^Grahame_Grieve^HL7|template^application/fhir+json
 person^Grahame_Grieve^HL7|template^application/fhir+xml
@@ -402,7 +402,7 @@ person^Terry_Crowley|template^application/slate
 notes^- OBSOLETED in favor of application/smil+xml|rfc^rfc4536|template^application/smil
 rfc^rfc4536|template^application/smil+xml
 rfc^rfc6597|template^application/smpte336m
-person^ITU-T_ASN.1_Rapporteur|template^application/soap+fastinfoset
+person^ISO-IEC_JTC1_SC6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/soap+fastinfoset
 rfc^rfc3902|template^application/soap+xml
 -
 person^W3C|template^application/sparql-query|uri^http://www.w3.org/TR/2007/CR-rdf-sparql-query-20070614/#mediaType

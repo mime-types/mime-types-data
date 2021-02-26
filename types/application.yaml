@@ -1299,6 +1299,7 @@
   encoding: base64
   xrefs:
     person:
+    - ISO-IEC_JTC1_SC6_ASN.1_Rapporteur
     - ITU-T_ASN.1_Rapporteur
     template:
     - application/fastinfoset
@@ -1308,6 +1309,7 @@
   encoding: base64
   xrefs:
     person:
+    - ISO-IEC_JTC1_SC6_ASN.1_Rapporteur
     - ITU-T_ASN.1_Rapporteur
     template:
     - application/fastsoap
@@ -4013,6 +4015,7 @@
   encoding: base64
   xrefs:
     person:
+    - ISO-IEC_JTC1_SC6_ASN.1_Rapporteur
     - ITU-T_ASN.1_Rapporteur
     template:
     - application/soap+fastinfoset

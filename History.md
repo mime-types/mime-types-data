@@ -2,7 +2,9 @@
 
 <!-- automatic-release -->
 
-## 3.2021.0212 / 2021-02-25
+## 3.2021.0225 / 2021-02-25
+
+- Updated the Apache and IANA media registry entries as of release date.
 
 - Added file extension for AVIF video format. [#40].
 
