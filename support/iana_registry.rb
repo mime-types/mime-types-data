@@ -14,25 +14,31 @@ require "mime/types/support"
 # IANA Registry importing
 class IANARegistry
   DEFAULTS = {
-    url: "https://www.iana.org/assignments/media-types/media-types.xml",
+    urls: %w[
+      https://www.iana.org/assignments/media-types/media-types.xml
+      https://www.iana.org/assignments/provisional-standard-media-types/provisional-standard-media-types.xml
+    ],
     to: Pathname(__FILE__).join("../../types")
   }.freeze.each_value(&:freeze)
 
   def self.download(options = {})
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
-    url = options.fetch(:url, DEFAULTS[:url])
+    urls = options.fetch(:urls, DEFAULTS[:urls])
 
     puts "Downloading IANA MIME type assignments."
-    puts "\t#{url}"
-    xml = Nokogiri::XML(URI.parse(url).open(&:read))
 
-    xml.css("registry registry").each do |registry|
-      next if registry.at_css("title").text == "example"
+    urls.each do |url|
+      puts "\t#{url}"
+      xml = Nokogiri::XML(URI.parse(url).open(&:read))
 
-      new(registry: registry, to: dest) do |parser|
-        puts "Extracting #{parser.type}/*."
-        parser.parse
-        parser.save
+      xml.css("registry registry").each do |registry|
+        next if registry.at_css("title").text == "example"
+
+        new(registry: registry, to: dest) do |parser|
+          puts "Extracting #{parser.type}/*."
+          parser.parse
+          parser.save
+        end
       end
     end
   end
@@ -42,7 +48,9 @@ class IANARegistry
   def initialize(options = {})
     @registry = options.fetch(:registry)
     @to = Pathname(options.fetch(:to)).expand_path
-    @type = @registry.at_css("title").text
+
+    @type = @registry.attributes["id"].value
+    @provisional = @type == "provisional-standard-types"
     @name = "#{@type}.yaml"
     @file = @to.join(@name)
     @types = mime_types_for(@file)
@@ -73,16 +81,17 @@ class IANARegistry
 
       xrefs.add("notes", notes) if notes
 
-      content_type = [@type, subtype].join("/")
+      content_type = @provisional ? subtype : [ @type, subtype ].join('/')
       types = @types.select { |t| t.content_type.casecmp(content_type).zero? }
 
       if types.empty?
         MIME::Type.new(content_type) do |mt|
           mt.xrefs = xrefs
           mt.registered = true
+          mt.provisional = @provisional
           mt.obsolete = obsolete if obsolete
           mt.use_instead = use_instead if use_instead
-          @types << mt
+          @types.add_type(mt, true)
         end
       else
         types.each { |mt|
@@ -103,7 +112,7 @@ class IANARegistry
   private
 
   def mime_types_for(file)
-    if file.exist?
+    if file.exist? && !@provisional
       MIME::Types::Loader.load_from_yaml(file)
     else
       MIME::Types.new

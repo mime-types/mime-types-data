@@ -29,6 +29,7 @@ types/image.yaml
 types/message.yaml
 types/model.yaml
 types/multipart.yaml
+types/provisional-standard-types.yaml
 types/text.yaml
 types/video.yaml
 types/world.yaml

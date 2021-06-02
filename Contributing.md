@@ -43,7 +43,7 @@ in `types/application.yml`.
   references:
     - IANA
     - RFC3023
-  xrefs: !ruby/hash:MIME::Types::Container
+  xrefs:
     rfc:
       - rfc3023
   registered: true
@@ -69,6 +69,16 @@ types registry used by this gem, you can do this with the rake tasks:
 $ rake mime:iana
 $ rake mime:apache
 ```
+
+##### A Note on Provisional Types
+
+The file `types/provisional-standard-types.yaml` contains the provisionally
+registered types from IANA. Whenever IANA types are updated, the existing
+provisional types should be reviewed in the event that they have been promoted
+to standard types.
+
+It is recommended that customization _not_ be made to provisional types; the
+provisional types file is rewritten on update.
 
 ### Development Dependencies
 
