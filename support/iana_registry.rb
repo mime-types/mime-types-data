@@ -81,7 +81,7 @@ class IANARegistry
 
       xrefs.add("notes", notes) if notes
 
-      content_type = @provisional ? subtype : [ @type, subtype ].join('/')
+      content_type = @provisional ? subtype : [@type, subtype].join("/")
       types = @types.select { |t| t.content_type.casecmp(content_type).zero? }
 
       if types.empty?
