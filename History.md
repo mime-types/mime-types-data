@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2021.0601 / 2021-06-01
+
+- Updated the Apache and IANA media registry entries as of release date.
+
+- Added IANA provisional media registries. Added some notes to Contributing.md
+  about the transient nature of the provisional registration data.
+
 ## 3.2021.0225 / 2021-02-25
 
 - Updated the Apache and IANA media registry entries as of release date.

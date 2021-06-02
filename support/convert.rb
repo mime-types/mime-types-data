@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-ENV['RUBY_MIME_TYPES_LAZY_LOAD'] = 'true'
-require 'mime/types/support'
-require 'fileutils'
-require 'json'
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+ENV["RUBY_MIME_TYPES_LAZY_LOAD"] = "true"
+require "mime/types/support"
+require "fileutils"
+require "json"
 
 # Convert from YAML to JSON (and back) or columnar.
 class Convert
@@ -27,19 +27,19 @@ class Convert
 
     # Converts from YAML to JSON. Defaults to converting to a single file.
     def from_yaml_to_json(args)
-      from_yaml(yaml_path(args.source)).
-        to_json(
-          destination:    json_path(args.destination),
-          multiple_files: multiple_files(args.multiple_files || 'single')
+      from_yaml(yaml_path(args.source))
+        .to_json(
+          destination: json_path(args.destination),
+          multiple_files: multiple_files(args.multiple_files || "single")
         )
     end
 
     # Converts from JSON to YAML. Defaults to converting to multiple files.
     def from_json_to_yaml(args)
-      from_json(json_path(args.source)).
-        to_yaml(
-          destination:    yaml_path(args.destination),
-          multiple_files: multiple_files(args.multiple_files || 'multiple')
+      from_json(json_path(args.source))
+        .to_yaml(
+          destination: yaml_path(args.destination),
+          multiple_files: multiple_files(args.multiple_files || "multiple")
         )
     end
 
@@ -48,15 +48,15 @@ class Convert
     private
 
     def yaml_path(path)
-      path_or_default(path, 'types')
+      path_or_default(path, "types")
     end
 
     def json_path(path)
-      path_or_default(path, 'data')
+      path_or_default(path, "data")
     end
 
     def path_or_default(path, default)
-      if path.nil? or path.empty?
+      if path.nil? || path.empty?
         default
       else
         path
@@ -65,7 +65,7 @@ class Convert
 
     def multiple_files(flag)
       case flag.to_s.downcase
-      when 'true', 'yes', 'multiple'
+      when "true", "yes", "multiple"
         true
       else
         false
@@ -74,8 +74,8 @@ class Convert
   end
 
   def initialize(options = {})
-    raise ArgumentError, ':path is required' if options[:path].nil? or options[:path].empty?
-    raise ArgumentError, ':from is required' if options[:from].nil? or options[:from].empty?
+    raise ArgumentError, ":path is required" if options[:path].nil? || options[:path].empty?
+    raise ArgumentError, ":from is required" if options[:from].nil? || options[:from].empty?
 
     @loader = MIME::Types::Loader.new(options[:path])
     load_from(options[:from])
@@ -112,7 +112,7 @@ class Convert
     d = options[:destination]
     d = File.join(d, "mime-types.#{options[:format]}") if File.directory?(d)
 
-    File.open(d, 'wb') { |f|
+    File.open(d, "wb") { |f|
       f.puts convert(@loader.container.map.sort, options[:format])
     }
   end
@@ -125,7 +125,7 @@ class Convert
     media_types.each { |media_type|
       n = File.join(d, "#{media_type}.#{options[:format]}")
       t = @loader.container.select { |e| e.media_type == media_type }
-      File.open(n, 'wb') { |f|
+      File.open(n, "wb") { |f|
         f.puts convert(t.sort, options[:format])
       }
     }
@@ -136,11 +136,11 @@ class Convert
   end
 
   def require_destination!
-    raise ArgumentError, 'Destination path is required.'
+    raise ArgumentError, "Destination path is required."
   end
 
   def must_be_directory!(path)
-    raise ArgumentError, 'Cannot write multiple files to a file.' if File.exist?(path) && !File.directory?(path)
+    raise ArgumentError, "Cannot write multiple files to a file." if File.exist?(path) && !File.directory?(path)
 
     FileUtils.mkdir_p(path) unless File.exist?(path)
     path

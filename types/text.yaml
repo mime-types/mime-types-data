@@ -492,6 +492,16 @@
     - text/shaclc
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/shex
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Eric_Prudhommeaux
+    - W3C
+    template:
+    - text/shex
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/spdx
   encoding: quoted-printable
   xrefs:
