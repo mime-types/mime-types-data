@@ -257,6 +257,17 @@
     - rfc2046
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/jxl
+  friendly:
+    en: JPEG XL Image
+  encoding: base64
+  extensions:
+  - jxl
+  xrefs:
+    person:
+    - ISO-IEC_JTC1
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/jph
   encoding: base64
   xrefs:
