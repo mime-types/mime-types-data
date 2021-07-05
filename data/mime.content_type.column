@@ -214,7 +214,7 @@ application/mac-compactpro cpt
 application/macbinary
 application/macwriteii
 application/mads+xml mads
-application/manifest+json
+application/manifest+json webmanifest
 application/marc mrc
 application/marcxml+xml mrcx
 application/mathcad mcd
