@@ -121,6 +121,15 @@
     - video/example
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/FFV1
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cellar-ffv1-20
+    template:
+    - video/FFV1
+  registered: true
+- !ruby/object:MIME::Type
   content-type: video/flexfec
   encoding: base64
   xrefs:
@@ -935,6 +944,15 @@
     - rfc7741
     template:
     - video/VP8
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: video/VP9
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-payload-vp9-16
+    template:
+    - video/VP9
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/webm

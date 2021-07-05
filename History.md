@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2021.0704 / 2021-07-04
+
+- Updated the Apache and IANA media registry entries as of release date.
+
 ## 3.2021.0225 / 2021-02-25
 
 - Updated the Apache and IANA media registry entries as of release date.

@@ -19,6 +19,8 @@
 -
 -
 -
+-
+-
 en^Andrew Toolkit
 -
 -
@@ -212,6 +214,7 @@ en^Compact Pro
 -
 -
 en^Metadata Authority Description Schema
+-
 en^MARC Formats
 en^MARC21 XML Schema
 -
@@ -244,6 +247,7 @@ en^Metadata Encoding and Transmission Standard
 -
 -
 -
+-
 en^Metadata Object Description Schema
 -
 -
@@ -262,6 +266,7 @@ en^Microsoft Word
 -
 -
 en^Material Exchange Format
+-
 -
 -
 -
@@ -356,6 +361,7 @@ en^XML Resource Lists
 en^Really Simple Discovery
 en^RSS - Really Simple Syndication
 en^Rich Text Format
+-
 -
 -
 -
@@ -492,9 +498,15 @@ en^Time Stamped Data Envelope
 -
 -
 -
+-
+-
+-
+-
+-
 en^3rd Generation Partnership Project - Pic Large
 en^3rd Generation Partnership Project - Pic Small
 en^3rd Generation Partnership Project - Pic Var
+-
 -
 -
 -
@@ -547,6 +559,8 @@ en^Android Package Archive
 en^ANSER-WEB Terminal Client - Certificate Issue
 en^ANSER-WEB Terminal Client - Web Funds Transfer
 en^Antix Game Player
+-
+-
 -
 -
 -
@@ -627,6 +641,8 @@ en^CrickSoftware - Clicker - Palette
 en^CrickSoftware - Clicker - Template
 en^CrickSoftware - Clicker - Wordbank
 en^Critical Tools - PERT Chart EXPERT
+-
+-
 -
 -
 en^PosML
@@ -766,6 +782,10 @@ en^FrameMaker Normal Format
 en^Frogans Player
 en^Frogans Player
 en^Friendly Software Corporation
+-
+-
+-
+-
 en^Fujitsu Oasys
 en^Fujitsu Oasys
 en^Fujitsu Oasys
@@ -1019,6 +1039,7 @@ en^Muvee Automatic Video Editing
 -
 -
 -
+-
 en^neuroLanguage
 -
 -
@@ -1137,6 +1158,7 @@ en^OMA Download Agents
 -
 -
 en^Open Office Extension
+-
 -
 -
 -
@@ -1277,6 +1299,7 @@ en^Recordare Applications
 en^Recordare Applications
 -
 -
+-
 en^CryptoNote
 en^Blackberry COD File
 en^RealMedia
@@ -1400,6 +1423,7 @@ en^Unique Object Markup Language
 -
 -
 en^VirtualCatalog
+-
 -
 -
 -
@@ -2059,6 +2083,8 @@ en^Virtue MTS
 -
 -
 -
+-
+-
 en^Virtue VTU
 en^Virtual Reality Modeling Language
 -
@@ -2136,6 +2162,7 @@ en^Standard Generalized Markup Language (SGML)
 -
 -
 -
+-
 en^Tab Separated Values
 en^troff
 en^Turtle (Terse RDF Triple Language)
@@ -2203,6 +2230,7 @@ en^vCard
 en^3GP
 -
 en^3GP2
+-
 -
 -
 -
@@ -2285,6 +2313,7 @@ en^Microsoft PlayReady Ecosystem Video
 -
 en^DECE MP4
 en^Vivo
+-
 -
 -
 en^Open Web Media Project - Video
