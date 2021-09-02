@@ -62,7 +62,7 @@ end
 
 namespace :release do
   task __pull: %w(mime:apache mime:iana convert)
-  task __prepare: %w(update:version update:history git:manifest gemspec)
+  task __prepare: %w(update:version update:history git:manifest)
   task :__commit do
     history = IO.read('History.md')
     message = history.scan(%r{## (#{release_header}.+?)## \d\.\d{4}\.\d{4} /}m).flatten.first
@@ -76,6 +76,7 @@ namespace :release do
   task automatic: :__pull do
     if system('git diff --quiet --exit-code') == false
       Rake::Task['release:__prepare'].invoke
+      Rake::Task['gemspec'].invoke
       Rake::Task['release:__commit'].invoke
     else
       warn 'No changes detected.'
