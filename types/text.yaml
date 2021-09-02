@@ -989,6 +989,8 @@
 - !ruby/object:MIME::Type
   content-type: text/vtt
   encoding: quoted-printable
+  extensions:
+  - vtt
   xrefs:
     person:
     - Silvia_Pfeiffer
