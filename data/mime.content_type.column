@@ -6,6 +6,7 @@ application/3gppHalForms+json
 application/A2L
 application/acad
 application/access mdf mda mdb mde
+application/ace+cbor
 application/activemessage
 application/activity+json
 application/alto-costmap+json
@@ -136,6 +137,7 @@ application/example
 application/excel xls xlt
 application/exi exi
 application/expect-ct-report+json
+application/express
 application/fastinfoset
 application/fastsoap
 application/fdt+xml
@@ -291,6 +293,8 @@ application/onenote onepkg onetmp onetoc onetoc2
 application/opc-nodeset+xml
 application/oscore
 application/oxps oxps
+application/p21
+application/p21+zip
 application/p2p-overlay+xml
 application/parityfec
 application/passport
@@ -2068,6 +2072,10 @@ model/iges igs iges
 model/mesh msh mesh silo
 model/mtl
 model/obj
+model/step
+model/step+xml
+model/step+zip
+model/step-xml+zip
 model/stl
 model/vnd.collada+xml dae
 model/vnd.dwf dwf
@@ -2206,7 +2214,7 @@ text/vnd.wap.si si
 text/vnd.wap.sl sl
 text/vnd.wap.wml wml
 text/vnd.wap.wmlscript wmls
-text/vtt
+text/vtt vtt
 text/x-asm asm s
 text/x-c c cc cpp cxx dic h hh
 text/x-coffescript coffee
@@ -2253,6 +2261,7 @@ video/iso.segment
 video/JPEG jpgv
 video/jpeg2000
 video/jpm jpgm jpm
+video/jxsv
 video/MJ2 mj2 mjp2
 video/MP1S
 video/MP2P

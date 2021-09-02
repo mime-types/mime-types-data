@@ -21,6 +21,7 @@
 -
 -
 -
+-
 en^Andrew Toolkit
 -
 -
@@ -135,6 +136,7 @@ en^Electronic Publication
 -
 -
 en^Efficient XML Interchange
+-
 -
 -
 -
@@ -288,6 +290,8 @@ en^Open eBook Publication Structure
 en^Ogg
 -
 en^Microsoft OneNote
+-
+-
 -
 -
 -
@@ -2069,6 +2073,10 @@ en^Mesh Data Type
 -
 -
 -
+-
+-
+-
+-
 en^COLLADA
 en^Autodesk Design Web Format (DWF)
 -
@@ -2253,6 +2261,7 @@ en^H.264
 en^JPGVideo
 -
 en^JPEG 2000 Compound Image File Format
+-
 en^Motion JPEG 2000
 -
 -

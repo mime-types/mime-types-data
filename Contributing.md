@@ -198,6 +198,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Henrik Hodne
 - Jeremy Evans
 - John Gardner
+- Jonas Petersen
 - Juanito Fatas
 - Keerthi Siva
 - Ken Ip

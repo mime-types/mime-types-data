@@ -2,6 +2,12 @@
 
 <!-- automatic-release -->
 
+## 3.2021.0901 / 2021-09-01
+
+- Updated the Apache and IANA media registry entries as of release date.
+
+- Added file extension for WebVTT text format. [#46].
+
 ## 3.2021.0704 / 2021-07-04
 
 - Updated the Apache and IANA media registry entries as of release date.
@@ -468,5 +474,6 @@
 [#35]: https://github.com/mime-types/mime-types-data/pull/35
 [#36]: https://github.com/mime-types/mime-types-data/pull/36
 [#40]: https://github.com/mime-types/mime-types-data/pull/40
+[#46]: https://github.com/mime-types/mime-types-data/pull/46
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md

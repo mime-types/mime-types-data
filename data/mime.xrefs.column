@@ -6,6 +6,7 @@ person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
 person^ASAM^Thomas_Thomsen|template^application/A2L
 -
 -
+draft^RFC-ietf-ace-oauth-authz-45|template^application/ace+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
 rfc^rfc7285|template^application/alto-costmap+json
@@ -95,8 +96,8 @@ person^ASAM^Thomas_Thomsen|template^application/DCD
 person^Larry_Campbell|template^application/dec-dx
 rfc^rfc4235|template^application/dialog-info+xml
 rfc^rfc3240|template^application/dicom
-person^DICOM_Standards_Committee^David_Clunie^James_F_Philbin|template^application/dicom+json
-person^DICOM_Standards_Committee^David_Clunie^James_F_Philbin|template^application/dicom+xml
+person^DICOM_Standards_Committee^David_Clunie|template^application/dicom+json
+person^DICOM_Standards_Committee^David_Clunie|template^application/dicom+xml
 person^ASAM^Thomas_Thomsen|template^application/DII
 person^ASAM^Thomas_Thomsen|template^application/DIT
 rfc^rfc4027|template^application/dns
@@ -136,6 +137,7 @@ rfc^rfc4735|template^application/example
 -
 person^W3C|template^application/exi|uri^http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration
 draft^RFC-ietf-httpbis-expect-ct-08|template^application/expect-ct-report+json
+person^Dana_Tripp^ISO-TC_184-SC_4|template^application/express
 person^ISO-IEC_JTC1_SC6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastinfoset
 person^ISO-IEC_JTC1_SC6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastsoap
 rfc^rfc6726|template^application/fdt+xml
@@ -190,7 +192,7 @@ person^Ivan_Herman^W3C|template^application/jf2feed+json
 rfc^rfc7515|template^application/jose
 rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
-draft^RFC-ietf-calext-jscalendar-32|template^application/jscalendar+json
+rfc^rfc8984|template^application/jscalendar+json
 rfc^rfc8259|template^application/json
 rfc^rfc6902|template^application/json-patch+json
 rfc^rfc7464|template^application/json-seq
@@ -291,6 +293,8 @@ rfc^rfc5334^rfc7845|template^application/ogg
 person^OPC_Foundation|template^application/opc-nodeset+xml
 rfc^rfc8613|template^application/oscore
 person^Ecma_International_Helpdesk|template^application/oxps
+person^Dana_Tripp^ISO-TC_184-SC_4|template^application/p21
+person^Dana_Tripp^ISO-TC_184-SC_4|template^application/p21+zip
 rfc^rfc6940|template^application/p2p-overlay+xml
 rfc^rfc3009|template^application/parityfec
 rfc^rfc8225|template^application/passport
@@ -1807,7 +1811,7 @@ rfc^rfc5391|template^audio/PCMA-WB
 rfc^rfc4856|template^audio/PCMU
 rfc^rfc5391|template^audio/PCMU-WB
 person^Linus_Walleij|template^audio/prs.sid
-rfc^rfc3555^rfc3625
+rfc^rfc3555^rfc3625|template^audio/QCELP
 rfc^rfc6682|template^audio/raptorfec
 rfc^rfc3555|template^audio/RED
 person^_3GPP|template^audio/rtp-enc-aescm128
@@ -2068,6 +2072,10 @@ person^Curtis_Parks|template^model/iges
 rfc^rfc2077
 person^DICOM_Standards_Committee^Luiza_Kowalczyk|template^model/mtl
 person^DICOM_Standards_Committee^Luiza_Kowalczyk|template^model/obj
+person^Dana_Tripp^ISO-TC_184-SC_4|template^model/step
+person^Dana_Tripp^ISO-TC_184-SC_4|template^model/step+xml
+person^Dana_Tripp^ISO-TC_184-SC_4|template^model/step+zip
+person^Dana_Tripp^ISO-TC_184-SC_4|template^model/step-xml+zip
 person^DICOM_Standards_Committee^Lisa_Spellman|template^model/stl
 person^James_Riordon|template^model/vnd.collada+xml
 person^Jason_Pratt|template^model/vnd.dwf
@@ -2238,7 +2246,7 @@ rfc^rfc3555|template^video/CelB
 rfc^rfc6469|template^video/DV
 rfc^rfc6849|template^video/encaprtp
 rfc^rfc4735|template^video/example
-draft^RFC-ietf-cellar-ffv1-20|template^video/FFV1
+rfc^rfc9043|template^video/FFV1
 rfc^rfc8627|template^video/flexfec
 -
 rfc^rfc4587|template^video/H261
@@ -2253,6 +2261,7 @@ person^David_Singer^ISO-IEC_JTC1|template^video/iso.segment
 rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
 -
+draft^RFC-ietf-payload-rtp-jpegxs-18|template^video/jxsv
 rfc^rfc3745|template^video/mj2
 rfc^rfc3555|template^video/MP1S
 rfc^rfc3555|template^video/MP2P

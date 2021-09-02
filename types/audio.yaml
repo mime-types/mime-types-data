@@ -890,6 +890,8 @@
     rfc:
     - rfc3555
     - rfc3625
+    template:
+    - audio/QCELP
   registered: true
 - !ruby/object:MIME::Type
   content-type: audio/raptorfec

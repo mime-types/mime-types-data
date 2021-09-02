@@ -97,6 +97,46 @@
     - model/obj
   registered: true
 - !ruby/object:MIME::Type
+  content-type: model/step
+  encoding: base64
+  xrefs:
+    person:
+    - Dana_Tripp
+    - ISO-TC_184-SC_4
+    template:
+    - model/step
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/step+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Dana_Tripp
+    - ISO-TC_184-SC_4
+    template:
+    - model/step+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/step+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Dana_Tripp
+    - ISO-TC_184-SC_4
+    template:
+    - model/step+zip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/step-xml+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Dana_Tripp
+    - ISO-TC_184-SC_4
+    template:
+    - model/step-xml+zip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/stl
   encoding: base64
   xrefs:

@@ -42,6 +42,7 @@ application/x-msaccess
 -
 -
 -
+-
 application/x-bleeper
 -
 -
@@ -143,6 +144,7 @@ application/vnd.ms-excel
 -
 -
 -
+-
 font/sfnt
 -
 font/woff
@@ -220,6 +222,8 @@ application/x-mac-compactpro
 application/vnd.mcd
 -
 application/x-mathematica-old
+-
+-
 -
 -
 -
@@ -2110,6 +2114,10 @@ image/wmf
 -
 -
 -
+-
+-
+-
+-
 multipart/parallel
 -
 -
@@ -2241,6 +2249,7 @@ video/x-dl
 -
 -
 video/x-gl
+-
 -
 -
 -

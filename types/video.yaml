@@ -124,8 +124,8 @@
   content-type: video/FFV1
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cellar-ffv1-20
+    rfc:
+    - rfc9043
     template:
     - video/FFV1
   registered: true
@@ -272,6 +272,15 @@
   - jpgm
   - jpm
   registered: false
+- !ruby/object:MIME::Type
+  content-type: video/jxsv
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-payload-rtp-jpegxs-18
+    template:
+    - video/jxsv
+  registered: true
 - !ruby/object:MIME::Type
   content-type: video/MJ2
   friendly:
