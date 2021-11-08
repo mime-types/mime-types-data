@@ -1,3 +1,4 @@
+.standard.yml
 Code-of-Conduct.md
 Contributing.md
 History.md
@@ -5,6 +6,8 @@ Licence.md
 Manifest.txt
 README.md
 Rakefile
+data/content_type_mime.db
+data/ext_mime.db
 data/mime-types.json
 data/mime.content_type.column
 data/mime.docs.column

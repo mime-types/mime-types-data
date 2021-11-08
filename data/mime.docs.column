@@ -1950,6 +1950,12 @@
 -
 -
 -
+-
+-
+-
+-
+-
+-
 Fixes a bug with IE6 and progressive JPEGs
 -
 -
@@ -2004,6 +2010,7 @@ Fixes a bug with IE6 and progressive JPEGs
 -
 -
 see-also:image/x-xcf
+-
 -
 -
 -

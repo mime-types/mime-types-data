@@ -119,7 +119,7 @@ namespace :update do
   desc "Update the release version"
   task :version do
     file = IO.read("lib/mime/types/data.rb")
-    updated = file.sub(/VERSION = '[^']+'/, "VERSION = '#{new_version}'")
+    updated = file.sub(/VERSION = ['"][.0-9]+['"]/, %Q(VERSION = "#{new_version}"))
 
     IO.write("lib/mime/types/data.rb", updated)
   end

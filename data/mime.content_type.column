@@ -26,6 +26,7 @@ application/andrew-inset ez
 application/appledouble
 application/applefile
 application/applixware aw
+application/at+jwt
 application/ATF
 application/ATFX
 application/atom+xml atom
@@ -89,6 +90,7 @@ application/cu-seeme cu
 application/cwt
 application/cybercash
 application/dash+xml
+application/dash-patch+xml
 application/dashdelta
 application/davmount+xml davmount
 application/dca-rft
@@ -417,6 +419,7 @@ application/soap+xml
 application/solids
 application/sparql-query rq
 application/sparql-results+xml srx
+application/spdx+json
 application/spirits-event+xml
 application/sql
 application/srgs gram
@@ -449,6 +452,7 @@ application/timestamped-data tsd
 application/tlsrpt+gzip
 application/tlsrpt+json
 application/tnauthlist
+application/token-introspection+jwt
 application/toolbook tbk
 application/trickle-ice-sdpfrag
 application/trig
@@ -547,6 +551,7 @@ application/vnd.afpc.modca-mediummap
 application/vnd.afpc.modca-objectcontainer
 application/vnd.afpc.modca-overlay
 application/vnd.afpc.modca-pagesegment
+application/vnd.age
 application/vnd.ah-barcode
 application/vnd.ahead.space ahead
 application/vnd.airzip.filesecure.azf azf
@@ -1038,6 +1043,7 @@ application/vnd.music-niff
 application/vnd.musician mus
 application/vnd.muvee.style msty
 application/vnd.mynfc taglet
+application/vnd.nacamar.ybrid+json
 application/vnd.ncd.control
 application/vnd.ncd.reference
 application/vnd.nearst.inv+json
@@ -2188,6 +2194,7 @@ text/vnd.debian.copyright
 text/vnd.DMClientScript
 text/vnd.dvb.subtitle sub
 text/vnd.esmertec.theme-descriptor
+text/vnd.familysearch.gedcom
 text/vnd.ficlab.flt
 text/vnd.flatland.3dml
 text/vnd.fly fly
