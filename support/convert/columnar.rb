@@ -27,7 +27,7 @@ class Convert::Columnar < Convert
     required_file("encoding")
     optional_file("pext", "preferred-extension")
     optional_file("docs")
-    bool_file("flags", "obsolete", "registered", "signature")
+    bool_file("flags", "obsolete", "registered", "signature", "provisional")
     dict_file("xrefs")
     dict_file("friendly")
     optional_file("use_instead", "use-instead")

@@ -9,6 +9,9 @@
 - Added conversion utilities that support the `mini_mime` data format. These
   have been ported from the [mini_mime] repository. [#47]
 
+- Added IANA provisional media registries. Added some notes to Contributing.md
+  about the transient nature of the provisional registration data. [#45]
+
 ## 3.2021.0901 / 2021-09-01
 
 - Updated the Apache and IANA media registry entries as of release date.
@@ -481,6 +484,7 @@
 [#35]: https://github.com/mime-types/mime-types-data/pull/35
 [#36]: https://github.com/mime-types/mime-types-data/pull/36
 [#40]: https://github.com/mime-types/mime-types-data/pull/40
+[#45]: https://github.com/mime-types/mime-types-data/pull/45
 [#46]: https://github.com/mime-types/mime-types-data/pull/46
 [#47]: https://github.com/mime-types/mime-types-data/pull/47
 [rmt]: https://github.com/mime-types/ruby-mime-types
