@@ -22,6 +22,7 @@
 -
 -
 -
+-
 en^Andrew Toolkit
 -
 -
@@ -63,6 +64,7 @@ en^Cloud Data Management Interface (CDMI) - Contaimer
 en^Cloud Data Management Interface (CDMI) - Domain
 en^Cloud Data Management Interface (CDMI) - Object
 en^Cloud Data Management Interface (CDMI) - Queue
+-
 -
 -
 -
@@ -182,6 +184,7 @@ en^Hyperstudio
 -
 -
 -
+-
 en^Internet Protocol Flow Information Export
 -
 -
@@ -196,6 +199,7 @@ en^JavaScript
 -
 -
 en^JavaScript Object Notation (JSON)
+-
 -
 -
 -
@@ -288,6 +292,7 @@ en^Binary Data
 en^Office Document Architecture
 -
 -
+-
 en^Open eBook Publication Structure
 en^Ogg
 -
@@ -319,6 +324,7 @@ en^PKCS #8 - Private-Key Information Syntax Standard
 en^Attribute Certificate
 en^Internet Public Key Infrastructure - Certificate
 en^Internet Public Key Infrastructure - Certificate Revocation Lists
+-
 en^Internet Public Key Infrastructure - Certification Path
 en^Internet Public Key Infrastructure - Certificate Management Protocole
 en^Pronunciation Lexicon Specification
@@ -350,12 +356,15 @@ en^Relax NG Compact Syntax
 -
 -
 -
+-
 en^XML Resource Lists
 en^XML Resource Lists Diff
 -
 -
 -
+-
 en^XML Resource Lists
+-
 -
 -
 -
@@ -404,6 +413,7 @@ en^Secure Electronic Transaction - Registration
 -
 -
 en^S Hexdump Format
+-
 -
 -
 -
@@ -1500,8 +1510,10 @@ en^WebAssembly
 -
 -
 -
+-
 en^Widget Packaging and XML Configuration
 en^WinHelp
+-
 -
 -
 -
@@ -1930,6 +1942,7 @@ en^Computer Graphics Metafile
 -
 -
 -
+-
 en^G3 Fax Image
 en^Graphics Interchange Format
 -
@@ -1941,7 +1954,9 @@ en^Graphics Interchange Format
 en^Image Exchange Format
 -
 -
+-
 en^JPEG Image
+-
 -
 -
 -
@@ -2156,6 +2171,7 @@ en^HyperText Markup Language (HTML)
 -
 -
 en^Notation3
+-
 -
 -
 en^Text File

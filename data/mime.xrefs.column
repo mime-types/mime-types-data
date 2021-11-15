@@ -9,6 +9,7 @@ person^ASAM^Thomas_Thomsen|template^application/A2L
 draft^RFC-ietf-ace-oauth-authz-45|template^application/ace+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
+person^Chet_Ensign
 rfc^rfc7285|template^application/alto-costmap+json
 rfc^rfc7285|template^application/alto-costmapfilter+json
 rfc^rfc7285|template^application/alto-directory+json
@@ -67,6 +68,7 @@ rfc^rfc7736|template^application/cdni
 person^ASAM^Thomas_Thomsen|template^application/CEA
 person^Gottfried_Zimmermann|template^application/cea-2018+xml
 rfc^rfc4708|template^application/cellml+xml
+draft^draft-yasskin-http-origin-signed-responses
 rfc^rfc6230|template^application/cfw
 -
 person^Andy_Miller^IMS_Global|template^application/clr
@@ -181,6 +183,7 @@ rfc^rfc2652|template^application/index.obj
 rfc^rfc2652|template^application/index.response
 rfc^rfc2652|template^application/index.vnd
 person^Kazuyuki_Ashimura|template^application/inkml+xml
+person^Jonathan_Hohle
 rfc^rfc2935|template^application/IOTP
 rfc^rfc5655|template^application/ipfix
 rfc^rfc8010|template^application/ipp
@@ -196,6 +199,7 @@ rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
 rfc^rfc8984|template^application/jscalendar+json
 rfc^rfc8259|template^application/json
+person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
 rfc^rfc7464|template^application/json-seq
 -
@@ -286,6 +290,7 @@ rfc^rfc6960|template^application/ocsp-request
 rfc^rfc6960|template^application/ocsp-response
 rfc^rfc2045^rfc2046|template^application/octet-stream
 rfc^rfc1494|template^application/ODA
+person^Sam_Hume
 person^CDISC^Sam_Hume|template^application/odm+xml
 person^ASAM^Thomas_Thomsen|template^application/ODX
 rfc^rfc4839|template^application/oebps-package+xml
@@ -319,6 +324,7 @@ rfc^rfc8351|template^application/pkcs8-encrypted
 rfc^rfc5877|template^application/pkix-attr-cert
 rfc^rfc2585|template^application/pkix-cert
 rfc^rfc2585|template^application/pkix-crl
+draft^draft-hallambaker-mesh-udf
 rfc^rfc6066|template^application/pkix-pkipath
 rfc^rfc2510|template^application/pkixcmp
 rfc^rfc4267|template^application/pls+xml
@@ -349,16 +355,19 @@ rfc^rfc3680|template^application/reginfo+xml
 template^application/relax-ng-compact-syntax|uri^http://www.jtc1sc34.org/repository/0661.pdf
 person^Marshall_Rose|rfc^rfc1486|template^application/remote-printing
 -
+person^Douglas_Creager
 rfc^rfc7071|template^application/reputon+json
 rfc^rfc4826|template^application/resource-lists+xml
 rfc^rfc5362|template^application/resource-lists-diff+xml
 rfc^rfc7991|template^application/rfc+xml
+person^Sandro_Hawke
 person^Nick_Smith|template^application/riscos
 rfc^rfc4662|template^application/rlmi+xml
 rfc^rfc4826|template^application/rls-services+xml
 person^ATSC|template^application/route-apd+xml
 person^ATSC|template^application/route-s-tsid+xml
 person^ATSC|template^application/route-usd+xml
+draft^draft-ietf-sidrops-rpki-rsc-02
 rfc^rfc6493|template^application/rpki-ghostbusters
 rfc^rfc6481|template^application/rpki-manifest
 rfc^rfc8181|template^application/rpki-publication
@@ -405,6 +414,7 @@ rfc^rfc1874|template^application/SGML
 person^Paul_Grosso|template^application/sgml-open-catalog
 rfc^rfc4194|template^application/shf+xml
 rfc^rfc5228|template^application/sieve
+draft^draft-yasskin-http-origin-signed-responses
 rfc^rfc4661|template^application/simple-filter+xml
 rfc^rfc3842|template^application/simple-message-summary
 person^_3GPP|template^application/simpleSymbolContainer
@@ -1497,12 +1507,14 @@ rfc^rfc8366|template^application/voucher-cms+json
 rfc^rfc6035|template^application/vq-rtcpxr
 person^Eric_Prudhommeaux^W3C|template^application/wasm
 rfc^rfc3858|template^application/watcherinfo+xml
+draft^draft-yasskin-wpack-bundled-exchanges
 rfc^rfc8292|template^application/webpush-options+json
 rfc^rfc2957|template^application/whoispp-query
 rfc^rfc2958|template^application/whoispp-response
 person^Steven_Pemberton^W3C|template^application/widget|uri^http://www.w3.org/TR/widgets/#media-type-registration-for-application/widget
 -
 person^Larry_Campbell|template^application/wita
+person^Roy_T._Fielding
 -
 -
 person^Paul_Lindner|template^application/wordperfect5.1
@@ -1927,6 +1939,7 @@ rfc^rfc7903|template^image/bmp
 person^Alan_Francis|template^image/cgm
 -
 person^DICOM_Standards_Committee^David_Clunie|template^image/dicom-rle
+person^Director_of_Standards
 rfc^rfc7903|template^image/emf
 rfc^rfc4735|template^image/example
 rfc^rfc4047|template^image/fits
@@ -1939,6 +1952,7 @@ person^David_Singer^ISO-IEC_JTC1|template^image/heif-sequence
 person^ISO-IEC_JTC1^ITU-T|template^image/hej2k
 person^ISO-IEC_JTC1^ITU-T|template^image/hsj2
 rfc^rfc1314
+person^ISO-IEC_JTC_1-SC_29-WG_1_Convenor
 person^DICOM_Standards_Committee^David_Clunie|template^image/jls
 rfc^rfc3745|template^image/jp2
 rfc^rfc2045^rfc2046
@@ -1946,6 +1960,7 @@ person^ISO-IEC_JTC1^ITU-T|template^image/jph
 person^ISO-IEC_JTC1^ITU-T|template^image/jphc
 rfc^rfc3745|template^image/jpm
 rfc^rfc3745|template^image/jpx
+person^Touradj_Ebrahimi
 person^ISO-IEC_JTC1^ITU-T|template^image/jxr
 person^ISO-IEC_JTC1^ITU-T|template^image/jxrA
 person^ISO-IEC_JTC1^ITU-T|template^image/jxrS
@@ -2156,6 +2171,7 @@ person^Peeter_Piegaze|template^text/jcr-cnd
 rfc^rfc7763|template^text/markdown
 person^Jesse_Alama|template^text/mizar
 person^Eric_Prudhommeaux^W3C|template^text/n3
+person^Sean_Leonard
 rfc^rfc7826|template^text/parameters
 rfc^rfc3009|template^text/parityfec
 rfc^rfc2046^rfc3676^rfc5147
