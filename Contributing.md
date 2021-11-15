@@ -73,12 +73,17 @@ $ rake mime:apache
 ##### A Note on Provisional Types
 
 The file `types/provisional-standard-types.yaml` contains the provisionally
-registered types from IANA. Whenever IANA types are updated, the existing
-provisional types should be reviewed in the event that they have been promoted
-to standard types.
+registered types from IANA. Per IANA,
 
-It is recommended that customization _not_ be made to provisional types; the
-provisional types file is rewritten on update.
+> This registry, unlike some other provisional IANA registries, is only for
+> temporary use. Entries in this registry are either finalized and moved to the
+> main media types registry or are abandoned and deleted. Entries in this
+> registry are suitable for use for development and test purposes only.
+
+The provisional types file is rewritten when updated, so pull requests to
+manually promote or customize provisional types (such as with extensions). It is
+recommended that any updates required to the data be performed in your
+application if you require provisional types.
 
 ### Development Dependencies
 
@@ -208,6 +213,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Henrik Hodne
 - Jeremy Evans
 - John Gardner
+- Jon Sneyers
 - Jonas Petersen
 - Juanito Fatas
 - Keerthi Siva

@@ -10,7 +10,8 @@
   have been ported from the [mini_mime] repository. [#47]
 
 - Added IANA provisional media registries. Added some notes to Contributing.md
-  about the transient nature of the provisional registration data. [#45]
+  about the transient nature of the provisional registration data. This was
+  triggered in part by a pull request by Jon Sneyers. Thanks! [#45], [#43]
 
 ## 3.2021.0901 / 2021-09-01
 
@@ -484,6 +485,7 @@
 [#35]: https://github.com/mime-types/mime-types-data/pull/35
 [#36]: https://github.com/mime-types/mime-types-data/pull/36
 [#40]: https://github.com/mime-types/mime-types-data/pull/40
+[#43]: https://github.com/mime-types/mime-types-data/pull/43
 [#45]: https://github.com/mime-types/mime-types-data/pull/45
 [#46]: https://github.com/mime-types/mime-types-data/pull/46
 [#47]: https://github.com/mime-types/mime-types-data/pull/47
