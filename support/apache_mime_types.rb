@@ -1,22 +1,22 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 
-require 'open-uri'
-require 'nokogiri'
-require 'cgi'
-require 'pathname'
-require 'yaml'
-require 'English'
+require "open-uri"
+require "nokogiri"
+require "cgi"
+require "pathname"
+require "yaml"
+require "English"
 
-ENV['RUBY_MIME_TYPES_LAZY_LOAD'] = 'yes'
-require 'mime/types/support'
+ENV["RUBY_MIME_TYPES_LAZY_LOAD"] = "yes"
+require "mime/types/support"
 
 # Update MIME types from the Apache master list
 class ApacheMIMETypes
   DEFAULTS = {
-    url: %q(http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types),
-    to: Pathname(__FILE__).join('../../types')
+    url: "http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types",
+    to: Pathname(__FILE__).join("../../types")
   }.freeze.each_value(&:freeze)
 
   X_PREFIX_RE = /^x-/.freeze
@@ -25,21 +25,21 @@ class ApacheMIMETypes
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
     url = options.fetch(:url, DEFAULTS[:url])
 
-    puts 'Downloading Apache MIME type list.'
+    puts "Downloading Apache MIME type list."
     puts "\t#{url}"
     data = URI.parse(url).open(&:read).split($INPUT_RECORD_SEPARATOR)
-    data.delete_if { |line| line.start_with?('#') }
+    data.delete_if { |line| line.start_with?("#") }
 
     conf = MIME::Types::Container.new
 
     data.each do |line|
       type = line.split(/\t+/)
-      key = type.first.split(%r{/}).first.gsub(X_PREFIX_RE, '')
+      key = type.first.split(%r{/}).first.gsub(X_PREFIX_RE, "")
       conf.add(key, type)
     end
 
     conf.each do |type, types|
-      next if type == 'example'
+      next if type == "example"
 
       new(type: type, registry: types, to: dest) do |parser|
         puts "Extracting #{parser.type}/*."
@@ -85,7 +85,7 @@ class ApacheMIMETypes
 
   def save
     @to.mkpath
-    File.open(@file, 'wb') { |f| f.puts @types.map.to_a.sort.to_yaml }
+    File.open(@file, "wb") { |f| f.puts @types.map.to_a.sort.to_yaml }
   end
 
   private
