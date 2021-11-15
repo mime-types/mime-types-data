@@ -70,4 +70,4 @@ the date of the data update: `SCHEMA.YEAR.MONTHDAY`.
 
 [registry]: https://www.iana.org/assignments/media-types/media-types.xhtml
 [semantic versioning]: http://semver.org/
-[mini_mime]: https://github.com/discourse/mini_mime
+[`mini_mime`]: https://github.com/discourse/mini_mime
