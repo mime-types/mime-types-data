@@ -114,6 +114,8 @@
 - !ruby/object:MIME::Type
   content-type: image/jxl
   encoding: base64
+  extensions:
+  - jxl
   xrefs:
     person:
     - Touradj_Ebrahimi
