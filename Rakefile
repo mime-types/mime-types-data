@@ -146,7 +146,7 @@ namespace :update do
 end
 
 desc "Default conversion from YAML to JSON and Columnar"
-task convert: ["convert:yaml:json", "convert:yaml:columnar"]
+task convert: ["convert:yaml:json", "convert:yaml:columnar", "convert:yaml:mini_mime"]
 
 Rake::Task["gem"].prerequisites.unshift("convert")
 Rake::Task["gem"].prerequisites.unshift("git:manifest")
