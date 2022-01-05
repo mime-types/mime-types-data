@@ -21,6 +21,8 @@ class IANARegistry
     to: Pathname(__FILE__).join("../../types")
   }.freeze.each_value(&:freeze)
 
+  USE_INSTEAD_RE = %r{in favou?r of ([a-zA-Z][-a-zA-Z0-9+_.]*/[a-zA-Z0-9][-a-zA-Z0-9+_.]*)}.freeze
+
   def self.download(options = {})
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
     urls = options.fetch(:urls, DEFAULTS[:urls])
@@ -68,7 +70,7 @@ class IANARegistry
 
       if subtype =~ /OBSOLETE|DEPRECATE/i
         obsolete = true
-        use_instead ||= Regexp.last_match(1) if subtype =~ /in favou?r of (.*)/
+        use_instead ||= Regexp.last_match(1) if subtype =~ USE_INSTEAD_RE
       end
 
       subtype, notes = subtype.split(/ /, 2)
@@ -112,10 +114,10 @@ class IANARegistry
   private
 
   def mime_types_for(file)
-    if file.exist? && !@provisional
-      MIME::Types::Loader.load_from_yaml(file)
-    else
-      MIME::Types.new
+    MIME::Types.new.tap do |container|
+      if file.exist? && !@provisional
+        container.add(*MIME::Types::Loader.load_from_yaml(file), :silent)
+      end
     end
   end
 
