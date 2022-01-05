@@ -122,7 +122,7 @@ cif         chemical/x-cif                                                      
 cii         application/vnd.anser-web-certificate-issue-initiation                    base64          
 cil         application/vnd.ms-artgalry                                               base64          
 cla         application/vnd.claymore                                                  base64          
-class       application/octet-stream                                                  base64          
+class       application/java-vm                                                       base64          
 clkk        application/vnd.crick.clicker.keyboard                                    base64          
 clkp        application/vnd.crick.clicker.palette                                     base64          
 clkt        application/vnd.crick.clicker.template                                    base64          
@@ -353,7 +353,7 @@ heifs       image/heif-sequence                                                 
 hep         application/x-hep                                                         base64          
 hh          text/plain                                                                quoted-printable
 hif         image/heic                                                                base64          
-hlp         text/plain                                                                quoted-printable
+hlp         application/winhlp                                                        base64          
 hpgl        application/vnd.hp-HPGL                                                   base64          
 hpid        application/vnd.hp-hpid                                                   base64          
 hpp         text/plain                                                                quoted-printable
@@ -486,7 +486,7 @@ ma          application/mathematica                                             
 mads        application/mads+xml                                                      base64          
 mag         application/vnd.ecowin.chart                                              base64          
 maker       application/vnd.framemaker                                                base64          
-man         text/troff                                                                8bit            
+man         application/x-troff-man                                                   8bit            
 manifest    text/cache-manifest                                                       quoted-printable
 mar         application/octet-stream                                                  base64          
 markdown    text/markdown                                                             quoted-printable
@@ -503,7 +503,7 @@ mdb         application/x-msaccess                                              
 mde         application/x-msaccess                                                    base64          
 mdf         application/x-msaccess                                                    base64          
 mdi         image/vnd.ms-modi                                                         base64          
-me          text/troff                                                                8bit            
+me          application/x-troff-me                                                    base64          
 mesh        model/mesh                                                                base64          
 meta4       application/metalink4+xml                                                 base64          
 metalink    application/metalink+xml                                                  base64          
@@ -564,7 +564,7 @@ mqy         application/vnd.Mobius.MQY                                          
 mrc         application/marc                                                          base64          
 mrcx        application/marcxml+xml                                                   base64          
 mrw         image/x-minolta-mrw                                                       base64          
-ms          text/troff                                                                8bit            
+ms          application/x-troff-ms                                                    base64          
 mscml       application/mediaservercontrol+xml                                        base64          
 mseed       application/vnd.fdsn.mseed                                                base64          
 mseq        application/vnd.mseq                                                      base64          
@@ -643,7 +643,7 @@ org         application/vnd.lotus-organizer                                     
 osf         application/vnd.yamaha.openscoreformat                                    base64          
 osfpvg      application/vnd.yamaha.openscoreformat.osfpvg+xml                         base64          
 otc         application/vnd.oasis.opendocument.chart-template                         base64          
-otf         font/otf                                                                  base64          
+otf         application/x-font-opentype                                               base64          
 otg         application/vnd.oasis.opendocument.graphics-template                      base64          
 oth         application/vnd.oasis.opendocument.text-web                               base64          
 oti         application/vnd.oasis.opendocument.image-template                         base64          
@@ -708,16 +708,16 @@ pml         application/vnd.ctc-posml                                           
 png         image/png                                                                 base64          
 pnm         image/x-portable-anymap                                                   base64          
 portpkg     application/vnd.macports.portpkg                                          base64          
-pot         application/vnd.ms-powerpoint                                             base64          
+pot         application/powerpoint                                                    base64          
 potm        application/vnd.ms-powerpoint.template.macroEnabled.12                    base64          
 potx        application/vnd.openxmlformats-officedocument.presentationml.template     base64          
 ppam        application/vnd.ms-powerpoint.addin.macroEnabled.12                       base64          
 ppd         application/vnd.cups-ppd                                                  base64          
 ppm         image/x-portable-pixmap                                                   base64          
-pps         application/vnd.ms-powerpoint                                             base64          
+pps         application/powerpoint                                                    base64          
 ppsm        application/vnd.ms-powerpoint.slideshow.macroEnabled.12                   base64          
 ppsx        application/vnd.openxmlformats-officedocument.presentationml.slideshow    base64          
-ppt         application/vnd.ms-powerpoint                                             base64          
+ppt         application/powerpoint                                                    base64          
 pptm        application/vnd.ms-powerpoint.presentation.macroEnabled.12                base64          
 pptx        application/vnd.openxmlformats-officedocument.presentationml.presentation base64          
 pqa         application/vnd.palm                                                      base64          
@@ -983,8 +983,8 @@ troff       text/troff                                                          
 ts          video/MP2T                                                                base64          
 tsd         application/timestamped-data                                              base64          
 tsv         text/tab-separated-values                                                 quoted-printable
-ttc         font/collection                                                           base64          
-ttf         font/ttf                                                                  base64          
+ttc         application/x-font-ttf                                                    base64          
+ttf         application/x-font-truetype                                               base64          
 ttl         text/turtle                                                               quoted-printable
 twd         application/vnd.SimTech-MindMapper                                        base64          
 twds        application/vnd.SimTech-MindMapper                                        base64          
@@ -1192,7 +1192,7 @@ z6          application/x-zmachine                                              
 z7          application/x-zmachine                                                    base64          
 z8          application/x-zmachine                                                    base64          
 zaz         application/vnd.zzazz.deck+xml                                            base64          
-zip         application/zip                                                           base64          
+zip         application/x-zip-compressed                                              base64          
 zir         application/vnd.zul                                                       base64          
 zirz        application/vnd.zul                                                       base64          
 zmm         application/vnd.HandHeld-Entertainment+xml                                base64          
