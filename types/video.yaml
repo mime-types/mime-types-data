@@ -8,6 +8,7 @@
     template:
     - video/1d-interleaved-parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/3gpp
   friendly:
@@ -23,6 +24,7 @@
     template:
     - video/3gpp
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/3gpp-tt
   encoding: base64
@@ -32,6 +34,7 @@
     template:
     - video/3gpp-tt
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/3gpp2
   friendly:
@@ -47,6 +50,7 @@
     template:
     - video/3gpp2
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/AV1
   encoding: base64
@@ -56,6 +60,7 @@
     template:
     - video/AV1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/BMPEG
   encoding: base64
@@ -65,6 +70,7 @@
     template:
     - video/BMPEG
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/BT656
   encoding: base64
@@ -74,6 +80,7 @@
     template:
     - video/BT656
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/CelB
   encoding: base64
@@ -83,6 +90,7 @@
     template:
     - video/CelB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/dl
   encoding: base64
@@ -91,6 +99,7 @@
   obsolete: true
   use-instead: video/x-dl
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: video/DV
   encoding: base64
@@ -102,6 +111,7 @@
     template:
     - video/DV
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/encaprtp
   encoding: base64
@@ -111,6 +121,7 @@
     template:
     - video/encaprtp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/example
   encoding: base64
@@ -120,6 +131,7 @@
     template:
     - video/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/FFV1
   encoding: base64
@@ -129,6 +141,7 @@
     template:
     - video/FFV1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/flexfec
   encoding: base64
@@ -138,6 +151,7 @@
     template:
     - video/flexfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/gl
   encoding: base64
@@ -146,6 +160,7 @@
   obsolete: true
   use-instead: video/x-gl
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: video/H261
   friendly:
@@ -159,6 +174,7 @@
     template:
     - video/H261
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/H263
   friendly:
@@ -172,6 +188,7 @@
     template:
     - video/H263
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/H263-1998
   encoding: base64
@@ -181,6 +198,7 @@
     template:
     - video/H263-1998
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/H263-2000
   encoding: base64
@@ -190,6 +208,7 @@
     template:
     - video/H263-2000
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/H264
   friendly:
@@ -203,6 +222,7 @@
     template:
     - video/H264
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/H264-RCDO
   encoding: base64
@@ -212,6 +232,7 @@
     template:
     - video/H264-RCDO
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/H264-SVC
   encoding: base64
@@ -221,6 +242,7 @@
     template:
     - video/H264-SVC
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/H265
   encoding: base64
@@ -230,6 +252,7 @@
     template:
     - video/H265
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/iso.segment
   encoding: base64
@@ -240,6 +263,7 @@
     template:
     - video/iso.segment
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/JPEG
   friendly:
@@ -253,6 +277,7 @@
     template:
     - video/JPEG
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/jpeg2000
   encoding: base64
@@ -263,6 +288,7 @@
     template:
     - video/jpeg2000
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/jpm
   friendly:
@@ -272,6 +298,7 @@
   - jpgm
   - jpm
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: video/jxsv
   encoding: base64
@@ -281,6 +308,7 @@
     template:
     - video/jxsv
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/MJ2
   friendly:
@@ -295,6 +323,7 @@
     template:
     - video/mj2
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/MP1S
   encoding: base64
@@ -304,6 +333,7 @@
     template:
     - video/MP1S
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/MP2P
   encoding: base64
@@ -313,6 +343,7 @@
     template:
     - video/MP2P
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/MP2T
   encoding: base64
@@ -331,6 +362,7 @@
     template:
     - video/MP2T
   registered: true
+  sort-priority: 8
 - !ruby/object:MIME::Type
   content-type: video/mp4
   friendly:
@@ -349,6 +381,7 @@
     template:
     - video/mp4
   registered: true
+  sort-priority: 11
 - !ruby/object:MIME::Type
   content-type: video/MP4V-ES
   encoding: base64
@@ -358,6 +391,7 @@
     template:
     - video/MP4V-ES
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/mpeg
   friendly:
@@ -376,6 +410,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 9
 - !ruby/object:MIME::Type
   content-type: video/mpeg4-generic
   encoding: base64
@@ -385,6 +420,7 @@
     template:
     - video/mpeg4-generic
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/MPV
   encoding: base64
@@ -394,6 +430,7 @@
     template:
     - video/MPV
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/nv
   encoding: base64
@@ -403,6 +440,7 @@
     template:
     - video/nv
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/ogg
   friendly:
@@ -418,6 +456,7 @@
     template:
     - video/ogg
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/parityfec
   encoding: base64
@@ -427,6 +466,7 @@
     template:
     - video/parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/pointer
   encoding: base64
@@ -436,6 +476,7 @@
     template:
     - video/pointer
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/quicktime
   friendly:
@@ -452,6 +493,7 @@
     template:
     - video/quicktime
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/raptorfec
   encoding: base64
@@ -461,6 +503,7 @@
     template:
     - video/raptorfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/raw
   encoding: base64
@@ -470,6 +513,7 @@
     template:
     - video/raw
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/rtp-enc-aescm128
   encoding: base64
@@ -479,6 +523,7 @@
     template:
     - video/rtp-enc-aescm128
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/rtploopback
   encoding: base64
@@ -488,6 +533,7 @@
     template:
     - video/rtploopback
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/rtx
   encoding: base64
@@ -497,6 +543,7 @@
     template:
     - video/rtx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/scip
   encoding: base64
@@ -508,6 +555,7 @@
     template:
     - video/scip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/smpte291
   encoding: base64
@@ -517,6 +565,7 @@
     template:
     - video/smpte291
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/SMPTE292M
   encoding: base64
@@ -526,6 +575,7 @@
     template:
     - video/SMPTE292M
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/ulpfec
   encoding: base64
@@ -535,6 +585,7 @@
     template:
     - video/ulpfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vc1
   encoding: base64
@@ -544,6 +595,7 @@
     template:
     - video/vc1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vc2
   encoding: base64
@@ -553,6 +605,7 @@
     template:
     - video/vc2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.CCTV
   encoding: base64
@@ -562,6 +615,7 @@
     template:
     - video/vnd.CCTV
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.hd
   friendly:
@@ -576,6 +630,7 @@
     template:
     - video/vnd.dece.hd
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.mobile
   friendly:
@@ -590,6 +645,7 @@
     template:
     - video/vnd.dece.mobile
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.mp4
   encoding: base64
@@ -599,6 +655,7 @@
     template:
     - video/vnd.dece.mp4
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.pd
   friendly:
@@ -613,6 +670,7 @@
     template:
     - video/vnd.dece.pd
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.sd
   friendly:
@@ -627,6 +685,7 @@
     template:
     - video/vnd.dece.sd
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.dece.video
   friendly:
@@ -641,6 +700,7 @@
     template:
     - video/vnd.dece.video
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.directv.mpeg
   encoding: base64
@@ -650,6 +710,7 @@
     template:
     - video/vnd.directv.mpeg
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.directv.mpeg-tts
   encoding: base64
@@ -659,6 +720,7 @@
     template:
     - video/vnd.directv.mpeg-tts
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.dlna.mpeg-tts
   encoding: base64
@@ -668,6 +730,7 @@
     template:
     - video/vnd.dlna.mpeg-tts
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.dvb.file
   encoding: base64
@@ -680,6 +743,7 @@
     template:
     - video/vnd.dvb.file
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/vnd.fvt
   friendly:
@@ -693,6 +757,7 @@
     template:
     - video/vnd.fvt
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/vnd.hns.video
   encoding: base64
@@ -702,6 +767,7 @@
     template:
     - video/vnd.hns.video
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.1dparityfec-1010
   encoding: base64
@@ -711,6 +777,7 @@
     template:
     - video/vnd.iptvforum.1dparityfec-1010
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.1dparityfec-2005
   encoding: base64
@@ -720,6 +787,7 @@
     template:
     - video/vnd.iptvforum.1dparityfec-2005
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.2dparityfec-1010
   encoding: base64
@@ -729,6 +797,7 @@
     template:
     - video/vnd.iptvforum.2dparityfec-1010
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.2dparityfec-2005
   encoding: base64
@@ -738,6 +807,7 @@
     template:
     - video/vnd.iptvforum.2dparityfec-2005
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.ttsavc
   encoding: base64
@@ -747,6 +817,7 @@
     template:
     - video/vnd.iptvforum.ttsavc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.iptvforum.ttsmpeg2
   encoding: base64
@@ -756,6 +827,7 @@
     template:
     - video/vnd.iptvforum.ttsmpeg2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.motorola.video
   encoding: base64
@@ -765,6 +837,7 @@
     template:
     - video/vnd.motorola.video
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.motorola.videop
   encoding: base64
@@ -774,6 +847,7 @@
     template:
     - video/vnd.motorola.videop
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.mpegurl
   friendly:
@@ -788,6 +862,7 @@
     template:
     - video/vnd.mpegurl
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.ms-playready.media.pyv
   friendly:
@@ -801,6 +876,7 @@
     template:
     - video/vnd.ms-playready.media.pyv
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/vnd.nokia.interleaved-multimedia
   encoding: base64
@@ -812,6 +888,7 @@
     template:
     - video/vnd.nokia.interleaved-multimedia
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/vnd.nokia.mp4vr
   encoding: base64
@@ -821,6 +898,7 @@
     template:
     - video/vnd.nokia.mp4vr
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.nokia.videovoip
   encoding: base64
@@ -830,6 +908,7 @@
     template:
     - video/vnd.nokia.videovoip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.objectvideo
   encoding: base64
@@ -842,6 +921,7 @@
     template:
     - video/vnd.objectvideo
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.radgamettools.bink
   encoding: base64
@@ -851,6 +931,7 @@
     template:
     - video/vnd.radgamettools.bink
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.radgamettools.smacker
   encoding: base64
@@ -860,6 +941,7 @@
     template:
     - video/vnd.radgamettools.smacker
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/vnd.sealed.mpeg1
   encoding: base64
@@ -871,6 +953,7 @@
     template:
     - video/vnd.sealed.mpeg1
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/vnd.sealed.mpeg4
   encoding: base64
@@ -883,6 +966,7 @@
     template:
     - video/vnd.sealed.mpeg4
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.sealed.swf
   encoding: base64
@@ -895,6 +979,7 @@
     template:
     - video/vnd.sealed.swf
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.sealedmedia.softseal.mov
   encoding: base64
@@ -908,6 +993,7 @@
     template:
     - video/vnd.sealedmedia.softseal.mov
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: video/vnd.uvvu.mp4
   friendly:
@@ -922,6 +1008,7 @@
     template:
     - video/vnd.uvvu.mp4
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.vivo
   friendly:
@@ -936,6 +1023,7 @@
     template:
     - video/vnd.vivo
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: video/vnd.youtube.yt
   encoding: base64
@@ -945,6 +1033,7 @@
     template:
     - video/vnd.youtube.yt
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/VP8
   encoding: base64
@@ -954,6 +1043,7 @@
     template:
     - video/VP8
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/VP9
   encoding: base64
@@ -963,6 +1053,7 @@
     template:
     - video/VP9
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/webm
   friendly:
@@ -971,12 +1062,14 @@
   extensions:
   - webm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-dl
   encoding: base64
   extensions:
   - dl
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-dv
   encoding: base64
@@ -985,6 +1078,7 @@
   obsolete: true
   use-instead: video/DV
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: video/x-f4v
   friendly:
@@ -993,6 +1087,7 @@
   extensions:
   - f4v
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-fli
   friendly:
@@ -1001,6 +1096,7 @@
   extensions:
   - fli
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-flv
   friendly:
@@ -1009,18 +1105,21 @@
   extensions:
   - flv
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-gl
   encoding: base64
   extensions:
   - gl
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-ivf
   encoding: base64
   extensions:
   - ivf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-m4v
   friendly:
@@ -1029,6 +1128,7 @@
   extensions:
   - m4v
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-matroska
   encoding: base64
@@ -1037,12 +1137,14 @@
   - mks
   - mkv
   registered: false
+  sort-priority: 45
 - !ruby/object:MIME::Type
   content-type: video/x-mng
   encoding: base64
   extensions:
   - mng
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-motion-jpeg
   encoding: base64
@@ -1050,6 +1152,7 @@
   - mjpg
   - mjpeg
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: video/x-ms-asf
   friendly:
@@ -1059,12 +1162,14 @@
   - asf
   - asx
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: video/x-ms-vob
   encoding: base64
   extensions:
   - vob
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-ms-wm
   friendly:
@@ -1073,6 +1178,7 @@
   extensions:
   - wm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-ms-wmv
   friendly:
@@ -1081,6 +1187,7 @@
   extensions:
   - wmv
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-ms-wmx
   friendly:
@@ -1089,6 +1196,7 @@
   extensions:
   - wmx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-ms-wvx
   friendly:
@@ -1097,6 +1205,7 @@
   extensions:
   - wvx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-msvideo
   friendly:
@@ -1105,6 +1214,7 @@
   extensions:
   - avi
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-sgi-movie
   friendly:
@@ -1113,9 +1223,11 @@
   extensions:
   - movie
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: video/x-smv
   encoding: base64
   extensions:
   - smv
   registered: false
+  sort-priority: 47

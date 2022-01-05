@@ -7,6 +7,7 @@
     - Chet_Ensign
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/cert-chain+cbor
   encoding: base64
@@ -15,6 +16,7 @@
     - draft-yasskin-http-origin-signed-responses
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/city+json
   encoding: base64
@@ -31,6 +33,7 @@
     - Jonathan_Hohle
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/json-nd
   encoding: base64
@@ -39,6 +42,7 @@
     - Glen_Kleidon
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/netcdf
   encoding: base64
@@ -55,6 +59,7 @@
     - Sam_Hume
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/pkix-keyinfo
   encoding: base64
@@ -63,6 +68,7 @@
     - draft-hallambaker-mesh-udf
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/reports+json
   encoding: base64
@@ -71,6 +77,7 @@
     - Douglas_Creager
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/rif+xml
   encoding: base64
@@ -79,6 +86,7 @@
     - Sandro_Hawke
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/rpki-checklist
   encoding: base64
@@ -87,6 +95,7 @@
     - draft-ietf-sidrops-rpki-rsc-02
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/signed-exchange
   encoding: base64
@@ -95,6 +104,7 @@
     - draft-yasskin-http-origin-signed-responses
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/webbundle
   encoding: base64
@@ -103,6 +113,7 @@
     - draft-yasskin-wpack-bundled-exchanges
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/won
   encoding: base64
@@ -111,6 +122,7 @@
     - Roy_T._Fielding
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: image/dpx
   encoding: base64
@@ -119,6 +131,7 @@
     - Director_of_Standards
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: image/j2is
   encoding: base64
@@ -127,6 +140,7 @@
     - ISO-IEC_JTC_1-SC_29-WG_1_Convenor
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: image/jxl
   encoding: base64
@@ -135,6 +149,7 @@
     - Touradj_Ebrahimi
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: text/nfo
   encoding: quoted-printable
@@ -143,3 +158,4 @@
     - Sean_Leonard
   registered: true
   provisional: true
+  sort-priority: 80

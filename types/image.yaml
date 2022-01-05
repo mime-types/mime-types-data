@@ -9,6 +9,7 @@
     template:
     - image/aces
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/avci
   encoding: base64
@@ -19,6 +20,7 @@
     template:
     - image/avci
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/avcs
   encoding: base64
@@ -29,6 +31,7 @@
     template:
     - image/avcs
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/avif
   encoding: base64
@@ -41,6 +44,7 @@
     template:
     - image/avif
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/bmp
   friendly:
@@ -54,6 +58,7 @@
     template:
     - image/bmp
   registered: true
+  sort-priority: 143
 - !ruby/object:MIME::Type
   content-type: image/cgm
   friendly:
@@ -67,12 +72,14 @@
     template:
     - image/cgm
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/cmu-raster
   encoding: base64
   obsolete: true
   use-instead: image/x-cmu-raster
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: image/dicom-rle
   encoding: base64
@@ -83,6 +90,7 @@
     template:
     - image/dicom-rle
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/emf
   encoding: base64
@@ -92,6 +100,7 @@
     template:
     - image/emf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/example
   encoding: base64
@@ -101,6 +110,7 @@
     template:
     - image/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/fits
   encoding: base64
@@ -110,6 +120,7 @@
     template:
     - image/fits
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/g3fax
   friendly:
@@ -123,6 +134,7 @@
     template:
     - image/g3fax
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/gif
   friendly:
@@ -135,6 +147,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/heic
   encoding: base64
@@ -148,6 +161,7 @@
     template:
     - image/heic
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/heic-sequence
   encoding: base64
@@ -161,6 +175,7 @@
     template:
     - image/heic-sequence
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/heif
   encoding: base64
@@ -174,6 +189,7 @@
     template:
     - image/heif
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/heif-sequence
   encoding: base64
@@ -187,6 +203,7 @@
     template:
     - image/heif-sequence
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/hej2k
   encoding: base64
@@ -197,6 +214,7 @@
     template:
     - image/hej2k
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/hsj2
   encoding: base64
@@ -207,6 +225,7 @@
     template:
     - image/hsj2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/ief
   friendly:
@@ -218,6 +237,7 @@
     rfc:
     - rfc1314
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/jls
   encoding: base64
@@ -228,6 +248,7 @@
     template:
     - image/jls
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jp2
   encoding: base64
@@ -240,6 +261,7 @@
     template:
     - image/jp2
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/jpeg
   friendly:
@@ -254,6 +276,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: image/jph
   encoding: base64
@@ -264,6 +287,7 @@
     template:
     - image/jph
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jphc
   encoding: base64
@@ -274,6 +298,7 @@
     template:
     - image/jphc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jpm
   encoding: base64
@@ -286,6 +311,7 @@
     template:
     - image/jpm
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/jpx
   encoding: base64
@@ -298,6 +324,7 @@
     template:
     - image/jpx
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/jxr
   encoding: base64
@@ -308,6 +335,7 @@
     template:
     - image/jxr
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxrA
   encoding: base64
@@ -318,6 +346,7 @@
     template:
     - image/jxrA
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxrS
   encoding: base64
@@ -328,6 +357,7 @@
     template:
     - image/jxrS
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxs
   encoding: base64
@@ -337,6 +367,7 @@
     template:
     - image/jxs
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxsc
   encoding: base64
@@ -346,6 +377,7 @@
     template:
     - image/jxsc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxsi
   encoding: base64
@@ -355,6 +387,7 @@
     template:
     - image/jxsi
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/jxss
   encoding: base64
@@ -364,6 +397,7 @@
     template:
     - image/jxss
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/ktx
   friendly:
@@ -378,6 +412,7 @@
     template:
     - image/ktx
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/ktx2
   encoding: base64
@@ -388,6 +423,7 @@
     template:
     - image/ktx2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/naplps
   encoding: base64
@@ -397,11 +433,13 @@
     template:
     - image/naplps
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/pjpeg
   docs: Fixes a bug with IE6 and progressive JPEGs
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: image/png
   friendly:
@@ -416,6 +454,7 @@
     template:
     - image/png
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/prs.btif
   friendly:
@@ -429,6 +468,7 @@
     template:
     - image/prs.btif
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/prs.pti
   encoding: base64
@@ -438,6 +478,7 @@
     template:
     - image/prs.pti
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/pwg-raster
   encoding: base64
@@ -447,12 +488,14 @@
     template:
     - image/pwg-raster
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/sgi
   encoding: base64
   extensions:
   - sgi
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/svg+xml
   friendly:
@@ -469,6 +512,7 @@
     template:
     - image/svg+xml
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/t38
   encoding: base64
@@ -478,6 +522,7 @@
     template:
     - image/t38
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/targa
   encoding: base64
@@ -486,6 +531,7 @@
   obsolete: true
   use-instead: image/x-targa
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: image/tiff
   friendly:
@@ -500,6 +546,7 @@
     template:
     - image/tiff
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/tiff-fx
   encoding: base64
@@ -509,6 +556,7 @@
     template:
     - image/tiff-fx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.adobe.photoshop
   friendly:
@@ -522,6 +570,7 @@
     template:
     - image/vnd.adobe.photoshop
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.airzip.accelerator.azv
   encoding: base64
@@ -531,6 +580,7 @@
     template:
     - image/vnd.airzip.accelerator.azv
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.cns.inf2
   encoding: base64
@@ -540,6 +590,7 @@
     template:
     - image/vnd.cns.inf2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.dece.graphic
   friendly:
@@ -556,6 +607,7 @@
     template:
     - image/vnd.dece.graphic
   registered: true
+  sort-priority: 12
 - !ruby/object:MIME::Type
   content-type: image/vnd.dgn
   encoding: base64
@@ -564,6 +616,7 @@
   obsolete: true
   use-instead: image/x-vnd.dgn
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: image/vnd.djvu
   friendly:
@@ -578,6 +631,7 @@
     template:
     - image/vnd.djvu
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: image/vnd.dvb.subtitle
   friendly:
@@ -592,6 +646,7 @@
     template:
     - image/vnd.dvb.subtitle
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.dwg
   friendly:
@@ -605,6 +660,7 @@
     template:
     - image/vnd.dwg
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.dxf
   friendly:
@@ -618,6 +674,7 @@
     template:
     - image/vnd.dxf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.fastbidsheet
   friendly:
@@ -631,6 +688,7 @@
     template:
     - image/vnd.fastbidsheet
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.fpx
   friendly:
@@ -644,6 +702,7 @@
     template:
     - image/vnd.fpx
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.fst
   friendly:
@@ -657,6 +716,7 @@
     template:
     - image/vnd.fst
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.fujixerox.edmics-mmr
   friendly:
@@ -670,6 +730,7 @@
     template:
     - image/vnd.fujixerox.edmics-mmr
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.fujixerox.edmics-rlc
   friendly:
@@ -683,6 +744,7 @@
     template:
     - image/vnd.fujixerox.edmics-rlc
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.globalgraphics.pgb
   encoding: base64
@@ -694,6 +756,7 @@
     template:
     - image/vnd.globalgraphics.pgb
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.microsoft.icon
   encoding: base64
@@ -705,6 +768,7 @@
     template:
     - image/vnd.microsoft.icon
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.mix
   encoding: base64
@@ -714,6 +778,7 @@
     template:
     - image/vnd.mix
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.mozilla.apng
   encoding: base64
@@ -723,6 +788,7 @@
     template:
     - image/vnd.mozilla.apng
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.ms-modi
   friendly:
@@ -736,12 +802,14 @@
     template:
     - image/vnd.ms-modi
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.ms-photo
   encoding: base64
   extensions:
   - wdp
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/vnd.net-fpx
   friendly:
@@ -755,12 +823,14 @@
     template:
     - image/vnd.net-fpx
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.net.fpx
   encoding: base64
   obsolete: true
   use-instead: image/vnd.net-fpx
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: image/vnd.pco.b16
   encoding: base64
@@ -771,6 +841,7 @@
     template:
     - image/vnd.pco.b16
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.radiance
   encoding: base64
@@ -781,6 +852,7 @@
     template:
     - image/vnd.radiance
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealed.png
   encoding: base64
@@ -790,6 +862,7 @@
     template:
     - image/vnd.sealed.png
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealedmedia.softseal.gif
   encoding: base64
@@ -799,6 +872,7 @@
     template:
     - image/vnd.sealedmedia.softseal.gif
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.sealedmedia.softseal.jpg
   encoding: base64
@@ -808,6 +882,7 @@
     template:
     - image/vnd.sealedmedia.softseal.jpg
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.svf
   encoding: base64
@@ -817,6 +892,7 @@
     template:
     - image/vnd.svf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.tencent.tap
   encoding: base64
@@ -826,6 +902,7 @@
     template:
     - image/vnd.tencent.tap
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.valve.source.texture
   encoding: base64
@@ -835,6 +912,7 @@
     template:
     - image/vnd.valve.source.texture
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.wap.wbmp
   friendly:
@@ -848,6 +926,7 @@
     template:
     - image/vnd.wap.wbmp
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.xiff
   friendly:
@@ -861,6 +940,7 @@
     template:
     - image/vnd.xiff
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/vnd.zbrush.pcx
   encoding: base64
@@ -870,6 +950,7 @@
     template:
     - image/vnd.zbrush.pcx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/webp
   friendly:
@@ -878,6 +959,7 @@
   extensions:
   - webp
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/wmf
   encoding: base64
@@ -887,12 +969,14 @@
     template:
     - image/wmf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/x-3ds
   encoding: base64
   extensions:
   - 3ds
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-adobe-dng
   friendly:
@@ -901,6 +985,7 @@
   extensions:
   - dng
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-bmp
   encoding: base64
@@ -909,6 +994,7 @@
   obsolete: true
   use-instead: image/bmp
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-canon-cr2
   friendly:
@@ -917,6 +1003,7 @@
   extensions:
   - cr2
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-canon-crw
   friendly:
@@ -925,6 +1012,7 @@
   extensions:
   - crw
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-cmu-raster
   friendly:
@@ -933,6 +1021,7 @@
   extensions:
   - ras
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-cmx
   friendly:
@@ -941,6 +1030,7 @@
   extensions:
   - cmx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-compressed-xcf
   docs: see-also:image/x-xcf
@@ -949,6 +1039,7 @@
   - xcfbz2
   - xcfgz
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: image/x-emf
   encoding: base64
@@ -962,6 +1053,7 @@
     notes:
     - "- DEPRECATED in favor of image/emf"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: image/x-epson-erf
   friendly:
@@ -970,6 +1062,7 @@
   extensions:
   - erf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-freehand
   friendly:
@@ -982,6 +1075,7 @@
   - fh7
   - fhc
   registered: false
+  sort-priority: 43
 - !ruby/object:MIME::Type
   content-type: image/x-fuji-raf
   friendly:
@@ -990,12 +1084,14 @@
   extensions:
   - raf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-hasselblad-3fr
   encoding: base64
   extensions:
   - 3fr
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-icon
   friendly:
@@ -1004,6 +1100,7 @@
   extensions:
   - ico
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-kodak-dcr
   friendly:
@@ -1012,6 +1109,7 @@
   extensions:
   - dcr
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-kodak-k25
   friendly:
@@ -1020,6 +1118,7 @@
   extensions:
   - k25
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-kodak-kdc
   friendly:
@@ -1028,6 +1127,7 @@
   extensions:
   - kdc
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-minolta-mrw
   friendly:
@@ -1036,12 +1136,14 @@
   extensions:
   - mrw
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-mrsid-image
   encoding: base64
   extensions:
   - sid
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-ms-bmp
   friendly:
@@ -1051,6 +1153,7 @@
   - bmp
   obsolete: true
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: image/x-nikon-nef
   friendly:
@@ -1059,6 +1162,7 @@
   extensions:
   - nef
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-olympus-orf
   friendly:
@@ -1067,6 +1171,7 @@
   extensions:
   - orf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-paintshoppro
   encoding: base64
@@ -1074,6 +1179,7 @@
   - psp
   - pspimage
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: image/x-panasonic-raw
   friendly:
@@ -1082,6 +1188,7 @@
   extensions:
   - raw
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-pcx
   friendly:
@@ -1090,6 +1197,7 @@
   extensions:
   - pcx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-pentax-pef
   friendly:
@@ -1098,6 +1206,7 @@
   extensions:
   - pef
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-pict
   friendly:
@@ -1107,6 +1216,7 @@
   - pct
   - pic
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: image/x-portable-anymap
   friendly:
@@ -1115,6 +1225,7 @@
   extensions:
   - pnm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-portable-bitmap
   friendly:
@@ -1123,6 +1234,7 @@
   extensions:
   - pbm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-portable-graymap
   friendly:
@@ -1131,6 +1243,7 @@
   extensions:
   - pgm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-portable-pixmap
   friendly:
@@ -1139,6 +1252,7 @@
   extensions:
   - ppm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-rgb
   friendly:
@@ -1147,6 +1261,7 @@
   extensions:
   - rgb
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-sigma-x3f
   friendly:
@@ -1155,6 +1270,7 @@
   extensions:
   - x3f
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-sony-arw
   friendly:
@@ -1163,6 +1279,7 @@
   extensions:
   - arw
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-sony-sr2
   friendly:
@@ -1171,6 +1288,7 @@
   extensions:
   - sr2
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-sony-srf
   friendly:
@@ -1179,28 +1297,33 @@
   extensions:
   - srf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-targa
   encoding: base64
   extensions:
   - tga
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-tga
   encoding: base64
   extensions:
   - tga
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-vnd.dgn
   encoding: base64
   extensions:
   - dgn
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-win-bmp
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: image/x-wmf
   encoding: base64
@@ -1214,6 +1337,7 @@
     notes:
     - "- DEPRECATED in favor of image/wmf"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: image/x-xbitmap
   friendly:
@@ -1222,18 +1346,21 @@
   extensions:
   - xbm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-xbm
   encoding: 7bit
   extensions:
   - xbm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-xcf
   encoding: base64
   extensions:
   - xcf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-xpixmap
   friendly:
@@ -1242,6 +1369,7 @@
   extensions:
   - xpm
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: image/x-xwindowdump
   friendly:
@@ -1250,3 +1378,4 @@
   extensions:
   - xwd
   registered: false
+  sort-priority: 47
