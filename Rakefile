@@ -119,6 +119,11 @@ namespace :convert do
       require "convert/mini_mime_db"
       Convert::MiniMimeDb.from_yaml_to_mini_mime(from: args.source, to: args.destination)
     end
+
+    task :yaml, [:source, :destination] => :support do |_, args|
+      require 'convert'
+      Convert.from_yaml_to_yaml(args)
+    end
   end
 
   namespace :json do
