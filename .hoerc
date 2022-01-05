@@ -47,4 +47,6 @@ exclude: !ruby/regexp '/
   )$
   |
   \.gemspec$
+  |
+  Vagrantfile$
   /x'
