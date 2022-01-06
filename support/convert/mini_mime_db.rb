@@ -24,7 +24,7 @@ class Convert::MiniMimeDb < Convert
       type.extensions.each { |ext| (index[ext.downcase] ||= []) << type }
     end
 
-    index.each_pair do |k, list|
+    index.each_pair do |_ext, list|
       list.sort! { |a, b| a.priority_compare(b) }
     end
 
