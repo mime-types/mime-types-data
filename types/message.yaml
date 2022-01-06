@@ -147,6 +147,7 @@
   friendly:
     en: Email Message
   encoding: 8bit
+  preferred-extension: eml
   extensions:
   - eml
   - mime

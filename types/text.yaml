@@ -28,6 +28,7 @@
   friendly:
     en: iCalendar
   encoding: quoted-printable
+  preferred-extension: ics
   extensions:
   - ics
   - ifb
@@ -99,6 +100,7 @@
   friendly:
     en: Comma-Separated Values
   encoding: 8bit
+  preferred-extension: csv
   extensions:
   - csv
   xrefs:
@@ -245,6 +247,7 @@
   friendly:
     en: HyperText Markup Language (HTML)
   encoding: 8bit
+  preferred-extension: html
   extensions:
   - html
   - htm
@@ -265,6 +268,7 @@
   extensions:
   - js
   - mjs
+  - cjs
   obsolete: true
   use-instead: application/javascript
   xrefs:
@@ -289,6 +293,7 @@
 - !ruby/object:MIME::Type
   content-type: text/markdown
   encoding: quoted-printable
+  preferred-extension: md
   extensions:
   - markdown
   - md
@@ -350,6 +355,7 @@
   friendly:
     en: Text File
   encoding: quoted-printable
+  preferred-extension: txt
   extensions:
   - txt
   - asc

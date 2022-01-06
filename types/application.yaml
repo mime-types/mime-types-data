@@ -1734,6 +1734,7 @@
 - !ruby/object:MIME::Type
   content-type: application/gzip
   encoding: base64
+  preferred-extension: gz
   extensions:
   - gz
   xrefs:
@@ -2011,15 +2012,21 @@
   friendly:
     en: JavaScript
   encoding: 8bit
+  preferred-extension: js
   extensions:
   - js
   - mjs
   - sj
+  - cjs
   xrefs:
     rfc:
     - rfc4329
     template:
     - application/javascript
+  extension-priorities:
+    - js: -10
+    - mjs: -10
+    - cjs: -10
   registered: true
   sort-priority: 13
 - !ruby/object:MIME::Type
@@ -2854,6 +2861,7 @@
   friendly:
     en: Microsoft Word
   encoding: base64
+  preferred-extension: doc
   extensions:
   - doc
   - dot
@@ -3062,6 +3070,7 @@
   - mar
   - pkg
   - ipa
+  - exe
   xrefs:
     rfc:
     - rfc2045
@@ -3069,6 +3078,10 @@
     template:
     - application/octet-stream
   registered: true
+  extension-priorities:
+    exe: -5
+    so: -5
+    dll: -5
   sort-priority: 0
 - !ruby/object:MIME::Type
   content-type: application/oda
@@ -3257,6 +3270,7 @@
   friendly:
     en: Adobe Portable Document Format
   encoding: base64
+  preferred-extension: pdf
   extensions:
   - pdf
   - ai
@@ -3265,6 +3279,8 @@
     - rfc8118
     template:
     - application/pdf
+  extension-priorities:
+    ai: 5
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
@@ -3301,6 +3317,9 @@
     - rfc3156
     template:
     - application/pgp-encrypted
+  extension-priorities:
+    pgp: 15
+    gpg: 15
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
@@ -3392,6 +3411,7 @@
   extensions:
   - p7m
   - p7c
+  - p7z
   xrefs:
     rfc:
     - rfc7114
@@ -3539,6 +3559,7 @@
   friendly:
     en: PostScript
   encoding: 8bit
+  preferred-extension: ps
   extensions:
   - eps
   - ps
@@ -3550,6 +3571,9 @@
     template:
     - application/postscript
   registered: true
+  extension-priorities:
+    ai: 5
+    eps: -10
   sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: application/powerpoint
@@ -4009,6 +4033,7 @@
   friendly:
     en: Rich Text Format
   encoding: base64
+  preferred-extension: rtf
   extensions:
   - rtf
   xrefs:
@@ -4030,7 +4055,12 @@
   sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/rtx
+  friendly:
+    en: Rich Text Format (RTF)
   encoding: base64
+  preferred-extension: rtx
+  extensions:
+    - rtx
   xrefs:
     rfc:
     - rfc4588
@@ -4504,8 +4534,9 @@
   content-type: application/smil
   encoding: 8bit
   extensions:
-  - smi
   - smil
+  - smi
+  - sml
   obsolete: true
   use-instead: application/smil+xml
   xrefs:
@@ -4523,8 +4554,9 @@
     en: Synchronized Multimedia Integration Language
   encoding: 8bit
   extensions:
-  - smi
   - smil
+  - smi
+  - sml
   xrefs:
     rfc:
     - rfc4536
@@ -10624,6 +10656,7 @@
   friendly:
     en: Lotus 1-2-3
   encoding: base64
+  preferred-extension: wks
   extensions:
   - wks
   - '123'
@@ -11259,6 +11292,7 @@
   friendly:
     en: Microsoft Excel
   encoding: base64
+  preferred-extension: xls
   extensions:
   - xls
   - xlt
@@ -11449,6 +11483,7 @@
   friendly:
     en: Microsoft PowerPoint
   encoding: base64
+  preferred-extension: ppt
   extensions:
   - ppt
   - pps
@@ -11555,6 +11590,7 @@
   friendly:
     en: Microsoft Project
   encoding: base64
+  preferred-extension: mpp
   extensions:
   - mpp
   - mpt
@@ -12291,6 +12327,7 @@
   friendly:
     en: OpenDocument Chart
   encoding: base64
+  preferred-extension: odc
   extensions:
   - odc
   xrefs:
@@ -12307,8 +12344,8 @@
     en: OpenDocument Chart Template
   encoding: base64
   extensions:
-  - odc
   - otc
+  - odc
   xrefs:
     person:
     - OASIS
@@ -12337,6 +12374,7 @@
   friendly:
     en: OpenDocument Formula
   encoding: base64
+  preferred-extension: odf
   extensions:
   - odf
   xrefs:
@@ -12352,9 +12390,10 @@
   friendly:
     en: OpenDocument Formula Template
   encoding: base64
+  preferred-extension: odft
   extensions:
-  - odf
   - odft
+  - odf
   xrefs:
     person:
     - OASIS
@@ -12398,6 +12437,7 @@
   friendly:
     en: OpenDocument Image
   encoding: base64
+  preferred-extension: odi
   extensions:
   - odi
   xrefs:
@@ -12414,8 +12454,8 @@
     en: OpenDocument Image Template
   encoding: base64
   extensions:
-  - odi
   - oti
+  - odi
   xrefs:
     person:
     - OASIS
@@ -13733,8 +13773,10 @@
   friendly:
     en: Microsoft Office - OOXML - Spreadsheet
   encoding: base64
+  preferred-extension: xlsx
   extensions:
   - xlsx
+  - xlsm
   xrefs:
     person:
     - Makoto_Murata
@@ -16512,6 +16554,7 @@
   friendly:
     en: Wordperfect
   encoding: base64
+  preferred-extension: wpd
   extensions:
   - wpd
   xrefs:
@@ -17041,6 +17084,7 @@
 - !ruby/object:MIME::Type
   content-type: application/wordperfect5.1
   encoding: base64
+  preferred-extension: wp
   extensions:
   - wp5
   - wp
@@ -17751,6 +17795,7 @@
   extensions:
   - js
   - mjs
+  - cjs
   obsolete: true
   use-instead: application/javascript
   registered: false
@@ -17932,6 +17977,11 @@
   - mde
   - mdf
   registered: false
+  extension-priorities:
+    mda: -5
+    mdb: -10
+    mde: -5
+    mdf: -5
   sort-priority: 44
 - !ruby/object:MIME::Type
   content-type: application/x-msbinder
@@ -18765,6 +18815,7 @@
   friendly:
     en: XHTML - The Extensible HyperText Markup Language
   encoding: 8bit
+  preferred-extension: xhtml
   extensions:
   - xht
   - xhtml
@@ -18805,6 +18856,7 @@
   friendly:
     en: XML - Extensible Markup Language
   encoding: 8bit
+  preferred-extension: xml
   extensions:
   - xml
   - xsl
@@ -18813,6 +18865,9 @@
     - rfc7303
     template:
     - application/xml
+  extension-priorities:
+    xml: -10
+    xsl: -10
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
@@ -18820,6 +18875,7 @@
   friendly:
     en: Document Type Definition
   encoding: 8bit
+  preferred-extension: dtd
   extensions:
   - dtd
   xrefs:
@@ -18995,6 +19051,7 @@
   friendly:
     en: Zip Archive
   encoding: base64
+  preferred-extension: zip
   extensions:
   - zip
   xrefs:

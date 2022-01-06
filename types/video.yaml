@@ -368,6 +368,7 @@
   friendly:
     en: MPEG-4 Video
   encoding: base64
+  preferred-extension: mp4
   extensions:
   - mp4
   - mpg4
@@ -482,6 +483,7 @@
   friendly:
     en: Quicktime Video
   encoding: base64
+  preferred-extension: mov
   extensions:
   - qt
   - mov

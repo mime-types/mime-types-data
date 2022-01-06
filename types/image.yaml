@@ -50,6 +50,7 @@
   friendly:
     en: Bitmap Image File
   encoding: base64
+  preferred-extension: bmp
   extensions:
   - bmp
   xrefs:
@@ -151,6 +152,7 @@
 - !ruby/object:MIME::Type
   content-type: image/heic
   encoding: base64
+  preferred-extension: heic
   extensions:
   - heic
   - hif
@@ -165,6 +167,7 @@
 - !ruby/object:MIME::Type
   content-type: image/heic-sequence
   encoding: base64
+  preferred-extension: heics
   extensions:
   - heics
   - hif
@@ -179,6 +182,7 @@
 - !ruby/object:MIME::Type
   content-type: image/heif
   encoding: base64
+  preferred-extension: heif
   extensions:
   - heif
   - hif
@@ -193,6 +197,7 @@
 - !ruby/object:MIME::Type
   content-type: image/heif-sequence
   encoding: base64
+  preferred-extension: heifs
   extensions:
   - heifs
   - hif
@@ -501,6 +506,7 @@
   friendly:
     en: Scalable Vector Graphics (SVG)
   encoding: 8bit
+  preferred-extension: svg
   extensions:
   - svg
   - svgz
@@ -537,6 +543,7 @@
   friendly:
     en: Tagged Image File Format
   encoding: base64
+  preferred-extension: tiff
   extensions:
   - tiff
   - tif
@@ -1152,6 +1159,7 @@
   extensions:
   - bmp
   obsolete: true
+  use-instead: image/x-bmp
   registered: false
   sort-priority: 175
 - !ruby/object:MIME::Type

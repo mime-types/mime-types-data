@@ -60,8 +60,8 @@
     en: Initial Graphics Exchange Specification (IGES)
   encoding: base64
   extensions:
-  - igs
   - iges
+  - igs
   xrefs:
     person:
     - Curtis_Parks
@@ -75,8 +75,8 @@
     en: Mesh Data Type
   encoding: base64
   extensions:
-  - msh
   - mesh
+  - msh
   - silo
   xrefs:
     rfc:
@@ -274,8 +274,8 @@
   content-type: model/vnd.parasolid.transmit.binary
   encoding: base64
   extensions:
-  - x_b
   - xmt_bin
+  - x_b
   xrefs:
     person:
     - Parasolid
@@ -287,8 +287,8 @@
   content-type: model/vnd.parasolid.transmit.text
   encoding: quoted-printable
   extensions:
-  - x_t
   - xmt_txt
+  - x_t
   xrefs:
     person:
     - Parasolid
@@ -367,8 +367,8 @@
     en: Virtual Reality Modeling Language
   encoding: base64
   extensions:
-  - wrl
   - vrml
+  - wrl
   xrefs:
     rfc:
     - rfc2077
