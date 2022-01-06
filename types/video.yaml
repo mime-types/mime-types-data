@@ -368,13 +368,13 @@
   friendly:
     en: MPEG-4 Video
   encoding: base64
-  preferred-extension: mp4
   extensions:
   - mp4
   - mpg4
   - f4v
   - f4p
   - mp4v
+  preferred-extension: mp4
   xrefs:
     rfc:
     - rfc4337
@@ -483,10 +483,10 @@
   friendly:
     en: Quicktime Video
   encoding: base64
-  preferred-extension: mov
   extensions:
   - qt
   - mov
+  preferred-extension: mov
   xrefs:
     rfc:
     - rfc6381

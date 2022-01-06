@@ -809,14 +809,14 @@
   friendly:
     en: MPEG-4 Audio
   encoding: base64
-  preferred-extension: m4a
-  mp4 extensions:
+  extensions:
+  - m4a
   - mp4
   - mpg4
   - f4a
   - f4b
   - mp4a
-  - m4a
+  preferred-extension: m4a
   xrefs:
     rfc:
     - rfc4337
@@ -1119,10 +1119,10 @@
 - !ruby/object:MIME::Type
   content-type: audio/sp-midi
   encoding: base64
-  preferred-extension: mid
   extensions:
   - mid
   - midi
+  preferred-extension: mid
   xrefs:
     person:
     - Timo_Kosonen
@@ -1130,7 +1130,7 @@
     template:
     - audio/sp-midi
   registered: true
-  sort-priority: 16
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: audio/speex
   encoding: base64
@@ -1804,9 +1804,10 @@
   encoding: base64
   extensions:
   - m4a
-  registered: false
+  obsolete: true
   use-instead: audio/mp4
-  sort-priority: 47
+  registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: audio/x-matroska
   encoding: base64

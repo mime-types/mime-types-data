@@ -50,9 +50,9 @@
   friendly:
     en: Bitmap Image File
   encoding: base64
-  preferred-extension: bmp
   extensions:
   - bmp
+  preferred-extension: bmp
   xrefs:
     rfc:
     - rfc7903
@@ -152,10 +152,10 @@
 - !ruby/object:MIME::Type
   content-type: image/heic
   encoding: base64
-  preferred-extension: heic
   extensions:
   - heic
   - hif
+  preferred-extension: heic
   xrefs:
     person:
     - David_Singer
@@ -167,10 +167,10 @@
 - !ruby/object:MIME::Type
   content-type: image/heic-sequence
   encoding: base64
-  preferred-extension: heics
   extensions:
   - heics
   - hif
+  preferred-extension: heics
   xrefs:
     person:
     - David_Singer
@@ -182,10 +182,10 @@
 - !ruby/object:MIME::Type
   content-type: image/heif
   encoding: base64
-  preferred-extension: heif
   extensions:
   - heif
   - hif
+  preferred-extension: heif
   xrefs:
     person:
     - David_Singer
@@ -197,10 +197,10 @@
 - !ruby/object:MIME::Type
   content-type: image/heif-sequence
   encoding: base64
-  preferred-extension: heifs
   extensions:
   - heifs
   - hif
+  preferred-extension: heifs
   xrefs:
     person:
     - David_Singer
@@ -506,10 +506,10 @@
   friendly:
     en: Scalable Vector Graphics (SVG)
   encoding: 8bit
-  preferred-extension: svg
   extensions:
   - svg
   - svgz
+  preferred-extension: svg
   xrefs:
     person:
     - W3C
@@ -543,10 +543,10 @@
   friendly:
     en: Tagged Image File Format
   encoding: base64
-  preferred-extension: tiff
   extensions:
   - tiff
   - tif
+  preferred-extension: tiff
   xrefs:
     rfc:
     - rfc3302

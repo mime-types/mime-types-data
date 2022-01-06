@@ -2,9 +2,9 @@
 - !ruby/object:MIME::Type
   content-type: font/collection
   encoding: base64
-  preferred_extension: ttc
   extensions:
   - ttc
+  preferred-extension: ttc
   xrefs:
     rfc:
     - rfc8081
@@ -15,9 +15,9 @@
 - !ruby/object:MIME::Type
   content-type: font/otf
   encoding: base64
-  preferred_extension: otf
   extensions:
   - otf
+  preferred-extension: otf
   xrefs:
     rfc:
     - rfc8081
@@ -38,9 +38,9 @@
 - !ruby/object:MIME::Type
   content-type: font/ttf
   encoding: base64
-  preferred_extension: ttf
   extensions:
   - ttf
+  preferred-extension: ttf
   xrefs:
     rfc:
     - rfc8081
@@ -51,9 +51,9 @@
 - !ruby/object:MIME::Type
   content-type: font/woff
   encoding: base64
-  preferred_extension: woff
   extensions:
   - woff
+  preferred-extension: woff
   xrefs:
     rfc:
     - rfc8081
@@ -64,9 +64,9 @@
 - !ruby/object:MIME::Type
   content-type: font/woff2
   encoding: base64
-  preferred_extension: woff2
   extensions:
   - woff2
+  preferred-extension: woff2
   xrefs:
     rfc:
     - rfc8081

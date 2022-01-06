@@ -28,10 +28,10 @@
   friendly:
     en: iCalendar
   encoding: quoted-printable
-  preferred-extension: ics
   extensions:
   - ics
   - ifb
+  preferred-extension: ics
   xrefs:
     rfc:
     - rfc5545
@@ -100,9 +100,9 @@
   friendly:
     en: Comma-Separated Values
   encoding: 8bit
-  preferred-extension: csv
   extensions:
   - csv
+  preferred-extension: csv
   xrefs:
     rfc:
     - rfc4180
@@ -247,13 +247,13 @@
   friendly:
     en: HyperText Markup Language (HTML)
   encoding: 8bit
-  preferred-extension: html
   extensions:
   - html
   - htm
   - htmlx
   - shtml
   - htx
+  preferred-extension: html
   xrefs:
     person:
     - Robin_Berjon
@@ -279,7 +279,7 @@
     notes:
     - "(OBSOLETED in favor of application/javascript)"
   registered: true
-  sort-priority: 142
+  sort-priority: 141
 - !ruby/object:MIME::Type
   content-type: text/jcr-cnd
   encoding: quoted-printable
@@ -293,11 +293,11 @@
 - !ruby/object:MIME::Type
   content-type: text/markdown
   encoding: quoted-printable
-  preferred-extension: md
   extensions:
   - markdown
   - md
   - mkd
+  preferred-extension: md
   xrefs:
     rfc:
     - rfc7763
@@ -355,7 +355,6 @@
   friendly:
     en: Text File
   encoding: quoted-printable
-  preferred-extension: txt
   extensions:
   - txt
   - asc
@@ -376,6 +375,7 @@
   - rst
   - text
   - textile
+  preferred-extension: txt
   xrefs:
     rfc:
     - rfc2046

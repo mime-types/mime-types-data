@@ -1734,9 +1734,9 @@
 - !ruby/object:MIME::Type
   content-type: application/gzip
   encoding: base64
-  preferred-extension: gz
   extensions:
   - gz
+  preferred-extension: gz
   xrefs:
     rfc:
     - rfc6713
@@ -2012,23 +2012,23 @@
   friendly:
     en: JavaScript
   encoding: 8bit
-  preferred-extension: js
   extensions:
   - js
   - mjs
   - sj
   - cjs
+  preferred-extension: js
   xrefs:
     rfc:
     - rfc4329
     template:
     - application/javascript
-  extension-priorities:
-    - js: -10
-    - mjs: -10
-    - cjs: -10
   registered: true
-  sort-priority: 13
+  sort-priority: 12
+  extension-priorities:
+    js: -10
+    mjs: -10
+    cjs: -10
 - !ruby/object:MIME::Type
   content-type: application/jf2feed+json
   encoding: base64
@@ -2861,11 +2861,11 @@
   friendly:
     en: Microsoft Word
   encoding: base64
-  preferred-extension: doc
   extensions:
   - doc
   - dot
   - wrd
+  preferred-extension: doc
   xrefs:
     person:
     - Paul_Lindner
@@ -3078,11 +3078,11 @@
     template:
     - application/octet-stream
   registered: true
+  sort-priority: 0
   extension-priorities:
     exe: -5
     so: -5
     dll: -5
-  sort-priority: 0
 - !ruby/object:MIME::Type
   content-type: application/oda
   friendly:
@@ -3270,19 +3270,19 @@
   friendly:
     en: Adobe Portable Document Format
   encoding: base64
-  preferred-extension: pdf
   extensions:
   - pdf
   - ai
+  preferred-extension: pdf
   xrefs:
     rfc:
     - rfc8118
     template:
     - application/pdf
-  extension-priorities:
-    ai: 5
   registered: true
   sort-priority: 14
+  extension-priorities:
+    ai: 5
 - !ruby/object:MIME::Type
   content-type: application/PDX
   encoding: base64
@@ -3317,11 +3317,11 @@
     - rfc3156
     template:
     - application/pgp-encrypted
+  registered: true
+  sort-priority: 14
   extension-priorities:
     pgp: 15
     gpg: 15
-  registered: true
-  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: application/pgp-keys
   encoding: 7bit
@@ -3420,7 +3420,7 @@
     - application/pkcs7-mime
   registered: true
   signature: true
-  sort-priority: 14
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: application/pkcs7-signature
   friendly:
@@ -3559,11 +3559,11 @@
   friendly:
     en: PostScript
   encoding: 8bit
-  preferred-extension: ps
   extensions:
   - eps
   - ps
   - ai
+  preferred-extension: ps
   xrefs:
     rfc:
     - rfc2045
@@ -3571,10 +3571,10 @@
     template:
     - application/postscript
   registered: true
+  sort-priority: 13
   extension-priorities:
     ai: 5
     eps: -10
-  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: application/powerpoint
   encoding: base64
@@ -4033,9 +4033,9 @@
   friendly:
     en: Rich Text Format
   encoding: base64
-  preferred-extension: rtf
   extensions:
   - rtf
+  preferred-extension: rtf
   xrefs:
     person:
     - Paul_Lindner
@@ -4058,16 +4058,16 @@
   friendly:
     en: Rich Text Format (RTF)
   encoding: base64
-  preferred-extension: rtx
   extensions:
-    - rtx
+  - rtx
+  preferred-extension: rtx
   xrefs:
     rfc:
     - rfc4588
     template:
     - application/rtx
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: application/samlassertion+xml
   encoding: base64
@@ -4547,7 +4547,7 @@
     notes:
     - "(OBSOLETED in favor of application/smil+xml)"
   registered: true
-  sort-priority: 142
+  sort-priority: 141
 - !ruby/object:MIME::Type
   content-type: application/smil+xml
   friendly:
@@ -4563,7 +4563,7 @@
     template:
     - application/smil+xml
   registered: true
-  sort-priority: 14
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: application/smpte336m
   encoding: base64
@@ -10656,10 +10656,10 @@
   friendly:
     en: Lotus 1-2-3
   encoding: base64
-  preferred-extension: wks
   extensions:
   - wks
   - '123'
+  preferred-extension: wks
   xrefs:
     person:
     - Paul_Wattenberger
@@ -11292,7 +11292,6 @@
   friendly:
     en: Microsoft Excel
   encoding: base64
-  preferred-extension: xls
   extensions:
   - xls
   - xlt
@@ -11300,6 +11299,7 @@
   - xlc
   - xlm
   - xlw
+  preferred-extension: xls
   xrefs:
     person:
     - Sukvinder_S._Gill
@@ -11483,11 +11483,11 @@
   friendly:
     en: Microsoft PowerPoint
   encoding: base64
-  preferred-extension: ppt
   extensions:
   - ppt
   - pps
   - pot
+  preferred-extension: ppt
   xrefs:
     person:
     - Sukvinder_S._Gill
@@ -11590,10 +11590,10 @@
   friendly:
     en: Microsoft Project
   encoding: base64
-  preferred-extension: mpp
   extensions:
   - mpp
   - mpt
+  preferred-extension: mpp
   xrefs:
     person:
     - Sukvinder_S._Gill
@@ -12327,9 +12327,9 @@
   friendly:
     en: OpenDocument Chart
   encoding: base64
-  preferred-extension: odc
   extensions:
   - odc
+  preferred-extension: odc
   xrefs:
     person:
     - OASIS
@@ -12374,9 +12374,9 @@
   friendly:
     en: OpenDocument Formula
   encoding: base64
-  preferred-extension: odf
   extensions:
   - odf
+  preferred-extension: odf
   xrefs:
     person:
     - OASIS
@@ -12390,10 +12390,10 @@
   friendly:
     en: OpenDocument Formula Template
   encoding: base64
-  preferred-extension: odft
   extensions:
   - odft
   - odf
+  preferred-extension: odft
   xrefs:
     person:
     - OASIS
@@ -12437,9 +12437,9 @@
   friendly:
     en: OpenDocument Image
   encoding: base64
-  preferred-extension: odi
   extensions:
   - odi
+  preferred-extension: odi
   xrefs:
     person:
     - OASIS
@@ -13773,17 +13773,17 @@
   friendly:
     en: Microsoft Office - OOXML - Spreadsheet
   encoding: base64
-  preferred-extension: xlsx
   extensions:
   - xlsx
   - xlsm
+  preferred-extension: xlsx
   xrefs:
     person:
     - Makoto_Murata
     template:
     - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
   registered: true
-  sort-priority: 15
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
   encoding: base64
@@ -16554,9 +16554,9 @@
   friendly:
     en: Wordperfect
   encoding: base64
-  preferred-extension: wpd
   extensions:
   - wpd
+  preferred-extension: wpd
   xrefs:
     person:
     - Kim_Scarborough
@@ -17084,10 +17084,10 @@
 - !ruby/object:MIME::Type
   content-type: application/wordperfect5.1
   encoding: base64
-  preferred-extension: wp
   extensions:
   - wp5
   - wp
+  preferred-extension: wp
   xrefs:
     person:
     - Paul_Lindner
@@ -17799,7 +17799,7 @@
   obsolete: true
   use-instead: application/javascript
   registered: false
-  sort-priority: 174
+  sort-priority: 173
 - !ruby/object:MIME::Type
   content-type: application/x-koan
   encoding: base64
@@ -17977,12 +17977,12 @@
   - mde
   - mdf
   registered: false
+  sort-priority: 44
   extension-priorities:
     mda: -5
     mdb: -10
     mde: -5
     mdf: -5
-  sort-priority: 44
 - !ruby/object:MIME::Type
   content-type: application/x-msbinder
   friendly:
@@ -18815,10 +18815,10 @@
   friendly:
     en: XHTML - The Extensible HyperText Markup Language
   encoding: 8bit
-  preferred-extension: xhtml
   extensions:
   - xht
   - xhtml
+  preferred-extension: xhtml
   xrefs:
     person:
     - Robin_Berjon
@@ -18856,28 +18856,28 @@
   friendly:
     en: XML - Extensible Markup Language
   encoding: 8bit
-  preferred-extension: xml
   extensions:
   - xml
   - xsl
+  preferred-extension: xml
   xrefs:
     rfc:
     - rfc7303
     template:
     - application/xml
+  registered: true
+  sort-priority: 14
   extension-priorities:
     xml: -10
     xsl: -10
-  registered: true
-  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: application/xml-dtd
   friendly:
     en: Document Type Definition
   encoding: 8bit
-  preferred-extension: dtd
   extensions:
   - dtd
+  preferred-extension: dtd
   xrefs:
     rfc:
     - rfc7303
@@ -19051,9 +19051,9 @@
   friendly:
     en: Zip Archive
   encoding: base64
-  preferred-extension: zip
   extensions:
   - zip
+  preferred-extension: zip
   xrefs:
     person:
     - Paul_Lindner
