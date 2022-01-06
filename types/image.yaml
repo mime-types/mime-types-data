@@ -48,8 +48,6 @@
   encoding: base64
   extensions:
   - bmp
-  obsolete: true
-  use-instead: image/x-bmp
   xrefs:
     rfc:
     - rfc7903
@@ -907,6 +905,8 @@
   encoding: base64
   extensions:
   - bmp
+  obsolete: true
+  use-instead: image/bmp
   registered: false
 - !ruby/object:MIME::Type
   content-type: image/x-canon-cr2
