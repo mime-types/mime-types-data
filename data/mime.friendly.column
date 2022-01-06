@@ -88,6 +88,7 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
 en^CU-SeeMe
 -
 -
@@ -274,6 +275,7 @@ en^Microsoft Word
 -
 -
 en^Material Exchange Format
+-
 -
 -
 -
@@ -782,8 +784,10 @@ en^MICROSEC e-Szign¢
 -
 -
 -
+-
 en^EZPix Secure Photo Album
 en^EZPix Secure Photo Album
+-
 -
 -
 en^Forms Data Format
@@ -859,6 +863,8 @@ en^Homebanking Computer Interface (HBCI)
 -
 -
 en^Archipelago Lesson Player
+-
+-
 en^HP-GL/2 and HP RTL
 en^Hewlett Packard Instant Delivery
 en^Hewlett-Packard's WebPrintSmart
@@ -1397,6 +1403,7 @@ en^OpenOffice - Writer (Text - HTML)
 en^OpenOffice - Writer Template (Text - HTML)
 en^ScheduleUs
 en^SourceView Document
+-
 -
 -
 en^Symbian Install Package

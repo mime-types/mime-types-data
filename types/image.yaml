@@ -411,7 +411,8 @@
   - png
   xrefs:
     person:
-    - Glenn_Randers-Pehrson
+    - PNG_Working_Group
+    - W3C
     template:
     - image/png
   registered: true

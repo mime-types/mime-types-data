@@ -146,7 +146,7 @@
     template:
     - text/ecmascript
     notes:
-    - "- OBSOLETED in favor of application/ecmascript"
+    - "(OBSOLETED in favor of application/ecmascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/encaprtp
@@ -251,7 +251,7 @@
     template:
     - text/javascript
     notes:
-    - "- OBSOLETED in favor of application/javascript"
+    - "(OBSOLETED in favor of application/javascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/jcr-cnd
@@ -914,7 +914,7 @@
     template:
     - text/vnd.si.uricatalogue
     notes:
-    - "- OBSOLETED by request"
+    - "(OBSOLETED by request)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/vnd.sosi

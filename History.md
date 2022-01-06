@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2022.0105 / 2022-01-05
+
+- Updated the Apache and IANA media registry entries as of release date.
+
+- Fixed an incorrect definition of `image/bmp`, which had been marked obsolete
+  and later registered. Fixed [#48], found by William T. Nelson.
+
 ## 3.2021.1115 / 2021-11-15
 
 - Updated the Apache and IANA media registry entries as of release date.
@@ -489,6 +496,7 @@
 [#45]: https://github.com/mime-types/mime-types-data/pull/45
 [#46]: https://github.com/mime-types/mime-types-data/pull/46
 [#47]: https://github.com/mime-types/mime-types-data/pull/47
+[#48]: https://github.com/mime-types/mime-types-data/issues/48
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41

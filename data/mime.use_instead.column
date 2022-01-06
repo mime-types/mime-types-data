@@ -138,6 +138,7 @@ application/cals-1840
 -
 -
 -
+-
 application/vnd.ms-excel
 -
 -
@@ -228,6 +229,7 @@ application/x-mac-compactpro
 application/vnd.mcd
 -
 application/x-mathematica-old
+-
 -
 -
 -
@@ -823,7 +825,11 @@ application/vnd.aristanetworks.swi
 -
 -
 -
-application/geo+json)
+-
+-
+application/geo+json
+-
+-
 -
 -
 -
@@ -1081,6 +1087,7 @@ application/vnd.visionary
 -
 -
 application/vnd.nokia.ncd
+-
 -
 -
 -
@@ -1935,7 +1942,7 @@ x-drawing/dwf
 -
 -
 -
-image/x-bmp
+-
 -
 image/x-cmu-raster
 -
@@ -2019,7 +2026,7 @@ image/vnd.net-fpx
 -
 -
 -
--
+image/bmp
 -
 -
 -

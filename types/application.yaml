@@ -78,7 +78,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-ace-oauth-authz-45
+    - RFC-ietf-ace-oauth-authz-46
     template:
     - application/ace+cbor
   registered: true
@@ -4101,7 +4101,7 @@
     template:
     - application/smil
     notes:
-    - "- OBSOLETED in favor of application/smil+xml"
+    - "(OBSOLETED in favor of application/smil+xml)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/smil+xml
@@ -4948,7 +4948,7 @@
     template:
     - application/vnd.3gpp.mcvideo-affiliation-info+xml
     notes:
-    - "- OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml"
+    - "(OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.mcvideo-info+xml
@@ -5779,7 +5779,7 @@
     template:
     - application/vnd.arastra.swi
     notes:
-    - "- OBSOLETED in favor of application/vnd.aristanetworks.swi"
+    - "(OBSOLETED in favor of application/vnd.aristanetworks.swi)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.aristanetworks.swi
@@ -7618,6 +7618,15 @@
     - application/vnd.etsi.tsl.der
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.eu.kasparian.car+json
+  encoding: base64
+  xrefs:
+    person:
+    - Hervé_Kasparian
+    template:
+    - application/vnd.eu.kasparian.car+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.eudora.data
   encoding: base64
   xrefs:
@@ -7705,6 +7714,15 @@
     - Samu_Sarivaara
     template:
     - application/vnd.f-secure.mobile
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.familysearch.gedcom+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Gordon_Clarke
+    template:
+    - application/vnd.familysearch.gedcom+zip
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.fastcopy-disk-image
@@ -7867,7 +7885,7 @@
     template:
     - application/vnd.frogans.fnc
     notes:
-    - "- OBSOLETE"
+    - "(OBSOLETE)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.frogans.ltf
@@ -7884,7 +7902,7 @@
     template:
     - application/vnd.frogans.ltf
     notes:
-    - "- OBSOLETE"
+    - "(OBSOLETE)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.fsc.weblaunch
@@ -8141,7 +8159,7 @@
   content-type: application/vnd.geo+json
   encoding: base64
   obsolete: true
-  use-instead: application/geo+json)
+  use-instead: application/geo+json
   xrefs:
     rfc:
     - rfc7946
@@ -8162,7 +8180,7 @@
     template:
     - application/vnd.geocube+xml
     notes:
-    - "- OBSOLETED by request"
+    - "(OBSOLETED by request)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.geogebra.file
@@ -8572,6 +8590,24 @@
     - application/vnd.hhe.lesson-player
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.hl7cda+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Marc_Duteau
+    template:
+    - application/vnd.hl7cda+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.hl7v2+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Marc_Duteau
+    template:
+    - application/vnd.hl7v2+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.hp-HPGL
   friendly:
     en: HP-GL/2 and HP RTL
@@ -8721,7 +8757,7 @@
     template:
     - application/vnd.ibm.afplinedata
     notes:
-    - "- OBSOLETED in favor of vnd.afpc.afplinedata"
+    - "(OBSOLETED in favor of vnd.afpc.afplinedata)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.ibm.electronic-media
@@ -8764,7 +8800,7 @@
     template:
     - application/vnd.ibm.modcap
     notes:
-    - "- OBSOLETED in favor of application/vnd.afpc.modca"
+    - "(OBSOLETED in favor of application/vnd.afpc.modca)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.ibm.rights-management
@@ -8973,7 +9009,7 @@
     template:
     - application/vnd.informix-visionary
     notes:
-    - "- OBSOLETED in favor of application/vnd.visionary"
+    - "(OBSOLETED in favor of application/vnd.visionary)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.infotech.project
@@ -11020,7 +11056,7 @@
     template:
     - application/vnd.nokia.n-gage.symbian.install
     notes:
-    - "- OBSOLETE; no replacement given"
+    - "(OBSOLETE; no replacement given)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.nokia.ncd
@@ -14254,6 +14290,15 @@
     - application/vnd.sycle+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.syft+json
+  encoding: base64
+  xrefs:
+    person:
+    - Dan_Luhring
+    template:
+    - application/vnd.syft+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.symbian.install
   friendly:
     en: Symbian Install Package
@@ -15326,7 +15371,7 @@
     template:
     - application/vnd.youtube.yt
     notes:
-    - "- OBSOLETED in favor of video/vnd.youtube.yt"
+    - "(OBSOLETED in favor of video/vnd.youtube.yt)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.zul

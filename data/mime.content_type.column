@@ -70,6 +70,7 @@ application/cea-2018+xml
 application/cellml+xml
 application/cert-chain+cbor
 application/cfw
+application/city+json
 application/clariscad
 application/clr
 application/clue+xml
@@ -277,6 +278,7 @@ application/mxf mxf
 application/n-quads
 application/n-triples
 application/nasdata
+application/netcdf
 application/netcdf nc cdf
 application/news-checkgroups
 application/news-groupinfo
@@ -776,6 +778,7 @@ application/vnd.etsi.simservs+xml
 application/vnd.etsi.timestamp-token
 application/vnd.etsi.tsl+xml
 application/vnd.etsi.tsl.der
+application/vnd.eu.kasparian.car+json
 application/vnd.eudora.data
 application/vnd.evolv.ecig.profile
 application/vnd.evolv.ecig.settings
@@ -785,6 +788,7 @@ application/vnd.exstream-package
 application/vnd.ezpix-album ez2
 application/vnd.ezpix-package ez3
 application/vnd.f-secure.mobile
+application/vnd.familysearch.gedcom+zip
 application/vnd.fastcopy-disk-image
 application/vnd.fdf fdf
 application/vnd.fdsn.mseed mseed
@@ -859,6 +863,8 @@ application/vnd.hcl-bireports
 application/vnd.hdt
 application/vnd.heroku+json
 application/vnd.hhe.lesson-player les
+application/vnd.hl7cda+xml
+application/vnd.hl7v2+xml
 application/vnd.hp-HPGL plt hpgl
 application/vnd.hp-hpid hpid
 application/vnd.hp-hps hps
@@ -1399,6 +1405,7 @@ application/vnd.sus-calendar sus susp
 application/vnd.svd svd
 application/vnd.swiftview-ics
 application/vnd.sycle+xml
+application/vnd.syft+json
 application/vnd.symbian.install sis sisx
 application/vnd.syncml+xml xsm
 application/vnd.syncml.dm+wbxml bdm

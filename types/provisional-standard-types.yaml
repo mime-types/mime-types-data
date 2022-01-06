@@ -16,6 +16,14 @@
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
+  content-type: application/city+json
+  encoding: base64
+  xrefs:
+    person:
+    - Hugo_Ledoux
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/ion
   encoding: base64
   xrefs:
@@ -29,6 +37,14 @@
   xrefs:
     person:
     - Glen_Kleidon
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/netcdf
+  encoding: base64
+  xrefs:
+    person:
+    - Ethan_Davis
   registered: true
   provisional: true
 - !ruby/object:MIME::Type

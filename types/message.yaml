@@ -118,7 +118,7 @@
     template:
     - message/news
     notes:
-    - "- OBSOLETED by RFC5537"
+    - "(OBSOLETED by )"
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/partial
@@ -144,11 +144,16 @@
 - !ruby/object:MIME::Type
   content-type: message/s-http
   encoding: base64
+  obsolete: true
   xrefs:
     rfc:
     - rfc2660
+    uri:
+    - https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic
     template:
     - message/s-http
+    notes:
+    - "(OBSOLETE)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/sip
@@ -187,7 +192,7 @@
     template:
     - message/vnd.si.simp
     notes:
-    - "- OBSOLETED by request"
+    - "(OBSOLETED by request)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/vnd.wfa.wsc
