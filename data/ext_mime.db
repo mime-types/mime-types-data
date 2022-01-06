@@ -121,6 +121,7 @@ chrt        application/vnd.kde.kchart                                          
 cif         chemical/x-cif                                                            base64          
 cii         application/vnd.anser-web-certificate-issue-initiation                    base64          
 cil         application/vnd.ms-artgalry                                               base64          
+cjs         application/javascript                                                    8bit            
 cla         application/vnd.claymore                                                  base64          
 class       application/java-vm                                                       base64          
 clkk        application/vnd.crick.clicker.keyboard                                    base64          
@@ -252,7 +253,7 @@ etx         text/x-setext                                                       
 eva         application/x-eva                                                         base64          
 evc         audio/EVRC                                                                base64          
 evy         application/x-envoy                                                       base64          
-exe         application/x-ms-dos-executable                                           base64          
+exe         application/octet-stream                                                  base64          
 exi         application/exi                                                           base64          
 ext         application/vnd.novadigm.EXT                                              base64          
 ez          application/andrew-inset                                                  base64          
@@ -660,6 +661,7 @@ p7c         application/pkcs7-mime                                              
 p7m         application/pkcs7-mime                                                    base64          
 p7r         application/x-pkcs7-certreqresp                                           base64          
 p7s         application/pkcs7-signature                                               base64          
+p7z         application/pkcs7-mime                                                    base64          
 p8          application/pkcs8                                                         base64          
 pac         application/x-ns-proxy-autoconfig                                         base64          
 pages       application/x-iwork-pages-sffpages                                        base64          
@@ -798,7 +800,7 @@ rsd         application/rsd+xml                                                 
 rss         application/rss+xml                                                       base64          
 rst         text/plain                                                                quoted-printable
 rtf         application/rtf                                                           base64          
-rtx         text/richtext                                                             8bit            
+rtx         application/rtx                                                           base64          
 s           text/x-asm                                                                quoted-printable
 s11         video/vnd.sealed.mpeg1                                                    base64          
 s14         video/vnd.sealed.mpeg4                                                    base64          
@@ -879,6 +881,7 @@ smh         application/vnd.sealed.mht                                          
 smht        application/vnd.sealed.mht                                                base64          
 smi         application/smil+xml                                                      8bit            
 smil        application/smil+xml                                                      8bit            
+sml         application/smil+xml                                                      8bit            
 smo         video/vnd.sealedmedia.softseal.mov                                        base64          
 smov        video/vnd.sealedmedia.softseal.mov                                        base64          
 smp         audio/vnd.sealedmedia.softseal.mpeg                                       base64          

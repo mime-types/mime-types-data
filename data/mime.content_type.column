@@ -193,7 +193,7 @@ application/its+xml
 application/java-archive jar
 application/java-serialized-object ser
 application/java-vm class
-application/javascript js mjs sj
+application/javascript js mjs sj cjs
 application/jf2feed+json
 application/jose
 application/jose+json
@@ -290,7 +290,7 @@ application/nss
 application/oauth-authz-req+jwt
 application/ocsp-request
 application/ocsp-response
-application/octet-stream bin dms lha lzh class ani pgp gpg so dll dylib bpk deploy dist distz dump elc lrf mar pkg ipa
+application/octet-stream bin dms lha lzh class ani pgp gpg so dll dylib bpk deploy dist distz dump elc lrf mar pkg ipa exe
 application/oda oda
 application/odm+json
 application/odm+xml
@@ -319,7 +319,7 @@ application/pidf+xml
 application/pidf-diff+xml
 application/pkcs10 p10
 application/pkcs12
-application/pkcs7-mime p7m p7c
+application/pkcs7-mime p7m p7c p7z
 application/pkcs7-signature p7s
 application/pkcs8 p8
 application/pkcs8-encrypted
@@ -379,7 +379,7 @@ application/rsd+xml rsd
 application/rss+xml rss
 application/rtf rtf
 application/rtploopback
-application/rtx
+application/rtx rtx
 application/samlassertion+xml
 application/samlmetadata+xml
 application/sarif+json
@@ -423,8 +423,8 @@ application/simpleSymbolContainer
 application/sipc
 application/SLA
 application/slate
-application/smil smi smil
-application/smil+xml smi smil
+application/smil smil smi sml
+application/smil+xml smil smi sml
 application/smpte336m
 application/soap+fastinfoset
 application/soap+xml
@@ -1100,14 +1100,14 @@ application/vnd.ntt-local.ogw_remote-access
 application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream
 application/vnd.oasis.opendocument.chart odc
-application/vnd.oasis.opendocument.chart-template odc otc
+application/vnd.oasis.opendocument.chart-template otc odc
 application/vnd.oasis.opendocument.database odb
 application/vnd.oasis.opendocument.formula odf
-application/vnd.oasis.opendocument.formula-template odf odft
+application/vnd.oasis.opendocument.formula-template odft odf
 application/vnd.oasis.opendocument.graphics odg
 application/vnd.oasis.opendocument.graphics-template otg
 application/vnd.oasis.opendocument.image odi
-application/vnd.oasis.opendocument.image-template odi oti
+application/vnd.oasis.opendocument.image-template oti odi
 application/vnd.oasis.opendocument.presentation odp
 application/vnd.oasis.opendocument.presentation-template otp
 application/vnd.oasis.opendocument.spreadsheet ods
@@ -1229,7 +1229,7 @@ application/vnd.openxmlformats-officedocument.spreadsheetml.queryTable+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.revisionLog+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml
-application/vnd.openxmlformats-officedocument.spreadsheetml.sheet xlsx
+application/vnd.openxmlformats-officedocument.spreadsheetml.sheet xlsx xlsm
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.sheetMetadata+xml
 application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml
@@ -1607,7 +1607,7 @@ application/x-java-archive jar
 application/x-java-jnlp-file jnlp
 application/x-java-serialized-object ser
 application/x-java-vm class
-application/x-javascript js mjs
+application/x-javascript js mjs cjs
 application/x-koan skp skd skt skm
 application/x-latex ltx latex
 application/x-lotus-123 wks
@@ -1822,7 +1822,7 @@ audio/MELP600
 audio/mhas
 audio/midi kar mid midi rmi
 audio/mobile-xmf
-audio/mp4 mp4 mpg4 f4a f4b mp4a m4a
+audio/mp4 m4a mp4 mpg4 f4a f4b mp4a
 audio/MP4A-LATM m4a
 audio/MPA
 audio/mpa-robust
@@ -1850,7 +1850,7 @@ audio/SMV smv
 audio/SMV-QCP
 audio/SMV0
 audio/sofa
-audio/sp-midi
+audio/sp-midi mid midi
 audio/speex
 audio/t140c
 audio/t38
@@ -2096,8 +2096,8 @@ model/e57
 model/example
 model/gltf+json
 model/gltf-binary
-model/iges igs iges
-model/mesh msh mesh silo
+model/iges iges igs
+model/mesh mesh msh silo
 model/mtl
 model/obj
 model/step
@@ -2114,15 +2114,15 @@ model/vnd.gtw gtw
 model/vnd.moml+xml
 model/vnd.mts mts
 model/vnd.opengex
-model/vnd.parasolid.transmit.binary x_b xmt_bin
-model/vnd.parasolid.transmit.text x_t xmt_txt
+model/vnd.parasolid.transmit.binary xmt_bin x_b
+model/vnd.parasolid.transmit.text xmt_txt x_t
 model/vnd.pytha.pyox
 model/vnd.rosette.annotated-data-model
 model/vnd.sap.vds
 model/vnd.usdz+zip
 model/vnd.valve.source.compiled-map
 model/vnd.vtu vtu
-model/vrml wrl vrml
+model/vrml vrml wrl
 model/x3d+binary x3db x3dbz
 model/x3d+fastinfoset
 model/x3d+vrml x3dv x3dvz
@@ -2173,7 +2173,7 @@ text/fwdred
 text/gff3
 text/grammar-ref-list
 text/html html htm htmlx shtml htx
-text/javascript js mjs
+text/javascript js mjs cjs
 text/jcr-cnd
 text/markdown markdown md mkd
 text/mizar
