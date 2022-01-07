@@ -17,7 +17,7 @@ class Convert::Columnar < Convert
   def to_columnar(options = {})
     root = options[:destination] or require_destination!
     @root = must_be_directory!(root)
-    @data = @loader.container.sort.map(&:to_h)
+    @data = @loader.container.sort_by(&:simplified).map(&:to_h)
 
     column_file("content_type") do |type|
       [type["content-type"], Array(type["extensions"]).join(" ")]
