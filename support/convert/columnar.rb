@@ -31,7 +31,14 @@ class Convert::Columnar < Convert
     dict_file("xrefs")
     dict_file("friendly")
     option_file("use_instead", "use-instead")
-    dict_file("extpri", "extension_priorities")
+    dict_file("extpri", "extension-priorities")
+    bin_file("spri", "sort-priority")
+  end
+
+  def bin_file(name, field = name)
+    File.open(File.join(@root, "mime.#{name}.column"), "wb") do |f|
+      f.write @data.map { |type| type[field] }.pack("C*")
+    end
   end
 
   def column_file(name, &block)
