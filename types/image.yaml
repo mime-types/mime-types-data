@@ -59,7 +59,7 @@
     template:
     - image/bmp
   registered: true
-  sort-priority: 143
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/cgm
   friendly:
@@ -1001,7 +1001,7 @@
   obsolete: true
   use-instead: image/bmp
   registered: false
-  sort-priority: 47
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: image/x-canon-cr2
   friendly:

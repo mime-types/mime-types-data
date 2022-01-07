@@ -25,6 +25,7 @@
     - Hugo_Ledoux
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/ion
   encoding: base64
@@ -51,6 +52,7 @@
     - Ethan_Davis
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/odm+json
   encoding: base64

@@ -8426,6 +8426,7 @@
     template:
     - application/vnd.eu.kasparian.car+json
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.eudora.data
   encoding: base64
@@ -8533,6 +8534,7 @@
     template:
     - application/vnd.familysearch.gedcom+zip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.fastcopy-disk-image
   encoding: base64
@@ -9481,6 +9483,7 @@
     template:
     - application/vnd.hl7cda+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.hl7v2+xml
   encoding: base64
@@ -9490,6 +9493,7 @@
     template:
     - application/vnd.hl7v2+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.hp-HPGL
   friendly:
@@ -15731,6 +15735,7 @@
     template:
     - application/vnd.syft+json
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.symbian.install
   friendly:
@@ -18859,6 +18864,8 @@
   extensions:
   - xml
   - xsl
+  - dtd
+  - xsd
   preferred-extension: xml
   xrefs:
     rfc:
@@ -18866,7 +18873,7 @@
     template:
     - application/xml
   registered: true
-  sort-priority: 14
+  sort-priority: 12
   extension-priorities:
     xml: -10
     xsl: -10
