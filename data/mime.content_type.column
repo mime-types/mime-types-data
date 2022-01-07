@@ -278,8 +278,8 @@ application/mxf mxf
 application/n-quads
 application/n-triples
 application/nasdata
-application/netcdf nc cdf
 application/netcdf
+application/netcdf nc cdf
 application/news-checkgroups
 application/news-groupinfo
 application/news-message-id
@@ -1725,7 +1725,7 @@ application/xenc+xml xenc
 application/xhtml+xml xht xhtml
 application/xhtml-voice+xml
 application/xliff+xml
-application/xml xml xsl
+application/xml xml xsl dtd xsd
 application/xml-dtd dtd
 application/xml-external-parsed-entity
 application/xml-patch+xml

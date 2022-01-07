@@ -278,8 +278,8 @@ rfc^rfc4539|template^application/mxf
 person^Eric_Prudhommeaux^W3C|template^application/n-quads
 person^Eric_Prudhommeaux^W3C|template^application/n-triples
 rfc^rfc4707|template^application/nasdata
--
 person^Ethan_Davis
+-
 rfc^rfc5537|template^application/news-checkgroups
 rfc^rfc5537|template^application/news-groupinfo
 -
