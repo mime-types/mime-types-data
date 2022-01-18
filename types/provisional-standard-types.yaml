@@ -40,14 +40,6 @@
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
-  content-type: application/netcdf
-  encoding: base64
-  xrefs:
-    person:
-    - Ethan_Davis
-  registered: true
-  provisional: true
-- !ruby/object:MIME::Type
   content-type: application/odm+json
   encoding: base64
   xrefs:
