@@ -278,7 +278,6 @@ application/mxf mxf
 application/n-quads
 application/n-triples
 application/nasdata
-application/netcdf
 application/netcdf nc cdf
 application/news-checkgroups
 application/news-groupinfo
