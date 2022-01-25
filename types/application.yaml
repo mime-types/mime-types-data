@@ -77,10 +77,19 @@
   content-type: application/ace+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ace-oauth-authz-46
+    rfc:
+    - rfc9200
     template:
     - application/ace+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/ace+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ace-mqtt-tls-profile-17
+    template:
+    - application/ace+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/activemessage
@@ -100,6 +109,50 @@
     - W3C
     template:
     - application/activity+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/aif+cbor
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9237
+    template:
+    - application/aif+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/aif+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9237
+    template:
+    - application/aif+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/akn+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Chet_Ensign
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/alto-cdni+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9241
+    template:
+    - application/alto-cdni+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/alto-cdnifilter+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9241
+    template:
+    - application/alto-cdnifilter+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/alto-costmap+json
@@ -190,6 +243,24 @@
     - rfc7285
     template:
     - application/alto-networkmapfilter+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/alto-propmap+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9240
+    template:
+    - application/alto-propmap+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/alto-propmapparams+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9240
+    template:
+    - application/alto-propmapparams+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/alto-updatestreamcontrol+json
@@ -405,6 +476,24 @@
     - application/auth-policy+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/automationml-aml+xml
+  encoding: base64
+  xrefs:
+    person:
+    - AutomationML_e.V.
+    template:
+    - application/automationml-aml+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/automationml-amlx+zip
+  encoding: base64
+  xrefs:
+    person:
+    - AutomationML_e.V.
+    template:
+    - application/automationml-amlx+zip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/bacnet-xdd+zip
   encoding: base64
   xrefs:
@@ -550,6 +639,16 @@
     - application/ccxml+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/cda+xml
+  encoding: base64
+  xrefs:
+    person:
+    - HL7
+    - Marc_Duteau
+    template:
+    - application/cda+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/CDFX+XML
   encoding: base64
   xrefs:
@@ -662,6 +761,14 @@
     - application/cellml+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/cert-chain+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-yasskin-http-origin-signed-responses
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/cfw
   encoding: base64
   xrefs:
@@ -670,6 +777,14 @@
     template:
     - application/cfw
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/city+json
+  encoding: base64
+  xrefs:
+    person:
+    - Hugo_Ledoux
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/clariscad
   encoding: base64
@@ -748,6 +863,15 @@
     - application/commonground
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/concise-problem-details+cbor
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9290
+    template:
+    - application/concise-problem-details+cbor
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/conference-info+xml
   encoding: base64
   xrefs:
@@ -760,8 +884,8 @@
   content-type: application/cose
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cose-rfc8152bis-struct-15
+    rfc:
+    - rfc9052
     template:
     - application/cose
   registered: true
@@ -769,8 +893,8 @@
   content-type: application/cose-key
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cose-rfc8152bis-struct-15
+    rfc:
+    - rfc9052
     template:
     - application/cose-key
   registered: true
@@ -778,10 +902,19 @@
   content-type: application/cose-key-set
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cose-rfc8152bis-struct-15
+    rfc:
+    - rfc9052
     template:
     - application/cose-key-set
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/cose-x509
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9360
+    template:
+    - application/cose-x509
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/cpl+xml
@@ -837,6 +970,26 @@
   extensions:
   - cu
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/cwl
+  encoding: base64
+  xrefs:
+    person:
+    - CWL_Project
+    - Michael_R._Crusoe
+    template:
+    - application/cwl
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/cwl+json
+  encoding: base64
+  xrefs:
+    person:
+    - CWL_Project
+    - Michael_R._Crusoe
+    template:
+    - application/cwl+json
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/cwt
   encoding: base64
@@ -949,7 +1102,7 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
+    - DICOM_Standard_Committee
     - David_Clunie
     template:
     - application/dicom+json
@@ -959,7 +1112,7 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
+    - DICOM_Standard_Committee
     - David_Clunie
     template:
     - application/dicom+xml
@@ -1086,11 +1239,16 @@
   extensions:
   - ecma
   - es
+  obsolete: true
+  use-instead: text/javascript
   xrefs:
     rfc:
     - rfc4329
+    - rfc9239
     template:
     - application/ecmascript
+    notes:
+    - "(OBSOLETED in favor of text/javascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/EDI-consent
@@ -1195,6 +1353,16 @@
     - application/EmergencyCallData.eCall.MSD
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/EmergencyCallData.LegacyESN+json
+  encoding: base64
+  xrefs:
+    person:
+    - NENA
+    - Randall_Gellens
+    template:
+    - application/EmergencyCallData.LegacyESN+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/EmergencyCallData.ProviderInfo+xml
   encoding: base64
   xrefs:
@@ -1227,6 +1395,8 @@
   xrefs:
     rfc:
     - rfc8148
+    rfc-errata:
+    - '6500'
     template:
     - application/EmergencyCallData.VEDS+xml
   registered: true
@@ -1283,8 +1453,8 @@
   - epub
   xrefs:
     person:
-    - International_Digital_Publishing_Forum
-    - William_McCoy
+    - EPUB_3_WG
+    - W3C
     template:
     - application/epub+zip
   registered: true
@@ -1334,8 +1504,8 @@
   content-type: application/expect-ct-report+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-httpbis-expect-ct-08
+    rfc:
+    - rfc9163
     template:
     - application/expect-ct-report+json
   registered: true
@@ -1368,6 +1538,16 @@
     - ITU-T_ASN.1_Rapporteur
     template:
     - application/fastsoap
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/fdf
+  encoding: base64
+  xrefs:
+    person:
+    - Betsy_Fanning
+    - ISO-TC_171-SC_2
+    template:
+    - application/fdf
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/fdt+xml
@@ -1605,11 +1785,21 @@
   use-instead: application/x-hep
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/hl7v2+xml
+  encoding: base64
+  xrefs:
+    person:
+    - HL7
+    - Marc_Duteau
+    template:
+    - application/hl7v2+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/http
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-httpbis-messaging-19
+    rfc:
+    - rfc9112
     template:
     - application/http
   registered: true
@@ -1742,6 +1932,14 @@
     - application/inkml+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/ion
+  encoding: base64
+  xrefs:
+    person:
+    - Jonathan_Hohle
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/iotp
   encoding: base64
   xrefs:
@@ -1824,11 +2022,16 @@
   - js
   - mjs
   - sj
+  obsolete: true
+  use-instead: text/javascript
   xrefs:
     rfc:
     - rfc4329
+    - rfc9239
     template:
     - application/javascript
+    notes:
+    - "(OBSOLETED in favor of text/javascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/jf2feed+json
@@ -1889,6 +2092,14 @@
     template:
     - application/json
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/json-nd
+  encoding: base64
+  xrefs:
+    person:
+    - Glen_Kleidon
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/json-patch+json
   encoding: base64
@@ -1987,6 +2198,24 @@
     - application/link-format
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/linkset
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9264
+    template:
+    - application/linkset
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/linkset+json
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9264
+    template:
+    - application/linkset+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/load-control+xml
   encoding: base64
   xrefs:
@@ -1994,6 +2223,15 @@
     - rfc7200
     template:
     - application/load-control+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/logout+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - OpenID_Foundation_Artifact_Binding_WG
+    template:
+    - application/logout+jwt
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/lost+xml
@@ -2414,8 +2652,8 @@
   content-type: application/missing-blocks+cbor-seq
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-core-new-block-14
+    rfc:
+    - rfc9177
     template:
     - application/missing-blocks+cbor-seq
   registered: true
@@ -2662,7 +2900,11 @@
   extensions:
   - nc
   - cdf
-  registered: false
+  xrefs:
+    person:
+    - Ethan_Davis
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/news-checkgroups
   encoding: base64
@@ -2732,6 +2974,15 @@
     - application/oauth-authz-req+jwt
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/oblivious-dns-message
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9230
+    template:
+    - application/oblivious-dns-message
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/ocsp-request
   encoding: base64
   xrefs:
@@ -2797,6 +3048,14 @@
     - application/ODA
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/odm+json
+  encoding: base64
+  xrefs:
+    person:
+    - Sam_Hume
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/odm+xml
   encoding: base64
   xrefs:
@@ -2824,8 +3083,9 @@
   extensions:
   - opf
   xrefs:
-    rfc:
-    - rfc4839
+    person:
+    - EPUB_3_WG
+    - W3C
     template:
     - application/oebps-package+xml
   registered: true
@@ -3162,6 +3422,14 @@
     - application/pkix-crl
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/pkix-keyinfo
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-hallambaker-mesh-udf
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/pkix-pkipath
   friendly:
     en: Internet Public Key Infrastructure - Certification Path
@@ -3453,13 +3721,18 @@
 - !ruby/object:MIME::Type
   content-type: application/remote-printing
   encoding: base64
+  obsolete: true
   xrefs:
     rfc:
     - rfc1486
     person:
     - Marshall_Rose
+    uri:
+    - https://datatracker.ietf.org/doc/status-change-int-tlds-to-historic
     template:
     - application/remote-printing
+    notes:
+    - "(OBSOLETE)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/remote_printing
@@ -3467,6 +3740,14 @@
   obsolete: true
   use-instead: application/remote-printing
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/reports+json
+  encoding: base64
+  xrefs:
+    person:
+    - Douglas_Creager
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/reputon+json
   encoding: base64
@@ -3511,6 +3792,14 @@
     template:
     - application/rfc+xml
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/rif+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Sandro_Hawke
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/riscos
   encoding: base64
@@ -3568,6 +3857,15 @@
     - ATSC
     template:
     - application/route-usd+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/rpki-checklist
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9323
+    template:
+    - application/rpki-checklist
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/rpki-ghostbusters
@@ -3918,8 +4216,8 @@
   encoding: base64
   xrefs:
     person:
+    - Connectivity_Standards_Alliance
     - Robby_Simpson
-    - ZigBee
     template:
     - application/sep+xml
   registered: true
@@ -3928,8 +4226,8 @@
   encoding: base64
   xrefs:
     person:
+    - Connectivity_Standards_Alliance
     - Robby_Simpson
-    - ZigBee
     template:
     - application/sep-exi
   registered: true
@@ -4037,6 +4335,14 @@
     template:
     - application/sieve
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/signed-exchange
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-yasskin-http-origin-signed-responses
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/simple-filter+xml
   encoding: base64
@@ -4280,6 +4586,15 @@
     - application/stix+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/swid+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-sacm-coswid-22
+    template:
+    - application/swid+cbor
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/swid+xml
   encoding: base64
   xrefs:
@@ -4496,6 +4811,16 @@
     - application/tlsrpt+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/tm+json
+  encoding: base64
+  xrefs:
+    person:
+    - Sebastian_Kaebisch
+    - W3C
+    template:
+    - application/tm+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/tnauthlist
   encoding: base64
   xrefs:
@@ -4683,6 +5008,24 @@
     - application/vnd.3gpp-prose+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp-prose-pc3a+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Haorui_Yang
+    template:
+    - application/vnd.3gpp-prose-pc3a+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp-prose-pc3ach+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Haorui_Yang
+    template:
+    - application/vnd.3gpp-prose-pc3ach+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp-prose-pc3ch+xml
   encoding: base64
   xrefs:
@@ -4690,6 +5033,15 @@
     - Frederic_Firmin
     template:
     - application/vnd.3gpp-prose-pc3ch+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp-prose-pc8+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Haorui_Yang
+    template:
+    - application/vnd.3gpp-prose-pc8+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp-v2x-local-service-information
@@ -4794,6 +5146,15 @@
     - application/vnd.3gpp.mcdata-info+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Kiran_Kapale
+    template:
+    - application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.mcdata-payload
   encoding: base64
   xrefs:
@@ -4801,6 +5162,15 @@
     - Frederic_Firmin
     template:
     - application/vnd.3gpp.mcdata-payload
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.mcdata-regroup+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Kiran_Kapale
+    template:
+    - application/vnd.3gpp.mcdata-regroup+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.mcdata-service-config+xml
@@ -5092,6 +5462,26 @@
     - application/vnd.3gpp.s1ap
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.seal-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Christian_Herrero-Veron
+    - _3GPP
+    template:
+    - application/vnd.3gpp.seal-info+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.seal-location-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Christian_Herrero-Veron
+    - _3GPP
+    template:
+    - application/vnd.3gpp.seal-location-info+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.sms
   encoding: base64
   extensions:
@@ -5146,6 +5536,16 @@
     - Frederic_Firmin
     template:
     - application/vnd.3gpp.ussd+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.vae-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Christian_Herrero-Veron
+    - _3GPP
+    template:
+    - application/vnd.3gpp.vae-info+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp2.bcmcsinfo+xml
@@ -5683,6 +6083,15 @@
     - application/vnd.apache.thrift.json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.apexlang
+  encoding: base64
+  xrefs:
+    person:
+    - Fawad_Shaikh
+    template:
+    - application/vnd.apexlang
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.api+json
   encoding: base64
   xrefs:
@@ -5925,6 +6334,24 @@
     - Jegulsky
     template:
     - application/vnd.bekitzur-stech+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.belightsoft.lhzd+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Dmytro_Yunchyk
+    template:
+    - application/vnd.belightsoft.lhzd+zip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.belightsoft.lhzl+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Dmytro_Yunchyk
+    template:
+    - application/vnd.belightsoft.lhzl+zip
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.bint.med-content
@@ -6236,6 +6663,24 @@
     - Gaige_Paulsen
     template:
     - application/vnd.cluetrust.cartomobile-config-pkg
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cncf.helm.chart.content.v1.tar+gzip
+  encoding: base64
+  xrefs:
+    person:
+    - Andrew_Block
+    template:
+    - application/vnd.cncf.helm.chart.content.v1.tar+gzip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cncf.helm.chart.provenance.v1.prov
+  encoding: base64
+  xrefs:
+    person:
+    - Andrew_Block
+    template:
+    - application/vnd.cncf.helm.chart.provenance.v1.prov
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.coffeescript
@@ -6702,6 +7147,15 @@
     - application/vnd.data-vision.rdz
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.datalog
+  encoding: base64
+  xrefs:
+    person:
+    - Simon_Johnston
+    template:
+    - application/vnd.datalog
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.datapackage+json
   encoding: base64
   xrefs:
@@ -6733,7 +7187,7 @@
   encoding: base64
   xrefs:
     person:
-    - Charles_Plessy
+    - Debian_Policy_mailing_list
     template:
     - application/vnd.debian.binary-package
   registered: true
@@ -7203,6 +7657,15 @@
     - application/vnd.ecip.rlp
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.eclipse.ditto+json
+  encoding: base64
+  xrefs:
+    person:
+    - Eclipse_Ditto_developers
+    template:
+    - application/vnd.eclipse.ditto+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.ecowin.chart
   friendly:
     en: EcoWin Chart
@@ -7279,6 +7742,15 @@
     - UEFI_Forum
     template:
     - application/vnd.efi.iso
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.eln+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Nicolas_CARPI
+    template:
+    - application/vnd.eln+zip
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.emclient.accessrequest+xml
@@ -8147,6 +8619,15 @@
     - application/vnd.genomatix.tuxedo
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.genozip
+  encoding: base64
+  xrefs:
+    person:
+    - Divon_Lan
+    template:
+    - application/vnd.genozip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.gentics.grd+json
   encoding: base64
   xrefs:
@@ -8154,6 +8635,69 @@
     - Philipp_Gortan
     template:
     - application/vnd.gentics.grd+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.catmetadata+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.catmetadata+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.ebuild
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.ebuild
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.eclass
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.eclass
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.gpkg
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.gpkg
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.manifest
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.manifest
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.pkgmetadata+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Michał_Górny
+    template:
+    - application/vnd.gentoo.pkgmetadata+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gentoo.xpak
+  encoding: base64
+  xrefs:
+    person:
+    - Gentoo_Portage_Project
+    template:
+    - application/vnd.gentoo.xpak
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.geo+json
@@ -8318,6 +8862,24 @@
     - "- DEPRECATED"
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.gnu.taler.exchange+json
+  encoding: base64
+  xrefs:
+    person:
+    - Christian_Grothoff
+    template:
+    - application/vnd.gnu.taler.exchange+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gnu.taler.merchant+json
+  encoding: base64
+  xrefs:
+    person:
+    - Christian_Grothoff
+    template:
+    - application/vnd.gnu.taler.merchant+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.google-earth.kml+xml
   friendly:
     en: Google Earth - KML
@@ -8372,6 +8934,15 @@
     - Stefan_Szilva
     template:
     - application/vnd.gov.sk.xmldatacontainer+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gpxsee.map+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Martin_Tůma
+    template:
+    - application/vnd.gpxsee.map+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.grafeq
@@ -8685,6 +9256,15 @@
     - Bob_Pentecost
     template:
     - application/vnd.hp-PCLXL
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.hsl
+  encoding: base64
+  xrefs:
+    person:
+    - Heungsub_Lee
+    template:
+    - application/vnd.hsl
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.httphone
@@ -9121,6 +9701,42 @@
     - Greg_Scratchley
     template:
     - application/vnd.intu.qfx
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ipld.car
+  encoding: base64
+  xrefs:
+    person:
+    - Marcin_Rataj
+    template:
+    - application/vnd.ipld.car
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ipld.dag-cbor
+  encoding: base64
+  xrefs:
+    person:
+    - Marcin_Rataj
+    template:
+    - application/vnd.ipld.dag-cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ipld.dag-json
+  encoding: base64
+  xrefs:
+    person:
+    - Marcin_Rataj
+    template:
+    - application/vnd.ipld.dag-json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ipld.raw
+  encoding: base64
+  xrefs:
+    person:
+    - Marcin_Rataj
+    template:
+    - application/vnd.ipld.raw
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.iptc.g2.catalogitem+xml
@@ -9833,6 +10449,15 @@
     - application/vnd.mason+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.maxar.archive.3tz+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Erik_Dahlström
+    template:
+    - application/vnd.maxar.archive.3tz+zip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.maxmind.maxmind-db
   encoding: base64
   xrefs:
@@ -9879,6 +10504,15 @@
     - Henry_Flurry
     template:
     - application/vnd.mediastation.cdkey
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.medicalholodeck.recordxr
+  encoding: base64
+  xrefs:
+    person:
+    - Dominique_Sandoz
+    template:
+    - application/vnd.medicalholodeck.recordxr
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.meridian-slingshot
@@ -11202,6 +11836,16 @@
     - application/vnd.ntt-local.sip-ta_tcp_stream
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.oasis.opendocument.base
+  encoding: base64
+  xrefs:
+    person:
+    - OASIS
+    - OASIS_TC_Admin
+    template:
+    - application/vnd.oasis.opendocument.base
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.oasis.opendocument.chart
   friendly:
     en: OpenDocument Chart
@@ -11211,7 +11855,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.chart
   registered: true
@@ -11226,7 +11870,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.chart-template
   registered: true
@@ -11237,12 +11881,16 @@
   encoding: base64
   extensions:
   - odb
+  obsolete: true
+  use-instead: application/vnd.oasis.opendocument.base
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.database
+    notes:
+    - "(OBSOLETED in favor of application/vnd.oasis.opendocument.base)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.oasis.opendocument.formula
@@ -11254,7 +11902,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.formula
   registered: true
@@ -11269,7 +11917,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.formula-template
   registered: true
@@ -11283,7 +11931,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.graphics
   registered: true
@@ -11297,7 +11945,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.graphics-template
   registered: true
@@ -11311,7 +11959,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.image
   registered: true
@@ -11326,7 +11974,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.image-template
   registered: true
@@ -11340,7 +11988,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.presentation
   registered: true
@@ -11354,7 +12002,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.presentation-template
   registered: true
@@ -11368,7 +12016,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.spreadsheet
   registered: true
@@ -11382,7 +12030,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.spreadsheet-template
   registered: true
@@ -11396,7 +12044,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.text
   registered: true
@@ -11410,7 +12058,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.text-master
   registered: true
@@ -11424,7 +12072,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.text-template
   registered: true
@@ -11438,7 +12086,7 @@
   xrefs:
     person:
     - OASIS
-    - Svante_Schubert
+    - OASIS_TC_Admin
     template:
     - application/vnd.oasis.opendocument.text-web
   registered: true
@@ -12056,6 +12704,15 @@
     - Nathan_Black
     template:
     - application/vnd.onepagertatx
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.onvif.metadata
+  encoding: base64
+  xrefs:
+    person:
+    - Hans_Busch
+    template:
+    - application/vnd.onvif.metadata
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.openblox.game+xml
@@ -13962,6 +14619,15 @@
     - application/vnd.smart.teacher
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.smintio.portals.archive
+  encoding: base64
+  xrefs:
+    person:
+    - Reinhard_Holzner
+    template:
+    - application/vnd.smintio.portals.archive
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.snesdev-page-table
   encoding: base64
   xrefs:
@@ -14279,6 +14945,15 @@
     - Glenn_Widener
     template:
     - application/vnd.swiftview-ics
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.sybyl.mol2
+  encoding: base64
+  xrefs:
+    person:
+    - Finn_Rayk_Gärtner
+    template:
+    - application/vnd.sybyl.mol2
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.sycle+xml
@@ -14946,6 +15621,15 @@
     - application/vnd.wap.wmlscriptc
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.wasmflow.wafl
+  encoding: base64
+  xrefs:
+    person:
+    - Fawad_Shaikh
+    template:
+    - application/vnd.wasmflow.wafl
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.webturbo
   friendly:
     en: WebTurbo
@@ -15044,6 +15728,15 @@
     - Wolfram
     template:
     - application/vnd.wolfram.player
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.wordlift
+  encoding: base64
+  xrefs:
+    person:
+    - David_Riccitelli
+    template:
+    - application/vnd.wordlift
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.wordperfect
@@ -15423,6 +16116,14 @@
     - application/voucher-cms+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/voucher-cose+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-anima-constrained-voucher-17
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/vq-rtcpxr
   encoding: base64
   xrefs:
@@ -15456,6 +16157,14 @@
     template:
     - application/watcherinfo+xml
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/webbundle
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-yasskin-wpack-bundled-exchanges
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/webpush-options+json
   encoding: base64
@@ -15516,6 +16225,14 @@
     template:
     - application/wita
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/won
+  encoding: base64
+  xrefs:
+    person:
+    - Roy_T._Fielding
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/word
   encoding: base64
@@ -17056,6 +17773,16 @@
     - application/xenc+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/xfdf
+  encoding: base64
+  xrefs:
+    person:
+    - Betsy_Fanning
+    - ISO-TC_171-SC_2
+    template:
+    - application/xfdf
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/xhtml+xml
   friendly:
     en: XHTML - The Extensible HyperText Markup Language
@@ -17216,6 +17943,15 @@
     - rfc6020
     template:
     - application/yang
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/yang-data+cbor
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9254
+    template:
+    - application/yang-data+cbor
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/yang-data+json

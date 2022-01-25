@@ -2,29 +2,49 @@
 
 <!-- automatic-release -->
 
+## 3.2023.0220 / 2023-02-18
+
+- Updated the Apache and IANA media registry entries as of release date.
+
+- Mohammed Gad added the `jfif` file extension for `image/jpeg` text format.
+  [#52][]
+
+- Reworked the loading of IANA provisional media registries to merge them
+  into the top-level media-type registries instead of a standalone registry
+  file. [#53][] originally identified by Chris Salzberg in [#50][].
+
+  It is worth noting that this is an _imperfect_ solution as if a media type
+  is provisionally registered and withdrawn, it will linger in the registry
+  with no clean way of identifying them at the moment. See [#54][].
+
+  This release also fixes [ruby-mime-types#163][], where logs show "Type
+  application/netcdf is already registered as a variant of
+  application/netcdf".
+
 ## 3.2022.0105 / 2022-01-05
 
 - Updated the Apache and IANA media registry entries as of release date.
 
-- Fixed an incorrect definition of `image/bmp`, which had been marked obsolete
-  and later registered. Fixed [#48], found by William T. Nelson.
+- Fixed an incorrect definition of `image/bmp`, which had been marked
+  obsolete and later registered. Fixed [#48][], found by William T. Nelson.
 
 ## 3.2021.1115 / 2021-11-15
 
 - Updated the Apache and IANA media registry entries as of release date.
 
 - Added conversion utilities that support the `mini_mime` data format. These
-  have been ported from the [mini_mime] repository. [#47]
+  have been ported from the [mini_mime][] repository. [#47][]
 
-- Added IANA provisional media registries. Added some notes to Contributing.md
-  about the transient nature of the provisional registration data. This was
-  triggered in part by a pull request by Jon Sneyers. Thanks! [#45], [#43]
+- Added IANA provisional media registries. Added some notes to
+  Contributing.md about the transient nature of the provisional registration
+  data. This was triggered in part by a pull request by Jon Sneyers. Thanks!
+  [#45][], [#43][]
 
 ## 3.2021.0901 / 2021-09-01
 
 - Updated the Apache and IANA media registry entries as of release date.
 
-- Added file extension for WebVTT text format. [#46]
+- Added file extension for WebVTT text format. [#46][]
 
 ## 3.2021.0704 / 2021-07-04
 
@@ -34,82 +54,82 @@
 
 - Updated the Apache and IANA media registry entries as of release date.
 
-- Added file extension for AVIF video format. [#40]
+- Added file extension for AVIF video format. [#40][]
 
 ## 3.2021.0212 / 2021-02-12
 
 - Updated the IANA media registry entries as of release date.
 
-- Added a new rake task (`release:automatic`) that downloads and converts the
-  data from Apache and IANA; if there are changes detected, it updates the
-  release version, changelog, manifest, and gemspec and commits the changes
-  to git.
+- Added a new rake task (`release:automatic`) that downloads and converts
+  the data from Apache and IANA; if there are changes detected, it updates
+  the release version, changelog, manifest, and gemspec and commits the
+  changes to git.
 
 ## 3.2020.1104 / 2020-11-04
 
 - Updated the IANA media registry entries as of release date.
 
-- Added `application/x-zip-compressed`. [#36]
+- Added `application/x-zip-compressed`. [#36][]
 
 - Updated the contributing guide to include information about the release
-  process as described in [#18]
+  process as described in [#18][]
 
-- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35]
+- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35][]
 
 ## 3.2020.0512 / 2020-05-12
 
 - Updated the IANA media registry entries as of release date.
 
-- Added file extensions for HEIC image types. [#34]
+- Added file extensions for HEIC image types. [#34][]
 
 ## 3.2020.0425 / 2020-04-25
 
 - Updated the IANA media registry entries as of release date.
 
 - Added several RAW image types based on data from GNOME RAW Thumbnailer.
-  [#33] fixing [#32]
+  [#33][] fixing [#32][]
 
-- Added `audio/wav`. [#31]
+- Added `audio/wav`. [#31][]
 
-- Added a type for Smarttech notebook files. [#30]
+- Added a type for Smarttech notebook files. [#30][]
 
-- Added an alias for audio/m4a files. [#29]
+- Added an alias for audio/m4a files. [#29][]
 
-- Added application/x-ms-dos-executable. [#28]
+- Added application/x-ms-dos-executable. [#28][]
 
 ## 3.2019.1009 / 2019-10-09
 
 - Updated the IANA media registry entries as of release date.
 
-- Reordered the `.ai` extension so that it is not the preferred extension for
-  `application/pdf` [#24]
+- Reordered the `.ai` extension so that it is not the preferred extension
+  for `application/pdf` [#24][]
 
 ## 3.2019.0904 / 2019-09-04
 
 - Updated the IANA media registry entries as of release date.
 
-- Moved the `.ai` extension from `application/postscript` to `application/pdf`.
-  [#23] fixing [#22]
+- Moved the `.ai` extension from `application/postscript` to
+  `application/pdf`. [#23][] fixing [#22][]
 
 ## 3.2019.0331 / 2019-03-31
 
 - Updated the IANA media registry entries as of release date.
 
-- Added support for `application/wasm` with extension `.wasm`. [#21]
+- Added support for `application/wasm` with extension `.wasm`. [#21][]
 
-- Fixed `application/ecmascript` extensions. [#20]
+- Fixed `application/ecmascript` extensions. [#20][]
 
 ## 3.2018.0812 / 2018-08-12
 
-- Added `.xsd` extension to `text/xml`. [#10]
+- Added `.xsd` extension to `text/xml`. [#10][]
 
 - Added `.js` and `.mjs` extensions to `text/ecmascript` and
-  `text/javascript`. [#11]
+  `text/javascript`. [#11][]
 
-- Added `.ipa` extension to `application/octet-stream`. [#12]
+- Added `.ipa` extension to `application/octet-stream`. [#12][]
 
 - Moved extensions `.markdown` and `.md` and added `.mkd` extension to
-  `text/markdown`. [#13]
+  `text/markdown`. [#13][]
 
 - Because of a bug found with mime-types 3 before 3.2.1, this version
   requires mime-types 3.1 or later to manage data.
@@ -182,7 +202,8 @@
 
 - Extracted from [ruby-mime-types][rmt].
 - Added a [Code of Conduct].
-- The versioning has changed to be semantic on format plus date in two parts.
+- The versioning has changed to be semantic on format plus date in two
+  parts.
 
   - All registry formats have been updated to remove deprecated data.
   - The columnar format has been updated to store three boolean flags in a
@@ -224,8 +245,7 @@
 ## 2.6 / 2015-05-25
 
 - Steven Michael Thomas (@stevenmichaelthomas) added `woff2` as an extension
-  to application/font-woff,
-  [ruby-mime-types#99](https://github.com/mime-types/ruby-mime-types/pull/99).
+  to application/font-woff, [ruby-mime-types#99][].
 - Updated the IANA media registry entries as of release date:
   - Updated metadata for application/jose, application/jose+json,
     application/jwk+json, application/jwk-set+json, application/jwt to
@@ -497,6 +517,12 @@
 [#46]: https://github.com/mime-types/mime-types-data/pull/46
 [#47]: https://github.com/mime-types/mime-types-data/pull/47
 [#48]: https://github.com/mime-types/mime-types-data/issues/48
+[#50]: https://github.com/mime-types/mime-types-data/pull/50
+[#52]: https://github.com/mime-types/mime-types-data/pull/52
+[#53]: https://github.com/mime-types/mime-types-data/pull/53
+[#54]: https://github.com/mime-types/mime-types-data/issues/54
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41
+[ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
+[ruby-mime-types#163]: https://github.com/mime-types/ruby-mime-types/issues/163

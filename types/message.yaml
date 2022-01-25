@@ -1,5 +1,14 @@
 ---
 - !ruby/object:MIME::Type
+  content-type: message/bhttp
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9292
+    template:
+    - message/bhttp
+  registered: true
+- !ruby/object:MIME::Type
   content-type: message/CPIM
   encoding: base64
   xrefs:
@@ -92,8 +101,8 @@
   content-type: message/http
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-httpbis-messaging-19
+    rfc:
+    - rfc9112
     template:
     - message/http
   registered: true

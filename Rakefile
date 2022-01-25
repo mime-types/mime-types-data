@@ -23,7 +23,7 @@ Hoe.spec "mime-types-data" do
   extra_dev_deps << ["nokogiri", "~> 1.6"]
   extra_dev_deps << ["hoe-doofus", "~> 1.0"]
   extra_dev_deps << ["hoe-gemspec2", "~> 1.1"]
-  extra_dev_deps << ["hoe-git", "~> 1.6"]
+  extra_dev_deps << ["hoe-git2", "~> 1.7"]
   extra_dev_deps << ["hoe-rubygems", "~> 1.0"]
   extra_dev_deps << ["rake", ">= 10.0", "< 14"]
   extra_dev_deps << ["mime-types", ">= 3.4.0", "< 4"]
@@ -120,7 +120,7 @@ namespace :update do
   desc "Update the release version"
   task :version do
     file = IO.read("lib/mime/types/data.rb")
-    updated = file.sub(/VERSION = ['"][.0-9]+['"]/, %Q(VERSION = "#{new_version}"))
+    updated = file.sub(/VERSION = ['"][.0-9]+['"]/, %(VERSION = "#{new_version}"))
 
     IO.write("lib/mime/types/data.rb", updated)
   end

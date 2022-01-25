@@ -204,6 +204,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Bradley Meck
 - Brandon Galbraith
 - Chris Gat
+- Chris Salzberg
 - David Genord
 - Eric Marden
 - Garret Alfert
@@ -222,6 +223,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Lucia
 - Martin d'Allens
 - Mauricio Linhares
+- Mohammed Gad
 - Myk Klemme
 - nycvotes-dev
 - Postmodern
