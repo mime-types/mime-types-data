@@ -4,6 +4,41 @@ require "rubygems"
 require "hoe"
 require "rake/clean"
 
+# This is required until https://github.com/seattlerb/hoe/issues/112 is fixed
+class Hoe
+  def with_config
+    config = Hoe::DEFAULT_CONFIG
+
+    rc = File.expand_path("~/.hoerc")
+    homeconfig = load_config(rc)
+    config = config.merge(homeconfig)
+
+    localconfig = load_config(File.expand_path(File.join(Dir.pwd, ".hoerc")))
+    config = config.merge(localconfig)
+
+    yield config, rc
+  end
+
+  def load_config(name)
+    File.exist?(name) ? safe_load_yaml(name) : {}
+  end
+
+  def safe_load_yaml(name)
+    return safe_load_yaml_file(name) if YAML.respond_to?(:safe_load_file)
+
+    data = IO.binread(name)
+    YAML.safe_load(data, permitted_classes: [Regexp])
+  rescue
+    YAML.safe_load(data, [Regexp])
+  end
+
+  def safe_load_yaml_file(name)
+    YAML.safe_load_file(name, permitted_classes: [Regexp])
+  rescue
+    YAML.safe_load_file(name, [Regexp])
+  end
+end
+
 Hoe.plugin :doofus
 Hoe.plugin :gemspec2
 Hoe.plugin :git
@@ -105,6 +140,11 @@ namespace :convert do
       require "convert/mini_mime_db"
       Convert::MiniMimeDb.from_yaml_to_mini_mime(args)
     end
+
+    task :yaml, [:source, :destination] => :support do |_, args|
+      require "convert"
+      Convert.from_yaml_to_yaml(args)
+    end
   end
 
   namespace :json do
@@ -120,7 +160,7 @@ namespace :update do
   desc "Update the release version"
   task :version do
     file = IO.read("lib/mime/types/data.rb")
-    updated = file.sub(/VERSION = ['"][.0-9]+['"]/, %Q(VERSION = "#{new_version}"))
+    updated = file.sub(/VERSION = ['"][.0-9]+['"]/, %(VERSION = "#{new_version}"))
 
     IO.write("lib/mime/types/data.rb", updated)
   end

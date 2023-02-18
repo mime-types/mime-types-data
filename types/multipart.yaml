@@ -7,6 +7,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/appledouble
   encoding: 8bit
@@ -16,6 +17,7 @@
     template:
     - multipart/appledouble
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/byteranges
   encoding: base64
@@ -25,6 +27,7 @@
     template:
     - multipart/byteranges
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/digest
   encoding: 8bit
@@ -33,6 +36,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/encrypted
   encoding: base64
@@ -42,6 +46,7 @@
     template:
     - multipart/encrypted
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/example
   encoding: base64
@@ -51,6 +56,7 @@
     template:
     - multipart/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/form-data
   encoding: base64
@@ -60,6 +66,7 @@
     template:
     - multipart/form-data
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/header-set
   encoding: base64
@@ -69,6 +76,7 @@
     template:
     - multipart/header-set
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/mixed
   encoding: 8bit
@@ -77,6 +85,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/multilingual
   encoding: base64
@@ -86,6 +95,7 @@
     template:
     - multipart/multilingual
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/parallel
   encoding: 8bit
@@ -94,6 +104,7 @@
     - rfc2045
     - rfc2046
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/related
   encoding: base64
@@ -103,6 +114,7 @@
     template:
     - multipart/related
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/report
   encoding: base64
@@ -112,6 +124,7 @@
     template:
     - multipart/report
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/signed
   encoding: base64
@@ -121,6 +134,7 @@
     template:
     - multipart/signed
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/vnd.bint.med-plus
   encoding: base64
@@ -130,6 +144,7 @@
     template:
     - multipart/vnd.bint.med-plus
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/voice-message
   encoding: base64
@@ -139,10 +154,12 @@
     template:
     - multipart/voice-message
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/x-gzip
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: multipart/x-mixed-replace
   encoding: base64
@@ -153,27 +170,33 @@
     template:
     - multipart/x-mixed-replace
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: multipart/x-parallel
   encoding: base64
   obsolete: true
   use-instead: multipart/parallel
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: multipart/x-tar
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: multipart/x-ustar
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: multipart/x-www-form-urlencoded
   encoding: base64
   obsolete: true
   use-instead: application/x-www-form-urlencoded
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: multipart/x-zip
   encoding: base64
   registered: false
+  sort-priority: 48

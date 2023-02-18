@@ -7,3 +7,4 @@
   extensions:
   - ice
   registered: false
+  sort-priority: 47

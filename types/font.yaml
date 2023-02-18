@@ -4,23 +4,27 @@
   encoding: base64
   extensions:
   - ttc
+  preferred-extension: ttc
   xrefs:
     rfc:
     - rfc8081
     template:
     - font/collection
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/otf
   encoding: base64
   extensions:
   - otf
+  preferred-extension: otf
   xrefs:
     rfc:
     - rfc8081
     template:
     - font/otf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/sfnt
   encoding: base64
@@ -30,36 +34,43 @@
     template:
     - font/sfnt
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: font/ttf
   encoding: base64
   extensions:
   - ttf
+  preferred-extension: ttf
   xrefs:
     rfc:
     - rfc8081
     template:
     - font/ttf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/woff
   encoding: base64
   extensions:
   - woff
+  preferred-extension: woff
   xrefs:
     rfc:
     - rfc8081
     template:
     - font/woff
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/woff2
   encoding: base64
   extensions:
   - woff2
+  preferred-extension: woff2
   xrefs:
     rfc:
     - rfc8081
     template:
     - font/woff2
   registered: true
+  sort-priority: 15
