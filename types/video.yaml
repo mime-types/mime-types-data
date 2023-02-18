@@ -231,6 +231,15 @@
     - video/H265
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/H266
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9328
+    template:
+    - video/H266
+  registered: true
+- !ruby/object:MIME::Type
   content-type: video/iso.segment
   encoding: base64
   xrefs:

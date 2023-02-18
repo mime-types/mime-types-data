@@ -139,14 +139,14 @@
   - es
   - ecma
   obsolete: true
-  use-instead: application/ecmascript
+  use-instead: text/javascript
   xrefs:
     rfc:
-    - rfc4329
+    - rfc9239
     template:
     - text/ecmascript
     notes:
-    - "(OBSOLETED in favor of application/ecmascript)"
+    - "(OBSOLETED in favor of text/javascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/encaprtp
@@ -220,6 +220,16 @@
     - text/grammar-ref-list
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/hl7v2
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - HL7
+    - Marc_Duteau
+    template:
+    - text/hl7v2
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/html
   friendly:
     en: HyperText Markup Language (HTML)
@@ -247,11 +257,9 @@
   use-instead: application/javascript
   xrefs:
     rfc:
-    - rfc4329
+    - rfc9239
     template:
     - text/javascript
-    notes:
-    - "(OBSOLETED in favor of application/javascript)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/jcr-cnd
@@ -298,6 +306,14 @@
     template:
     - text/n3
   registered: true
+- !ruby/object:MIME::Type
+  content-type: text/nfo
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Sean_Leonard
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: text/parameters
   encoding: quoted-printable
@@ -715,6 +731,15 @@
     - text/vnd.esmertec.theme-descriptor
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/vnd.exchangeable
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Martin_Cizek
+    template:
+    - text/vnd.exchangeable
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/vnd.familysearch.gedcom
   encoding: quoted-printable
   xrefs:
@@ -1006,6 +1031,16 @@
     - W3C
     template:
     - text/vtt
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/wgsl
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - David_Neto
+    - W3C
+    template:
+    - text/wgsl
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/x-asm

@@ -1014,8 +1014,8 @@
   encoding: base64
   xrefs:
     person:
-    - Timo_Kosonen
-    - Tom_White
+    - Athan_Billias
+    - MIDI_Association
     template:
     - audio/sp-midi
   registered: true

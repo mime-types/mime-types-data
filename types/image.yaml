@@ -10,6 +10,16 @@
     - image/aces
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/apng
+  encoding: base64
+  xrefs:
+    person:
+    - W3C
+    - W3C_PNG_Working_Group
+    template:
+    - image/apng
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/avci
   encoding: base64
   xrefs:
@@ -78,10 +88,20 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
+    - DICOM_Standard_Committee
     - David_Clunie
     template:
     - image/dicom-rle
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: image/dpx
+  encoding: base64
+  xrefs:
+    person:
+    - SMPTE
+    - SMPTE_Director_of_Standards_Development
+    template:
+    - image/dpx
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/emf
@@ -219,11 +239,19 @@
     - rfc1314
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/j2is
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC_1-SC_29-WG_1_Convenor
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: image/jls
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
+    - DICOM_Standard_Committee
     - David_Clunie
     template:
     - image/jls
@@ -299,6 +327,14 @@
     template:
     - image/jpx
   registered: true
+- !ruby/object:MIME::Type
+  content-type: image/jxl
+  encoding: base64
+  xrefs:
+    person:
+    - Touradj_Ebrahimi
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: image/jxr
   encoding: base64
@@ -878,7 +914,12 @@
   encoding: base64
   extensions:
   - webp
-  registered: false
+  xrefs:
+    draft:
+    - RFC-zern-webp-12
+    template:
+    - image/webp
+  registered: true
 - !ruby/object:MIME::Type
   content-type: image/wmf
   encoding: base64

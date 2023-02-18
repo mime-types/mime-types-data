@@ -64,6 +64,16 @@
     - model/iges
   registered: true
 - !ruby/object:MIME::Type
+  content-type: model/JT
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-TC_184-SC_4
+    - Michael_Zink
+    template:
+    - model/JT
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/mesh
   friendly:
     en: Mesh Data Type
@@ -81,8 +91,9 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
-    - Luiza_Kowalczyk
+    - Carolyn_Hull
+    - DICOM_Standard_Committee
+    - DICOM_WG_17
     template:
     - model/mtl
   registered: true
@@ -91,10 +102,21 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
-    - Luiza_Kowalczyk
+    - Carolyn_Hull
+    - DICOM_Standard_Committee
+    - DICOM_WG_17
     template:
     - model/obj
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/prc
+  encoding: base64
+  xrefs:
+    person:
+    - Betsy_Fanning
+    - ISO-TC_171-SC_2
+    template:
+    - model/prc
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/step
@@ -141,10 +163,30 @@
   encoding: base64
   xrefs:
     person:
-    - DICOM_Standards_Committee
-    - Lisa_Spellman
+    - Carolyn_Hull
+    - DICOM_Standard_Committee
+    - DICOM_WG_17
     template:
     - model/stl
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/u3d
+  encoding: base64
+  xrefs:
+    person:
+    - PDF_Association
+    - Peter_Wyatt
+    template:
+    - model/u3d
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.cld
+  encoding: base64
+  xrefs:
+    person:
+    - Robert_Monaghan
+    template:
+    - model/vnd.cld
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.collada+xml
@@ -298,6 +340,15 @@
     - SAP_SE
     template:
     - model/vnd.sap.vds
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: model/vnd.usda
+  encoding: base64
+  xrefs:
+    person:
+    - Sebastian_Grassia
+    template:
+    - model/vnd.usda
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/vnd.usdz+zip
