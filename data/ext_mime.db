@@ -408,6 +408,7 @@ jad         text/vnd.sun.j2me.app-descriptor                                    
 jam         application/vnd.jam                                                       base64          
 jar         application/java-archive                                                  base64          
 java        text/x-java-source                                                        quoted-printable
+jfif        image/jpeg                                                                base64          
 jisp        application/vnd.jisp                                                      base64          
 jlt         application/vnd.hp-jlyt                                                   base64          
 jnlp        application/x-java-jnlp-file                                              base64          
