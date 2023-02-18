@@ -253,12 +253,43 @@
   extensions:
   - js
   - mjs
+  - cjs
   xrefs:
     rfc:
     - rfc9239
     template:
     - text/javascript
   registered: true
+- !ruby/object:MIME::Type
+  content-type: text/javascript1.0
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/javascript1.1
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/javascript1.2
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/javascript1.3
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/javascript1.4
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
 - !ruby/object:MIME::Type
   content-type: text/jcr-cnd
   encoding: quoted-printable
@@ -268,6 +299,18 @@
     template:
     - text/jcr-cnd
   registered: true
+- !ruby/object:MIME::Type
+  content-type: text/jscript
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/livescript
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
 - !ruby/object:MIME::Type
   content-type: text/markdown
   encoding: quoted-printable
@@ -1074,6 +1117,12 @@
   encoding: 8bit
   extensions:
   - htc
+  registered: false
+- !ruby/object:MIME::Type
+  content-type: text/x-ecmascript
+  encoding: quoted-printable
+  obsolete: true
+  use-instead: text/javascript
   registered: false
 - !ruby/object:MIME::Type
   content-type: text/x-fortran

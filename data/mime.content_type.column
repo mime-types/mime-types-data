@@ -1630,6 +1630,7 @@ application/x-dtbook+xml dtb
 application/x-dtbresource+xml res
 application/x-dvi dvi
 application/x-dxf
+application/x-ecmascript
 application/x-envoy evy
 application/x-eva eva
 application/x-excel
@@ -2246,8 +2247,15 @@ text/gff3
 text/grammar-ref-list
 text/hl7v2
 text/html html htm htmlx shtml htx
-text/javascript js mjs
+text/javascript js mjs cjs
+text/javascript1.0
+text/javascript1.1
+text/javascript1.2
+text/javascript1.3
+text/javascript1.4
 text/jcr-cnd
+text/jscript
+text/livescript
 text/markdown markdown md mkd
 text/mizar
 text/n3 n3
@@ -2324,6 +2332,7 @@ text/x-asm asm s
 text/x-c c cc cpp cxx dic h hh
 text/x-coffescript coffee
 text/x-component htc
+text/x-ecmascript
 text/x-fortran f f77 f90 for
 text/x-java-source java
 text/x-nfo nfo
