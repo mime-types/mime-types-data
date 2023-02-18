@@ -2,6 +2,19 @@
 
 <!-- automatic-release -->
 
+## 3.2023.0218.1 / 2023-02-18
+
+- When this data library was created in 2015, I made the decision based on
+  information available to deprecate `text/javascript` in favour of
+  `application/javascript`. Since the previous update (2022-01-05), IANA has
+  officially deprecated `application/javascript` in favour of
+  `text/javascript`. Samuel Williams discovered this in [#55][] by noting
+  that all `js` types were marked obsolete in version 3.2023.0218.
+
+  A hotfix has been applied to resolve this. However, note that
+  `application/javascript` will not be returned by default, only
+  `text/javascript`.
+
 ## 3.2023.0218 / 2023-02-18
 
 - Updated the Apache and IANA media registry entries as of release date.
@@ -521,6 +534,7 @@
 [#52]: https://github.com/mime-types/mime-types-data/pull/52
 [#53]: https://github.com/mime-types/mime-types-data/pull/53
 [#54]: https://github.com/mime-types/mime-types-data/issues/54
+[#55]: https://github.com/mime-types/mime-types-data/issues/55
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41

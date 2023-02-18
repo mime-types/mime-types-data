@@ -253,8 +253,6 @@
   extensions:
   - js
   - mjs
-  obsolete: true
-  use-instead: application/javascript
   xrefs:
     rfc:
     - rfc9239
