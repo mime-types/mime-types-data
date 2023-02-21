@@ -16601,6 +16601,12 @@
   encoding: base64
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/x-ecmascript
+  encoding: 8bit
+  obsolete: true
+  use-instead: text/javascript
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/x-envoy
   encoding: base64
   extensions:
@@ -16879,7 +16885,7 @@
   - js
   - mjs
   obsolete: true
-  use-instead: application/javascript
+  use-instead: text/javascript
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/x-koan

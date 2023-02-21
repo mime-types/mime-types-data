@@ -1630,6 +1630,7 @@ application/x-compressed
 -
 -
 -
+text/javascript
 -
 -
 application/vnd.ms-excel
@@ -1670,7 +1671,7 @@ application/gzip
 -
 -
 -
-application/javascript
+text/javascript
 -
 -
 application/vnd.lotus-1-2-3
@@ -2247,7 +2248,14 @@ text/javascript
 -
 -
 -
+text/javascript
+text/javascript
+text/javascript
+text/javascript
+text/javascript
 -
+text/javascript
+text/javascript
 -
 -
 -
@@ -2324,6 +2332,7 @@ model/vnd.flatland.3dml
 -
 -
 -
+text/javascript
 -
 -
 -

@@ -1715,6 +1715,7 @@ person^W3C|template^application/wspolicy+xml
 -
 -
 -
+-
 rfc^rfc8894|template^application/x-pki-message
 -
 -
@@ -2247,7 +2248,14 @@ rfc^rfc6787|template^text/grammar-ref-list
 person^HL7^Marc_Duteau|template^text/hl7v2
 person^Robin_Berjon^W3C|template^text/html
 rfc^rfc9239|template^text/javascript
+-
+-
+-
+-
+-
 person^Peeter_Piegaze|template^text/jcr-cnd
+-
+-
 rfc^rfc7763|template^text/markdown
 person^Jesse_Alama|template^text/mizar
 person^Eric_Prudhommeaux^W3C|template^text/n3
@@ -2320,6 +2328,7 @@ person^Peter_Stark|template^text/vnd.wap.wml
 person^Peter_Stark|template^text/vnd.wap.wmlscript
 person^Silvia_Pfeiffer^W3C|template^text/vtt
 person^David_Neto^W3C|template^text/wgsl
+-
 -
 -
 -

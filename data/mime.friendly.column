@@ -1633,6 +1633,7 @@ en^Device Independent File Format (DVI)
 -
 -
 -
+-
 en^Glyph Bitmap Distribution Format
 en^Ghostscript Font
 en^PSF Fonts
@@ -2250,6 +2251,13 @@ en^HyperText Markup Language (HTML)
 -
 -
 -
+-
+-
+-
+-
+-
+-
+-
 en^Notation3
 -
 -
@@ -2322,6 +2330,7 @@ en^Wireless Markup Language Script (WMLScript)
 -
 en^Assembler Source File
 en^C Source File
+-
 -
 -
 en^Fortran Source File
