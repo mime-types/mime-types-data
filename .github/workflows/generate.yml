@@ -24,6 +24,8 @@ jobs:
 
           echo "ok=${result}" >>"$GITHUB_OUTPUT"
 
+      - run: echo "[${{ steps.is-first-week.ok }}]"
+
       - uses: actions/checkout@v3
         if: steps.is-first-week.ok
 
