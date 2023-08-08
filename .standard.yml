@@ -3,4 +3,6 @@ ruby_version: 2.3
 ignore:
   - '*.gemspec'
   - Rakefile:
-    - Layout/HeredocIndentation
+      - Layout/HeredocIndentation
+  - support/prepare_release.rb:
+      - Layout/HeredocIndentation

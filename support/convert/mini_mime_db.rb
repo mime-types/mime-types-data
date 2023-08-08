@@ -7,9 +7,9 @@ class Convert::MiniMimeDb < Convert
   class << self
     # Converts from YAML to MiniMime database format. This *always* converts to multiple
     # files.
-    def from_yaml_to_mini_mime(args)
-      from_yaml(yaml_path(args.source))
-        .to_mini_mime_db(destination: data_path(args.destination))
+    def from_yaml_to_mini_mime(from: nil, to: nil)
+      from_yaml(to_yaml_path(from))
+        .to_mini_mime_db(destination: to_data_path(to))
     end
   end
 
@@ -39,7 +39,7 @@ class Convert::MiniMimeDb < Convert
 
     pad(buffer)
 
-    buffer.sort! { |a, b| a[0] <=> b[0] }
+    buffer.sort_by! { |a| a[0] }
 
     n = File.join(root, "ext_mime.db")
     File.open(n, "wb") do |f|

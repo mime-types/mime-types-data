@@ -26,20 +26,20 @@ class Convert
     end
 
     # Converts from YAML to JSON. Defaults to converting to a single file.
-    def from_yaml_to_json(args)
-      from_yaml(yaml_path(args.source))
+    def from_yaml_to_json(from: nil, to: nil, multiple_files: false)
+      from_yaml(to_yaml_path(from))
         .to_json(
-          destination: data_path(args.destination),
-          multiple_files: multiple_files(args.multiple_files || "single")
+          destination: to_data_path(to),
+          multiple_files: to_multiple_files(multiple_files)
         )
     end
 
     # Converts from JSON to YAML. Defaults to converting to multiple files.
-    def from_json_to_yaml(args)
-      from_json(data_path(args.source))
+    def from_json_to_yaml(from: nil, to: nil, multiple_files: true)
+      from_json(to_data_path(from))
         .to_yaml(
-          destination: yaml_path(args.destination),
-          multiple_files: multiple_files(args.multiple_files || "multiple")
+          destination: to_yaml_path(to),
+          multiple_files: to_multiple_files(multiple_files)
         )
     end
 
@@ -47,15 +47,15 @@ class Convert
 
     private
 
-    def yaml_path(path)
-      path_or_default(path, "types")
+    def to_yaml_path(path)
+      to_path_or_default(path, "types")
     end
 
-    def data_path(path)
-      path_or_default(path, "data")
+    def to_data_path(path)
+      to_path_or_default(path, "data")
     end
 
-    def path_or_default(path, default)
+    def to_path_or_default(path, default)
       if path.nil? || path.empty?
         default
       else
@@ -63,7 +63,7 @@ class Convert
       end
     end
 
-    def multiple_files(flag)
+    def to_multiple_files(flag)
       case flag.to_s.downcase
       when "true", "yes", "multiple"
         true

@@ -6,29 +6,31 @@ require "rake/clean"
 
 Hoe.plugin :doofus
 Hoe.plugin :gemspec2
-Hoe.plugin :git
-Hoe.plugin :travis
-Hoe.plugin :email unless ENV["CI"] || ENV["TRAVIS"]
+Hoe.plugin :git2
+Hoe.plugin :rubygems
 
 Hoe.spec "mime-types-data" do
   developer("Austin Ziegler", "halostatue@gmail.com")
-
-  require_ruby_version ">= 2.0"
 
   self.history_file = "History.md"
   self.readme_file = "README.md"
 
   license "MIT"
 
-  extra_dev_deps << ["nokogiri", "~> 1.6"]
+  require_ruby_version ">= 2.0"
+
+  spec_extras[:metadata] = ->(val) { val["rubygems_mfa_required"] = "true" }
+
+  extra_dev_deps << ["hoe", "~> 4.0"]
   extra_dev_deps << ["hoe-doofus", "~> 1.0"]
   extra_dev_deps << ["hoe-gemspec2", "~> 1.1"]
   extra_dev_deps << ["hoe-git2", "~> 1.7"]
   extra_dev_deps << ["hoe-rubygems", "~> 1.0"]
-  extra_dev_deps << ["rake", ">= 10.0", "< 14"]
   extra_dev_deps << ["mime-types", ">= 3.4.0", "< 4"]
-  extra_dev_deps << ["standardrb", "~> 1.0"]
+  extra_dev_deps << ["nokogiri", "~> 1.6"]
   extra_dev_deps << ["psych", "~> 3.0"]
+  extra_dev_deps << ["rake", ">= 10.0", "< 14"]
+  extra_dev_deps << ["standard", "~> 1.0"]
 end
 
 $LOAD_PATH.unshift "lib"
@@ -36,7 +38,7 @@ $LOAD_PATH.unshift "support"
 
 def new_version
   version =
-    IO.read("lib/mime/types/data.rb").scan(/VERSION = ['"](\d\.\d{4}\.\d{4})['"]/).flatten.first
+    IO.read("lib/mime/types/data.rb").scan(/VERSION = ['"](\d\.\d{4}\.\d{4}(?:\.\d+)?)['"]/).flatten.first
 
   major = Gem::Version.new(version).canonical_segments.first
   minor = Date.today.strftime("%Y.%m%d")
@@ -74,6 +76,19 @@ namespace :release do
     }
   end
 
+  desc "Prepare a new release for use with GitHub Actions"
+  task :gha do
+    require "prepare_release"
+
+    pr = PrepareRelease.new
+    pr.download_and_convert
+    pr.write_updated_version
+    pr.write_updated_history
+    pr.rake_git_manifest
+    pr.rake_gemspec
+    pr.as_gha_vars
+  end
+
   desc "Prepare a new automatic release"
   task automatic: :__pull do
     if system("git diff --quiet --exit-code") == false
@@ -89,29 +104,29 @@ end
 namespace :convert do
   namespace :yaml do
     desc "Convert from YAML to JSON"
-    task :json, [:source, :destination, :multiple_files] => :support do |_, args|
+    task :json, [:source, :destination, :multiple_files] do |_, args|
       require "convert"
-      Convert.from_yaml_to_json(args)
+      Convert.from_yaml_to_json(from: args.source, to: args.destination, multiple_files: args.multiple_files)
     end
 
     desc "Convert from YAML to Columnar"
-    task :columnar, [:source, :destination] => :support do |_, args|
+    task :columnar, [:source, :destination] do |_, args|
       require "convert/columnar"
-      Convert::Columnar.from_yaml_to_columnar(args)
+      Convert::Columnar.from_yaml_to_columnar(from: args.source, to: args.destination)
     end
 
     desc "Convert from YAML to mini_mime db format"
-    task :mini_mime, [:source, :destination] => :support do |_, args|
+    task :mini_mime, [:source, :destination] do |_, args|
       require "convert/mini_mime_db"
-      Convert::MiniMimeDb.from_yaml_to_mini_mime(args)
+      Convert::MiniMimeDb.from_yaml_to_mini_mime(from: args.source, to: args.destination)
     end
   end
 
   namespace :json do
     desc "Convert from JSON to YAML"
-    task :yaml, [:source, :destination, :multiple_files] => :support do |_, args|
+    task :yaml, [:source, :destination, :multiple_files] do |_, args|
       require "convert"
-      Convert.from_json_to_yaml(args)
+      Convert.from_json_to_yaml(from: args.source, to: args.destination, multiple_files: args.multiple_files)
     end
   end
 end
