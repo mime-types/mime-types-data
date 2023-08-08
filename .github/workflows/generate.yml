@@ -51,5 +51,7 @@ jobs:
           labels: |
             automated
             data-update
-          assignees: @halostatue
-          reviewers: @halostatue
+          assignees: |
+            @halostatue
+          reviewers: |
+            @halostatue
