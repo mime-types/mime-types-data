@@ -7,9 +7,9 @@ class Convert::Columnar < Convert
   class << self
     # Converts from YAML to Columnar format. This *always* converts to multiple
     # files.
-    def from_yaml_to_columnar(args)
-      from_yaml(yaml_path(args.source))
-        .to_columnar(destination: data_path(args.destination))
+    def from_yaml_to_columnar(from: nil, to: nil)
+      from_yaml(to_yaml_path(from))
+        .to_columnar(destination: to_data_path(to))
     end
   end
 
