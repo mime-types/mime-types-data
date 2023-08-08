@@ -100,9 +100,9 @@ class PrepareRelease
     end
 
     body = <<~EOF_ENV
-      UPDATE_VERSION="#{new_version}"
-      UPDATE_TITLE="Update mime-types-data #{release_header}"
-      UPDATE_BODY="#{history_body}"
+      UPDATE_VERSION=#{new_version}
+      UPDATE_TITLE=Update mime-types-data #{release_header}
+      UPDATE_BODY=#{history_body}
     EOF_ENV
 
     File.write(ENV["GITHUB_ENV"], body, mode: "a+")
