@@ -52,6 +52,6 @@ jobs:
             automated
             data-update
           assignees: |
-            @halostatue
+            halostatue
           reviewers: |
-            @halostatue
+            halostatue
