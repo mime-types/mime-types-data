@@ -16,7 +16,7 @@ jobs:
         run: |
           declare result
           declare -i dom
-          dom="$(date +%d)"
+          dom="$(date +%d | sed 's/^0//')"
 
           if ((dom <= 7)) || [[ "${EVENT_NAME}" == workflow_dispatch ]]; then
             result=yes
