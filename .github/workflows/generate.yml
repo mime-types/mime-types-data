@@ -2,7 +2,7 @@ name: Update data and open pull request
 
 on:
   schedule:
-    - cron: '0 18 * 2'
+    - cron: '0 18 * * 2'
   workflow_dispatch:
 
 jobs:
