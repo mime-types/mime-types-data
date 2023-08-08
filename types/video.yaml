@@ -245,7 +245,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - video/iso.segment
   registered: true

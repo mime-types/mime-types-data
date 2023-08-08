@@ -43,7 +43,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - Max_Neuendorf
     template:
     - audio/aac
@@ -700,7 +700,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - Ingo_Hofmann
     - Nils_Peters
     template:
@@ -1116,7 +1116,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - Max_Neuendorf
     template:
     - audio/usac

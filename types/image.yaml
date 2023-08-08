@@ -25,7 +25,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/avci
   registered: true
@@ -35,7 +35,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/avcs
   registered: true
@@ -164,7 +164,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/heic
   registered: true
@@ -177,7 +177,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/heic-sequence
   registered: true
@@ -190,7 +190,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/heif
   registered: true
@@ -203,7 +203,7 @@
   xrefs:
     person:
     - David_Singer
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/heif-sequence
   registered: true
@@ -212,7 +212,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/hej2k
@@ -222,7 +222,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/hsj2
@@ -237,6 +237,17 @@
   xrefs:
     rfc:
     - rfc1314
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: image/j2c
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC_1
+    - ISO-IEC_JTC_1_SC_29_WG_1
+    - ITU-T
+    template:
+    - image/j2c
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/j2is
@@ -288,7 +299,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/jph
@@ -298,7 +309,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/jphc
@@ -340,7 +351,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/jxr
@@ -350,7 +361,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/jxrA
@@ -360,7 +371,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/jxrS
@@ -370,7 +381,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/jxs
   registered: true
@@ -379,7 +390,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/jxsc
   registered: true
@@ -388,7 +399,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/jxsi
   registered: true
@@ -397,7 +408,7 @@
   encoding: base64
   xrefs:
     person:
-    - ISO-IEC_JTC1
+    - ISO-IEC_JTC_1
     template:
     - image/jxss
   registered: true
