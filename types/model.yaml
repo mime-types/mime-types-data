@@ -180,6 +180,15 @@
     - model/u3d
   registered: true
 - !ruby/object:MIME::Type
+  content-type: model/vnd.bary
+  encoding: base64
+  xrefs:
+    person:
+    - Displaced_Micro-Mesh_SDK_Support
+    template:
+    - model/vnd.bary
+  registered: true
+- !ruby/object:MIME::Type
   content-type: model/vnd.cld
   encoding: base64
   xrefs:

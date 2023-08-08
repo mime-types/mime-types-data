@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2023.0808 / 2023-08-08
+
+- - Updated the Apache and IANA media registry entries as of release date
+
 ## 3.2023.0218.1 / 2023-02-18
 
 - When this data library was created in 2015, I made the decision based on

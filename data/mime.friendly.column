@@ -30,6 +30,7 @@
 -
 -
 -
+-
 en^Andrew Toolkit
 -
 -
@@ -110,6 +111,7 @@ en^CU-SeeMe
 -
 -
 en^Web Distributed Authoring and Versioning
+-
 -
 -
 -
@@ -318,6 +320,7 @@ en^Office Document Architecture
 en^Open eBook Publication Structure
 en^Ogg
 -
+-
 en^Microsoft OneNote
 -
 -
@@ -360,6 +363,10 @@ en^PostScript
 -
 -
 en^CU-Writer
+-
+-
+-
+-
 -
 -
 -
@@ -550,9 +557,21 @@ en^Time Stamped Data Envelope
 -
 -
 -
+-
+-
+-
+-
+-
 en^3rd Generation Partnership Project - Pic Large
 en^3rd Generation Partnership Project - Pic Small
 en^3rd Generation Partnership Project - Pic Var
+-
+-
+-
+-
+-
+-
+-
 -
 -
 -
@@ -570,6 +589,8 @@ en^3rd Generation Partnership Project - Transaction Capabilities Application Par
 en^3M Post It Notes
 en^Simply Accounting
 en^Simply Accounting - Data Import
+-
+-
 en^ACU Cobol
 en^ACU Cobol
 en^Adobe AIR Application
@@ -672,6 +693,7 @@ en^RetroPlatform Player
 en^Clonk Game
 en^ClueTrust CartoMobile - Config
 en^ClueTrust CartoMobile - Config Package
+-
 -
 -
 -
@@ -840,6 +862,7 @@ en^NpGraphIt
 en^FluxTime Clip
 -
 en^FrameMaker Normal Format
+-
 en^Frogans Player
 en^Frogans Player
 en^Friendly Software Corporation
@@ -972,6 +995,7 @@ en^Quicken
 -
 -
 -
+-
 en^IP Unplugged Roaming Client
 en^iRepository / Lucidoc Editor
 en^Express by Infoseek
@@ -1031,6 +1055,8 @@ en^MacPorts Port System
 -
 -
 en^Micro CADAM Helix D&D
+-
+-
 en^MedCalc
 en^MediaRemote
 -
@@ -1053,6 +1079,7 @@ en^Mobius Management Systems - Query File
 en^Mobius Management Systems - Script Language
 en^Mobius Management Systems - Policy Definition Language File
 en^Mobius Management Systems - Topic Index File
+-
 en^Mophun VM
 en^Mophun Certificate
 -
@@ -1171,6 +1198,7 @@ en^OpenDocument Spreadsheet
 en^OpenDocument Spreadsheet Template
 en^OpenDocument Text
 en^OpenDocument Text Master
+-
 en^OpenDocument Text Template
 en^Open Document Text Web
 -
@@ -1351,6 +1379,7 @@ en^PowerBuilder
 -
 en^Preview Systems ZipLock/VBox
 en^EFI Proteus
+-
 -
 en^PubliShare Objects
 en^Princeton Video Image
@@ -1800,6 +1829,7 @@ en^XML-Binary Optimized Packaging
 en^XML Transformations
 en^XSPF - XML Shareable Playlist Format
 en^MXML
+-
 en^YANG Data Modeling Language
 -
 -
@@ -2029,6 +2059,7 @@ en^Image Exchange Format
 -
 -
 -
+-
 en^JPEG Image
 -
 -
@@ -2152,6 +2183,9 @@ en^X Window Dump
 -
 -
 -
+-
+-
+-
 en^Email Message
 -
 -
@@ -2167,6 +2201,7 @@ en^Email Message
 en^Initial Graphics Exchange Specification (IGES)
 -
 en^Mesh Data Type
+-
 -
 -
 -
