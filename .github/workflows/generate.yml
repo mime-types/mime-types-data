@@ -24,13 +24,11 @@ jobs:
 
           echo "ok=${result}" >>"$GITHUB_OUTPUT"
 
-      - run: echo "[${{ steps.is-first-week.ok }}]"
-
       - uses: actions/checkout@v3
-        if: steps.is-first-week.ok
+        if: steps.is-first-week.outputs.ok
 
       - uses: ruby/setup-ruby@v1
-        if: steps.is-first-week.ok
+        if: steps.is-first-week.outputs.ok
         with:
           ruby-version: '3.2'
           rubygems: 'latest'
@@ -38,10 +36,10 @@ jobs:
           bundler-cache: true
 
       - run: bundle exec rake release:gha
-        if: steps.is-first-week.ok
+        if: steps.is-first-week.outputs.ok
 
       - uses: peter-evans/create-pull-request@v5.0.2
-        if: steps.is-first-week.ok
+        if: steps.is-first-week.outputs.ok
         with:
           commit-message: |
             ${{ env.UPDATE_TITLE }}
