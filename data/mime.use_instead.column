@@ -5,6 +5,7 @@
 -
 -
 -
+-
 application/x-msaccess
 -
 -
@@ -60,6 +61,7 @@ application/x-bleeper
 -
 -
 application/cals-1840
+-
 -
 -
 -
@@ -369,6 +371,11 @@ application/x-mathematica-old
 -
 -
 -
+-
+-
+-
+-
+-
 application/x-quicktimeplayer
 -
 -
@@ -539,6 +546,10 @@ application/x-VMSBACKUP
 -
 -
 -
+-
+-
+-
+-
 application/vnd.3gpp.mcvideo-info+xml
 -
 -
@@ -625,7 +636,19 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 -
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 application/vnd.aristanetworks.swi
+-
+-
 -
 -
 -
@@ -1142,6 +1165,10 @@ application/vnd.visionary
 -
 -
 -
+-
+-
+-
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1159,6 +1186,8 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
 -
 -
 -
@@ -1965,6 +1994,7 @@ application/x400-bp
 -
 -
 -
+-
 audio/qcelp
 -
 -
@@ -2012,6 +2042,7 @@ x-drawing/dwf
 -
 -
 image/x-cmu-raster
+-
 -
 -
 -
@@ -2132,6 +2163,10 @@ image/emf
 -
 -
 image/wmf
+-
+-
+-
+-
 -
 -
 -
