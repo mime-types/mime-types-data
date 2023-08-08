@@ -1,0 +1,42 @@
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/byebug-11.1.3/ext/byebug
+/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-3l1jzz sitelibdir\=./.gem.20230808-1751-3l1jzz clean
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-3l1jzz sitelibdir\=./.gem.20230808-1751-3l1jzz
+compiling breakpoint.c
+compiling byebug.c
+byebug.c: In function ‘check_started’:
+byebug.c:69:1: warning: old-style function definition [-Wold-style-definition]
+   69 | check_started()
+      | ^~~~~~~~~~~~~
+byebug.c: In function ‘Init_byebug’:
+byebug.c:865:1: warning: old-style function definition [-Wold-style-definition]
+  865 | Init_byebug()
+      | ^~~~~~~~~~~
+byebug.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling context.c
+compiling locker.c
+locker.c: In function ‘byebug_pop_from_locked’:
+locker.c:53:1: warning: old-style function definition [-Wold-style-definition]
+   53 | byebug_pop_from_locked()
+      | ^~~~~~~~~~~~~~~~~~~~~~
+locker.c: At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-3l1jzz sitelibdir\=./.gem.20230808-1751-3l1jzz install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20230808-1751-3l1jzz/byebug
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-3l1jzz sitelibdir\=./.gem.20230808-1751-3l1jzz clean

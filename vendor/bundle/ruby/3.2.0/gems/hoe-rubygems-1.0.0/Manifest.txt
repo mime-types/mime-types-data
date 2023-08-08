@@ -1,0 +1,6 @@
+.autotest
+CHANGELOG.rdoc
+Manifest.txt
+README.rdoc
+Rakefile
+lib/hoe/rubygems.rb

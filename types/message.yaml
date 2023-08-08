@@ -116,6 +116,15 @@
     - message/imdn+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: message/mls
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc9420
+    template:
+    - message/mls
+  registered: true
+- !ruby/object:MIME::Type
   content-type: message/news
   encoding: 8bit
   obsolete: true
@@ -128,6 +137,24 @@
     - message/news
     notes:
     - "(OBSOLETED by )"
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: message/ohttp-req
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ohai-ohttp-08
+    template:
+    - message/ohttp-req
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: message/ohttp-res
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ohai-ohttp-08
+    template:
+    - message/ohttp-res
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/partial

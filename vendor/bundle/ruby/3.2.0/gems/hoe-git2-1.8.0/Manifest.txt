@@ -1,0 +1,5 @@
+CHANGELOG.md
+Manifest.txt
+README.rdoc
+Rakefile
+lib/hoe/git2.rb

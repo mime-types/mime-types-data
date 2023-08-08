@@ -1,0 +1,5 @@
+CHANGELOG.rdoc
+Manifest.txt
+README.rdoc
+Rakefile
+lib/hoe/gemspec2.rb

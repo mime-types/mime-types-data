@@ -1,0 +1,62 @@
+= Hoe Loves RubyGems
+
+* http://github.com/jbarnette/hoe-rubygems
+
+== Description
+
+A Hoe plugin with additional RubyGems tasks. Provides support for
+generating gemspec files and installing with a prefix.
+
+== Examples
+
+  # in your Rakefile
+  Hoe.plugin :rubygems
+
+=== Generating a Gemspec
+
+    $ rake gem:spec
+
+This will write <tt>projectname.gemspec</tt> into the root directory
+of your project.
+
+=== Installing with a Prefix
+
+Developing with prefixed forks of gems can be really hard, since,
+e.g., a GitHub gem that installs as <tt>jbarnette-johnson</tt> via
+GitHub's source will install as <tt>johnson</tt> from a local
+checkout. To install with a prefix, try:
+
+    $ rake gem:install[jbarnette]
+
+For Johnson, this would locally install a gem called
+<tt>jbarnette-johnson</tt>.
+
+<tt>gem:install</tt> without a prefix argument will do exactly the
+same thing as Hoe's built-in <tt>install_gem</tt> task.
+
+== Installation
+
+    $ gem install hoe-rubygems
+
+== License
+
+Copyright 2009 John Barnette (jbarnette@rubyforge.org)
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

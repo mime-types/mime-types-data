@@ -1,0 +1,24 @@
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/psych-3.3.4/ext/psych
+/opt/hostedtoolcache/Ruby/3.2.2/x64/bin/ruby extconf.rb
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/psych-3.3.4/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-cugva2 sitelibdir\=./.gem.20230808-1751-cugva2 clean
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/psych-3.3.4/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-cugva2 sitelibdir\=./.gem.20230808-1751-cugva2
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/psych-3.3.4/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-cugva2 sitelibdir\=./.gem.20230808-1751-cugva2 install
+/usr/bin/install -c -m 0755 psych.so ./.gem.20230808-1751-cugva2
+
+current directory: /home/runner/work/mime-types-data/mime-types-data/vendor/bundle/ruby/3.2.0/gems/psych-3.3.4/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20230808-1751-cugva2 sitelibdir\=./.gem.20230808-1751-cugva2 clean
