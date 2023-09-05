@@ -786,6 +786,15 @@
     - application/cfw
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/cid-edhoc+cbor-seq
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-lake-edhoc-22
+    template:
+    - application/cid-edhoc+cbor-seq
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/city+json
   encoding: base64
   xrefs:
@@ -1266,6 +1275,15 @@
     - application/ecmascript
     notes:
     - "(OBSOLETED in favor of text/javascript)"
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/edhoc+cbor-seq
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-lake-edhoc-22
+    template:
+    - application/edhoc+cbor-seq
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/EDI-consent
@@ -3131,7 +3149,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-ohai-ohttp-08
+    - RFC-ietf-ohai-ohttp-09
     template:
     - application/ohttp-keys
   registered: true
@@ -18216,7 +18234,7 @@
     uri:
     - https://yaml.org/spec/1.2.2/
     draft:
-    - RFC-ietf-httpapi-yaml-mediatypes-08
+    - RFC-ietf-httpapi-yaml-mediatypes-10
     template:
     - application/yaml
   registered: true

@@ -81,6 +81,7 @@ application/cea-2018+xml
 application/cellml+xml
 application/cert-chain+cbor
 application/cfw
+application/cid-edhoc+cbor-seq
 application/city+json
 application/clariscad
 application/clr
@@ -133,6 +134,7 @@ application/dssc+xml xdssc
 application/dvcs
 application/dxf
 application/ecmascript ecma es
+application/edhoc+cbor-seq
 application/EDI-consent
 application/EDI-X12
 application/EDIFACT
@@ -2076,6 +2078,7 @@ image/jxss
 image/ktx ktx
 image/ktx2
 image/naplps
+image/pdc
 image/pjpeg
 image/png png
 image/prs.btif btif
