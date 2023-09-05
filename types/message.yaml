@@ -143,7 +143,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-ohai-ohttp-08
+    - RFC-ietf-ohai-ohttp-09
     template:
     - message/ohttp-req
   registered: true
@@ -152,7 +152,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-ohai-ohttp-08
+    - RFC-ietf-ohai-ohttp-09
     template:
     - message/ohttp-res
   registered: true

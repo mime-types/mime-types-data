@@ -81,6 +81,7 @@ person^Gottfried_Zimmermann|template^application/cea-2018+xml
 rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses
 rfc^rfc6230|template^application/cfw
+draft^RFC-ietf-lake-edhoc-22|template^application/cid-edhoc+cbor-seq
 person^Hugo_Ledoux
 -
 person^Andy_Miller^IMS_Global|template^application/clr
@@ -133,6 +134,7 @@ rfc^rfc5698|template^application/dssc+xml
 rfc^rfc3029|template^application/dvcs
 -
 notes^(OBSOLETED in favor of text/javascript)|rfc^rfc4329^rfc9239|template^application/ecmascript
+draft^RFC-ietf-lake-edhoc-22|template^application/edhoc+cbor-seq
 rfc^rfc1767|template^application/EDI-consent
 rfc^rfc1767|template^application/EDI-X12
 rfc^rfc1767|template^application/EDIFACT
@@ -319,7 +321,7 @@ person^CDISC^Sam_Hume|template^application/odm+xml
 person^ASAM^Thomas_Thomsen|template^application/ODX
 person^EPUB_3_WG^W3C|template^application/oebps-package+xml
 rfc^rfc5334^rfc7845|template^application/ogg
-draft^RFC-ietf-ohai-ohttp-08|template^application/ohttp-keys
+draft^RFC-ietf-ohai-ohttp-09|template^application/ohttp-keys
 -
 -
 person^OPC_Foundation|template^application/opc-nodeset+xml
@@ -1829,7 +1831,7 @@ person^Mark_Nottingham|template^application/xop+xml
 person^W3C|template^application/xslt+xml|uri^http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration
 -
 rfc^rfc4374|template^application/xv+xml
-draft^RFC-ietf-httpapi-yaml-mediatypes-08|template^application/yaml|uri^https://yaml.org/spec/1.2.2/
+draft^RFC-ietf-httpapi-yaml-mediatypes-10|template^application/yaml|uri^https://yaml.org/spec/1.2.2/
 rfc^rfc6020|template^application/yang
 rfc^rfc9254|template^application/yang-data+cbor
 rfc^rfc8040|template^application/yang-data+json
@@ -2076,6 +2078,7 @@ person^ISO-IEC_JTC_1|template^image/jxss
 person^Khronos^Mark_Callow|template^image/ktx
 person^Khronos^Mark_Callow|template^image/ktx2
 person^Ilya_Ferber|template^image/naplps
+person^Pierre-Anthony_Lemieux
 -
 person^PNG_Working_Group^W3C|template^image/png
 person^Ben_Simon|template^image/prs.btif
@@ -2183,8 +2186,8 @@ rfc^rfc9112|template^message/http
 rfc^rfc5438|template^message/imdn+xml
 rfc^rfc9420|template^message/mls
 notes^(OBSOLETED by )|person^Henry_Spencer|rfc^rfc5537|template^message/news
-draft^RFC-ietf-ohai-ohttp-08|template^message/ohttp-req
-draft^RFC-ietf-ohai-ohttp-08|template^message/ohttp-res
+draft^RFC-ietf-ohai-ohttp-09|template^message/ohttp-req
+draft^RFC-ietf-ohai-ohttp-09|template^message/ohttp-res
 rfc^rfc2045^rfc2046
 rfc^rfc2045^rfc2046
 notes^(OBSOLETE)|rfc^rfc2660|template^message/s-http|uri^https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic
