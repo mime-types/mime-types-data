@@ -24,7 +24,7 @@ jobs:
 
           echo "ok=${result}" >>"$GITHUB_OUTPUT"
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         if: steps.is-first-week.outputs.ok
 
       - uses: ruby/setup-ruby@v1
