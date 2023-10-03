@@ -56,6 +56,7 @@ application/bacnet-xdd+zip
 application/batch-SMTP
 application/beep+xml
 application/bleeper bleep
+application/c2pa
 application/calendar+json
 application/calendar+xml
 application/call-completion
@@ -1063,6 +1064,7 @@ application/vnd.medcalcdata mc1
 application/vnd.mediastation.cdkey cdkey
 application/vnd.medicalholodeck.recordxr
 application/vnd.meridian-slingshot
+application/vnd.mermaid
 application/vnd.MFER mwf
 application/vnd.mfmp mfm
 application/vnd.micro+json
@@ -1412,6 +1414,7 @@ application/vnd.rar
 application/vnd.realvnc.bed bed
 application/vnd.recordare.musicxml mxl
 application/vnd.recordare.musicxml+xml musicxml
+application/vnd.relpipe
 application/vnd.RenLearn.rlprint
 application/vnd.resilient.logic
 application/vnd.restful+json
@@ -2305,6 +2308,7 @@ text/provenance-notation
 text/prs.fallenstein.rst rst
 text/prs.lines.tag dsc
 text/prs.prop.logic
+text/prs.texi
 text/raptorfec
 text/RED
 text/rfc822-headers

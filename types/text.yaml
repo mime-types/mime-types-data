@@ -448,6 +448,15 @@
     - text/prs.prop.logic
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/prs.texi
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Matin_Bavardi
+    template:
+    - text/prs.texi
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/raptorfec
   encoding: quoted-printable
   xrefs:
