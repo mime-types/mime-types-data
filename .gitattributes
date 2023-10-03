@@ -1,0 +1,3 @@
+data/*.db -text -diff -merge linguist-generated=true
+data/*.column -text -diff -merge linguist-generated=true
+data/*.json -text -diff -merge linguist-generated=true
