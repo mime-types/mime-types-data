@@ -3738,9 +3738,6 @@
   encoding: base64
   extensions:
   - prql
-  xrefs:
-    person:
-    - Maximilian_Roos
   registered: false
 - !ruby/object:MIME::Type
   content-type: application/pvd+json
