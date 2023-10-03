@@ -3732,6 +3732,17 @@
     - application/pskc+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/prql
+  friendly:
+    en: Pipelined Relational Query Language
+  encoding: base64
+  extensions:
+  - prql
+  xrefs:
+    person:
+    - Maximilian_Roos
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/pvd+json
   encoding: base64
   xrefs:
