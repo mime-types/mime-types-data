@@ -56,6 +56,7 @@ person^ASHRAE^Dave_Robin|template^application/bacnet-xdd+zip
 rfc^rfc2442|template^application/batch-SMTP
 rfc^rfc3080|template^application/beep+xml
 -
+person^C2PA^Leonard_Rosenthol|template^application/c2pa
 rfc^rfc7265|template^application/calendar+json
 rfc^rfc6321|template^application/calendar+xml
 rfc^rfc6910|template^application/call-completion
@@ -126,7 +127,7 @@ rfc^rfc8427|template^application/dns+json
 rfc^rfc8484|template^application/dns-message
 -
 rfc^rfc9132|template^application/dots+cbor
-draft^RFC-ietf-oauth-dpop-16|template^application/dpop+jwt
+rfc^rfc9449|template^application/dpop+jwt
 -
 rfc^rfc6063|template^application/dskpp+xml
 rfc^rfc5698|template^application/dssc+der
@@ -1063,6 +1064,7 @@ person^Frank_Schoonjans|template^application/vnd.medcalcdata
 person^Henry_Flurry|template^application/vnd.mediastation.cdkey
 person^Dominique_Sandoz|template^application/vnd.medicalholodeck.recordxr
 person^Eric_Wedel|template^application/vnd.meridian-slingshot
+person^Sidharth_Vinod|template^application/vnd.mermaid
 person^Masaaki_Hirai|template^application/vnd.MFER
 person^Yukari_Ikeda|template^application/vnd.mfmp
 person^Dali_Zheng|template^application/vnd.micro+json
@@ -1412,6 +1414,7 @@ person^Kim_Scarborough|template^application/vnd.rar
 person^Nick_Reeves|template^application/vnd.realvnc.bed
 person^W3C_Music_Notation_Community_Group|template^application/vnd.recordare.musicxml
 person^W3C_Music_Notation_Community_Group|template^application/vnd.recordare.musicxml+xml
+person^Frantisek_Kucera|template^application/vnd.relpipe
 person^James_Wick|template^application/vnd.RenLearn.rlprint
 person^Benedikt_Muessig|template^application/vnd.resilient.logic
 person^Stephen_Mizell|template^application/vnd.restful+json
@@ -2305,6 +2308,7 @@ person^Ivan_Herman^W3C|template^text/provenance-notation
 person^Benja_Fallenstein|template^text/prs.fallenstein.rst
 person^John_Lines|template^text/prs.lines.tag
 person^Hans-Dieter_A._Hiep|template^text/prs.prop.logic
+person^Matin_Bavardi|template^text/prs.texi
 rfc^rfc6682|template^text/raptorfec
 rfc^rfc4102|template^text/RED
 rfc^rfc6522|template^text/rfc822-headers

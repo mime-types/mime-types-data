@@ -538,6 +538,16 @@
   use-instead: application/x-bleeper
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/c2pa
+  encoding: base64
+  xrefs:
+    person:
+    - C2PA
+    - Leonard_Rosenthol
+    template:
+    - application/c2pa
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/calendar+json
   encoding: base64
   xrefs:
@@ -1200,8 +1210,8 @@
   content-type: application/dpop+jwt
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-oauth-dpop-16
+    rfc:
+    - rfc9449
     template:
     - application/dpop+jwt
   registered: true
@@ -10786,6 +10796,15 @@
     - application/vnd.meridian-slingshot
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.mermaid
+  encoding: base64
+  xrefs:
+    person:
+    - Sidharth_Vinod
+    template:
+    - application/vnd.mermaid
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.MFER
   friendly:
     en: Medical Waveform Encoding Format
@@ -14405,6 +14424,15 @@
     - W3C_Music_Notation_Community_Group
     template:
     - application/vnd.recordare.musicxml+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.relpipe
+  encoding: base64
+  xrefs:
+    person:
+    - Frantisek_Kucera
+    template:
+    - application/vnd.relpipe
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.RenLearn.rlprint
