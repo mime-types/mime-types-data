@@ -221,11 +221,13 @@ application/jose
 application/jose+json
 application/jrd+json
 application/jscalendar+json
+application/jscontact+json
 application/json json
 application/json-nd
 application/json-patch+json
 application/json-seq
 application/jsonml+json jsonml
+application/jsonpath
 application/jwk+json
 application/jwk-set+json
 application/jwt
@@ -360,10 +362,14 @@ application/poc-settings+xml
 application/postscript eps ps ai
 application/powerpoint ppt pps pot
 application/ppsp-tracker+json
+application/private-token-issuer-directory
+application/private-token-request
+application/private-token-response
 application/pro_eng
 application/problem+json
 application/problem+xml
 application/provenance+xml
+application/prql prql
 application/prs.alvestrand.titrax-sheet
 application/prs.cww cw cww
 application/prs.cyn
@@ -1916,6 +1922,7 @@ audio/L20
 audio/L24
 audio/L8
 audio/LPC
+audio/matroska
 audio/MELP
 audio/MELP1200
 audio/MELP2400
@@ -2419,6 +2426,8 @@ video/JPEG jpgv
 video/jpeg2000
 video/jpm jpgm jpm
 video/jxsv
+video/matroska
+video/matroska-3d
 video/MJ2 mj2 mjp2
 video/MP1S
 video/MP2P

@@ -221,11 +221,13 @@ rfc^rfc7515|template^application/jose
 rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
 rfc^rfc8984|template^application/jscalendar+json
+draft^RFC-ietf-calext-jscontact-15|template^application/jscontact+json
 rfc^rfc8259|template^application/json
 person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
 rfc^rfc7464|template^application/json-seq
 -
+draft^RFC-ietf-jsonpath-base-21|template^application/jsonpath
 rfc^rfc7517|template^application/jwk+json
 rfc^rfc7517|template^application/jwk-set+json
 rfc^rfc7519|template^application/jwt
@@ -360,10 +362,14 @@ rfc^rfc4354|template^application/poc-settings+xml
 rfc^rfc2045^rfc2046|template^application/postscript
 -
 rfc^rfc7846|template^application/ppsp-tracker+json
+draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-issuer-directory
+draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-request
+draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-response
 -
 rfc^rfc9457|template^application/problem+json
 rfc^rfc9457|template^application/problem+xml
 person^Ivan_Herman^W3C|template^application/provenance+xml
+-
 person^Harald_T._Alvestrand|template^application/prs.alvestrand.titrax-sheet
 person^Khemchart_Rungchavalnont|template^application/prs.cww
 person^Cynthia_Revström|template^application/prs.cyn
@@ -1916,6 +1922,7 @@ rfc^rfc3190|template^audio/L20
 rfc^rfc3190|template^audio/L24
 rfc^rfc4856|template^audio/L8
 rfc^rfc4856|template^audio/LPC
+draft^RFC-ietf-cellar-matroska-21|template^audio/matroska
 rfc^rfc8130|template^audio/MELP
 rfc^rfc8130|template^audio/MELP1200
 rfc^rfc8130|template^audio/MELP2400
@@ -2419,6 +2426,8 @@ rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
 -
 rfc^rfc9134|template^video/jxsv
+draft^RFC-ietf-cellar-matroska-21|template^video/matroska
+draft^RFC-ietf-cellar-matroska-21|template^video/matroska-3d
 rfc^rfc3745|template^video/mj2
 rfc^rfc3555|template^video/MP1S
 rfc^rfc3555|template^video/MP2P

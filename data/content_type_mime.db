@@ -73,6 +73,7 @@ pkipath     application/pkix-pkipath                                            
 pki         application/pkixcmp                                                       base64          
 pls         application/pls+xml                                                       base64          
 eps         application/postscript                                                    8bit            
+prql        application/prql                                                          base64          
 cw          application/prs.cww                                                       base64          
 rnd         application/prs.nprend                                                    base64          
 pskcxml     application/pskc+xml                                                      base64          

@@ -2131,6 +2131,15 @@
     - application/jscalendar+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/jscontact+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-calext-jscontact-15
+    template:
+    - application/jscontact+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/json
   friendly:
     en: JavaScript Object Notation (JSON)
@@ -2175,6 +2184,15 @@
   extensions:
   - jsonml
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/jsonpath
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-jsonpath-base-21
+    template:
+    - application/jsonpath
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/jwk+json
   encoding: base64
@@ -3571,6 +3589,33 @@
     - application/ppsp-tracker+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/private-token-issuer-directory
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-privacypass-protocol-16
+    template:
+    - application/private-token-issuer-directory
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/private-token-request
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-privacypass-protocol-16
+    template:
+    - application/private-token-request
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/private-token-response
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-privacypass-protocol-16
+    template:
+    - application/private-token-response
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/pro_eng
   encoding: base64
   registered: false
@@ -3602,6 +3647,14 @@
     template:
     - application/provenance+xml
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/prql
+  friendly:
+    en: Pipelined Relational Query Language
+  encoding: base64
+  extensions:
+  - prql
+  registered: false
 - !ruby/object:MIME::Type
   content-type: application/prs.alvestrand.titrax-sheet
   encoding: base64
@@ -3731,14 +3784,6 @@
     template:
     - application/pskc+xml
   registered: true
-- !ruby/object:MIME::Type
-  content-type: application/prql
-  friendly:
-    en: Pipelined Relational Query Language
-  encoding: base64
-  extensions:
-  - prql
-  registered: false
 - !ruby/object:MIME::Type
   content-type: application/pvd+json
   encoding: base64
