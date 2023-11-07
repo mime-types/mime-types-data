@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2023.1107 / 2023-11-07
+
+- - Updated the Apache and IANA media registry entries as of release date
+
 ## 3.2023.1003 / 2023-10-03
 
 - - Updated the Apache and IANA media registry entries as of release date

@@ -660,6 +660,15 @@
     - audio/LPC
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/matroska
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cellar-matroska-21
+    template:
+    - audio/matroska
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/MELP
   encoding: base64
   xrefs:

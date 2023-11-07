@@ -727,6 +727,7 @@ pqa         application/vnd.palm                                                
 prc         application/vnd.palm                                                      base64          
 pre         application/vnd.lotus-freelance                                           base64          
 prf         application/pics-rules                                                    base64          
+prql        application/prql                                                          base64          
 ps          application/postscript                                                    8bit            
 ps1         application/x-msdos-program                                               base64          
 psb         application/vnd.3gpp.pic-bw-small                                         base64          

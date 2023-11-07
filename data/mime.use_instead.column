@@ -240,6 +240,8 @@ text/javascript
 -
 -
 -
+-
+-
 application/vnd.lotus-1-2-3
 -
 -
@@ -254,6 +256,10 @@ application/x-mac-compactpro
 application/vnd.mcd
 -
 application/x-mathematica-old
+-
+-
+-
+-
 -
 -
 -
@@ -2000,6 +2006,7 @@ application/x400-bp
 -
 -
 -
+-
 audio/qcelp
 -
 -
@@ -2405,6 +2412,8 @@ video/x-dl
 -
 -
 video/x-gl
+-
+-
 -
 -
 -

@@ -291,6 +291,24 @@
     - video/jxsv
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/matroska
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cellar-matroska-21
+    template:
+    - video/matroska
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: video/matroska-3d
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cellar-matroska-21
+    template:
+    - video/matroska-3d
+  registered: true
+- !ruby/object:MIME::Type
   content-type: video/MJ2
   friendly:
     en: Motion JPEG 2000
