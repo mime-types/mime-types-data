@@ -181,6 +181,7 @@ application/x-futuresplash
 -
 -
 -
+-
 application/x-ghostview
 -
 -
@@ -905,6 +906,7 @@ application/vnd.aristanetworks.swi
 -
 -
 -
+-
 application/geo+json
 -
 -
@@ -1179,7 +1181,14 @@ application/vnd.visionary
 -
 -
 -
+-
+-
+-
+-
 application/vnd.nokia.ncd
+-
+-
+-
 -
 -
 -

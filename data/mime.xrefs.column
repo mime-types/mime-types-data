@@ -180,6 +180,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
+person^OGC^Scott_Simmons|template^application/geoxacml+json
 person^OGC^Scott_Simmons|template^application/geoxacml+xml
 -
 person^Khronos^Saurabh_Bhatia|template^application/gltf-buffer
@@ -221,7 +222,7 @@ rfc^rfc7515|template^application/jose
 rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
 rfc^rfc8984|template^application/jscalendar+json
-draft^RFC-ietf-calext-jscontact-15|template^application/jscontact+json
+draft^RFC-ietf-calext-jscontact-16|template^application/jscontact+json
 rfc^rfc8259|template^application/json
 person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
@@ -684,6 +685,7 @@ person^Bryan_Blank^NCGIS|template^application/vnd.bpf
 person^Bryan_Blank^NCGIS|template^application/vnd.bpf3
 person^Philippe_Imoucha|template^application/vnd.businessobjects
 person^Brent_Moore|template^application/vnd.byu.uapi+json
+person^Kamila_Szewczyk|template^application/vnd.bzip3
 person^Joerg_Falkenberg|template^application/vnd.cab-jscript
 person^Shin_Muto|template^application/vnd.canon-cpdl
 person^Shin_Muto|template^application/vnd.canon-lips
@@ -1153,6 +1155,10 @@ person^Greg_Adams|template^application/vnd.musician
 person^Chandrashekhara_Anantharamu|template^application/vnd.muvee.style
 person^Franck_Lefevre|template^application/vnd.mynfc
 person^Sebastian_A._Weiss|template^application/vnd.nacamar.ybrid+json
+person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+cbor
+person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+json
+person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+xml
+person^Aidan_Murdock|template^application/vnd.nato.openxmlformats-package.iepd+zip
 person^Lauri_Tarkkala|template^application/vnd.ncd.control
 person^Lauri_Tarkkala|template^application/vnd.ncd.reference
 person^Thomas_Schoffelen|template^application/vnd.nearst.inv+json
@@ -1192,6 +1198,9 @@ person^NTT-local|template^application/vnd.ntt-local.file-transfer
 person^NTT-local|template^application/vnd.ntt-local.ogw_remote-access
 person^NTT-local|template^application/vnd.ntt-local.sip-ta_remote
 person^NTT-local|template^application/vnd.ntt-local.sip-ta_tcp_stream
+person^Frank_Kilcommins|template^application/vnd.oai.workflows
+person^Frank_Kilcommins|template^application/vnd.oai.workflows+json
+person^Frank_Kilcommins|template^application/vnd.oai.workflows+yaml
 person^OASIS^OASIS_TC_Admin|template^application/vnd.oasis.opendocument.base
 person^OASIS^OASIS_TC_Admin|template^application/vnd.oasis.opendocument.chart
 person^OASIS^OASIS_TC_Admin|template^application/vnd.oasis.opendocument.chart-template

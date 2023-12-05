@@ -1743,6 +1743,16 @@
     - application/geopackage+sqlite3
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/geoxacml+json
+  encoding: base64
+  xrefs:
+    person:
+    - OGC
+    - Scott_Simmons
+    template:
+    - application/geoxacml+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/geoxacml+xml
   encoding: base64
   xrefs:
@@ -2135,7 +2145,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-calext-jscontact-15
+    - RFC-ietf-calext-jscontact-16
     template:
     - application/jscontact+json
   registered: true
@@ -6743,6 +6753,15 @@
     - Brent_Moore
     template:
     - application/vnd.byu.uapi+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.bzip3
+  encoding: base64
+  xrefs:
+    person:
+    - Kamila_Szewczyk
+    template:
+    - application/vnd.bzip3
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.cab-jscript
@@ -11774,6 +11793,42 @@
     - application/vnd.nacamar.ybrid+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.nato.bindingdataobject+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - Aidan_Murdock
+    template:
+    - application/vnd.nato.bindingdataobject+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nato.bindingdataobject+json
+  encoding: base64
+  xrefs:
+    person:
+    - Aidan_Murdock
+    template:
+    - application/vnd.nato.bindingdataobject+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nato.bindingdataobject+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Aidan_Murdock
+    template:
+    - application/vnd.nato.bindingdataobject+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nato.openxmlformats-package.iepd+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Aidan_Murdock
+    template:
+    - application/vnd.nato.openxmlformats-package.iepd+zip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.ncd.control
   encoding: base64
   xrefs:
@@ -12177,6 +12232,33 @@
     - NTT-local
     template:
     - application/vnd.ntt-local.sip-ta_tcp_stream
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.oai.workflows
+  encoding: base64
+  xrefs:
+    person:
+    - Frank_Kilcommins
+    template:
+    - application/vnd.oai.workflows
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.oai.workflows+json
+  encoding: base64
+  xrefs:
+    person:
+    - Frank_Kilcommins
+    template:
+    - application/vnd.oai.workflows+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.oai.workflows+yaml
+  encoding: base64
+  xrefs:
+    person:
+    - Frank_Kilcommins
+    template:
+    - application/vnd.oai.workflows+yaml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.oasis.opendocument.base

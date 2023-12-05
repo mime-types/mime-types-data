@@ -180,6 +180,7 @@ application/futuresplash spl
 application/geo+json
 application/geo+json-seq
 application/geopackage+sqlite3
+application/geoxacml+json
 application/geoxacml+xml
 application/ghostview
 application/gltf-buffer
@@ -684,6 +685,7 @@ application/vnd.bpf
 application/vnd.bpf3
 application/vnd.businessobjects rep
 application/vnd.byu.uapi+json
+application/vnd.bzip3
 application/vnd.cab-jscript
 application/vnd.canon-cpdl
 application/vnd.canon-lips
@@ -1153,6 +1155,10 @@ application/vnd.musician mus
 application/vnd.muvee.style msty
 application/vnd.mynfc taglet
 application/vnd.nacamar.ybrid+json
+application/vnd.nato.bindingdataobject+cbor
+application/vnd.nato.bindingdataobject+json
+application/vnd.nato.bindingdataobject+xml
+application/vnd.nato.openxmlformats-package.iepd+zip
 application/vnd.ncd.control
 application/vnd.ncd.reference
 application/vnd.nearst.inv+json
@@ -1192,6 +1198,9 @@ application/vnd.ntt-local.file-transfer
 application/vnd.ntt-local.ogw_remote-access
 application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream
+application/vnd.oai.workflows
+application/vnd.oai.workflows+json
+application/vnd.oai.workflows+yaml
 application/vnd.oasis.opendocument.base
 application/vnd.oasis.opendocument.chart odc
 application/vnd.oasis.opendocument.chart-template odc otc
