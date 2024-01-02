@@ -4063,8 +4063,8 @@
   extensions:
   - roa
   xrefs:
-    rfc:
-    - rfc6481
+    draft:
+    - RFC-ietf-sidrops-rfc6482bis-09
     template:
     - application/rpki-roa
   registered: true
@@ -10552,6 +10552,15 @@
     - NCGIS
     template:
     - application/vnd.laszip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ldev.productlicensing
+  encoding: base64
+  xrefs:
+    person:
+    - L.development_Polska
+    template:
+    - application/vnd.ldev.productlicensing
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.leap+json

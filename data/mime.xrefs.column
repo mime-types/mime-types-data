@@ -410,7 +410,7 @@ rfc^rfc9323|template^application/rpki-checklist
 rfc^rfc6493|template^application/rpki-ghostbusters
 rfc^rfc6481|template^application/rpki-manifest
 rfc^rfc8181|template^application/rpki-publication
-rfc^rfc6481|template^application/rpki-roa
+draft^RFC-ietf-sidrops-rfc6482bis-09|template^application/rpki-roa
 rfc^rfc6492|template^application/rpki-updown
 -
 -
@@ -1043,6 +1043,7 @@ person^Bryan_Blank^NCGIS|template^application/vnd.las
 person^Rob_Bailey|template^application/vnd.las.las+json
 person^Rob_Bailey|template^application/vnd.las.las+xml
 person^Bryan_Blank^NCGIS|template^application/vnd.laszip
+person^L.development_Polska|template^application/vnd.ldev.productlicensing
 person^Mark_C_Fralick|template^application/vnd.leap+json
 person^Brett_McDowell|template^application/vnd.liberty-request+xml
 person^Catherine_E._White|template^application/vnd.llamagraphics.life-balance.desktop
