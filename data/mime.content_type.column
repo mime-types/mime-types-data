@@ -1043,6 +1043,7 @@ application/vnd.las
 application/vnd.las.las+json
 application/vnd.las.las+xml lasxml
 application/vnd.laszip
+application/vnd.ldev.productlicensing
 application/vnd.leap+json
 application/vnd.liberty-request+xml
 application/vnd.llamagraphics.life-balance.desktop lbd
