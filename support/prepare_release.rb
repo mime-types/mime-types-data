@@ -76,15 +76,15 @@ class PrepareRelease
     history = IO.read("History.md")
 
     if !/^## #{release_header}$/.match?(history)
-      note = <<-NOTE
-<!-- automatic-release -->
+      note = <<~NOTE
+        <!-- automatic-release -->
 
-## #{release_header}
+        ## #{release_header}
 
-- #{history_body}
+        - #{history_body}
       NOTE
 
-      updated = history.sub(/<!-- automatic-release -->\n/, note)
+      updated = history.sub("<!-- automatic-release -->\n", note)
 
       IO.write("History.md", updated)
     end
