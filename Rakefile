@@ -153,7 +153,7 @@ namespace :update do
 - Updated the Apache and IANA media registry entries as of release date.
       NOTE
 
-      updated = history.sub(/<!-- automatic-release -->\n/, note)
+      updated = history.sub("<!-- automatic-release -->\n", note)
 
       IO.write("History.md", updated)
     end

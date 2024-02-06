@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2024.0206".freeze
+  s.version = "3.2024.0206"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "rubygems_mfa_required" => "true" } if s.respond_to? :metadata=
@@ -18,20 +18,20 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
-  s.rubygems_version = "3.5.6".freeze
+  s.rubygems_version = "3.4.10".freeze
   s.summary = "mime-types-data provides a registry for information about MIME media type definitions".freeze
 
   s.specification_version = 4
 
-  s.add_development_dependency(%q<hoe>.freeze, ["~> 4.0".freeze])
-  s.add_development_dependency(%q<hoe-doofus>.freeze, ["~> 1.0".freeze])
-  s.add_development_dependency(%q<hoe-gemspec2>.freeze, ["~> 1.1".freeze])
-  s.add_development_dependency(%q<hoe-git2>.freeze, ["~> 1.7".freeze])
-  s.add_development_dependency(%q<hoe-rubygems>.freeze, ["~> 1.0".freeze])
-  s.add_development_dependency(%q<mime-types>.freeze, [">= 3.4.0".freeze, "< 4".freeze])
-  s.add_development_dependency(%q<nokogiri>.freeze, ["~> 1.6".freeze])
-  s.add_development_dependency(%q<psych>.freeze, ["~> 3.0".freeze])
-  s.add_development_dependency(%q<rake>.freeze, [">= 10.0".freeze, "< 14".freeze])
-  s.add_development_dependency(%q<standard>.freeze, ["~> 1.0".freeze])
-  s.add_development_dependency(%q<rdoc>.freeze, [">= 4.0".freeze, "< 7".freeze])
+  s.add_development_dependency(%q<hoe>.freeze, ["~> 4.0"])
+  s.add_development_dependency(%q<hoe-doofus>.freeze, ["~> 1.0"])
+  s.add_development_dependency(%q<hoe-gemspec2>.freeze, ["~> 1.1"])
+  s.add_development_dependency(%q<hoe-git2>.freeze, ["~> 1.7"])
+  s.add_development_dependency(%q<hoe-rubygems>.freeze, ["~> 1.0"])
+  s.add_development_dependency(%q<mime-types>.freeze, [">= 3.4.0", "< 4"])
+  s.add_development_dependency(%q<nokogiri>.freeze, ["~> 1.6"])
+  s.add_development_dependency(%q<psych>.freeze, ["~> 3.0"])
+  s.add_development_dependency(%q<rake>.freeze, [">= 10.0", "< 14"])
+  s.add_development_dependency(%q<standard>.freeze, ["~> 1.0"])
+  s.add_development_dependency(%q<rdoc>.freeze, [">= 4.0", "< 7"])
 end
