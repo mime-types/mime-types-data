@@ -112,6 +112,15 @@
     - video/encaprtp
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/evc
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-avtcore-rtp-evc-07
+    template:
+    - video/evc
+  registered: true
+- !ruby/object:MIME::Type
   content-type: video/example
   encoding: base64
   xrefs:
@@ -352,6 +361,7 @@
   - mpl
   - mpls
   - bdm
+  - m2t
   xrefs:
     rfc:
     - rfc3555
