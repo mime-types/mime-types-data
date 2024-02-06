@@ -28,6 +28,8 @@ application/alto-networkmap+json
 application/alto-networkmapfilter+json
 application/alto-propmap+json
 application/alto-propmapparams+json
+application/alto-tips+json
+application/alto-tipsparams+json
 application/alto-updatestreamcontrol+json
 application/alto-updatestreamparams+json
 application/AML
@@ -377,6 +379,9 @@ application/prs.cyn
 application/prs.hpub+zip
 application/prs.implied-document+xml
 application/prs.implied-executable
+application/prs.implied-object+json
+application/prs.implied-object+json-seq
+application/prs.implied-object+yaml
 application/prs.implied-structure
 application/prs.nprend rnd rct
 application/prs.plucker
@@ -825,6 +830,7 @@ application/vnd.epson.quickanime qam
 application/vnd.epson.salt slt
 application/vnd.epson.ssf ssf
 application/vnd.ericsson.quickcall
+application/vnd.erofs
 application/vnd.espass-espass+zip
 application/vnd.eszigno3+xml es3 et3
 application/vnd.etsi.aoc+xml
@@ -1598,6 +1604,7 @@ application/vnd.wv.csp+xml
 application/vnd.wv.ssp+xml
 application/vnd.xacml+json
 application/vnd.xara xar
+application/vnd.xecrets-encrypted
 application/vnd.xfdl xfdl
 application/vnd.xfdl.webform
 application/vnd.xmi+xml
@@ -1857,6 +1864,7 @@ application/yang-data+json
 application/yang-data+xml
 application/yang-patch+json
 application/yang-patch+xml
+application/yang-sid+json
 application/yin+xml yin
 application/zip zip
 application/zlib
@@ -1939,6 +1947,7 @@ audio/MELP2400
 audio/MELP600
 audio/mhas
 audio/midi kar mid midi rmi
+audio/midi-clip
 audio/mobile-xmf
 audio/mp4 mp4 mpg4 f4a f4b mp4a m4a
 audio/MP4A-LATM m4a
@@ -2418,6 +2427,7 @@ video/CelB
 video/dl dl
 video/DV dv
 video/encaprtp
+video/evc
 video/example
 video/FFV1
 video/flexfec
@@ -2441,7 +2451,7 @@ video/matroska-3d
 video/MJ2 mj2 mjp2
 video/MP1S
 video/MP2P
-video/MP2T ts mts m2ts cpi clpi mpl mpls bdm
+video/MP2T ts mts m2ts cpi clpi mpl mpls bdm m2t
 video/mp4 mp4 mpg4 f4v f4p mp4v
 video/MP4V-ES
 video/mpeg mp2 mp3g mpe mpeg mpg m1v m2v

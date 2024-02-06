@@ -28,6 +28,8 @@ rfc^rfc7285|template^application/alto-networkmap+json
 rfc^rfc7285|template^application/alto-networkmapfilter+json
 rfc^rfc9240|template^application/alto-propmap+json
 rfc^rfc9240|template^application/alto-propmapparams+json
+draft^RFC-ietf-alto-new-transport-22|template^application/alto-tips+json
+draft^RFC-ietf-alto-new-transport-22|template^application/alto-tipsparams+json
 rfc^rfc8895|template^application/alto-updatestreamcontrol+json
 rfc^rfc8895|template^application/alto-updatestreamparams+json
 person^ASAM^Thomas_Thomsen|template^application/AML
@@ -325,7 +327,7 @@ person^CDISC^Sam_Hume|template^application/odm+xml
 person^ASAM^Thomas_Thomsen|template^application/ODX
 person^EPUB_3_WG^W3C|template^application/oebps-package+xml
 rfc^rfc5334^rfc7845|template^application/ogg
-draft^RFC-ietf-ohai-ohttp-09|template^application/ohttp-keys
+rfc^rfc9458|template^application/ohttp-keys
 -
 -
 person^OPC_Foundation|template^application/opc-nodeset+xml
@@ -377,6 +379,9 @@ person^Cynthia_Revström|template^application/prs.cyn
 person^Giulio_Zambon|template^application/prs.hpub+zip
 person^Marek_Čermák|template^application/prs.implied-document+xml
 person^Marek_Čermák|template^application/prs.implied-executable
+person^Marek_Čermák|template^application/prs.implied-object+json
+person^Marek_Čermák|template^application/prs.implied-object+json-seq
+person^Marek_Čermák|template^application/prs.implied-object+yaml
 person^Marek_Čermák|template^application/prs.implied-structure
 person^Jay_Doggett|template^application/prs.nprend
 person^Bill_Janssen|template^application/prs.plucker
@@ -825,6 +830,7 @@ person^Yu_Gu|template^application/vnd.epson.quickanime
 person^Yasuhito_Nagatomo|template^application/vnd.epson.salt
 person^Shoji_Hoshina|template^application/vnd.epson.ssf
 person^Paul_Tidwell|template^application/vnd.ericsson.quickcall
+person^Xiang_Gao|template^application/vnd.erofs
 person^Marcus_Ligi_Büschleb|template^application/vnd.espass-espass+zip
 person^Szilveszter_Tóth|template^application/vnd.eszigno3+xml
 person^Shicheng_Hu|template^application/vnd.etsi.aoc+xml
@@ -924,9 +930,9 @@ person^Christian_Grothoff|template^application/vnd.gnu.taler.exchange+json
 person^Christian_Grothoff|template^application/vnd.gnu.taler.merchant+json
 person^Michael_Ashbridge|template^application/vnd.google-earth.kml+xml
 person^Michael_Ashbridge|template^application/vnd.google-earth.kmz
-person^Peter_Biro^Stefan_Szilva|template^application/vnd.gov.sk.e-form+xml
-person^Peter_Biro^Stefan_Szilva|template^application/vnd.gov.sk.e-form+zip
-person^Peter_Biro^Stefan_Szilva|template^application/vnd.gov.sk.xmldatacontainer+xml
+notes^(OBSOLETED by request)|person^Stefan_Szilva|template^application/vnd.gov.sk.e-form+xml
+person^Stefan_Szilva|template^application/vnd.gov.sk.e-form+zip
+person^Stefan_Szilva|template^application/vnd.gov.sk.xmldatacontainer+xml
 person^Martin_Tůma|template^application/vnd.gpxsee.map+xml
 person^Jeff_Tupper|template^application/vnd.grafeq
 person^Jeff_Lawson|template^application/vnd.gridmp
@@ -1598,6 +1604,7 @@ person^John_Ingi_Ingimundarson|template^application/vnd.wv.csp+xml
 person^John_Ingi_Ingimundarson|template^application/vnd.wv.ssp+xml
 person^David_Brossard|template^application/vnd.xacml+json
 person^David_Matthewman|template^application/vnd.xara
+person^Svante_Seleborg|template^application/vnd.xecrets-encrypted
 person^Dave_Manning|template^application/vnd.xfdl
 person^Michael_Mansell|template^application/vnd.xfdl.webform
 person^Fred_Waskiewicz|template^application/vnd.xmi+xml
@@ -1857,6 +1864,7 @@ rfc^rfc8040|template^application/yang-data+json
 rfc^rfc8040|template^application/yang-data+xml
 rfc^rfc8072|template^application/yang-patch+json
 rfc^rfc8072|template^application/yang-patch+xml
+draft^RFC-ietf-core-sid-24|template^application/yang-sid+json
 rfc^rfc6020|template^application/yin+xml
 person^Paul_Lindner|template^application/zip
 rfc^rfc6713|template^application/zlib
@@ -1939,6 +1947,7 @@ rfc^rfc8130|template^audio/MELP2400
 rfc^rfc8130|template^audio/MELP600
 person^ISO-IEC_JTC_1^Ingo_Hofmann^Nils_Peters|template^audio/mhas
 -
+person^Benjamin_Israel
 rfc^rfc4723|template^audio/mobile-xmf
 rfc^rfc4337^rfc6381|template^audio/mp4
 rfc^rfc6416|template^audio/MP4A-LATM
@@ -2206,8 +2215,8 @@ rfc^rfc9112|template^message/http
 rfc^rfc5438|template^message/imdn+xml
 rfc^rfc9420|template^message/mls
 notes^(OBSOLETED by )|person^Henry_Spencer|rfc^rfc5537|template^message/news
-draft^RFC-ietf-ohai-ohttp-09|template^message/ohttp-req
-draft^RFC-ietf-ohai-ohttp-09|template^message/ohttp-res
+rfc^rfc9458|template^message/ohttp-req
+rfc^rfc9458|template^message/ohttp-res
 rfc^rfc2045^rfc2046
 rfc^rfc2045^rfc2046
 notes^(OBSOLETE)|rfc^rfc2660|template^message/s-http|uri^https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic
@@ -2418,6 +2427,7 @@ rfc^rfc3555|template^video/CelB
 -
 rfc^rfc6469|template^video/DV
 rfc^rfc6849|template^video/encaprtp
+draft^RFC-ietf-avtcore-rtp-evc-07|template^video/evc
 rfc^rfc4735|template^video/example
 rfc^rfc9043|template^video/FFV1
 rfc^rfc8627|template^video/flexfec

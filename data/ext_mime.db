@@ -477,6 +477,7 @@ m14         application/x-msmediaview                                           
 m1v         video/mpeg                                                                base64          
 m21         application/mp21                                                          base64          
 m2a         audio/mpeg                                                                base64          
+m2t         video/MP2T                                                                base64          
 m2ts        video/MP2T                                                                base64          
 m2v         video/mpeg                                                                base64          
 m3a         audio/mpeg                                                                base64          

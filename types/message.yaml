@@ -142,8 +142,8 @@
   content-type: message/ohttp-req
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ohai-ohttp-09
+    rfc:
+    - rfc9458
     template:
     - message/ohttp-req
   registered: true
@@ -151,8 +151,8 @@
   content-type: message/ohttp-res
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ohai-ohttp-09
+    rfc:
+    - rfc9458
     template:
     - message/ohttp-res
   registered: true

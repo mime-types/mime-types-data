@@ -727,6 +727,14 @@
   - rmi
   registered: false
 - !ruby/object:MIME::Type
+  content-type: audio/midi-clip
+  encoding: base64
+  xrefs:
+    person:
+    - Benjamin_Israel
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: audio/mobile-xmf
   encoding: base64
   xrefs:

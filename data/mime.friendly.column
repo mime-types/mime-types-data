@@ -31,6 +31,8 @@
 -
 -
 -
+-
+-
 en^Andrew Toolkit
 -
 -
@@ -373,6 +375,9 @@ en^PostScript
 en^Pipelined Relational Query Language
 -
 en^CU-Writer
+-
+-
+-
 -
 -
 -
@@ -824,6 +829,7 @@ en^QUASS Stream Player
 en^QuickAnime Player
 en^SimpleAnimeLite Player
 en^QUASS Stream Player
+-
 -
 -
 en^MICROSEC e-Szign¢
@@ -1598,6 +1604,7 @@ en^Worldtalk
 -
 -
 en^CorelXARA
+-
 en^Extensible Forms Description Language
 -
 -
@@ -1857,6 +1864,7 @@ en^YANG Data Modeling Language
 -
 -
 -
+-
 en^YIN (YANG - XML)
 en^Zip Archive
 -
@@ -1939,6 +1947,7 @@ en^Sun Audio - Au file format
 -
 -
 en^MIDI - Musical Instrument Digital Interface
+-
 -
 en^MPEG-4 Audio
 -
@@ -2411,6 +2420,7 @@ en^vCard
 en^3GP
 -
 en^3GP2
+-
 -
 -
 -
