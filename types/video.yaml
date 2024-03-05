@@ -538,10 +538,8 @@
   content-type: video/scip
   encoding: base64
   xrefs:
-    person:
-    - Daniel_Hanson
-    - Michael_Faller
-    - SCIP
+    draft:
+    - RFC-ietf-avtcore-rtp-scip-09
     template:
     - video/scip
   registered: true

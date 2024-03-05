@@ -83,6 +83,7 @@ person^ASAM^Thomas_Thomsen|template^application/CEA
 person^Gottfried_Zimmermann|template^application/cea-2018+xml
 rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses
+person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
 draft^RFC-ietf-lake-edhoc-22|template^application/cid-edhoc+cbor-seq
 person^Hugo_Ledoux
@@ -230,7 +231,7 @@ person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
 rfc^rfc7464|template^application/json-seq
 -
-draft^RFC-ietf-jsonpath-base-21|template^application/jsonpath
+rfc^rfc9535|template^application/jsonpath
 rfc^rfc7517|template^application/jwk+json
 rfc^rfc7517|template^application/jwk-set+json
 rfc^rfc7519|template^application/jwt
@@ -648,6 +649,7 @@ person^Hiroyoshi_Mori|template^application/vnd.anser-web-certificate-issue-initi
 person^Daniel_Shelton|template^application/vnd.antix.game-component
 person^Apache_Arrow_Project|template^application/vnd.apache.arrow.file
 person^Apache_Arrow_Project|template^application/vnd.apache.arrow.stream
+person^Apache_Parquet_Project|template^application/vnd.apache.parquet
 person^Roger_Meier|template^application/vnd.apache.thrift.binary
 person^Roger_Meier|template^application/vnd.apache.thrift.compact
 person^Roger_Meier|template^application/vnd.apache.thrift.json
@@ -1629,6 +1631,7 @@ notes^(OBSOLETED in favor of video/vnd.youtube.yt)|person^Laura_Wood|template^ap
 person^Rene_Grothmann|template^application/vnd.zul
 person^Micheal_Hewett|template^application/vnd.zzazz.deck+xml
 rfc^rfc4267|template^application/voicexml+xml
+draft^draft-ietf-anima-constrained-voucher-23
 rfc^rfc8366|template^application/voucher-cms+json
 draft^draft-ietf-anima-constrained-voucher-17
 rfc^rfc6035|template^application/vq-rtcpxr
@@ -1857,7 +1860,7 @@ person^Mark_Nottingham|template^application/xop+xml
 person^W3C|template^application/xslt+xml|uri^http://www.w3.org/TR/2007/REC-xslt20-20070123/#media-type-registration
 -
 rfc^rfc4374|template^application/xv+xml
-draft^RFC-ietf-httpapi-yaml-mediatypes-10|template^application/yaml|uri^https://yaml.org/spec/1.2.2/
+rfc^rfc9512|template^application/yaml|uri^https://yaml.org/spec/1.2.2/
 rfc^rfc6020|template^application/yang
 rfc^rfc9254|template^application/yang-data+cbor
 rfc^rfc8040|template^application/yang-data+json
@@ -1914,6 +1917,7 @@ rfc^rfc5188|template^audio/EVRCWB0
 rfc^rfc5188|template^audio/EVRCWB1
 person^Kyunghun_Jung^_3GPP|template^audio/EVS
 rfc^rfc4735|template^audio/example
+draft^RFC-ietf-cellar-flac-14|template^audio/flac
 rfc^rfc8627|template^audio/flexfec
 rfc^rfc6354|template^audio/fwdred
 rfc^rfc7655|template^audio/G711-0
@@ -1971,7 +1975,7 @@ rfc^rfc6295|template^audio/rtp-midi
 rfc^rfc6849|template^audio/rtploopback
 rfc^rfc4588|template^audio/rtx
 -
-person^Daniel_Hanson^Michael_Faller^SCIP|template^audio/scip
+draft^RFC-ietf-avtcore-rtp-scip-09|template^audio/scip
 -
 rfc^rfc3558|template^audio/SMV
 rfc^rfc3625|template^audio/SMV-QCP
@@ -2096,7 +2100,7 @@ person^ISO-IEC_JTC_1^ITU-T|template^image/jph
 person^ISO-IEC_JTC_1^ITU-T|template^image/jphc
 rfc^rfc3745|template^image/jpm
 rfc^rfc3745|template^image/jpx
-person^Touradj_Ebrahimi
+person^ISO-IEC_JTC_1^ISO-IEC_JTC_1_SC_29_WG_1|template^image/jxl
 person^ISO-IEC_JTC_1^ITU-T|template^image/jxr
 person^ISO-IEC_JTC_1^ITU-T|template^image/jxrA
 person^ISO-IEC_JTC_1^ITU-T|template^image/jxrS
@@ -2467,7 +2471,7 @@ rfc^rfc4175|template^video/raw
 person^_3GPP|template^video/rtp-enc-aescm128
 rfc^rfc6849|template^video/rtploopback
 rfc^rfc4588|template^video/rtx
-person^Daniel_Hanson^Michael_Faller^SCIP|template^video/scip
+draft^RFC-ietf-avtcore-rtp-scip-09|template^video/scip
 rfc^rfc8331|template^video/smpte291
 rfc^rfc3497|template^video/SMPTE292M
 rfc^rfc5109|template^video/ulpfec

@@ -421,6 +421,15 @@
     - audio/example
   registered: true
 - !ruby/object:MIME::Type
+  content-type: audio/flac
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cellar-flac-14
+    template:
+    - audio/flac
+  registered: true
+- !ruby/object:MIME::Type
   content-type: audio/flexfec
   encoding: base64
   xrefs:
@@ -974,10 +983,8 @@
   content-type: audio/scip
   encoding: base64
   xrefs:
-    person:
-    - Daniel_Hanson
-    - Michael_Faller
-    - SCIP
+    draft:
+    - RFC-ietf-avtcore-rtp-scip-09
     template:
     - audio/scip
   registered: true
