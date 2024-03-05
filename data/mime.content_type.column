@@ -83,6 +83,7 @@ application/CEA
 application/cea-2018+xml
 application/cellml+xml
 application/cert-chain+cbor
+application/CESR
 application/cfw
 application/cid-edhoc+cbor-seq
 application/city+json
@@ -648,6 +649,7 @@ application/vnd.anser-web-funds-transfer-initiation fti
 application/vnd.antix.game-component atx
 application/vnd.apache.arrow.file
 application/vnd.apache.arrow.stream
+application/vnd.apache.parquet
 application/vnd.apache.thrift.binary
 application/vnd.apache.thrift.compact
 application/vnd.apache.thrift.json
@@ -1629,6 +1631,7 @@ application/vnd.youtube.yt
 application/vnd.zul zir zirz
 application/vnd.zzazz.deck+xml zaz
 application/voicexml+xml vxml
+application/voucher+cose
 application/voucher-cms+json
 application/voucher-cose+cbor
 application/vq-rtcpxr
@@ -1914,6 +1917,7 @@ audio/EVRCWB0
 audio/EVRCWB1
 audio/EVS
 audio/example
+audio/flac
 audio/flexfec
 audio/fwdred
 audio/G711-0

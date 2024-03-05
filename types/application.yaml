@@ -805,6 +805,14 @@
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
+  content-type: application/CESR
+  encoding: base64
+  xrefs:
+    person:
+    - Samuel_M._Smith
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/cfw
   encoding: base64
   xrefs:
@@ -2216,8 +2224,8 @@
   content-type: application/jsonpath
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-jsonpath-base-21
+    rfc:
+    - rfc9535
     template:
     - application/jsonpath
   registered: true
@@ -6387,6 +6395,15 @@
     - Apache_Arrow_Project
     template:
     - application/vnd.apache.arrow.stream
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.apache.parquet
+  encoding: base64
+  xrefs:
+    person:
+    - Apache_Parquet_Project
+    template:
+    - application/vnd.apache.parquet
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.apache.thrift.binary
@@ -16632,6 +16649,14 @@
     - application/voicexml+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/voucher+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-anima-constrained-voucher-23
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/voucher-cms+json
   encoding: base64
   xrefs:
@@ -18468,8 +18493,8 @@
   xrefs:
     uri:
     - https://yaml.org/spec/1.2.2/
-    draft:
-    - RFC-ietf-httpapi-yaml-mediatypes-10
+    rfc:
+    - rfc9512
     template:
     - application/yaml
   registered: true

@@ -343,7 +343,10 @@
   encoding: base64
   xrefs:
     person:
-    - Touradj_Ebrahimi
+    - ISO-IEC_JTC_1
+    - ISO-IEC_JTC_1_SC_29_WG_1
+    template:
+    - image/jxl
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
