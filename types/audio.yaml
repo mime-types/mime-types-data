@@ -741,6 +741,9 @@
   xrefs:
     person:
     - Benjamin_Israel
+    - MIDI_Association
+    template:
+    - audio/midi-clip
   registered: true
   provisional: true
 - !ruby/object:MIME::Type

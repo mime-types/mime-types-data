@@ -825,8 +825,8 @@
   content-type: application/cid-edhoc+cbor-seq
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-lake-edhoc-22
+    rfc:
+    - rfc9528
     template:
     - application/cid-edhoc+cbor-seq
   registered: true
@@ -1316,8 +1316,8 @@
   content-type: application/edhoc+cbor-seq
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-lake-edhoc-22
+    rfc:
+    - rfc9528
     template:
     - application/edhoc+cbor-seq
   registered: true
@@ -1815,6 +1815,42 @@
     - OGC
     template:
     - application/gml+xml
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/gnap-binding-jws
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-gnap-core-protocol-20
+    template:
+    - application/gnap-binding-jws
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/gnap-binding-jwsd
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-gnap-core-protocol-20
+    template:
+    - application/gnap-binding-jwsd
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/gnap-binding-rotation-jws
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-gnap-core-protocol-20
+    template:
+    - application/gnap-binding-rotation-jws
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/gnap-binding-rotation-jwsd
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-gnap-core-protocol-20
+    template:
+    - application/gnap-binding-rotation-jwsd
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/gpx+xml
@@ -5284,6 +5320,26 @@
     - application/vnd.3gpp.5gnas
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.5gsa2x
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_CT1
+    template:
+    - application/vnd.3gpp.5gsa2x
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.5gsa2x-local-service-information
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_CT1
+    template:
+    - application/vnd.3gpp.5gsa2x-local-service-information
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.access-transfer-events+xml
   encoding: base64
   xrefs:
@@ -6824,6 +6880,15 @@
     - Kamila_Szewczyk
     template:
     - application/vnd.bzip3
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.c3voc.schedule+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Andreas_Hubel
+    template:
+    - application/vnd.c3voc.schedule+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.cab-jscript

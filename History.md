@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2024.0402 / 2024-04-02
+
+- - Updated the Apache and IANA media registry entries as of release date
+
 ## 3.2024.0305 / 2024-03-05
 
 - - Updated the Apache and IANA media registry entries as of release date
