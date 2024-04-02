@@ -85,7 +85,7 @@ rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses
 person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
-draft^RFC-ietf-lake-edhoc-22|template^application/cid-edhoc+cbor-seq
+rfc^rfc9528|template^application/cid-edhoc+cbor-seq
 person^Hugo_Ledoux
 -
 person^Andy_Miller^IMS_Global|template^application/clr
@@ -138,7 +138,7 @@ rfc^rfc5698|template^application/dssc+xml
 rfc^rfc3029|template^application/dvcs
 -
 notes^(OBSOLETED in favor of text/javascript)|rfc^rfc4329^rfc9239|template^application/ecmascript
-draft^RFC-ietf-lake-edhoc-22|template^application/edhoc+cbor-seq
+rfc^rfc9528|template^application/edhoc+cbor-seq
 rfc^rfc1767|template^application/EDI-consent
 rfc^rfc1767|template^application/EDI-X12
 rfc^rfc1767|template^application/EDIFACT
@@ -188,6 +188,10 @@ person^OGC^Scott_Simmons|template^application/geoxacml+xml
 -
 person^Khronos^Saurabh_Bhatia|template^application/gltf-buffer
 person^Clemens_Portele^OGC|template^application/gml+xml
+draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jws
+draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jwsd
+draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jws
+draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jwsd
 -
 -
 rfc^rfc6713|template^application/gzip
@@ -536,6 +540,8 @@ person^Frederic_Firmin|template^application/vnd.3gpp-prose-pc3ch+xml
 person^Haorui_Yang|template^application/vnd.3gpp-prose-pc8+xml
 person^Frederic_Firmin|template^application/vnd.3gpp-v2x-local-service-information
 person^Jones_Lu_Yunjie^_3GPP|template^application/vnd.3gpp.5gnas
+person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.5gsa2x
+person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.5gsa2x-local-service-information
 person^Frederic_Firmin|template^application/vnd.3gpp.access-transfer-events+xml
 person^John_M_Meredith|template^application/vnd.3gpp.bsf+xml
 person^Xu_Chen|template^application/vnd.3gpp.crs+xml
@@ -693,6 +699,7 @@ person^Bryan_Blank^NCGIS|template^application/vnd.bpf3
 person^Philippe_Imoucha|template^application/vnd.businessobjects
 person^Brent_Moore|template^application/vnd.byu.uapi+json
 person^Kamila_Szewczyk|template^application/vnd.bzip3
+person^Andreas_Hubel|template^application/vnd.c3voc.schedule+xml
 person^Joerg_Falkenberg|template^application/vnd.cab-jscript
 person^Shin_Muto|template^application/vnd.canon-cpdl
 person^Shin_Muto|template^application/vnd.canon-lips
@@ -1951,7 +1958,7 @@ rfc^rfc8130|template^audio/MELP2400
 rfc^rfc8130|template^audio/MELP600
 person^ISO-IEC_JTC_1^Ingo_Hofmann^Nils_Peters|template^audio/mhas
 -
-person^Benjamin_Israel
+person^Benjamin_Israel^MIDI_Association|template^audio/midi-clip
 rfc^rfc4723|template^audio/mobile-xmf
 rfc^rfc4337^rfc6381|template^audio/mp4
 rfc^rfc6416|template^audio/MP4A-LATM
