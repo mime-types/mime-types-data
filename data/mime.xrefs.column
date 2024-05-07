@@ -9,6 +9,7 @@ person^ASAM^Thomas_Thomsen|template^application/A2L
 -
 rfc^rfc9200|template^application/ace+cbor
 rfc^rfc9431|template^application/ace+json
+draft^RFC-ietf-ace-key-groupcomm-18|template^application/ace-groupcomm+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
 rfc^rfc9237|template^application/aif+cbor
@@ -110,6 +111,7 @@ person^Ivan_Herman^W3C|template^application/csvm+json
 -
 person^CWL_Project^Michael_R._Crusoe|template^application/cwl
 person^CWL_Project^Michael_R._Crusoe|template^application/cwl+json
+person^CWL_Project^Michael_R._Crusoe|template^application/cwl+yaml
 rfc^rfc8392|template^application/cwt
 person^Donald_E._Eastlake_3rd|template^application/cybercash
 person^ISO-IEC_JTC_1^Thomas_Stockhammer|template^application/dash+xml
@@ -451,8 +453,8 @@ rfc^rfc8428|template^application/sensml+cbor
 rfc^rfc8428|template^application/sensml+json
 rfc^rfc8428|template^application/sensml+xml
 rfc^rfc8428|template^application/sensml-exi
-person^Connectivity_Standards_Alliance^Robby_Simpson|template^application/sep+xml
-person^Connectivity_Standards_Alliance^Robby_Simpson|template^application/sep-exi
+person^IEEE^Robby_Simpson|template^application/sep+xml
+person^IEEE^Robby_Simpson|template^application/sep-exi
 person^Frederic_Firmin^_3GPP|template^application/session-info
 -
 person^Brian_Korver|template^application/set-payment
@@ -488,6 +490,7 @@ rfc^rfc6207|template^application/sru+xml
 rfc^rfc4267|template^application/ssml+xml
 -
 person^Chet_Ensign^OASIS|template^application/stix+json
+note^1|person^Ben_van_Hartingsveldt|template^application/stratum
 rfc^rfc9393|template^application/swid+cbor
 person^David_Waltermire^ISO-IEC_JTC_1^Ron_Brill|template^application/swid+xml
 rfc^rfc5934|template^application/tamp-apex-update
@@ -587,6 +590,7 @@ person^Bruno_Landais^_3GPP|template^application/vnd.3gpp.pfcp
 person^John_M_Meredith|template^application/vnd.3gpp.pic-bw-large
 person^John_M_Meredith|template^application/vnd.3gpp.pic-bw-small
 person^John_M_Meredith|template^application/vnd.3gpp.pic-bw-var
+person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.pinapp-info+xml
 person^Yang_Yong^_3GPP|template^application/vnd.3gpp.s1ap
 person^Sapan_Shah|template^application/vnd.3gpp.seal-group-doc+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-info+xml
@@ -2163,7 +2167,7 @@ person^Henrik_Andersson|template^image/vnd.valve.source.texture
 person^Peter_Stark|template^image/vnd.wap.wbmp
 person^Steven_Martin|template^image/vnd.xiff
 person^Chris_Charabaruk|template^image/vnd.zbrush.pcx
-draft^RFC-zern-webp-12|template^image/webp
+draft^RFC-zern-webp-15|template^image/webp
 rfc^rfc7903|template^image/wmf
 -
 -

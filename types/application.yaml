@@ -100,6 +100,15 @@
     - application/ace+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/ace-groupcomm+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ace-key-groupcomm-18
+    template:
+    - application/ace-groupcomm+cbor
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/activemessage
   encoding: base64
   xrefs:
@@ -1042,6 +1051,16 @@
     - Michael_R._Crusoe
     template:
     - application/cwl+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/cwl+yaml
+  encoding: base64
+  xrefs:
+    person:
+    - CWL_Project
+    - Michael_R._Crusoe
+    template:
+    - application/cwl+yaml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/cwt
@@ -4464,7 +4483,7 @@
   encoding: base64
   xrefs:
     person:
-    - Connectivity_Standards_Alliance
+    - IEEE
     - Robby_Simpson
     template:
     - application/sep+xml
@@ -4474,7 +4493,7 @@
   encoding: base64
   xrefs:
     person:
-    - Connectivity_Standards_Alliance
+    - IEEE
     - Robby_Simpson
     template:
     - application/sep-exi
@@ -4832,6 +4851,17 @@
     - OASIS
     template:
     - application/stix+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/stratum
+  encoding: base64
+  xrefs:
+    person:
+    - Ben_van_Hartingsveldt
+    note:
+    - '1'
+    template:
+    - application/stratum
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/swid+cbor
@@ -5763,6 +5793,16 @@
     - John_M_Meredith
     template:
     - application/vnd.3gpp.pic-bw-var
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.pinapp-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_CT1
+    template:
+    - application/vnd.3gpp.pinapp-info+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.s1ap

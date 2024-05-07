@@ -9,6 +9,7 @@ application/acad
 application/access mdf mda mdb mde
 application/ace+cbor
 application/ace+json
+application/ace-groupcomm+cbor
 application/activemessage
 application/activity+json
 application/aif+cbor
@@ -110,6 +111,7 @@ application/csvm+json
 application/cu-seeme cu
 application/cwl
 application/cwl+json
+application/cwl+yaml
 application/cwt
 application/cybercash
 application/dash+xml
@@ -488,6 +490,7 @@ application/ssdl+xml ssdl
 application/ssml+xml ssml
 application/STEP
 application/stix+json
+application/stratum
 application/swid+cbor
 application/swid+xml
 application/tamp-apex-update
@@ -587,6 +590,7 @@ application/vnd.3gpp.pfcp
 application/vnd.3gpp.pic-bw-large plb
 application/vnd.3gpp.pic-bw-small psb
 application/vnd.3gpp.pic-bw-var pvb
+application/vnd.3gpp.pinapp-info+xml
 application/vnd.3gpp.s1ap
 application/vnd.3gpp.seal-group-doc+xml
 application/vnd.3gpp.seal-info+xml
