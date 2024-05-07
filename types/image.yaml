@@ -938,7 +938,7 @@
   - webp
   xrefs:
     draft:
-    - RFC-zern-webp-12
+    - RFC-zern-webp-15
     template:
     - image/webp
   registered: true
