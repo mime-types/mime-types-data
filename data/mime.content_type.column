@@ -423,6 +423,7 @@ application/rpki-ghostbusters gbr
 application/rpki-manifest mft
 application/rpki-publication
 application/rpki-roa roa
+application/rpki-signed-tal
 application/rpki-updown
 application/rsd+xml rsd
 application/rss+xml rss
@@ -488,6 +489,7 @@ application/srgs+xml grxml
 application/sru+xml sru
 application/ssdl+xml ssdl
 application/ssml+xml ssml
+application/ST2110-41
 application/STEP
 application/stix+json
 application/stratum
@@ -916,6 +918,7 @@ application/vnd.fut-misnet
 application/vnd.futoin+cbor
 application/vnd.futoin+json
 application/vnd.fuzzysheet fzs
+application/vnd.ga4gh.passport+jwt
 application/vnd.genomatix.tuxedo txd
 application/vnd.genozip
 application/vnd.gentics.grd+json
@@ -1167,6 +1170,7 @@ application/vnd.ms-wpl wpl
 application/vnd.ms-xpsdocument xps
 application/vnd.msa-disk-image
 application/vnd.mseq mseq
+application/vnd.msgpack
 application/vnd.msign
 application/vnd.multiad.creator
 application/vnd.multiad.creator.cif
