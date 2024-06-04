@@ -231,7 +231,7 @@ rfc^rfc7515|template^application/jose
 rfc^rfc7515|template^application/jose+json
 rfc^rfc7033|template^application/jrd+json
 rfc^rfc8984|template^application/jscalendar+json
-draft^RFC-ietf-calext-jscontact-16|template^application/jscontact+json
+rfc^rfc9553|template^application/jscontact+json
 rfc^rfc8259|template^application/json
 person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
@@ -422,7 +422,8 @@ rfc^rfc9323|template^application/rpki-checklist
 rfc^rfc6493|template^application/rpki-ghostbusters
 rfc^rfc6481|template^application/rpki-manifest
 rfc^rfc8181|template^application/rpki-publication
-draft^RFC-ietf-sidrops-rfc6482bis-09|template^application/rpki-roa
+rfc^rfc9582|template^application/rpki-roa
+draft^RFC-ietf-sidrops-signed-tal-16|template^application/rpki-signed-tal
 rfc^rfc6492|template^application/rpki-updown
 -
 -
@@ -488,6 +489,7 @@ rfc^rfc4267|template^application/srgs+xml
 rfc^rfc6207|template^application/sru+xml
 -
 rfc^rfc4267|template^application/ssml+xml
+person^Thomas_Bause_Mason
 -
 person^Chet_Ensign^OASIS|template^application/stix+json
 note^1|person^Ben_van_Hartingsveldt|template^application/stratum
@@ -522,8 +524,8 @@ rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_Working_Group|template^application/trig
 person^W3C^W3C_Timed_Text_Working_Group|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
-rfc^rfc8536|template^application/tzif
-rfc^rfc8536|template^application/tzif-leap
+draft^RFC-murchison-rfc8536bis-15|template^application/tzif
+draft^RFC-murchison-rfc8536bis-15|template^application/tzif-leap
 rfc^rfc5109|template^application/ulpfec
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
@@ -916,6 +918,7 @@ person^Jann_Pruulman|template^application/vnd.fut-misnet
 person^Andrey_Galkin|template^application/vnd.futoin+cbor
 person^Andrey_Galkin|template^application/vnd.futoin+json
 person^Simon_Birtwistle|template^application/vnd.fuzzysheet
+person^GA4GH_Secretariat|template^application/vnd.ga4gh.passport+jwt
 person^Torben_Frey|template^application/vnd.genomatix.tuxedo
 person^Divon_Lan|template^application/vnd.genozip
 person^Philipp_Gortan|template^application/vnd.gentics.grd+json
@@ -1167,6 +1170,7 @@ person^Dan_Plastina|template^application/vnd.ms-wpl
 person^Jesse_McGatha|template^application/vnd.ms-xpsdocument
 person^Thomas_Huth|template^application/vnd.msa-disk-image
 person^Gwenael_Le_Bodic|template^application/vnd.mseq
+person^Alexander_Ivanov|template^application/vnd.msgpack
 person^Malte_Borcherding|template^application/vnd.msign
 person^Steve_Mills|template^application/vnd.multiad.creator
 person^Steve_Mills|template^application/vnd.multiad.creator.cif
@@ -2110,7 +2114,7 @@ rfc^rfc2045^rfc2046
 person^ISO-IEC_JTC_1^ITU-T|template^image/jph
 person^ISO-IEC_JTC_1^ITU-T|template^image/jphc
 rfc^rfc3745|template^image/jpm
-rfc^rfc3745|template^image/jpx
+person^ISO-IEC_JTC_1_SC_29_WG_1|rfc^rfc3745|template^image/jpx
 person^ISO-IEC_JTC_1^ISO-IEC_JTC_1_SC_29_WG_1|template^image/jxl
 person^ISO-IEC_JTC_1^ITU-T|template^image/jxr
 person^ISO-IEC_JTC_1^ITU-T|template^image/jxrA

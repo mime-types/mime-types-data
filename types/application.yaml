@@ -2225,8 +2225,8 @@
   content-type: application/jscontact+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-calext-jscontact-16
+    rfc:
+    - rfc9553
     template:
     - application/jscontact+json
   registered: true
@@ -4171,10 +4171,19 @@
   extensions:
   - roa
   xrefs:
-    draft:
-    - RFC-ietf-sidrops-rfc6482bis-09
+    rfc:
+    - rfc9582
     template:
     - application/rpki-roa
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/rpki-signed-tal
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-sidrops-signed-tal-16
+    template:
+    - application/rpki-signed-tal
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/rpki-updown
@@ -4839,6 +4848,14 @@
     - application/ssml+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/ST2110-41
+  encoding: base64
+  xrefs:
+    person:
+    - Thomas_Bause_Mason
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/STEP
   encoding: base64
   registered: false
@@ -5166,8 +5183,8 @@
   content-type: application/tzif
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8536
+    draft:
+    - RFC-murchison-rfc8536bis-15
     template:
     - application/tzif
   registered: true
@@ -5175,8 +5192,8 @@
   content-type: application/tzif-leap
   encoding: base64
   xrefs:
-    rfc:
-    - rfc8536
+    draft:
+    - RFC-murchison-rfc8536bis-15
     template:
     - application/tzif-leap
   registered: true
@@ -9097,6 +9114,15 @@
     - application/vnd.fuzzysheet
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.ga4gh.passport+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - GA4GH_Secretariat
+    template:
+    - application/vnd.ga4gh.passport+jwt
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.genomatix.tuxedo
   friendly:
     en: Genomatix Tuxedo Framework
@@ -11894,6 +11920,15 @@
     - Gwenael_Le_Bodic
     template:
     - application/vnd.mseq
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.msgpack
+  encoding: base64
+  xrefs:
+    person:
+    - Alexander_Ivanov
+    template:
+    - application/vnd.msgpack
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.msign

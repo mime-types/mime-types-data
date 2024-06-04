@@ -472,7 +472,9 @@ application/remote-printing
 -
 -
 -
+-
 application/smil+xml
+-
 -
 -
 -
@@ -926,6 +928,7 @@ application/vnd.aristanetworks.swi
 -
 -
 -
+-
 application/geo+json
 -
 -
@@ -1004,6 +1007,7 @@ application/vnd.afpc.modca
 -
 -
 application/vnd.visionary
+-
 -
 -
 -
