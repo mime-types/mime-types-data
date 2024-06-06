@@ -81,7 +81,7 @@ class PrepareRelease
 
         ## #{release_header}
 
-        - #{history_body}
+        #{history_body}
       NOTE
 
       updated = history.sub("<!-- automatic-release -->\n", note)

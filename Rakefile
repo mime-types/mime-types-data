@@ -28,7 +28,6 @@ Hoe.spec "mime-types-data" do
   extra_dev_deps << ["hoe-rubygems", "~> 1.0"]
   extra_dev_deps << ["mime-types", ">= 3.4.0", "< 4"]
   extra_dev_deps << ["nokogiri", "~> 1.6"]
-  extra_dev_deps << ["psych", "~> 3.0"]
   extra_dev_deps << ["rake", ">= 10.0", "< 14"]
   extra_dev_deps << ["standard", "~> 1.0"]
 end

@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<hoe-rubygems>.freeze, ["~> 1.0".freeze])
   s.add_development_dependency(%q<mime-types>.freeze, [">= 3.4.0".freeze, "< 4".freeze])
   s.add_development_dependency(%q<nokogiri>.freeze, ["~> 1.6".freeze])
-  s.add_development_dependency(%q<psych>.freeze, ["~> 3.0".freeze])
   s.add_development_dependency(%q<rake>.freeze, [">= 10.0".freeze, "< 14".freeze])
   s.add_development_dependency(%q<standard>.freeze, ["~> 1.0".freeze])
   s.add_development_dependency(%q<rdoc>.freeze, [">= 4.0".freeze, "< 7".freeze])
