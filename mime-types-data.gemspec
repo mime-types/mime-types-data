@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
-  s.rubygems_version = "3.5.10".freeze
+  s.rubygems_version = "3.5.11".freeze
   s.summary = "mime-types-data provides a registry for information about MIME media type definitions".freeze
 
   s.specification_version = 4
