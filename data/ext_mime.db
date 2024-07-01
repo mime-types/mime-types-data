@@ -10,7 +10,7 @@
 @dir        application/x-director                                                    base64          
 @dxr        application/x-director                                                    base64          
 aab         application/x-authorware-bin                                              base64          
-aac         audio/x-aac                                                               base64          
+aac         audio/aac                                                                 base64          
 aam         application/x-authorware-map                                              base64          
 aas         application/x-authorware-seg                                              base64          
 abw         application/x-abiword                                                     base64          

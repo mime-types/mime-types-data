@@ -671,7 +671,7 @@ rip         audio/vnd.rip                                                       
 smp3        audio/vnd.sealedmedia.softseal.mpeg                                       base64          
 wav         audio/wav                                                                 base64          
 weba        audio/webm                                                                base64          
-aac         audio/x-aac                                                               base64          
+aac         audio/aac                                                                 base64          
 aif         audio/x-aiff                                                              base64          
 caf         audio/x-caf                                                               base64          
 flac        audio/x-flac                                                              base64          
