@@ -115,8 +115,8 @@
   content-type: video/evc
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-avtcore-rtp-evc-07
+    rfc:
+    - rfc9584
     template:
     - video/evc
   registered: true

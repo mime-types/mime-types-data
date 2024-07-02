@@ -71,6 +71,7 @@ en^Atom Publishing Protocol Service Document
 -
 -
 -
+-
 en^Voice Browser Call Control
 -
 -
@@ -79,6 +80,7 @@ en^Cloud Data Management Interface (CDMI) - Contaimer
 en^Cloud Data Management Interface (CDMI) - Domain
 en^Cloud Data Management Interface (CDMI) - Object
 en^Cloud Data Management Interface (CDMI) - Queue
+-
 -
 -
 -
@@ -179,6 +181,7 @@ en^Efficient XML Interchange
 -
 en^Portable Font Resource
 en^Web Open Font Format
+-
 -
 -
 -
@@ -514,6 +517,7 @@ en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
 -
 -
 -
@@ -1650,6 +1654,7 @@ en^VoiceXML
 -
 -
 -
+-
 en^WebAssembly
 -
 -
@@ -2089,6 +2094,9 @@ en^XYZ File Format
 -
 -
 -
+-
+-
+-
 en^Bitmap Image File
 en^Computer Graphics Metafile
 -
@@ -2411,8 +2419,10 @@ en^J2ME App Descriptor
 -
 -
 -
+-
 en^Wireless Markup Language (WML)
 en^Wireless Markup Language Script (WMLScript)
+-
 -
 -
 en^Assembler Source File

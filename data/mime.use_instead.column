@@ -64,7 +64,9 @@ application/x-bleeper
 -
 -
 -
+-
 application/cals-1840
+-
 -
 -
 -
@@ -188,6 +190,7 @@ application/x-futuresplash
 -
 -
 application/x-ghostview
+-
 -
 -
 -
@@ -520,6 +523,7 @@ application/smil+xml
 -
 -
 application/x-toolbook
+-
 -
 -
 -
@@ -1661,6 +1665,7 @@ video/vnd.youtube.yt
 -
 -
 -
+-
 application/vnd.wordperfect
 -
 application/x-wordperfect6.1
@@ -2091,6 +2096,9 @@ x-drawing/dwf
 -
 -
 -
+-
+-
+-
 image/x-cmu-raster
 -
 -
@@ -2389,6 +2397,8 @@ text/javascript
 -
 -
 model/vnd.flatland.3dml
+-
+-
 -
 -
 -

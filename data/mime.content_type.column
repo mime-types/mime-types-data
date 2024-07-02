@@ -59,6 +59,7 @@ application/bacnet-xdd+zip
 application/batch-SMTP
 application/beep+xml
 application/bleeper bleep
+application/bufr
 application/c2pa
 application/calendar+json
 application/calendar+xml
@@ -93,6 +94,7 @@ application/clr
 application/clue+xml
 application/clue_info+xml
 application/cms
+application/cmw+cbor
 application/cnrp+xml
 application/coap-group+json
 application/coap-payload
@@ -195,6 +197,7 @@ application/gnap-binding-jwsd
 application/gnap-binding-rotation-jws
 application/gnap-binding-rotation-jwsd
 application/gpx+xml gpx
+application/grib
 application/gxf gxf
 application/gzip gz
 application/H224
@@ -531,6 +534,7 @@ application/urc-grpsheet+xml
 application/urc-ressheet+xml
 application/urc-targetdesc+xml
 application/urc-uisocketdesc+xml
+application/vc
 application/vcard+json
 application/vcard+xml
 application/vda
@@ -1649,6 +1653,7 @@ application/voicexml+xml vxml
 application/voucher+cose
 application/voucher-cms+json
 application/voucher-cose+cbor
+application/vp
 application/vq-rtcpxr
 application/wasm wasm
 application/watcherinfo+xml wif
@@ -2084,6 +2089,9 @@ font/sfnt
 font/ttf ttf
 font/woff woff
 font/woff2 woff2
+haptics/hjif
+haptics/hmpg
+haptics/ivs
 image/aces
 image/apng
 image/avci
@@ -2409,10 +2417,12 @@ text/vnd.si.uricatalogue
 text/vnd.sosi
 text/vnd.sun.j2me.app-descriptor jad
 text/vnd.trolltech.linguist
+text/vnd.vcf
 text/vnd.wap.si si
 text/vnd.wap.sl sl
 text/vnd.wap.wml wml
 text/vnd.wap.wmlscript wmls
+text/vnd.zoo.kcl
 text/vtt vtt
 text/wgsl
 text/x-asm asm s

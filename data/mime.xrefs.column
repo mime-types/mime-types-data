@@ -59,6 +59,7 @@ person^ASHRAE^Dave_Robin|template^application/bacnet-xdd+zip
 rfc^rfc2442|template^application/batch-SMTP
 rfc^rfc3080|template^application/beep+xml
 -
+person^Anna_Milan
 person^C2PA^Leonard_Rosenthol|template^application/c2pa
 rfc^rfc7265|template^application/calendar+json
 rfc^rfc6321|template^application/calendar+xml
@@ -93,6 +94,7 @@ person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
 rfc^rfc8846|template^application/clue_info+xml
 rfc^rfc7193|template^application/cms
+draft^draft-ietf-rats-msg-wrap-04
 rfc^rfc3367|template^application/cnrp+xml
 rfc^rfc7390|template^application/coap-group+json
 rfc^rfc8075|template^application/coap-payload
@@ -195,6 +197,7 @@ draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jwsd
 draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jws
 draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jwsd
 -
+person^Anna_Milan
 -
 rfc^rfc6713|template^application/gzip
 rfc^rfc4573|template^application/H224
@@ -372,9 +375,9 @@ rfc^rfc4354|template^application/poc-settings+xml
 rfc^rfc2045^rfc2046|template^application/postscript
 -
 rfc^rfc7846|template^application/ppsp-tracker+json
-draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-issuer-directory
-draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-request
-draft^RFC-ietf-privacypass-protocol-16|template^application/private-token-response
+rfc^rfc9578|template^application/private-token-issuer-directory
+rfc^rfc9578|template^application/private-token-request
+rfc^rfc9578|template^application/private-token-response
 -
 rfc^rfc9457|template^application/problem+json
 rfc^rfc9457|template^application/problem+xml
@@ -489,7 +492,7 @@ rfc^rfc4267|template^application/srgs+xml
 rfc^rfc6207|template^application/sru+xml
 -
 rfc^rfc4267|template^application/ssml+xml
-person^Thomas_Bause_Mason
+person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110-41
 -
 person^Chet_Ensign^OASIS|template^application/stix+json
 note^1|person^Ben_van_Hartingsveldt|template^application/stratum
@@ -531,6 +534,7 @@ person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-targetdesc+xml
 person^Gottfried_Zimmermann|template^application/urc-uisocketdesc+xml
+person^Ivan_Herman
 rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
@@ -1649,6 +1653,7 @@ rfc^rfc4267|template^application/voicexml+xml
 draft^draft-ietf-anima-constrained-voucher-23
 rfc^rfc8366|template^application/voucher-cms+json
 draft^draft-ietf-anima-constrained-voucher-17
+person^Ivan_Herman
 rfc^rfc6035|template^application/vq-rtcpxr
 person^Eric_Prudhommeaux^W3C|template^application/wasm
 rfc^rfc3858|template^application/watcherinfo+xml
@@ -2084,6 +2089,9 @@ rfc^rfc8081|template^font/sfnt
 rfc^rfc8081|template^font/ttf
 rfc^rfc8081|template^font/woff
 rfc^rfc8081|template^font/woff2
+draft^RFC-ietf-mediaman-haptics-05|template^haptics/hjif
+draft^RFC-ietf-mediaman-haptics-05|template^haptics/hmpg
+draft^RFC-ietf-mediaman-haptics-05|template^haptics/ivs
 person^Howard_Lukk^SMPTE|template^image/aces
 person^W3C^W3C_PNG_Working_Group|template^image/apng
 person^David_Singer^ISO-IEC_JTC_1|template^image/avci
@@ -2409,10 +2417,12 @@ notes^(OBSOLETED by request)|person^Nicholas_Parks_Young|template^text/vnd.si.ur
 person^Petter_Reinholdtsen|template^text/vnd.sosi
 person^Gary_Adams|template^text/vnd.sun.j2me.app-descriptor
 person^David_Lee_Lambert|template^text/vnd.trolltech.linguist
+person^Anand_Jahagirdar|template^text/vnd.vcf
 person^WAP-Forum|template^text/vnd.wap.si
 person^WAP-Forum|template^text/vnd.wap.sl
 person^Peter_Stark|template^text/vnd.wap.wml
 person^Peter_Stark|template^text/vnd.wap.wmlscript
+person^Jessie_Frazelle|template^text/vnd.zoo.kcl
 person^Silvia_Pfeiffer^W3C|template^text/vtt
 person^David_Neto^W3C|template^text/wgsl
 -
@@ -2446,7 +2456,7 @@ rfc^rfc3555|template^video/CelB
 -
 rfc^rfc6469|template^video/DV
 rfc^rfc6849|template^video/encaprtp
-draft^RFC-ietf-avtcore-rtp-evc-07|template^video/evc
+rfc^rfc9584|template^video/evc
 rfc^rfc4735|template^video/example
 rfc^rfc9043|template^video/FFV1
 rfc^rfc8627|template^video/flexfec

@@ -565,6 +565,14 @@
   use-instead: application/x-bleeper
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/bufr
+  encoding: base64
+  xrefs:
+    person:
+    - Anna_Milan
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/c2pa
   encoding: base64
   xrefs:
@@ -888,6 +896,14 @@
     template:
     - application/cms
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/cmw+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-rats-msg-wrap-04
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/cnrp+xml
   encoding: base64
@@ -1877,6 +1893,14 @@
   extensions:
   - gpx
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/grib
+  encoding: base64
+  xrefs:
+    person:
+    - Anna_Milan
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/gxf
   encoding: base64
@@ -3683,8 +3707,8 @@
   content-type: application/private-token-issuer-directory
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-privacypass-protocol-16
+    rfc:
+    - rfc9578
     template:
     - application/private-token-issuer-directory
   registered: true
@@ -3692,8 +3716,8 @@
   content-type: application/private-token-request
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-privacypass-protocol-16
+    rfc:
+    - rfc9578
     template:
     - application/private-token-request
   registered: true
@@ -3701,8 +3725,8 @@
   content-type: application/private-token-response
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-privacypass-protocol-16
+    rfc:
+    - rfc9578
     template:
     - application/private-token-response
   registered: true
@@ -4852,7 +4876,10 @@
   encoding: base64
   xrefs:
     person:
-    - Thomas_Bause_Mason
+    - SMPTE
+    - SMPTE_Director_of_Standards_Development
+    template:
+    - application/ST2110-41
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5245,6 +5272,14 @@
     template:
     - application/urc-uisocketdesc+xml
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vc
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/vcard+json
   encoding: base64
@@ -16811,6 +16846,14 @@
   xrefs:
     draft:
     - draft-ietf-anima-constrained-voucher-17
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/vp
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
