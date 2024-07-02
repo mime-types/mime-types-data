@@ -1023,6 +1023,15 @@
     - text/vnd.trolltech.linguist
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/vnd.vcf
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Anand_Jahagirdar
+    template:
+    - text/vnd.vcf
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/vnd.wap.si
   encoding: quoted-printable
   extensions:
@@ -1069,6 +1078,15 @@
     - Peter_Stark
     template:
     - text/vnd.wap.wmlscript
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: text/vnd.zoo.kcl
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Jessie_Frazelle
+    template:
+    - text/vnd.zoo.kcl
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/vtt
