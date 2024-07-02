@@ -41,6 +41,8 @@
 - !ruby/object:MIME::Type
   content-type: audio/aac
   encoding: base64
+  extensions:
+  - aac
   xrefs:
     person:
     - ISO-IEC_JTC_1
@@ -423,6 +425,8 @@
 - !ruby/object:MIME::Type
   content-type: audio/flac
   encoding: base64
+  extensions:
+  - flac
   xrefs:
     draft:
     - RFC-ietf-cellar-flac-14
@@ -671,6 +675,8 @@
 - !ruby/object:MIME::Type
   content-type: audio/matroska
   encoding: base64
+  extensions:
+  - mka
   xrefs:
     draft:
     - RFC-ietf-cellar-matroska-21
@@ -1630,6 +1636,8 @@
   encoding: base64
   extensions:
   - aac
+  obsolete: true
+  use-instead: audio/aac
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-aiff
@@ -1652,18 +1660,20 @@
   encoding: base64
   extensions:
   - flac
+  obsolete: true
+  use-instead: audio/flac
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-m4a
   encoding: base64
-  extensions:
-  - m4a
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-matroska
   encoding: base64
   extensions:
   - mka
+  obsolete: true
+  use-instead: audio/matroska
   registered: false
 - !ruby/object:MIME::Type
   content-type: audio/x-midi
