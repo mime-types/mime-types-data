@@ -1896,7 +1896,7 @@ audio/1d-interleaved-parityfec
 audio/32kadpcm
 audio/3gpp
 audio/3gpp2
-audio/aac
+audio/aac aac
 audio/ac3
 audio/adpcm adp
 audio/AMR amr
@@ -1937,7 +1937,7 @@ audio/EVRCWB0
 audio/EVRCWB1
 audio/EVS
 audio/example
-audio/flac
+audio/flac flac
 audio/flexfec
 audio/fwdred
 audio/G711-0
@@ -1964,7 +1964,7 @@ audio/L20
 audio/L24
 audio/L8
 audio/LPC
-audio/matroska
+audio/matroska mka
 audio/MELP
 audio/MELP1200
 audio/MELP2400
@@ -2059,12 +2059,12 @@ audio/vorbis
 audio/vorbis-config
 audio/wav wav
 audio/webm weba webm
-audio/x-aac aac
+audio/x-aac
 audio/x-aiff aif aifc aiff
 audio/x-caf caf
-audio/x-flac flac
-audio/x-m4a m4a
-audio/x-matroska mka
+audio/x-flac
+audio/x-m4a
+audio/x-matroska
 audio/x-midi mid midi kar
 audio/x-mpegurl m3u
 audio/x-ms-wax wax
