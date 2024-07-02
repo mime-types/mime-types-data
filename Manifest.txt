@@ -23,7 +23,9 @@ types/audio.yaml
 types/chemical.yaml
 types/conference.yaml
 types/drawing.yaml
+types/example.yaml
 types/font.yaml
+types/haptics.yaml
 types/image.yaml
 types/message.yaml
 types/model.yaml

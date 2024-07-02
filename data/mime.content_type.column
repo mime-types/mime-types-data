@@ -2059,12 +2059,12 @@ audio/vorbis
 audio/vorbis-config
 audio/wav wav
 audio/webm weba webm
-audio/x-aac
+audio/x-aac aac
 audio/x-aiff aif aifc aiff
 audio/x-caf caf
-audio/x-flac
+audio/x-flac flac
 audio/x-m4a
-audio/x-matroska
+audio/x-matroska mka
 audio/x-midi mid midi kar
 audio/x-mpegurl m3u
 audio/x-ms-wax wax
