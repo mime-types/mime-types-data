@@ -59,7 +59,7 @@ person^ASHRAE^Dave_Robin|template^application/bacnet-xdd+zip
 rfc^rfc2442|template^application/batch-SMTP
 rfc^rfc3080|template^application/beep+xml
 -
-person^Anna_Milan
+person^Anna_Milan^World_Meterological_Organization|template^application/bufr
 person^C2PA^Leonard_Rosenthol|template^application/c2pa
 rfc^rfc7265|template^application/calendar+json
 rfc^rfc6321|template^application/calendar+xml
@@ -123,6 +123,7 @@ rfc^rfc4709|template^application/davmount+xml
 person^Larry_Campbell|template^application/dca-rft
 person^ASAM^Thomas_Thomsen|template^application/DCD
 person^Larry_Campbell|template^application/dec-dx
+person^David_Clunie
 rfc^rfc4235|template^application/dialog-info+xml
 rfc^rfc3240|template^application/dicom
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+json
@@ -187,6 +188,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
+person^Scott_Simmons
 person^OGC^Scott_Simmons|template^application/geoxacml+json
 person^OGC^Scott_Simmons|template^application/geoxacml+xml
 -
@@ -197,7 +199,7 @@ draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jwsd
 draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jws
 draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jwsd
 -
-person^Anna_Milan
+person^Anna_Milan^World_Meterological_Organization|template^application/grib
 -
 rfc^rfc6713|template^application/gzip
 rfc^rfc4573|template^application/H224
@@ -491,6 +493,7 @@ rfc^rfc4267|template^application/srgs
 rfc^rfc4267|template^application/srgs+xml
 rfc^rfc6207|template^application/sru+xml
 -
+draft^RFC-ietf-tls-keylogfile-02|template^application/sslkeylogfile
 rfc^rfc4267|template^application/ssml+xml
 person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110-41
 -
@@ -534,7 +537,7 @@ person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-targetdesc+xml
 person^Gottfried_Zimmermann|template^application/urc-uisocketdesc+xml
-person^Ivan_Herman
+person^Ivan_Herman^W3C|template^application/vc
 rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
@@ -1653,7 +1656,7 @@ rfc^rfc4267|template^application/voicexml+xml
 draft^draft-ietf-anima-constrained-voucher-23
 rfc^rfc8366|template^application/voucher-cms+json
 draft^draft-ietf-anima-constrained-voucher-17
-person^Ivan_Herman
+person^Ivan_Herman^W3C|template^application/vp
 rfc^rfc6035|template^application/vq-rtcpxr
 person^Eric_Prudhommeaux^W3C|template^application/wasm
 rfc^rfc3858|template^application/watcherinfo+xml
@@ -1887,7 +1890,7 @@ rfc^rfc8040|template^application/yang-data+json
 rfc^rfc8040|template^application/yang-data+xml
 rfc^rfc8072|template^application/yang-patch+json
 rfc^rfc8072|template^application/yang-patch+xml
-draft^RFC-ietf-core-sid-24|template^application/yang-sid+json
+rfc^rfc9595|template^application/yang-sid+json
 rfc^rfc6020|template^application/yin+xml
 person^Paul_Lindner|template^application/zip
 rfc^rfc6713|template^application/zlib
@@ -1995,7 +1998,7 @@ rfc^rfc6295|template^audio/rtp-midi
 rfc^rfc6849|template^audio/rtploopback
 rfc^rfc4588|template^audio/rtx
 -
-draft^RFC-ietf-avtcore-rtp-scip-09|template^audio/scip
+rfc^rfc9607|template^audio/scip
 -
 rfc^rfc3558|template^audio/SMV
 rfc^rfc3625|template^audio/SMV-QCP
@@ -2106,14 +2109,14 @@ rfc^rfc7903|template^image/emf
 rfc^rfc4735|template^image/example
 rfc^rfc4047|template^image/fits
 rfc^rfc1494|template^image/g3fax
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^image/gif
 person^David_Singer^ISO-IEC_JTC_1|template^image/heic
 person^David_Singer^ISO-IEC_JTC_1|template^image/heic-sequence
 person^David_Singer^ISO-IEC_JTC_1|template^image/heif
 person^David_Singer^ISO-IEC_JTC_1|template^image/heif-sequence
 person^ISO-IEC_JTC_1^ITU-T|template^image/hej2k
 person^ISO-IEC_JTC_1^ITU-T|template^image/hsj2
-rfc^rfc1314
+rfc^rfc1314|template^image/ief
 person^ISO-IEC_JTC_1^ISO-IEC_JTC_1_SC_29_WG_1^ITU-T|template^image/j2c
 person^ISO-IEC_JTC_1-SC_29-WG_1_Convenor
 person^DICOM_Standard_Committee^David_Clunie|template^image/jls
@@ -2232,7 +2235,7 @@ rfc^rfc3862|template^message/CPIM
 rfc^rfc1894|template^message/delivery-status
 rfc^rfc8098|template^message/disposition-notification
 rfc^rfc4735|template^message/example
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^message/external-body
 rfc^rfc5965|template^message/feedback-report
 rfc^rfc6532|template^message/global
 rfc^rfc6533|template^message/global-delivery-status
@@ -2244,8 +2247,8 @@ rfc^rfc9420|template^message/mls
 notes^(OBSOLETED by )|person^Henry_Spencer|rfc^rfc5537|template^message/news
 rfc^rfc9458|template^message/ohttp-req
 rfc^rfc9458|template^message/ohttp-res
-rfc^rfc2045^rfc2046
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^message/partial
+rfc^rfc2045^rfc2046|template^message/rfc822
 notes^(OBSOLETE)|rfc^rfc2660|template^message/s-http|uri^https://datatracker.ietf.org/doc/status-change-http-experiments-to-historic
 rfc^rfc3261|template^message/sip
 rfc^rfc3420|template^message/sipfrag
@@ -2259,7 +2262,7 @@ person^Khronos^Uli_Klumpp|template^model/gltf+json
 person^Khronos^Saurabh_Bhatia|template^model/gltf-binary
 person^Curtis_Parks|template^model/iges
 person^ISO-TC_184-SC_4^Michael_Zink|template^model/JT
-rfc^rfc2077
+rfc^rfc2077|template^model/mesh
 person^Carolyn_Hull^DICOM_Standard_Committee^DICOM_WG_17|template^model/mtl
 person^Carolyn_Hull^DICOM_Standard_Committee^DICOM_WG_17|template^model/obj
 person^Betsy_Fanning^ISO-TC_171-SC_2|template^model/prc
@@ -2289,23 +2292,23 @@ person^Sebastian_Grassia|template^model/vnd.usda
 person^Sebastian_Grassia|template^model/vnd.usdz+zip
 person^Henrik_Andersson|template^model/vnd.valve.source.compiled-map
 person^Boris_Rabinovitch|template^model/vnd.vtu
-rfc^rfc2077
+rfc^rfc2077|template^model/vrml
 -
 person^Web3D_X3D|template^model/x3d+fastinfoset
 -
 person^Web3D^Web3D_X3D|template^model/x3d+xml
 person^Web3D^Web3D_X3D|template^model/x3d-vrml
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^multipart/alternative
 person^Patrik_Faltstrom|template^multipart/appledouble
 rfc^rfc9110|template^multipart/byteranges
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^multipart/digest
 rfc^rfc1847|template^multipart/encrypted
 rfc^rfc4735|template^multipart/example
 rfc^rfc7578|template^multipart/form-data
 person^Dave_Crocker|template^multipart/header-set
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^multipart/mixed
 rfc^rfc8255|template^multipart/multilingual
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^multipart/parallel
 rfc^rfc2387|template^multipart/related
 rfc^rfc6522|template^multipart/report
 rfc^rfc1847|template^multipart/signed
@@ -2332,7 +2335,7 @@ notes^- DEPRECATED by RFC6350|rfc^rfc2425^rfc6350|template^text/directory
 rfc^rfc4027|template^text/dns
 notes^(OBSOLETED in favor of text/javascript)|rfc^rfc9239|template^text/ecmascript
 rfc^rfc6849|template^text/encaprtp
-rfc^rfc1896
+rfc^rfc1896|template^text/enriched
 rfc^rfc4735|template^text/example
 person^Bryn_Rhodes^HL7|template^text/fhirpath
 rfc^rfc8627|template^text/flexfec
@@ -2356,7 +2359,7 @@ person^Eric_Prudhommeaux^W3C|template^text/n3
 person^Sean_Leonard
 rfc^rfc7826|template^text/parameters
 rfc^rfc3009|template^text/parityfec
-rfc^rfc2046^rfc3676^rfc5147
+rfc^rfc2046^rfc3676^rfc5147|template^text/plain
 person^Ivan_Herman^W3C|template^text/provenance-notation
 person^Benja_Fallenstein|template^text/prs.fallenstein.rst
 person^John_Lines|template^text/prs.lines.tag
@@ -2365,7 +2368,7 @@ person^Matin_Bavardi|template^text/prs.texi
 rfc^rfc6682|template^text/raptorfec
 rfc^rfc4102|template^text/RED
 rfc^rfc6522|template^text/rfc822-headers
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^text/richtext
 person^Paul_Lindner|template^text/rtf
 person^_3GPP|template^text/rtp-enc-aescm128
 rfc^rfc6849|template^text/rtploopback
@@ -2483,7 +2486,7 @@ rfc^rfc3555|template^video/MP2P
 rfc^rfc3555|template^video/MP2T
 rfc^rfc4337^rfc6381|template^video/mp4
 rfc^rfc6416|template^video/MP4V-ES
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^video/mpeg
 rfc^rfc3640|template^video/mpeg4-generic
 rfc^rfc3555|template^video/MPV
 rfc^rfc4856|template^video/nv
@@ -2496,7 +2499,7 @@ rfc^rfc4175|template^video/raw
 person^_3GPP|template^video/rtp-enc-aescm128
 rfc^rfc6849|template^video/rtploopback
 rfc^rfc4588|template^video/rtx
-draft^RFC-ietf-avtcore-rtp-scip-09|template^video/scip
+rfc^rfc9607|template^video/scip
 rfc^rfc8331|template^video/smpte291
 rfc^rfc3497|template^video/SMPTE292M
 rfc^rfc5109|template^video/ulpfec

@@ -163,6 +163,8 @@
   xrefs:
     rfc:
     - rfc1896
+    template:
+    - text/enriched
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/example
@@ -403,6 +405,8 @@
     - rfc2046
     - rfc3676
     - rfc5147
+    template:
+    - text/plain
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/provenance-notation
@@ -494,6 +498,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - text/richtext
   registered: true
 - !ruby/object:MIME::Type
   content-type: text/rtf

@@ -412,6 +412,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - video/mpeg
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/mpeg4-generic
@@ -538,8 +540,8 @@
   content-type: video/scip
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-avtcore-rtp-scip-09
+    rfc:
+    - rfc9607
     template:
     - video/scip
   registered: true

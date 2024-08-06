@@ -123,6 +123,7 @@ application/davmount+xml davmount
 application/dca-rft
 application/DCD
 application/dec-dx
+application/deflate
 application/dialog-info+xml
 application/dicom dcm
 application/dicom+json
@@ -187,6 +188,7 @@ application/futuresplash spl
 application/geo+json
 application/geo+json-seq
 application/geopackage+sqlite3
+application/geopose+json
 application/geoxacml+json
 application/geoxacml+xml
 application/ghostview
@@ -491,6 +493,7 @@ application/srgs gram
 application/srgs+xml grxml
 application/sru+xml sru
 application/ssdl+xml ssdl
+application/sslkeylogfile
 application/ssml+xml ssml
 application/ST2110-41
 application/STEP

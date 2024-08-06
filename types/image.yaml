@@ -154,6 +154,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - image/gif
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/heic
@@ -237,6 +239,8 @@
   xrefs:
     rfc:
     - rfc1314
+    template:
+    - image/ief
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/j2c

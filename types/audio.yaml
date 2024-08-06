@@ -992,8 +992,8 @@
   content-type: audio/scip
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-avtcore-rtp-scip-09
+    rfc:
+    - rfc9607
     template:
     - audio/scip
   registered: true
