@@ -85,6 +85,8 @@
   xrefs:
     rfc:
     - rfc2077
+    template:
+    - model/mesh
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/mtl
@@ -401,6 +403,8 @@
   xrefs:
     rfc:
     - rfc2077
+    template:
+    - model/vrml
   registered: true
 - !ruby/object:MIME::Type
   content-type: model/x3d+binary

@@ -51,6 +51,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - message/external-body
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/feedback-report
@@ -163,6 +165,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - message/partial
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/rfc822
@@ -176,6 +180,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - message/rfc822
   registered: true
 - !ruby/object:MIME::Type
   content-type: message/s-http

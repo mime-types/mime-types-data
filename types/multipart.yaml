@@ -6,6 +6,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - multipart/alternative
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/appledouble
@@ -32,6 +34,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - multipart/digest
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/encrypted
@@ -76,6 +80,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - multipart/mixed
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/multilingual
@@ -93,6 +99,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - multipart/parallel
   registered: true
 - !ruby/object:MIME::Type
   content-type: multipart/related

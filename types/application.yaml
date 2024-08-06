@@ -570,6 +570,9 @@
   xrefs:
     person:
     - Anna_Milan
+    - World_Meterological_Organization
+    template:
+    - application/bufr
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -1165,6 +1168,14 @@
     template:
     - application/dec-dx
   registered: true
+- !ruby/object:MIME::Type
+  content-type: application/deflate
+  encoding: base64
+  xrefs:
+    person:
+    - David_Clunie
+  registered: true
+  provisional: true
 - !ruby/object:MIME::Type
   content-type: application/dialog-info+xml
   encoding: base64
@@ -1804,6 +1815,14 @@
     - application/geopackage+sqlite3
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/geopose+json
+  encoding: base64
+  xrefs:
+    person:
+    - Scott_Simmons
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/geoxacml+json
   encoding: base64
   xrefs:
@@ -1899,6 +1918,9 @@
   xrefs:
     person:
     - Anna_Milan
+    - World_Meterological_Organization
+    template:
+    - application/grib
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -4859,6 +4881,15 @@
   - ssdl
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/sslkeylogfile
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-tls-keylogfile-02
+    template:
+    - application/sslkeylogfile
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/ssml+xml
   friendly:
     en: Speech Synthesis Markup Language
@@ -5278,6 +5309,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C
+    template:
+    - application/vc
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -16854,6 +16888,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C
+    template:
+    - application/vp
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -18743,8 +18780,8 @@
   content-type: application/yang-sid+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-core-sid-24
+    rfc:
+    - rfc9595
     template:
     - application/yang-sid+json
   registered: true
