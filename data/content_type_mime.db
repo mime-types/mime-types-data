@@ -707,6 +707,7 @@ jp2         image/jp2                                                           
 jpeg        image/jpeg                                                                base64          
 jpm         image/jpm                                                                 base64          
 jpx         image/jpx                                                                 base64          
+jxl         image/jxl                                                                 base64          
 ktx         image/ktx                                                                 base64          
 png         image/png                                                                 base64          
 btif        image/prs.btif                                                            base64          

@@ -6,6 +6,9 @@
 
 - Updated the Apache and IANA media registry entries as of release date.
 
+- Added `.jxl` extension for `image/jxl`. Contributed by Shane Eskritt in
+  [#81][#81].
+
 ## 3.2024.0806 / 2024-08-06
 
 - Updated the Apache and IANA media registry entries as of release date
@@ -18,8 +21,8 @@
 
   - This update adds a new `haptics/` group with three media types defined.
 
-- Moved extensions from `audio/x-aac` to `audio/aac` and mark
-  `audio/x-aac` as obsolete. Based on [#77][#77] by Samuel Williams.
+- Moved extensions from `audio/x-aac` to `audio/aac` and mark `audio/x-aac` as
+  obsolete. Based on [#77][#77] by Samuel Williams.
 
   - Made the same changes for `audio/flac` and `audio/matroska`.
 
@@ -592,6 +595,7 @@
 [#54]: https://github.com/mime-types/mime-types-data/issues/54
 [#55]: https://github.com/mime-types/mime-types-data/issues/55
 [#77]: https://github.com/mime-types/mime-types-data/pull/77
+[#81]: https://github.com/mime-types/mime-types-data/pull/81
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41

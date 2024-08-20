@@ -10,8 +10,8 @@ acceptance of your code contributions:
 - Use a thoughtfully-named topic branch that contains your change. Rebase your
   commits into logical chunks as necessary.
 - Use [quality commit messages][qcm].
-- Do not change the version number; when your patch is accepted and a release
-  is made, the version will be updated at that point.
+- Do not change the version number; when your patch is accepted and a release is
+  made, the version will be updated at that point.
 - Submit a GitHub pull request with your changes.
 - New or changed behaviours require new or updated documentation.
 
@@ -112,8 +112,8 @@ mime-types-data, I have provided the simplest possible Gemfile pointing to the
 $ bundle install
 ```
 
-to get the development dependencies. If you aleady have `hoe` installed, you
-can accomplish the same thing with:
+to get the development dependencies. If you aleady have `hoe` installed, you can
+accomplish the same thing with:
 
 ```sh
 $ rake newb
@@ -133,8 +133,10 @@ $ rake test:coverage
 Here's the most direct way to get your work merged into the project:
 
 - Fork the project.
-- Clone down your fork (`git clone git://github.com/<username>/mime-types-data.git`).
-- Create a topic branch to contain your change (`git checkout -b my\_awesome\_feature`).
+- Clone down your fork
+  (`git clone git://github.com/<username>/mime-types-data.git`).
+- Create a topic branch to contain your change
+  (`git checkout -b my\_awesome\_feature`).
 - Hack away, add tests. Not necessarily in that order.
 - Make sure everything still passes by running `rake`.
 - If necessary, rebase your commits into logical chunks, without errors.
@@ -185,7 +187,7 @@ process:
 2. Once this PR is approved and merged, the next steps would be conversion,
    version update, automatic update of History.md, and release (steps 6–10).
 
-This is based on an issue [#18][].
+This is based on an issue [#18][#18].
 
 ### Contributors
 
@@ -233,6 +235,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Robert Buchberger
 - Samuel Williams
 - Sergio Baptista
+- Shane Eskritt
 - Tao Guo
 - Thomas Leese
 - Tibor Szolár

@@ -428,6 +428,7 @@ jpx         image/jpx                                                           
 js          text/javascript                                                           quoted-printable
 json        application/json                                                          8bit            
 jsonml      application/jsonml+json                                                   base64          
+jxl         image/jxl                                                                 base64          
 k25         image/x-kodak-k25                                                         base64          
 kar         audio/midi                                                                base64          
 karbon      application/vnd.kde.karbon                                                base64          

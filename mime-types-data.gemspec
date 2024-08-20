@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: mime-types-data 3.2024.0806 ruby lib
+# stub: mime-types-data 3.2024.0820 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2024.0806".freeze
+  s.version = "3.2024.0820".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "rubygems_mfa_required" => "true" } if s.respond_to? :metadata=
