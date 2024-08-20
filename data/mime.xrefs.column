@@ -88,7 +88,7 @@ draft^draft-yasskin-http-origin-signed-responses
 person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
 rfc^rfc9528|template^application/cid-edhoc+cbor-seq
-person^Hugo_Ledoux
+person^OGC^Scott_Simmons|template^application/city+json
 -
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
@@ -188,7 +188,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
-person^Scott_Simmons
+person^OGC^Scott_Simmons|template^application/geopose+json
 person^OGC^Scott_Simmons|template^application/geoxacml+json
 person^OGC^Scott_Simmons|template^application/geoxacml+xml
 -
@@ -395,6 +395,7 @@ person^Marek_Čermák|template^application/prs.implied-object+json
 person^Marek_Čermák|template^application/prs.implied-object+json-seq
 person^Marek_Čermák|template^application/prs.implied-object+yaml
 person^Marek_Čermák|template^application/prs.implied-structure
+person^Azalea_Gardenia|template^application/prs.mayfile
 person^Jay_Doggett|template^application/prs.nprend
 person^Bill_Janssen|template^application/prs.plucker
 person^Toby_Inkster|template^application/prs.rdf-xml-crypt
@@ -1628,6 +1629,7 @@ person^John_Ingi_Ingimundarson|template^application/vnd.wv.csp+xml
 person^John_Ingi_Ingimundarson|template^application/vnd.wv.ssp+xml
 person^David_Brossard|template^application/vnd.xacml+json
 person^David_Matthewman|template^application/vnd.xara
+person^Ben_Brown|template^application/vnd.xarin.cpj
 person^Svante_Seleborg|template^application/vnd.xecrets-encrypted
 person^Dave_Manning|template^application/vnd.xfdl
 person^Michael_Mansell|template^application/vnd.xfdl.webform
@@ -2121,7 +2123,7 @@ person^ISO-IEC_JTC_1^ISO-IEC_JTC_1_SC_29_WG_1^ITU-T|template^image/j2c
 person^ISO-IEC_JTC_1-SC_29-WG_1_Convenor
 person^DICOM_Standard_Committee^David_Clunie|template^image/jls
 rfc^rfc3745|template^image/jp2
-rfc^rfc2045^rfc2046
+rfc^rfc2045^rfc2046|template^image/jpeg
 person^ISO-IEC_JTC_1^ITU-T|template^image/jph
 person^ISO-IEC_JTC_1^ITU-T|template^image/jphc
 rfc^rfc3745|template^image/jpm

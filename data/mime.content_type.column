@@ -395,6 +395,7 @@ application/prs.implied-object+json
 application/prs.implied-object+json-seq
 application/prs.implied-object+yaml
 application/prs.implied-structure
+application/prs.mayfile
 application/prs.nprend rnd rct
 application/prs.plucker
 application/prs.rdf-xml-crypt
@@ -1628,6 +1629,7 @@ application/vnd.wv.csp+xml
 application/vnd.wv.ssp+xml
 application/vnd.xacml+json
 application/vnd.xara xar
+application/vnd.xarin.cpj
 application/vnd.xecrets-encrypted
 application/vnd.xfdl xfdl
 application/vnd.xfdl.webform

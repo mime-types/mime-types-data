@@ -855,7 +855,10 @@
   encoding: base64
   xrefs:
     person:
-    - Hugo_Ledoux
+    - OGC
+    - Scott_Simmons
+    template:
+    - application/city+json
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -1819,7 +1822,10 @@
   encoding: base64
   xrefs:
     person:
+    - OGC
     - Scott_Simmons
+    template:
+    - application/geopose+json
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -3886,6 +3892,15 @@
     - Marek_Čermák
     template:
     - application/prs.implied-structure
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/prs.mayfile
+  encoding: base64
+  xrefs:
+    person:
+    - Azalea_Gardenia
+    template:
+    - application/prs.mayfile
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/prs.nprend
@@ -16578,6 +16593,15 @@
     - David_Matthewman
     template:
     - application/vnd.xara
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.xarin.cpj
+  encoding: base64
+  xrefs:
+    person:
+    - Ben_Brown
+    template:
+    - application/vnd.xarin.cpj
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.xecrets-encrypted

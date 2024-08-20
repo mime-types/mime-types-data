@@ -297,6 +297,8 @@
     rfc:
     - rfc2045
     - rfc2046
+    template:
+    - image/jpeg
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/jph
