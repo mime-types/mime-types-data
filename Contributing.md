@@ -1,4 +1,4 @@
-## Contributing
+# Contributing
 
 Contributions to mime-types-data is encouraged in any form: a bug report, new
 MIME type definitions, or additional code to help manage the MIME types. As with
@@ -21,7 +21,7 @@ implementation that wishes to use the data as a MIME types registry, so I am
 particularly interested in tools that will create a mime-types-data package for
 other languages.
 
-### Adding or Modifying MIME Types
+## Adding or Modifying MIME Types
 
 The Ruby mime-types gem loads its data from files encoded in the `data`
 directory in this gem by loading `mime-types-data` and reading
@@ -60,7 +60,7 @@ If you are making a change for a private fork, use `rake convert:yaml:json` to
 convert the YAML to JSON, or `rake convert:yaml:columnar` to convert it to the
 new columnar format.
 
-#### Updating Types from the IANA or Apache Lists
+### Updating Types from the IANA or Apache Lists
 
 If you are maintaining a private fork and wish to update your copy of the MIME
 types registry used by this gem, you can do this with the rake tasks:
@@ -70,63 +70,37 @@ $ rake mime:iana
 $ rake mime:apache
 ```
 
-##### A Note on Provisional Types
+#### A Note on Provisional Types
 
-The file `types/provisional-standard-types.yaml` contains the provisionally
-registered types from IANA. Per IANA,
+Provisionally registered types from IANA are contained in the `types/*.yaml`
+files. Per IANA,
 
 > This registry, unlike some other provisional IANA registries, is only for
 > temporary use. Entries in this registry are either finalized and moved to the
 > main media types registry or are abandoned and deleted. Entries in this
 > registry are suitable for use for development and test purposes only.
 
-The provisional types file is rewritten when updated, so pull requests to
-manually promote or customize provisional types (such as with extensions). It is
-recommended that any updates required to the data be performed in your
-application if you require provisional types.
+Provisional types are rewritten when updated, so pull requests to manually
+customize provisional types (such as with extensions) are considered lower
+priority. It is recommended that any updates required to the data be performed
+in your application if you require provisional types.
 
-### Development Dependencies
+## Development Dependencies
 
-mime-types-data uses Ryan Davis’s {Hoe}[https://github.com/seattlerb/hoe] to
-manage the release process, and it adds a number of rake tasks. You will mostly
-be interested in:
+## Test Dependencies
 
-```sh
-$ rake
-```
+mime-types-data uses Ryan Davis’s [Hoe][hoe] to manage the release process, and
+it adds a number of rake tasks. You will mostly be interested in `rake`, which
+runs tests the same way that `rake test` does.
 
-which runs the tests the same way that:
-
-```sh
-$ rake test
-$ rake travis
-```
-
-will do.
-
-To assist with the installation of the development dependencies for
-mime-types-data, I have provided the simplest possible Gemfile pointing to the
-(generated) `mime-types-data.gemspec` file. This will permit you to do:
-
-```sh
-$ bundle install
-```
-
-to get the development dependencies. If you aleady have `hoe` installed, you can
-accomplish the same thing with:
-
-```sh
-$ rake newb
-```
-
-This task will install any missing dependencies, run the tests/specs, and
+To assist with the installation of the development dependencies for mime-types,
+I have provided the simplest possible Gemfile pointing to the (generated)
+`mime-types-data.gemspec` file. This permits `bundle install` for dependencies.
+If you already have `hoe` installed, you can accomplish the same thing with
+`rake newb`. This task will install any missing dependencies, run the tests, and
 generate the RDoc.
 
-You can run tests with code coverage analysis by running:
-
-```sh
-$ rake test:coverage
-```
+You can run tests with code coverage analysis by running `rake test:coverage`.
 
 ### Workflow
 
@@ -144,48 +118,30 @@ Here's the most direct way to get your work merged into the project:
 - Create a pull request against mime-types/mime-types-data and describe what
   your change does and the why you think it should be merged.
 
-### The Release Process
+## The Release Process
 
-The release process needs automation; as it includes generating code and
-committing to the repository, it is not clear how this will happen safely.
+The release process is much more automated than it used to be, as regular
+updates are performed with GitHub actions on Tuesdays. Before release, however,
+a final step of checking for IANA updates should be performed.
 
 1. Review any outstanding issues or pull requests to see if anything needs to be
-   addressed. This is necessary because there is currently no automated source
-   for extensions for the thousands of MIME entries. (Suggestions and/or pull
+   addressed. This is necessary because there is no automated source for
+   extensions for the thousands of MIME entries. (Suggestions and/or pull
    requests for same would be deeply appreciated.)
 2. `bundle install`
 3. `bundle exec rake mime:apache`
 4. `bundle exec rake mime:iana`
 5. Review the changes to make sure that the changes are sane. The IANA data
    source changes from time to time, resulting in big changes or even a broken
-   step 4. (The most recent change was the addition of the font/\* top-level
+   step 4. (The most recent change was the addition of the `font/*` top-level
    category.)
 6. `bundle exec rake convert`
 7. `bundle exec rake update:version`
-8. Write up the changes in History.md. If any PRs have been merged, these should
-   be noted specifically.
+8. Write up the changes in `History.md`. If any PRs have been merged, these
+   should be noted specifically and contributions should be added in
+   `Contributing.md`.
 9. Commit the changes and push to GitHub.
 10. `bundle exec rake release VERSION=newversion`
-
-### Automating the Release
-
-If anyone wishes to provide suggestions on automation, this would be a two-phase
-process:
-
-1. A system would need to periodically create PRs to the GitHub repository with
-   the output of the following commands (steps 2, 3, and 4):
-
-   ```sh
-   bundle install
-   bundle exec rake mime:apache
-   bundle exec rake mime:iana
-   git add .
-   git commit -m "[Automated] MIME Type update for $(date)"
-   # Somehow make the PR from here.
-   ```
-
-2. Once this PR is approved and merged, the next steps would be conversion,
-   version update, automatic update of History.md, and release (steps 6–10).
 
 This is based on an issue [#18][#18].
 
@@ -244,4 +200,4 @@ Thanks to everyone else who has contributed to mime-types:
 
 [qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [rmt]: https://github.com/mime-types/ruby-mime-types/
-[#18]: https://github.com/mime-types/mime-types-data/issues/18
+[hoe]: https://github.com/seattlerb/hoe
