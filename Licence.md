@@ -1,6 +1,6 @@
 ## Licence
 
-- Copyright 2003–2021 Austin Ziegler and other contributors.
+- Copyright 2003–2024 Austin Ziegler and other contributors.
 
 The software in this repository is made available under the MIT license.
 

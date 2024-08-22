@@ -1,19 +1,19 @@
 ---
 exclude: !ruby/regexp '/
   \.(?:
-    tmp
-    | swp
+    tmp |
+    swp
   )$
   |
   \.(?:
-      bundle
-      | git
-      | github
-      | hg
-      | idea
-      | svn
-      | vagrant
-    )\/
+    bundle |
+    git |
+    github |
+    hg |
+    idea |
+    svn |
+    vagrant
+  )\/
   |
   [gG]emfile(?:\.lock)?
   |
@@ -21,29 +21,29 @@ exclude: !ruby/regexp '/
     support
   )\/
   |
-  \.(?:
-    appveyor
-    | coveralls
-    | fasterer
-    | pullreview
-    | rubocop.*
-    | standard.*
-    | travis
-    | unused
-    )\.yml$
-  |
-  (?i:TAGS)$
+  \b(?i:TAGS)$
   |
   \.(?:
-      DS_Store
-      | autotest
-      | byebug_history
-      | gemtest
-      | gitattributes
-      | gitignore
-      | hoerc
-      | minitest.rb
-      | simplecov-prelude.rb
+    appveyor |
+    coveralls |
+    fasterer |
+    pullreview |
+    rubocop* |
+    standard* |
+    travis |
+    unused
+  )\.yml$
+  |
+  \.(?:
+    DS_Store |
+    autotest |
+    byebug_history |
+    gemtest |
+    gitattributes |
+    gitignore |
+    hoerc |
+    minitest.rb |
+    simplecov-prelude.rb
   )$
   |
   \.gemspec$
