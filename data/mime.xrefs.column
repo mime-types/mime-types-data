@@ -37,6 +37,7 @@ person^ASAM^Thomas_Thomsen|template^application/AML
 person^Nathaniel_Borenstein|template^application/andrew-inset
 -
 person^Patrik_Faltstrom|template^application/applefile
+person^OpenID_Foundation_Artifact_Binding_WG|template^application/application/jwk-set+jwt
 -
 rfc^rfc9068|template^application/at+jwt
 person^ASAM^Thomas_Thomsen|template^application/ATF
@@ -163,6 +164,7 @@ rfc^rfc8148|rfc-errata^6500|template^application/EmergencyCallData.VEDS+xml
 person^ISO-IEC_JTC_1^W3C|template^application/emma+xml|uri^http://www.w3.org/TR/2007/CR-emma-20071211/#media-type-registration
 person^Kazuyuki_Ashimura^W3C|template^application/emotionml+xml
 rfc^rfc6849|template^application/encaprtp
+person^OpenID_Foundation_Artifact_Binding_WG|template^application/entity-statement+jwt
 rfc^rfc5730|template^application/epp+xml
 person^EPUB_3_WG^W3C|template^application/epub+zip
 person^Steve_Katz|template^application/eshop

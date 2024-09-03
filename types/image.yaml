@@ -350,7 +350,7 @@
   content-type: image/jxl
   encoding: base64
   extensions:
-    - jxl
+  - jxl
   xrefs:
     person:
     - ISO-IEC_JTC_1
