@@ -352,6 +352,15 @@
     - application/applefile
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/application/jwk-set+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - OpenID_Foundation_Artifact_Binding_WG
+    template:
+    - application/application/jwk-set+jwt
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/applixware
   friendly:
     en: Applixware
@@ -1554,6 +1563,15 @@
     - rfc6849
     template:
     - application/encaprtp
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/entity-statement+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - OpenID_Foundation_Artifact_Binding_WG
+    template:
+    - application/entity-statement+jwt
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/epp+xml

@@ -5,6 +5,7 @@ Licence.md
 Manifest.txt
 README.md
 Rakefile
+SECURITY.md
 data/content_type_mime.db
 data/ext_mime.db
 data/mime-types.json

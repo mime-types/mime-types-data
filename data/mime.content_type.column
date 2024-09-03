@@ -37,6 +37,7 @@ application/AML
 application/andrew-inset ez
 application/appledouble
 application/applefile
+application/application/jwk-set+jwt
 application/applixware aw
 application/at+jwt
 application/ATF
@@ -163,6 +164,7 @@ application/EmergencyCallData.VEDS+xml
 application/emma+xml emma
 application/emotionml+xml
 application/encaprtp
+application/entity-statement+jwt
 application/epp+xml
 application/epub+zip epub
 application/eshop
