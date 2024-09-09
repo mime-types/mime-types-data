@@ -38,7 +38,7 @@ jobs:
       - run: bundle exec rake release:gha
         if: steps.is-first-week.outputs.ok
 
-      - uses: peter-evans/create-pull-request@v6.1.0
+      - uses: peter-evans/create-pull-request@v7.0.1
         if: steps.is-first-week.outputs.ok
         with:
           commit-message: |
@@ -55,4 +55,3 @@ jobs:
             halostatue
           reviewers: |
             halostatue
-          draft: true
