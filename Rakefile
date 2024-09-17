@@ -105,7 +105,11 @@ namespace :convert do
     desc "Convert from YAML to JSON"
     task :json, [:source, :destination, :multiple_files] do |_, args|
       require "convert"
-      Convert.from_yaml_to_json(from: args.source, to: args.destination, multiple_files: args.multiple_files)
+      Convert.from_yaml_to_json(
+        from: args.source,
+        to: args.destination,
+        multiple_files: args.multiple_files
+      )
     end
 
     desc "Convert from YAML to Columnar"
@@ -122,7 +126,11 @@ namespace :convert do
 
     task :yaml, [:source, :destination] => :support do |_, args|
       require "convert"
-      Convert.from_yaml_to_yaml(args)
+      Convert.from_yaml_to_yaml(
+        from: args.source,
+        to: args.destination,
+        multiple_files: true
+      )
     end
   end
 

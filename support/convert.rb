@@ -44,9 +44,12 @@ class Convert
     end
 
     # Convert from YAML to YAML. Used to do an in-place update of the files.
-    def from_yaml_to_yaml(args) # :nodoc:
-      from_yaml(yaml_path(args.source))
-        .to_yaml(destination: yaml_path(args.destination), multiple_files: "multiple")
+    def from_yaml_to_yaml(from: nil, to: nil, multiple_files: true) # :nodoc:
+      from_yaml(to_yaml_path(from))
+        .to_yaml(
+          destination: to_yaml_path(to),
+          multiple_files: to_multiple_files(multiple_files)
+        )
     end
 
     private :new
@@ -140,18 +143,11 @@ class Convert
     media_types.each { |media_type|
       n = File.join(d, "#{media_type}.#{options[:format]}")
       t = @loader.container.select { |e|
-        !e.provisional? && (e.media_type == media_type || e.media_type == "x-#{media_type}")
+        e.media_type == media_type || e.media_type == "x-#{media_type}"
       }
 
       write_file(n, t, options)
     }
-
-    # Handle provisional types separately from the rest of the types.
-    write_file(
-      File.join(d, "provisional-standard-types.#{options[:format]}"),
-      @loader.container.select(&:provisional?),
-      options
-    )
   end
 
   def convert(data, format)

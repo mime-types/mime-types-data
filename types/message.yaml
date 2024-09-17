@@ -8,6 +8,7 @@
     template:
     - message/bhttp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/CPIM
   encoding: base64
@@ -17,6 +18,7 @@
     template:
     - message/CPIM
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/delivery-status
   encoding: base64
@@ -26,6 +28,7 @@
     template:
     - message/delivery-status
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/disposition-notification
   encoding: base64
@@ -35,6 +38,7 @@
     template:
     - message/disposition-notification
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/example
   encoding: base64
@@ -44,6 +48,7 @@
     template:
     - message/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/external-body
   encoding: 8bit
@@ -54,6 +59,7 @@
     template:
     - message/external-body
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/feedback-report
   encoding: base64
@@ -63,6 +69,7 @@
     template:
     - message/feedback-report
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/global
   encoding: base64
@@ -72,6 +79,7 @@
     template:
     - message/global
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/global-delivery-status
   encoding: base64
@@ -81,6 +89,7 @@
     template:
     - message/global-delivery-status
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/global-disposition-notification
   encoding: base64
@@ -90,6 +99,7 @@
     template:
     - message/global-disposition-notification
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/global-headers
   encoding: base64
@@ -99,6 +109,7 @@
     template:
     - message/global-headers
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/http
   encoding: base64
@@ -108,6 +119,7 @@
     template:
     - message/http
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/imdn+xml
   encoding: base64
@@ -117,6 +129,7 @@
     template:
     - message/imdn+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/mls
   encoding: base64
@@ -126,6 +139,7 @@
     template:
     - message/mls
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/news
   encoding: 8bit
@@ -140,6 +154,7 @@
     notes:
     - "(OBSOLETED by )"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: message/ohttp-req
   encoding: base64
@@ -149,6 +164,7 @@
     template:
     - message/ohttp-req
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/ohttp-res
   encoding: base64
@@ -158,6 +174,7 @@
     template:
     - message/ohttp-res
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/partial
   encoding: 8bit
@@ -168,6 +185,7 @@
     template:
     - message/partial
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/rfc822
   friendly:
@@ -183,6 +201,7 @@
     template:
     - message/rfc822
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: message/s-http
   encoding: base64
@@ -197,6 +216,7 @@
     notes:
     - "(OBSOLETE)"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: message/sip
   encoding: base64
@@ -206,6 +226,7 @@
     template:
     - message/sip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/sipfrag
   encoding: base64
@@ -215,6 +236,7 @@
     template:
     - message/sipfrag
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/tracking-status
   encoding: base64
@@ -224,6 +246,7 @@
     template:
     - message/tracking-status
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: message/vnd.si.simp
   encoding: base64
@@ -236,6 +259,7 @@
     notes:
     - "(OBSOLETED by request)"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: message/vnd.wfa.wsc
   encoding: base64
@@ -245,3 +269,4 @@
     template:
     - message/vnd.wfa.wsc
   registered: true
+  sort-priority: 16
