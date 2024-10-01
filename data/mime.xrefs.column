@@ -9,7 +9,7 @@ person^ASAM^Thomas_Thomsen|template^application/A2L
 -
 rfc^rfc9200|template^application/ace+cbor
 rfc^rfc9431|template^application/ace+json
-draft^RFC-ietf-ace-key-groupcomm-18|template^application/ace-groupcomm+cbor
+rfc^rfc9594|template^application/ace-groupcomm+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
 rfc^rfc9237|template^application/aif+cbor
@@ -29,8 +29,8 @@ rfc^rfc7285|template^application/alto-networkmap+json
 rfc^rfc7285|template^application/alto-networkmapfilter+json
 rfc^rfc9240|template^application/alto-propmap+json
 rfc^rfc9240|template^application/alto-propmapparams+json
-draft^RFC-ietf-alto-new-transport-22|template^application/alto-tips+json
-draft^RFC-ietf-alto-new-transport-22|template^application/alto-tipsparams+json
+rfc^rfc9569|template^application/alto-tips+json
+rfc^rfc9569|template^application/alto-tipsparams+json
 rfc^rfc8895|template^application/alto-updatestreamcontrol+json
 rfc^rfc8895|template^application/alto-updatestreamparams+json
 person^ASAM^Thomas_Thomsen|template^application/AML
@@ -1067,6 +1067,8 @@ person^David_Faure|template^application/vnd.kde.kpresenter
 person^David_Faure|template^application/vnd.kde.kspread
 person^David_Faure|template^application/vnd.kde.kword
 person^Dirk_DiGiorgio-Haag|template^application/vnd.kenameaapp
+person^Marc_Durdin|template^application/vnd.keyman.kmp+zip
+person^Marc_Durdin|template^application/vnd.keyman.kmx
 person^Jack_Bennett|template^application/vnd.kidspiration
 person^Hemant_Thakkar|template^application/vnd.Kinar
 person^Pete_Cole|template^application/vnd.koan
@@ -1573,6 +1575,7 @@ person^J._Scott_Hepler|template^application/vnd.trueapp
 person^Brad_Chase|template^application/vnd.truedoc
 person^Martin_Talbot|template^application/vnd.ubisoft.webplayer
 person^Dave_Manning|template^application/vnd.ufdl
+person^David_Sarfatti|template^application/vnd.uic.osdm+json
 person^Tim_Ocock|template^application/vnd.uiq.theme
 person^Jamie_Riden|template^application/vnd.umajin
 person^Unity3d|template^application/vnd.unity

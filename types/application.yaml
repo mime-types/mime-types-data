@@ -103,8 +103,8 @@
   content-type: application/ace-groupcomm+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ace-key-groupcomm-18
+    rfc:
+    - rfc9594
     template:
     - application/ace-groupcomm+cbor
   registered: true
@@ -283,8 +283,8 @@
   content-type: application/alto-tips+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-alto-new-transport-22
+    rfc:
+    - rfc9569
     template:
     - application/alto-tips+json
   registered: true
@@ -292,8 +292,8 @@
   content-type: application/alto-tipsparams+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-alto-new-transport-22
+    rfc:
+    - rfc9569
     template:
     - application/alto-tipsparams+json
   registered: true
@@ -10759,6 +10759,24 @@
     - application/vnd.kenameaapp
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.keyman.kmp+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Marc_Durdin
+    template:
+    - application/vnd.keyman.kmp+zip
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.keyman.kmx
+  encoding: base64
+  xrefs:
+    person:
+    - Marc_Durdin
+    template:
+    - application/vnd.keyman.kmx
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.kidspiration
   friendly:
     en: Kidspiration
@@ -16007,6 +16025,15 @@
     - Dave_Manning
     template:
     - application/vnd.ufdl
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.uic.osdm+json
+  encoding: base64
+  xrefs:
+    person:
+    - David_Sarfatti
+    template:
+    - application/vnd.uic.osdm+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.uiq.theme

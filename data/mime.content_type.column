@@ -1067,6 +1067,8 @@ application/vnd.kde.kpresenter kpr kpt
 application/vnd.kde.kspread ksp
 application/vnd.kde.kword kwd kwt
 application/vnd.kenameaapp htke
+application/vnd.keyman.kmp+zip
+application/vnd.keyman.kmx
 application/vnd.kidspiration kia
 application/vnd.Kinar kne knp sdf
 application/vnd.koan skd skm skp skt
@@ -1573,6 +1575,7 @@ application/vnd.trueapp tra
 application/vnd.truedoc
 application/vnd.ubisoft.webplayer
 application/vnd.ufdl ufd ufdl
+application/vnd.uic.osdm+json
 application/vnd.uiq.theme utz
 application/vnd.umajin umj
 application/vnd.unity unityweb
