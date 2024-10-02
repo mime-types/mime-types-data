@@ -7,9 +7,11 @@
   obsolete: true
   use-instead: x-drawing/dwf
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: x-drawing/dwf
   encoding: base64
   extensions:
   - dwf
   registered: false
+  sort-priority: 47
