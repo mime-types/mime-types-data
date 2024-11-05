@@ -303,8 +303,8 @@
   content-type: video/matroska
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cellar-matroska-21
+    rfc:
+    - rfc9559
     template:
     - video/matroska
   registered: true
@@ -312,8 +312,8 @@
   content-type: video/matroska-3d
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-cellar-matroska-21
+    rfc:
+    - rfc9559
     template:
     - video/matroska-3d
   registered: true

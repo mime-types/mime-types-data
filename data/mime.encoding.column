@@ -42,11 +42,12 @@ base64
 base64
 base64
 base64
-8bit
-8bit
-8bit
 base64
 8bit
+8bit
+8bit
+base64
+8bit
 base64
 base64
 base64
@@ -54,6 +55,7 @@ base64
 base64
 base64
 8bit
+base64
 base64
 base64
 base64
@@ -409,6 +411,7 @@ base64
 base64
 base64
 base64
+base64
 8bit
 base64
 base64
@@ -483,6 +486,9 @@ base64
 base64
 8bit
 8bit
+base64
+base64
+base64
 base64
 base64
 base64
@@ -954,6 +960,7 @@ base64
 base64
 base64
 base64
+base64
 8bit
 8bit
 base64
@@ -1442,6 +1449,7 @@ base64
 base64
 base64
 base64
+base64
 8bit
 base64
 base64
@@ -1632,6 +1640,8 @@ base64
 base64
 8bit
 8bit
+base64
+base64
 base64
 base64
 base64

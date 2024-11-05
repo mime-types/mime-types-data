@@ -109,6 +109,15 @@
     - application/ace-groupcomm+cbor
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/ace-trl+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ace-revoked-token-notification-09
+    template:
+    - application/ace-trl+cbor
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/activemessage
   encoding: base64
   xrefs:
@@ -870,6 +879,16 @@
     - application/city+json
   registered: true
   provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/city+json-seq
+  encoding: base64
+  xrefs:
+    person:
+    - OGC
+    - Scott_Simmons
+    template:
+    - application/city+json-seq
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/clariscad
   encoding: base64
@@ -1898,8 +1917,8 @@
   content-type: application/gnap-binding-jws
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-gnap-core-protocol-20
+    rfc:
+    - rfc9635
     template:
     - application/gnap-binding-jws
   registered: true
@@ -1907,8 +1926,8 @@
   content-type: application/gnap-binding-jwsd
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-gnap-core-protocol-20
+    rfc:
+    - rfc9635
     template:
     - application/gnap-binding-jwsd
   registered: true
@@ -1916,8 +1935,8 @@
   content-type: application/gnap-binding-rotation-jws
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-gnap-core-protocol-20
+    rfc:
+    - rfc9635
     template:
     - application/gnap-binding-rotation-jws
   registered: true
@@ -1925,8 +1944,8 @@
   content-type: application/gnap-binding-rotation-jwsd
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-gnap-core-protocol-20
+    rfc:
+    - rfc9635
     template:
     - application/gnap-binding-rotation-jwsd
   registered: true
@@ -3809,6 +3828,14 @@
     - application/provenance+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/provided-claims+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Daniel_Fett
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/prql
   friendly:
     en: Pipelined Relational Query Language
@@ -5225,6 +5252,17 @@
     - application/token-introspection+jwt
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/toml
+  encoding: base64
+  xrefs:
+    person:
+    - Ben_van_Hartingsveldt
+    uri:
+    - https://github.com/toml-lang/toml/issues/870
+    template:
+    - application/toml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/toolbook
   encoding: base64
   extensions:
@@ -5345,6 +5383,22 @@
     - W3C
     template:
     - application/vc
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/vc+cose
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/vc+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -9358,6 +9412,16 @@
     - Yves_Kreis
     template:
     - application/vnd.geogebra.file
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.geogebra.pinboard
+  encoding: base64
+  xrefs:
+    person:
+    - GeoGebra
+    - Michael_Borcherds
+    template:
+    - application/vnd.geogebra.pinboard
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.geogebra.slides
@@ -13543,6 +13607,15 @@
     - application/vnd.opentimestamps.ots
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.openvpi.dspx+json
+  encoding: base64
+  xrefs:
+    person:
+    - Crindzebra_Sjimo
+    template:
+    - application/vnd.openvpi.dspx+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.openxmlformats-officedocument.custom-properties+xml
   encoding: base64
   xrefs:
@@ -16960,6 +17033,22 @@
     - W3C
     template:
     - application/vp
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/vp+cose
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/vp+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Ivan_Herman
   registered: true
   provisional: true
 - !ruby/object:MIME::Type

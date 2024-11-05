@@ -222,12 +222,15 @@
 - !ruby/object:MIME::Type
   content-type: image/hsj2
   encoding: base64
+  obsolete: true
   xrefs:
     person:
     - ISO-IEC_JTC_1
     - ITU-T
     template:
     - image/hsj2
+    notes:
+    - "(OBSOLETE)"
   registered: true
 - !ruby/object:MIME::Type
   content-type: image/ief

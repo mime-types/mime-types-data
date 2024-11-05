@@ -10,6 +10,7 @@ application/access mdf mda mdb mde
 application/ace+cbor
 application/ace+json
 application/ace-groupcomm+cbor
+application/ace-trl+cbor
 application/activemessage
 application/activity+json
 application/aif+cbor
@@ -90,6 +91,7 @@ application/CESR
 application/cfw
 application/cid-edhoc+cbor-seq
 application/city+json
+application/city+json-seq
 application/clariscad
 application/clr
 application/clue+xml
@@ -386,6 +388,7 @@ application/pro_eng
 application/problem+json
 application/problem+xml
 application/provenance+xml
+application/provided-claims+jwt
 application/prql prql
 application/prs.alvestrand.titrax-sheet
 application/prs.cww cw cww
@@ -528,6 +531,7 @@ application/tlsrpt+json
 application/tm+json
 application/tnauthlist
 application/token-introspection+jwt
+application/toml
 application/toolbook tbk
 application/trickle-ice-sdpfrag
 application/trig
@@ -541,6 +545,8 @@ application/urc-ressheet+xml
 application/urc-targetdesc+xml
 application/urc-uisocketdesc+xml
 application/vc
+application/vc+cose
+application/vc+jwt
 application/vcard+json
 application/vcard+xml
 application/vda
@@ -942,6 +948,7 @@ application/vnd.gentoo.xpak
 application/vnd.geo+json
 application/vnd.geocube+xml
 application/vnd.geogebra.file ggb
+application/vnd.geogebra.pinboard
 application/vnd.geogebra.slides ggs
 application/vnd.geogebra.tool ggt
 application/vnd.geometry-explorer gex gre
@@ -1327,6 +1334,7 @@ application/vnd.openeye.oeb
 application/vnd.openofficeorg.extension oxt
 application/vnd.openstreetmap.data+xml
 application/vnd.opentimestamps.ots
+application/vnd.openvpi.dspx+json
 application/vnd.openxmlformats-officedocument.custom-properties+xml
 application/vnd.openxmlformats-officedocument.customXmlProperties+xml
 application/vnd.openxmlformats-officedocument.drawing+xml
@@ -1664,6 +1672,8 @@ application/voucher+cose
 application/voucher-cms+json
 application/voucher-cose+cbor
 application/vp
+application/vp+cose
+application/vp+jwt
 application/vq-rtcpxr
 application/wasm wasm
 application/watcherinfo+xml wif
