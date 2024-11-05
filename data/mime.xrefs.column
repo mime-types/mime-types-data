@@ -10,6 +10,7 @@ person^ASAM^Thomas_Thomsen|template^application/A2L
 rfc^rfc9200|template^application/ace+cbor
 rfc^rfc9431|template^application/ace+json
 rfc^rfc9594|template^application/ace-groupcomm+cbor
+draft^RFC-ietf-ace-revoked-token-notification-09|template^application/ace-trl+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
 rfc^rfc9237|template^application/aif+cbor
@@ -90,6 +91,7 @@ person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
 rfc^rfc9528|template^application/cid-edhoc+cbor-seq
 person^OGC^Scott_Simmons|template^application/city+json
+person^OGC^Scott_Simmons|template^application/city+json-seq
 -
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
@@ -196,10 +198,10 @@ person^OGC^Scott_Simmons|template^application/geoxacml+xml
 -
 person^Khronos^Saurabh_Bhatia|template^application/gltf-buffer
 person^Clemens_Portele^OGC|template^application/gml+xml
-draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jws
-draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-jwsd
-draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jws
-draft^RFC-ietf-gnap-core-protocol-20|template^application/gnap-binding-rotation-jwsd
+rfc^rfc9635|template^application/gnap-binding-jws
+rfc^rfc9635|template^application/gnap-binding-jwsd
+rfc^rfc9635|template^application/gnap-binding-rotation-jws
+rfc^rfc9635|template^application/gnap-binding-rotation-jwsd
 -
 person^Anna_Milan^World_Meterological_Organization|template^application/grib
 -
@@ -386,6 +388,7 @@ rfc^rfc9578|template^application/private-token-response
 rfc^rfc9457|template^application/problem+json
 rfc^rfc9457|template^application/problem+xml
 person^Ivan_Herman^W3C|template^application/provenance+xml
+person^Daniel_Fett
 -
 person^Harald_T._Alvestrand|template^application/prs.alvestrand.titrax-sheet
 person^Khemchart_Rungchavalnont|template^application/prs.cww
@@ -528,6 +531,7 @@ rfc^rfc8460|template^application/tlsrpt+json
 person^Sebastian_Kaebisch^W3C|template^application/tm+json
 rfc^rfc8226|template^application/tnauthlist
 draft^RFC-oauth-jwt-introspection-response-12|template^application/token-introspection+jwt
+person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
 -
 rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_Working_Group|template^application/trig
@@ -541,6 +545,8 @@ person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-targetdesc+xml
 person^Gottfried_Zimmermann|template^application/urc-uisocketdesc+xml
 person^Ivan_Herman^W3C|template^application/vc
+person^Ivan_Herman
+person^Ivan_Herman
 rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
@@ -942,6 +948,7 @@ person^Gentoo_Portage_Project|template^application/vnd.gentoo.xpak
 notes^(OBSOLETED by  in favor of application/geo+json)|person^Sean_Gillies|rfc^rfc7946|template^application/vnd.geo+json
 notes^(OBSOLETED by request)|person^Francois_Pirsch|template^application/vnd.geocube+xml
 person^GeoGebra^Yves_Kreis|template^application/vnd.geogebra.file
+person^GeoGebra^Michael_Borcherds|template^application/vnd.geogebra.pinboard
 person^GeoGebra^Markus_Hohenwarter^Michael_Borcherds|template^application/vnd.geogebra.slides
 person^GeoGebra^Yves_Kreis|template^application/vnd.geogebra.tool
 person^Michael_Hvidsten|template^application/vnd.geometry-explorer
@@ -1327,6 +1334,7 @@ person^Craig_Bruce|template^application/vnd.openeye.oeb
 -
 person^Paul_Norman|template^application/vnd.openstreetmap.data+xml
 person^Peter_Todd|template^application/vnd.opentimestamps.ots
+person^Crindzebra_Sjimo|template^application/vnd.openvpi.dspx+json
 person^Makoto_Murata|template^application/vnd.openxmlformats-officedocument.custom-properties+xml
 person^Makoto_Murata|template^application/vnd.openxmlformats-officedocument.customXmlProperties+xml
 person^Makoto_Murata|template^application/vnd.openxmlformats-officedocument.drawing+xml
@@ -1664,6 +1672,8 @@ draft^draft-ietf-anima-constrained-voucher-23
 rfc^rfc8366|template^application/voucher-cms+json
 draft^draft-ietf-anima-constrained-voucher-17
 person^Ivan_Herman^W3C|template^application/vp
+person^Ivan_Herman
+person^Ivan_Herman
 rfc^rfc6035|template^application/vq-rtcpxr
 person^Eric_Prudhommeaux^W3C|template^application/wasm
 rfc^rfc3858|template^application/watcherinfo+xml
@@ -1974,7 +1984,7 @@ rfc^rfc3190|template^audio/L20
 rfc^rfc3190|template^audio/L24
 rfc^rfc4856|template^audio/L8
 rfc^rfc4856|template^audio/LPC
-draft^RFC-ietf-cellar-matroska-21|template^audio/matroska
+rfc^rfc9559|template^audio/matroska
 rfc^rfc8130|template^audio/MELP
 rfc^rfc8130|template^audio/MELP1200
 rfc^rfc8130|template^audio/MELP2400
@@ -2122,7 +2132,7 @@ person^David_Singer^ISO-IEC_JTC_1|template^image/heic-sequence
 person^David_Singer^ISO-IEC_JTC_1|template^image/heif
 person^David_Singer^ISO-IEC_JTC_1|template^image/heif-sequence
 person^ISO-IEC_JTC_1^ITU-T|template^image/hej2k
-person^ISO-IEC_JTC_1^ITU-T|template^image/hsj2
+notes^(OBSOLETE)|person^ISO-IEC_JTC_1^ITU-T|template^image/hsj2
 rfc^rfc1314|template^image/ief
 person^ISO-IEC_JTC_1^ISO-IEC_JTC_1_SC_29_WG_1^ITU-T|template^image/j2c
 person^ISO-IEC_JTC_1-SC_29-WG_1_Convenor
@@ -2485,8 +2495,8 @@ rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
 -
 rfc^rfc9134|template^video/jxsv
-draft^RFC-ietf-cellar-matroska-21|template^video/matroska
-draft^RFC-ietf-cellar-matroska-21|template^video/matroska-3d
+rfc^rfc9559|template^video/matroska
+rfc^rfc9559|template^video/matroska-3d
 rfc^rfc3745|template^video/mj2
 rfc^rfc3555|template^video/MP1S
 rfc^rfc3555|template^video/MP2P

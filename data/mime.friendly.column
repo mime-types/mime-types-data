@@ -34,6 +34,7 @@
 -
 -
 -
+-
 en^Andrew Toolkit
 -
 -
@@ -81,6 +82,7 @@ en^Cloud Data Management Interface (CDMI) - Contaimer
 en^Cloud Data Management Interface (CDMI) - Domain
 en^Cloud Data Management Interface (CDMI) - Object
 en^Cloud Data Management Interface (CDMI) - Queue
+-
 -
 -
 -
@@ -386,6 +388,7 @@ en^PostScript
 -
 -
 -
+-
 en^Pipelined Relational Query Language
 -
 en^CU-Writer
@@ -523,6 +526,9 @@ en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
+-
+-
 -
 -
 -
@@ -943,6 +949,7 @@ en^Genomatix Tuxedo Framework
 -
 en^GeoGebra
 -
+-
 en^GeoGebra
 en^GeoMetry Explorer
 en^GEONExT and JSXGraph
@@ -1342,6 +1349,7 @@ en^Open Office Extension
 -
 -
 -
+-
 en^Microsoft Office - OOXML - Presentation
 -
 -
@@ -1660,6 +1668,8 @@ en^CustomMenu
 en^Z.U.L. Geometry
 en^Zzazz Deck
 en^VoiceXML
+-
+-
 -
 -
 -

@@ -678,8 +678,8 @@
   extensions:
   - mka
   xrefs:
-    draft:
-    - RFC-ietf-cellar-matroska-21
+    rfc:
+    - rfc9559
     template:
     - audio/matroska
   registered: true

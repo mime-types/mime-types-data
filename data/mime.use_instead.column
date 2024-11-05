@@ -59,6 +59,7 @@ application/x-msaccess
 -
 -
 -
+-
 application/x-bleeper
 -
 -
@@ -67,6 +68,7 @@ application/x-bleeper
 -
 -
 application/cals-1840
+-
 -
 -
 -
@@ -406,6 +408,7 @@ application/x-mathematica-old
 -
 -
 -
+-
 application/x-quicktimeplayer
 -
 -
@@ -528,7 +531,10 @@ application/smil+xml
 -
 -
 -
+-
 application/x-toolbook
+-
+-
 -
 -
 -
@@ -940,6 +946,7 @@ application/vnd.aristanetworks.swi
 -
 -
 application/geo+json
+-
 -
 -
 -
@@ -1656,7 +1663,10 @@ application/vnd.oasis.opendocument.base
 -
 -
 -
+-
 video/vnd.youtube.yt
+-
+-
 -
 -
 -
