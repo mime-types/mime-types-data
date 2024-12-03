@@ -950,8 +950,8 @@
   extensions:
   - webp
   xrefs:
-    draft:
-    - RFC-zern-webp-15
+    rfc:
+    - rfc9649
     template:
     - image/webp
   registered: true

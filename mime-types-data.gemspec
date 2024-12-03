@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-# stub: mime-types-data 3.2024.1105 ruby lib
+# stub: mime-types-data 3.2024.1203 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2024.1105".freeze
+  s.version = "3.2024.1203".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "rubygems_mfa_required" => "true" } if s.respond_to? :metadata=
   s.require_paths = ["lib".freeze]
   s.authors = ["Austin Ziegler".freeze]
-  s.date = "2024-11-06"
+  s.date = "2024-12-03"
   s.description = "mime-types-data provides a registry for information about MIME media type\ndefinitions. It can be used with the Ruby mime-types library or other software\nto determine defined filename extensions for MIME types, or to use filename\nextensions to look up the likely MIME type definitions.".freeze
   s.email = ["halostatue@gmail.com".freeze]
   s.extra_rdoc_files = ["Code-of-Conduct.md".freeze, "Contributing.md".freeze, "History.md".freeze, "Licence.md".freeze, "Manifest.txt".freeze, "README.md".freeze, "SECURITY.md".freeze]
