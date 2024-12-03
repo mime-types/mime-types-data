@@ -807,6 +807,14 @@
     - application/cdni
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/ce+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - Ned_M._Smith
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/CEA
   encoding: base64
   xrefs:
@@ -1370,6 +1378,60 @@
   content-type: application/dxf
   encoding: base64
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/eat+cwt
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat+cwt
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/eat+jwt
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat+jwt
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/eat-bun+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat-bun+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/eat-bun+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat-bun+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/eat-ucs+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat-ucs+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/eat-ucs+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-media-type-12
+    template:
+    - application/eat-ucs+json
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/ecmascript
   friendly:
@@ -3833,6 +3895,9 @@
   xrefs:
     person:
     - Daniel_Fett
+    - OpenID_Foundation_eKYC_and_IDA_WG
+    template:
+    - application/provided-claims+jwt
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5243,6 +5308,14 @@
     - application/tnauthlist
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/toc+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - Ned_M._Smith
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/token-introspection+jwt
   encoding: base64
   xrefs:
@@ -5312,8 +5385,8 @@
   content-type: application/tzif
   encoding: base64
   xrefs:
-    draft:
-    - RFC-murchison-rfc8536bis-15
+    rfc:
+    - rfc9636
     template:
     - application/tzif
   registered: true
@@ -5321,10 +5394,28 @@
   content-type: application/tzif-leap
   encoding: base64
   xrefs:
-    draft:
-    - RFC-murchison-rfc8536bis-15
+    rfc:
+    - rfc9636
     template:
     - application/tzif-leap
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/uccs+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-uccs-12
+    template:
+    - application/uccs+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/ujcs+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-uccs-12
+    template:
+    - application/ujcs+json
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/ulpfec
@@ -15450,6 +15541,15 @@
     - application/vnd.siren+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.sketchometry
+  encoding: base64
+  xrefs:
+    person:
+    - Center_for_Mobile_Learning_with_Digital_Technology
+    template:
+    - application/vnd.sketchometry
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.smaf
   friendly:
     en: SMAF File
@@ -16420,6 +16520,15 @@
     - Mark_Risher
     template:
     - application/vnd.vividence.scriptfile
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vocalshaper.vsp4
+  encoding: base64
+  xrefs:
+    person:
+    - Wu_Chang
+    template:
+    - application/vnd.vocalshaper.vsp4
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.vsf

@@ -83,6 +83,7 @@ application/cdmi-domain cdmid
 application/cdmi-object cdmio
 application/cdmi-queue cdmiq
 application/cdni
+application/ce+cbor
 application/CEA
 application/cea-2018+xml
 application/cellml+xml
@@ -145,6 +146,12 @@ application/dssc+der dssc
 application/dssc+xml xdssc
 application/dvcs
 application/dxf
+application/eat+cwt
+application/eat+jwt
+application/eat-bun+cbor
+application/eat-bun+json
+application/eat-ucs+cbor
+application/eat-ucs+json
 application/ecmascript ecma es
 application/edhoc+cbor-seq
 application/EDI-consent
@@ -530,6 +537,7 @@ application/tlsrpt+gzip
 application/tlsrpt+json
 application/tm+json
 application/tnauthlist
+application/toc+cbor
 application/token-introspection+jwt
 application/toml
 application/toolbook tbk
@@ -539,6 +547,8 @@ application/ttml+xml
 application/tve-trigger
 application/tzif
 application/tzif-leap
+application/uccs+cbor
+application/ujcs+json
 application/ulpfec
 application/urc-grpsheet+xml
 application/urc-ressheet+xml
@@ -1518,6 +1528,7 @@ application/vnd.shx
 application/vnd.sigrok.session
 application/vnd.SimTech-MindMapper twd twds
 application/vnd.siren+json
+application/vnd.sketchometry
 application/vnd.smaf mmf
 application/vnd.smart.notebook
 application/vnd.smart.teacher teacher
@@ -1615,6 +1626,7 @@ application/vnd.vidsoft.vidconference vsc
 application/vnd.visio vsd vst vsw vss
 application/vnd.visionary vis
 application/vnd.vividence.scriptfile
+application/vnd.vocalshaper.vsp4
 application/vnd.vsf vsf
 application/vnd.wap.sic sic
 application/vnd.wap.slc slc

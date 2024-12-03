@@ -113,6 +113,7 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
 en^CU-SeeMe
 -
 -
@@ -143,6 +144,12 @@ en^Web Distributed Authoring and Versioning
 -
 en^Data Structure for the Security Suitability of Cryptographic Algorithms
 en^Data Structure for the Security Suitability of Cryptographic Algorithms
+-
+-
+-
+-
+-
+-
 -
 -
 en^ECMAScript
@@ -526,6 +533,9 @@ en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
+-
+-
 -
 -
 -
@@ -1518,6 +1528,7 @@ en^Shana Informed Filler
 -
 en^SimTech MindMapper
 -
+-
 en^SMAF File
 -
 en^SMART Technologies Apps
@@ -1614,6 +1625,7 @@ en^VirtualCatalog
 -
 en^Microsoft Visio
 en^Visionary
+-
 -
 en^Viewport+
 -

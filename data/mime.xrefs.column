@@ -83,6 +83,7 @@ rfc^rfc6208|template^application/cdmi-domain
 rfc^rfc6208|template^application/cdmi-object
 rfc^rfc6208|template^application/cdmi-queue
 rfc^rfc7736|template^application/cdni
+person^Ned_M._Smith
 person^ASAM^Thomas_Thomsen|template^application/CEA
 person^Gottfried_Zimmermann|template^application/cea-2018+xml
 rfc^rfc4708|template^application/cellml+xml
@@ -145,6 +146,12 @@ rfc^rfc5698|template^application/dssc+der
 rfc^rfc5698|template^application/dssc+xml
 rfc^rfc3029|template^application/dvcs
 -
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat+cwt
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat+jwt
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-bun+cbor
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-bun+json
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-ucs+cbor
+draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-ucs+json
 notes^(OBSOLETED in favor of text/javascript)|rfc^rfc4329^rfc9239|template^application/ecmascript
 rfc^rfc9528|template^application/edhoc+cbor-seq
 rfc^rfc1767|template^application/EDI-consent
@@ -388,7 +395,7 @@ rfc^rfc9578|template^application/private-token-response
 rfc^rfc9457|template^application/problem+json
 rfc^rfc9457|template^application/problem+xml
 person^Ivan_Herman^W3C|template^application/provenance+xml
-person^Daniel_Fett
+person^Daniel_Fett^OpenID_Foundation_eKYC_and_IDA_WG|template^application/provided-claims+jwt
 -
 person^Harald_T._Alvestrand|template^application/prs.alvestrand.titrax-sheet
 person^Khemchart_Rungchavalnont|template^application/prs.cww
@@ -530,6 +537,7 @@ rfc^rfc8460|template^application/tlsrpt+gzip
 rfc^rfc8460|template^application/tlsrpt+json
 person^Sebastian_Kaebisch^W3C|template^application/tm+json
 rfc^rfc8226|template^application/tnauthlist
+person^Ned_M._Smith
 draft^RFC-oauth-jwt-introspection-response-12|template^application/token-introspection+jwt
 person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
 -
@@ -537,8 +545,10 @@ rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_Working_Group|template^application/trig
 person^W3C^W3C_Timed_Text_Working_Group|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
-draft^RFC-murchison-rfc8536bis-15|template^application/tzif
-draft^RFC-murchison-rfc8536bis-15|template^application/tzif-leap
+rfc^rfc9636|template^application/tzif
+rfc^rfc9636|template^application/tzif-leap
+draft^RFC-ietf-rats-uccs-12|template^application/uccs+cbor
+draft^RFC-ietf-rats-uccs-12|template^application/ujcs+json
 rfc^rfc5109|template^application/ulpfec
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
@@ -1518,6 +1528,7 @@ person^Mi_Tar|template^application/vnd.shx
 person^Uwe_Hermann|template^application/vnd.sigrok.session
 person^Patrick_Koh|template^application/vnd.SimTech-MindMapper
 person^Kevin_Swiber|template^application/vnd.siren+json
+person^Center_for_Mobile_Learning_with_Digital_Technology|template^application/vnd.sketchometry
 person^Hiroaki_Takahashi|template^application/vnd.smaf
 person^Jonathan_Neitz|template^application/vnd.smart.notebook
 person^Michael_Boyle|template^application/vnd.smart.teacher
@@ -1615,6 +1626,7 @@ person^Robert_Hess|template^application/vnd.vidsoft.vidconference
 person^Troy_Sandal|template^application/vnd.visio
 person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
+person^Wu_Chang|template^application/vnd.vocalshaper.vsp4
 person^Delton_Rowe|template^application/vnd.vsf
 person^WAP-Forum|template^application/vnd.wap.sic
 person^WAP-Forum|template^application/vnd.wap.slc
@@ -2199,7 +2211,7 @@ person^Henrik_Andersson|template^image/vnd.valve.source.texture
 person^Peter_Stark|template^image/vnd.wap.wbmp
 person^Steven_Martin|template^image/vnd.xiff
 person^Chris_Charabaruk|template^image/vnd.zbrush.pcx
-draft^RFC-zern-webp-15|template^image/webp
+rfc^rfc9649|template^image/webp
 rfc^rfc7903|template^image/wmf
 -
 -
