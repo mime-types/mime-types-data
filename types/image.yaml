@@ -15,7 +15,7 @@
   xrefs:
     person:
     - W3C
-    - W3C_PNG_Working_Group
+    - W3C_PNG_WG
     template:
     - image/apng
   registered: true
@@ -265,6 +265,26 @@
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
+  content-type: image/jaii
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC_1_SC_29_WG_1
+    - Ye-Kui_Wang
+    template:
+    - image/jaii
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: image/jais
+  encoding: base64
+  xrefs:
+    person:
+    - ISO-IEC_JTC_1_SC_29_WG_1
+    - Ye-Kui_Wang
+    template:
+    - image/jais
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/jls
   encoding: base64
   xrefs:
@@ -483,7 +503,7 @@
   - png
   xrefs:
     person:
-    - PNG_Working_Group
+    - PNG_WG
     - W3C
     template:
     - image/png
