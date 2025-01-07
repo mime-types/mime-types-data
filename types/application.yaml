@@ -812,6 +812,9 @@
   xrefs:
     person:
     - Ned_M._Smith
+    - TCG_DICE
+    template:
+    - application/ce+cbor
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -847,7 +850,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-yasskin-http-origin-signed-responses
+    - draft-yasskin-http-origin-signed-responses-07
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -3746,7 +3749,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-hallambaker-mesh-udf
+    - draft-hallambaker-mesh-udf-05
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -4351,8 +4354,8 @@
   content-type: application/rpki-signed-tal
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-sidrops-signed-tal-16
+    rfc:
+    - rfc9691
     template:
     - application/rpki-signed-tal
   registered: true
@@ -4787,7 +4790,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-yasskin-http-origin-signed-responses
+    - draft-yasskin-http-origin-signed-responses-07
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5313,6 +5316,9 @@
   xrefs:
     person:
     - Ned_M._Smith
+    - TCG_DICE
+    template:
+    - application/toc+cbor
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5358,7 +5364,7 @@
   xrefs:
     person:
     - W3C
-    - W3C_RDF_Working_Group
+    - W3C_RDF_WG
     template:
     - application/trig
   registered: true
@@ -5368,7 +5374,7 @@
   xrefs:
     person:
     - W3C
-    - W3C_Timed_Text_Working_Group
+    - W3C_Timed_Text_WG
     template:
     - application/ttml+xml
   registered: true
@@ -5471,7 +5477,7 @@
   xrefs:
     person:
     - Ivan_Herman
-    - W3C
+    - W3C_Verifiable_Credentials_WG
     template:
     - application/vc
   registered: true
@@ -5482,6 +5488,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C_Verifiable_Credentials_WG
+    template:
+    - application/vc+cose
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5490,6 +5499,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C_Verifiable_Credentials_WG
+    template:
+    - application/vc+jwt
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5632,6 +5644,26 @@
     - _3GPP_CT1
     template:
     - application/vnd.3gpp.5gsa2x-local-service-information
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.5gsv2x
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_CT1
+    template:
+    - application/vnd.3gpp.5gsv2x
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.5gsv2x-local-service-information
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_CT1
+    template:
+    - application/vnd.3gpp.5gsv2x-local-service-information
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.access-transfer-events+xml
@@ -7920,6 +7952,15 @@
     - application/vnd.dbf
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.dcmp+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Jan_Boström
+    template:
+    - application/vnd.dcmp+xml
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.debian.binary-package
   encoding: base64
   xrefs:
@@ -8988,6 +9029,15 @@
     - Chad_Trabant
     template:
     - application/vnd.fdsn.seed
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.fdsn.stationxml+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Chad_Trabant
+    template:
+    - application/vnd.fdsn.stationxml+xml
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.ffsns
@@ -10899,6 +10949,15 @@
     - David_Faure
     template:
     - application/vnd.kde.kword
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.kdl
+  encoding: base64
+  xrefs:
+    person:
+    - Katerina_Zoé_Marchán_Salvá
+    template:
+    - application/vnd.kdl
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.kenameaapp
@@ -13405,7 +13464,7 @@
   xrefs:
     person:
     - Jun_Sato
-    - Open_Mobile_Alliance_BAC_DLDRM_Working_Group
+    - Open_Mobile_Alliance_BAC_DLDRM_WG
     template:
     - application/vnd.oma.dd2+xml
   registered: true
@@ -13424,7 +13483,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Presence_and_Availability_PAG_Working_Group
+    - OMA_Presence_and_Availability_PAG_WG
     - Sean_Kelley
     template:
     - application/vnd.oma.group-usage-list+xml
@@ -13474,7 +13533,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     template:
     - application/vnd.oma.poc.detailed-progress-report+xml
   registered: true
@@ -13483,7 +13542,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     template:
     - application/vnd.oma.poc.final-report+xml
   registered: true
@@ -13492,7 +13551,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     - Sean_Kelley
     template:
     - application/vnd.oma.poc.groups+xml
@@ -13502,7 +13561,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     template:
     - application/vnd.oma.poc.invocation-descriptor+xml
   registered: true
@@ -13511,7 +13570,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     template:
     - application/vnd.oma.poc.optimized-progress-report+xml
   registered: true
@@ -13540,7 +13599,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Presence_and_Availability_PAG_Working_Group
+    - OMA_Presence_and_Availability_PAG_WG
     - Sean_Kelley
     template:
     - application/vnd.oma.xcap-directory+xml
@@ -13550,7 +13609,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Data_Synchronization_Working_Group
+    - OMA_Data_Synchronization_WG
     template:
     - application/vnd.omads-email+xml
   registered: true
@@ -13559,7 +13618,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Data_Synchronization_Working_Group
+    - OMA_Data_Synchronization_WG
     template:
     - application/vnd.omads-file+xml
   registered: true
@@ -13568,7 +13627,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Data_Synchronization_Working_Group
+    - OMA_Data_Synchronization_WG
     template:
     - application/vnd.omads-folder+xml
   registered: true
@@ -14644,7 +14703,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Push_to_Talk_over_Cellular_POC_Working_Group
+    - OMA_Push_to_Talk_over_Cellular_POC_WG
     - Sean_Kelley
     template:
     - application/vnd.poc.group-advertisement+xml
@@ -15957,7 +16016,7 @@
   - xsm
   xrefs:
     person:
-    - OMA_Data_Synchronization_Working_Group
+    - OMA_Data_Synchronization_WG
     template:
     - application/vnd.syncml+xml
   registered: true
@@ -16039,7 +16098,7 @@
   encoding: base64
   xrefs:
     person:
-    - OMA_Data_Synchronization_Working_Group
+    - OMA_Data_Synchronization_WG
     template:
     - application/vnd.syncml.ds.notification
   registered: true
@@ -16437,6 +16496,24 @@
     - application/vnd.vel+json
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.veraison.tsm-report+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - Thomas_Fossati
+    template:
+    - application/vnd.veraison.tsm-report+cbor
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.veraison.tsm-report+json
+  encoding: base64
+  xrefs:
+    person:
+    - Thomas_Fossati
+    template:
+    - application/vnd.veraison.tsm-report+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.verimatrix.vcas
   encoding: base64
   xrefs:
@@ -16744,7 +16821,7 @@
   - wqd
   xrefs:
     person:
-    - Jan_Bostrom
+    - Jan_Boström
     template:
     - application/vnd.wqd
   registered: true
@@ -17139,7 +17216,7 @@
   xrefs:
     person:
     - Ivan_Herman
-    - W3C
+    - W3C_Verifiable_Credentials_WG
     template:
     - application/vp
   registered: true
@@ -17150,6 +17227,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C_Verifiable_Credentials_WG
+    template:
+    - application/vp+cose
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -17158,6 +17238,9 @@
   xrefs:
     person:
     - Ivan_Herman
+    - W3C_Verifiable_Credentials_WG
+    template:
+    - application/vp+jwt
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -17199,7 +17282,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-yasskin-wpack-bundled-exchanges
+    - draft-yasskin-wpack-bundled-exchanges-02
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -18811,7 +18894,7 @@
   xrefs:
     person:
     - Joseph_Reagle
-    - XENC_Working_Group
+    - XENC_WG
     template:
     - application/xenc+xml
   registered: true

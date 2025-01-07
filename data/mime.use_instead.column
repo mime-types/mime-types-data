@@ -603,6 +603,8 @@ application/x-VMSBACKUP
 -
 -
 -
+-
+-
 application/vnd.3gpp.mcvideo-info+xml
 -
 -
@@ -702,6 +704,8 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 application/vnd.aristanetworks.swi
+-
+-
 -
 -
 -
@@ -1238,6 +1242,7 @@ application/vnd.visionary
 -
 -
 -
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1258,6 +1263,8 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
 -
 -
 -
@@ -2132,6 +2139,8 @@ x-drawing/dwf
 -
 -
 image/x-cmu-raster
+-
+-
 -
 -
 -
