@@ -9,7 +9,6 @@ require "pathname"
 require "yaml"
 require "English"
 
-ENV["RUBY_MIME_TYPES_LAZY_LOAD"] = "yes"
 require "mime/types/support"
 
 # Update MIME types from the Apache master list

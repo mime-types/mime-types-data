@@ -8,7 +8,6 @@ require "open-uri"
 require "pathname"
 require "yaml"
 
-ENV["RUBY_MIME_TYPES_LAZY_LOAD"] = "yes"
 require "mime/types/support"
 
 # IANA Registry importing
