@@ -1,8 +1,9 @@
+---
 parallel: true
 ruby_version: 2.3
 ignore:
-  - 'pkg/**/*'
   - '*.gemspec'
+  - 'pkg/**/*'
   - Rakefile:
       - Layout/HeredocIndentation
   - support/prepare_release.rb:

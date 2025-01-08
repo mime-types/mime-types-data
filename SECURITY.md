@@ -1,4 +1,4 @@
-# mime-types Security
+# mime-types-data Security
 
 ## Security contact information
 

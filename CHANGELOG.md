@@ -5,6 +5,19 @@
 ## 3.2025.0107 / 2025-01-07
 
 - Updated the Apache and IANA media registry entries as of release date
+- Restructured documentation for how I prefer to manage Hoe projects now.
+- Reworked the Rakefile because all data updates are now managed by GitHub
+  Actions and should not be managed manually any longer.
+
+  - `rake release:prepare` now does the same work as `rake release:gha`, but
+    does not commit or create a pull request.
+
+  - `rake convert` no longer has any subtasks.
+
+  - `rake update` has been removed with no replacement.
+
+- Updated `.hoerc` to properly exclude `support/` and `types/` from the
+  manifest.
 
 ## 3.2024.1203 / 2024-12-03
 

@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-ENV["RUBY_MIME_TYPES_LAZY_LOAD"] = "true"
 require "mime/types/support"
 require "fileutils"
 require "json"
