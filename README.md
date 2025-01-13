@@ -3,6 +3,7 @@
 - home :: https://github.com/mime-types/mime-types-data/
 - issues :: https://github.com/mime-types/mime-types-data/issues
 - code :: https://github.com/mime-types/mime-types-data/
+- changelog :: https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md
 
 ## Description
 
