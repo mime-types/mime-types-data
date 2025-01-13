@@ -2,6 +2,11 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM-DD
+
+- Added `changelog_uri` to gemspec metadata to provide `Changelog` link on
+  Rubygems.org [#96][#96].
+
 ## 3.2025.0107 / 2025-01-07
 
 - Updated the Apache and IANA media registry entries as of release date
@@ -629,6 +634,7 @@
 [#55]: https://github.com/mime-types/mime-types-data/issues/55
 [#77]: https://github.com/mime-types/mime-types-data/pull/77
 [#81]: https://github.com/mime-types/mime-types-data/pull/81
+[#96]: https://github.com/mime-types/mime-types-data/pull/96
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41

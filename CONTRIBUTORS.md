@@ -32,6 +32,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Ken Ip
 - Łukasz Śliwa
 - Lucia
+- Mark Young
 - Martin d'Allens
 - Mauricio Linhares
 - Mohammed Gad
