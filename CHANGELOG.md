@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0114 / 2025-01-14
+
+- Updated the Apache and IANA media registry entries as of release date
+
 ## NEXT / YYYY-MM-DD
 
 - Added `changelog_uri` to gemspec metadata to provide `Changelog` link on

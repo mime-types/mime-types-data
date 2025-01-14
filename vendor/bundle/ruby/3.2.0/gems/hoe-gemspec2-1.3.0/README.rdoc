@@ -1,0 +1,58 @@
+= hoe-gemspec2
+
+home :: http://rubygems.org/gems/hoe-gemspec2
+
+{Project}[http://rubygems.org/gems/hoe-gemspec2]
+{Documentation}[http://rubydoc.info/github/raggi/hoe-gemspec2]
+{Wiki}[http://wiki.github.com/raggi/hoe-gemspec2/]
+{Source Code}[http://github.com/raggi/hoe-gemspec2/]
+{Issues}[http://github.com/raggi/hoe-gemspec2/issues]
+
+== DESCRIPTION:
+
+Adds support for generation of gemspec files to Hoe. By default, excludes the
+signing key and certificate chain. Use <tt>rake gemspec:full</tt> to include
+the signing key and certificate chain.
+
+== FEATURES/PROBLEMS:
+
+* task: gemspec
+* task: gemspec:full
+* task: default enhanced with gemspec
+
+== SYNOPSIS:
+
+  Hoe.plugin :gemspec2
+
+== REQUIREMENTS:
+
+* Hoe
+
+== INSTALL:
+
+* gem install hoe-gemspec2
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2011 raggi (James Tucker)
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
