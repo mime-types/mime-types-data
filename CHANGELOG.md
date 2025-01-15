@@ -4,8 +4,15 @@
 
 ## NEXT / YYYY-MM-DD
 
-- Added `changelog_uri` to gemspec metadata to provide `Changelog` link on
-  Rubygems.org [#96][#96].
+- Added the Changelog URL to the README so that RubyGems.org is updated with the
+  `changelog_uri` on release. Contributed by Mark Young in [#96][#96].
+
+- Fixed an issue with automated releases that added thousands of files because
+  `vendor/` was no longer ignored.
+
+- Fixed the automated release builder process to handle the case when the
+  `automatic-release` tag is followed by a `## NEXT / YYYY-MM-DD` header so that
+  changes merged normally are picked up on automatic releases. [#98][#98]
 
 ## 3.2025.0107 / 2025-01-07
 
@@ -635,6 +642,7 @@
 [#77]: https://github.com/mime-types/mime-types-data/pull/77
 [#81]: https://github.com/mime-types/mime-types-data/pull/81
 [#96]: https://github.com/mime-types/mime-types-data/pull/96
+[#98]: https://github.com/mime-types/mime-types-data/pull/98
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: Code-of-Conduct.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41

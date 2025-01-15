@@ -47,6 +47,11 @@ namespace :mime do
   end
 end
 
+task :version do
+  require "mime/types/data"
+  puts MIME::Types::Data::VERSION
+end
+
 namespace :release do
   desc "Prepare a new release"
   task :prepare do

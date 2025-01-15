@@ -24,6 +24,15 @@ class PrepareRelease
     history = IO.read("CHANGELOG.md")
 
     if !/^## #{release_header}$/.match?(history)
+      # We need slightly different flows for a standalone update vs one that rolls in
+      # additional changes because there is a NEXT header.
+      pattern =
+        if %r{^## NEXT / (?:YYYY|\d{4})-(?:MM|\d{2})-(?:DD|\d{2})}.match?(history)
+          %r{[<]!-- automatic-release --[>]\n\n## NEXT / (?:YYYY|\d{4})-(?:MM|\d{2})-(?:DD|\d{2})}
+        else
+          %r{[<]!-- automatic-release --[>]\n}
+        end
+
       note = <<~NOTE
         <!-- automatic-release -->
 
@@ -32,7 +41,7 @@ class PrepareRelease
         #{history_body}
       NOTE
 
-      updated = history.sub("<!-- automatic-release -->\n", note)
+      updated = history.sub(pattern, note)
 
       IO.write("CHANGELOG.md", updated)
     end
