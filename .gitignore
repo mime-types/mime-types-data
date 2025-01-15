@@ -1,4 +1,5 @@
 *.gem
+.bundle/
 .byebug_history
 .rake_tasks~
 .source_index
@@ -10,3 +11,4 @@ pkg/
 publish/
 test/cache.tst
 tmp/
+vendor/

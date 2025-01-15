@@ -44,5 +44,6 @@ exclude: !ruby/regexp '/
   | ^(?:
         support
       | types
+      | vendor
   )\/
 /x'
