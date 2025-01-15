@@ -1,19 +1,38 @@
 # Contributing
 
 Contributions to mime-types-data is encouraged in any form: a bug report, new
-MIME type definitions, or additional code to help manage the MIME types. As with
-many of my projects, I have a few suggestions for improving the chance of
-acceptance of your code contributions:
+MIME type definitions, or additional code to help manage the MIME types. There
+are a few DOs and DON'Ts for contributions.
 
-- The support files are written in Ruby and should remain in the coding style
-  that already exists, and I use hoe for releasing the mime-types-data RubyGem.
-- Use a thoughtfully-named topic branch that contains your change. Rebase your
-  commits into logical chunks as necessary.
-- Use [quality commit messages][qcm].
-- Do not change the version number; when your patch is accepted and a release is
-  made, the version will be updated at that point.
-- Submit a GitHub pull request with your changes.
-- New or changed behaviours require new or updated documentation.
+- DO:
+
+  - Keep the coding style that already exists for any updated Ruby code (support
+    or otherwise). I use [Standard Ruby][standardrb] for linting and formatting.
+
+  - Use thoughtfully-named topic branches for contributions. Rebase your commits
+    into logical chunks as necessary.
+
+  - Use [quality commit messages][qcm].
+
+  - Add your name or GitHub handle to `CONTRIBUTORS.md` and a record in the
+    `CHANGELOG.md` as a separate commit from your main change. (Follow the style
+    in the `CHANGELOG.md` and provide a link to your PR.)
+
+- DO NOT:
+
+  - Modify `VERSION` in `lib/mime/types/data.rb`. When your patch is accepted
+    and a release is made, the version will be updated at that point. Most
+    likely, once merged, your release will be rolled into the next automatic
+    release.
+
+  - Modify `mime-types-data.gemspec`; it is a generated file. (You _may_ use
+    `rake gemspec` to regenerate it if your change involves metadata related to
+    gem itself).
+
+  - Modify the `Gemfile`.
+
+  - Modify any files in `data/`. Any changes to be captured here will be
+    automatically updated on the next release.
 
 Although mime-types-data was extracted from the [Ruby mime-types][rmt] gem and
 the support files are written in Ruby, the _target_ of mime-types-data is any
@@ -26,8 +45,12 @@ other languages.
 The Ruby mime-types gem loads its data from files encoded in the `data`
 directory in this gem by loading `mime-types-data` and reading
 MIME::Types::Data::PATH. These files are compiled files from the collection of
-data in the `types` directory. Pull requests that include changes to these files
-will require amendment to revert these files.
+data in the `types` directory.
+
+> [!WARNING]
+>
+> Pull requests that include changes to files in `data/` will require amendment
+> to revert these files.
 
 New or modified MIME types should be edited in the appropriate YAML file under
 `types`. The format is as shown below for the `application/xml` MIME type in
@@ -85,66 +108,43 @@ customize provisional types (such as with extensions) are considered lower
 priority. It is recommended that any updates required to the data be performed
 in your application if you require provisional types.
 
-## Development Dependencies
-
-## Test Dependencies
-
-mime-types-data uses Ryan Davis’s [Hoe][hoe] to manage the release process, and
-it adds a number of rake tasks. You will mostly be interested in `rake`, which
-runs tests the same way that `rake test` does.
-
-To assist with the installation of the development dependencies for mime-types,
-I have provided the simplest possible Gemfile pointing to the (generated)
-`mime-types-data.gemspec` file. This permits `bundle install` for dependencies.
-If you already have `hoe` installed, you can accomplish the same thing with
-`rake newb`. This task will install any missing dependencies, run the tests, and
-generate the RDoc.
-
-You can run tests with code coverage analysis by running `rake test:coverage`.
-
-### Workflow
-
-Here's the most direct way to get your work merged into the project:
-
-- Fork the project.
-- Clone down your fork
-  (`git clone git://github.com/<username>/mime-types-data.git`).
-- Create a topic branch to contain your change
-  (`git checkout -b my\_awesome\_feature`).
-- Hack away, add tests. Not necessarily in that order.
-- Make sure everything still passes by running `rake`.
-- If necessary, rebase your commits into logical chunks, without errors.
-- Push the branch up (`git push origin my\_awesome\_feature`).
-- Create a pull request against mime-types/mime-types-data and describe what
-  your change does and the why you think it should be merged.
-
 ## The Release Process
 
-The release process is much more automated than it used to be, as regular
-updates are performed with GitHub actions on Tuesdays. Before release, however,
-a final step of checking for IANA updates should be performed.
+The release process is almost completely automated, where upstream MIME types
+will be updated weekly (on Tuesdays) and be presented in a reviewable pull
+request. Once merged, I need to perform a release and the update is complete.
+
+If performing a manual release outside of the update cycle, the IANA updates
+should be performed manually.
 
 1. Review any outstanding issues or pull requests to see if anything needs to be
    addressed. This is necessary because there is no automated source for
    extensions for the thousands of MIME entries. (Suggestions and/or pull
    requests for same would be deeply appreciated.)
 2. `bundle install`
-3. `bundle exec rake mime:apache`
-4. `bundle exec rake mime:iana`
-5. Review the changes to make sure that the changes are sane. The IANA data
+3. Review the changes to make sure that the changes are sane. The IANA data
    source changes from time to time, resulting in big changes or even a broken
    step 4. (The most recent change was the addition of the `font/*` top-level
    category.)
-6. `bundle exec rake convert`
-7. `bundle exec rake update:version`
-8. Write up the changes in `CHANGELOG.md`. If any PRs have been merged, these
+4. Write up the changes in `CHANGELOG.md`. If any PRs have been merged, these
    should be noted specifically and contributions should be added in
    `Contributing.md`.
-9. Commit the changes and push to GitHub.
-10. `bundle exec rake release VERSION=newversion`
+5. Commit the changes and push to GitHub.
+6. `bundle exec rake release VERSION=newversion`
 
 This is based on an issue [#18][#18].
+
+### Help Wanted
+
+I want to automate this even further. I am **not** switching from Hoe for
+release management, so the use of [rubygems/release-gem][release-gem] requires
+some care (perhaps by exporting `VERSION=$(rake version)` to the job), but
+assistance in getting this action going for an automated release would be
+greatly appreciated.
 
 [qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [rmt]: https://github.com/mime-types/ruby-mime-types/
 [hoe]: https://github.com/seattlerb/hoe
+[standardrb]: https://github.com/standardrb/standard
+[release-gem]: https://github.com/rubygems/release-gem
+[#18]: https://github.com/mime-types/mime-types-data/issues/18
