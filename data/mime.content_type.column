@@ -1690,6 +1690,7 @@ application/voicexml+xml vxml
 application/voucher+cose
 application/voucher-cms+json
 application/voucher-cose+cbor
+application/voucher-jws+json
 application/vp
 application/vp+cose
 application/vp+jwt
