@@ -2,7 +2,10 @@
 
 <!-- automatic-release -->
 
-## NEXT / YYYY-MM-DD
+## 3.2025.0204 / 2025-02-04
+
+- Updated the Apache and IANA media registry entries as of release date
+
 
 - Added the Changelog URL to the README so that RubyGems.org is updated with the
   `changelog_uri` on release. Contributed by Mark Young in [#96][#96].

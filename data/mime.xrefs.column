@@ -382,7 +382,7 @@ rfc^rfc2585|template^application/pkix-cert
 rfc^rfc2585|template^application/pkix-crl
 draft^draft-hallambaker-mesh-udf-05
 rfc^rfc6066|template^application/pkix-pkipath
-rfc^rfc2510|template^application/pkixcmp
+draft^RFC-ietf-lamps-rfc6712bis-10|template^application/pkixcmp
 rfc^rfc4267|template^application/pls+xml
 rfc^rfc4354|template^application/poc-settings+xml
 rfc^rfc2045^rfc2046|template^application/postscript
@@ -1690,6 +1690,7 @@ rfc^rfc4267|template^application/voicexml+xml
 draft^draft-ietf-anima-constrained-voucher-23
 rfc^rfc8366|template^application/voucher-cms+json
 draft^draft-ietf-anima-constrained-voucher-17
+draft^RFC-ietf-anima-jws-voucher-16|template^application/voucher-jws+json
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vp
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vp+cose
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vp+jwt
@@ -2516,6 +2517,7 @@ rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
 -
 rfc^rfc9134|template^video/jxsv
+person^LAC
 rfc^rfc9559|template^video/matroska
 rfc^rfc9559|template^video/matroska-3d
 rfc^rfc3745|template^video/mj2
@@ -2570,6 +2572,7 @@ person^Petteri_Kangaslampi|template^video/vnd.nokia.interleaved-multimedia
 person^Miska_M._Hannuksela|template^video/vnd.nokia.mp4vr
 person^Nokia|template^video/vnd.nokia.videovoip
 person^John_Clark|template^video/vnd.objectvideo
+person^David_Atkins|template^video/vnd.planar
 person^Henrik_Andersson|template^video/vnd.radgamettools.bink
 person^Henrik_Andersson|template^video/vnd.radgamettools.smacker
 person^David_Petersen|template^video/vnd.sealed.mpeg1

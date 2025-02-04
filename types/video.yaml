@@ -300,6 +300,14 @@
     - video/jxsv
   registered: true
 - !ruby/object:MIME::Type
+  content-type: video/lottie+json
+  encoding: base64
+  xrefs:
+    person:
+    - LAC
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: video/matroska
   encoding: base64
   xrefs:
@@ -878,6 +886,15 @@
     - John_Clark
     template:
     - video/vnd.objectvideo
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: video/vnd.planar
+  encoding: base64
+  xrefs:
+    person:
+    - David_Atkins
+    template:
+    - video/vnd.planar
   registered: true
 - !ruby/object:MIME::Type
   content-type: video/vnd.radgamettools.bink

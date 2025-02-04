@@ -3773,8 +3773,8 @@
   extensions:
   - pki
   xrefs:
-    rfc:
-    - rfc2510
+    draft:
+    - RFC-ietf-lamps-rfc6712bis-10
     template:
     - application/pkixcmp
   registered: true
@@ -17210,6 +17210,15 @@
     - draft-ietf-anima-constrained-voucher-17
   registered: true
   provisional: true
+- !ruby/object:MIME::Type
+  content-type: application/voucher-jws+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-anima-jws-voucher-16
+    template:
+    - application/voucher-jws+json
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/vp
   encoding: base64
