@@ -1,6 +1,6 @@
 # Contributing
 
-Contributions to mime-types-data is encouraged in any form: a bug report, new
+Contribution to mime-types-data is encouraged in any form: a bug report, new
 MIME type definitions, or additional code to help manage the MIME types. There
 are a few DOs and DON'Ts for contributions.
 
@@ -142,9 +142,9 @@ some care (perhaps by exporting `VERSION=$(rake version)` to the job), but
 assistance in getting this action going for an automated release would be
 greatly appreciated.
 
-[qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
-[rmt]: https://github.com/mime-types/ruby-mime-types/
-[hoe]: https://github.com/seattlerb/hoe
-[standardrb]: https://github.com/standardrb/standard
-[release-gem]: https://github.com/rubygems/release-gem
 [#18]: https://github.com/mime-types/mime-types-data/issues/18
+[hoe]: https://github.com/seattlerb/hoe
+[qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+[release-gem]: https://github.com/rubygems/release-gem
+[rmt]: https://github.com/mime-types/ruby-mime-types/
+[standardrb]: https://github.com/standardrb/standard
