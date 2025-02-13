@@ -22,11 +22,14 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4.2.2
         with:
           persist-credentials: true
+      - id: rubygems
+        run: sed -nHE 's/.*rubygems_version\s*=\s*([''"])(.+)\1.*/version=\2/p' mime-types-data.gemspec >> $GITHUB_OUTPUT
       - name: Set up Ruby
         uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d #v1.218.0
         with:
           bundler-cache: false
           ruby-version: ruby
+          rubygems: ${{ steps.rubygems.outputs.version }}
 
       - name: Install dependencies
         run: bundle install --jobs 4 --retry 3 --path .bundle
