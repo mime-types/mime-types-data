@@ -29,10 +29,13 @@ jobs:
         with:
           bundler-cache: false
           ruby-version: ruby
-          rubygems: ${{ steps.rubygems.outputs.version }}
 
       - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3 --path .bundle
+        run: |
+          gem update --system=${RUBYGEMS_VERSION}
+          bundle install --jobs 4 --retry 3
+        env:
+          RUBYGEMS_VERSION: ${{ steps.rubygems.outputs.version }}
 
       - name: Set VERSION
         run: printf "VERSION=%s\n" "${TAG_NAME#v}" >> $GITHUB_ENV
