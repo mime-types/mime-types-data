@@ -23,7 +23,7 @@ jobs:
         with:
           persist-credentials: true
       - id: rubygems
-        run: sed -nHE 's/.*rubygems_version\s*=\s*([''"])(.+)\1.*/version=\2/p' mime-types-data.gemspec >> $GITHUB_OUTPUT
+        run: ruby -e 'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' mime-types-data.gemspec >> $GITHUB_OUTPUT
       - name: Set up Ruby
         uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d #v1.218.0
         with:
