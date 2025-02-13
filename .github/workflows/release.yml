@@ -43,4 +43,5 @@ jobs:
         if: always()
         run: |
           echo "VERSION: $VERSION"
+          git diff
           git status --porcelain
