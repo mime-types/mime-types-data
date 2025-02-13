@@ -28,6 +28,9 @@ jobs:
           bundler-cache: false
           ruby-version: ruby
 
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+
       - name: Set VERSION
         run: printf "VERSION=%s\n" "${TAG_NAME#v}" >> $GITHUB_ENV
         env:
