@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   push:
-    # if: github.repository == 'mime-types/mime-types-data'
+    if: github.repository == 'mime-types/mime-types-data'
     runs-on: ubuntu-latest
 
     permissions:
@@ -22,8 +22,10 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4.2.2
         with:
           persist-credentials: true
+
       - id: rubygems
         run: ruby -e 'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' mime-types-data.gemspec >> $GITHUB_OUTPUT
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@d781c1b4ed31764801bfae177617bb0446f5ef8d #v1.218.0
         with:
@@ -44,10 +46,3 @@ jobs:
 
       # Release
       - uses: rubygems/release-gem@a25424ba2ba8b387abc8ef40807c2c85b96cbe32 # v1.1.1
-
-      - name: Debug
-        if: always()
-        run: |
-          echo "VERSION: $VERSION"
-          git diff
-          git status --porcelain
