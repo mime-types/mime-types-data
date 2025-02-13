@@ -29,7 +29,7 @@ jobs:
           ruby-version: ruby
 
       - name: Install dependencies
-        run: bundle install --jobs 4 --retry 3
+        run: bundle install --jobs 4 --retry 3 --path .bundle
 
       - name: Set VERSION
         run: printf "VERSION=%s\n" "${TAG_NAME#v}" >> $GITHUB_ENV
@@ -38,3 +38,9 @@ jobs:
 
       # Release
       - uses: rubygems/release-gem@a25424ba2ba8b387abc8ef40807c2c85b96cbe32 # v1.1.1
+
+      - name: Debug
+        if: always()
+        run: |
+          echo "VERSION: $VERSION"
+          git status --porcelain
