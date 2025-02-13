@@ -5325,8 +5325,8 @@
   content-type: application/token-introspection+jwt
   encoding: base64
   xrefs:
-    draft:
-    - RFC-oauth-jwt-introspection-response-12
+    rfc:
+    - rfc9701
     template:
     - application/token-introspection+jwt
   registered: true
