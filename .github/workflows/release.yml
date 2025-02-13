@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   push:
-    if: github.repository == 'mime-types/mime-types-data'
+    # if: github.repository == 'mime-types/mime-types-data'
     runs-on: ubuntu-latest
 
     permissions:
