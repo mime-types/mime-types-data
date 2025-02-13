@@ -33,6 +33,13 @@ Hoe.spec "mime-types-data" do
   extra_dev_deps << ["standard", "~> 1.0"]
 end
 
+if ENV["GITHUB_ENV"]
+  task(:release_sanity).actions.delete_if do |action|
+    file, _ = action.source_location
+    file.match?(/doofus\.rb/)
+  end
+end
+
 namespace :mime do
   desc "Download the current MIME type registrations from IANA."
   task :iana, [:destination] do |_, args|
