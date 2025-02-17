@@ -538,7 +538,7 @@ rfc^rfc8460|template^application/tlsrpt+json
 person^Sebastian_Kaebisch^W3C|template^application/tm+json
 rfc^rfc8226|template^application/tnauthlist
 person^Ned_M._Smith^TCG_DICE|template^application/toc+cbor
-draft^RFC-oauth-jwt-introspection-response-12|template^application/token-introspection+jwt
+rfc^rfc9701|template^application/token-introspection+jwt
 person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
 -
 rfc^rfc8840|template^application/trickle-ice-sdpfrag
