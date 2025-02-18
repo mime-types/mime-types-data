@@ -100,6 +100,7 @@ rfc^rfc8846|template^application/clue_info+xml
 rfc^rfc7193|template^application/cms
 draft^draft-ietf-rats-msg-wrap-04
 rfc^rfc3367|template^application/cnrp+xml
+draft^RFC-ietf-ace-wg-coap-eap-14|template^application/coap-eap
 rfc^rfc7390|template^application/coap-group+json
 rfc^rfc8075|template^application/coap-payload
 person^David_Glazer|template^application/commonground
@@ -538,7 +539,7 @@ rfc^rfc8460|template^application/tlsrpt+json
 person^Sebastian_Kaebisch^W3C|template^application/tm+json
 rfc^rfc8226|template^application/tnauthlist
 person^Ned_M._Smith^TCG_DICE|template^application/toc+cbor
-draft^RFC-oauth-jwt-introspection-response-12|template^application/token-introspection+jwt
+rfc^rfc9701|template^application/token-introspection+jwt
 person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
 -
 rfc^rfc8840|template^application/trickle-ice-sdpfrag
