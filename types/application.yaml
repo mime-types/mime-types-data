@@ -959,6 +959,15 @@
     - application/cnrp+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/coap-eap
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ace-wg-coap-eap-14
+    template:
+    - application/coap-eap
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/coap-group+json
   encoding: base64
   xrefs:
@@ -5325,8 +5334,8 @@
   content-type: application/token-introspection+jwt
   encoding: base64
   xrefs:
-    draft:
-    - RFC-oauth-jwt-introspection-response-12
+    rfc:
+    - rfc9701
     template:
     - application/token-introspection+jwt
   registered: true

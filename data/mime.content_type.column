@@ -100,6 +100,7 @@ application/clue_info+xml
 application/cms
 application/cmw+cbor
 application/cnrp+xml
+application/coap-eap
 application/coap-group+json
 application/coap-payload
 application/commonground
