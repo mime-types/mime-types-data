@@ -304,7 +304,9 @@
   encoding: base64
   xrefs:
     person:
-    - LAC
+    - Lottie_Animation_Community
+    template:
+    - video/lottie+json
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
