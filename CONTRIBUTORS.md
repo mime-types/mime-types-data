@@ -43,6 +43,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Richard Hurt
 - Richard Schneeman
 - Robert Buchberger
+- Samuel Giddins
 - Samuel Williams
 - Sergio Baptista
 - Shane Eskritt

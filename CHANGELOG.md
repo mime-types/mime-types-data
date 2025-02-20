@@ -6,23 +6,22 @@
 
 - Updated the Apache and IANA media registry entries as of release date
 
-## 3.2025.0204 / 2025-02-04
-
-- Updated the Apache and IANA media registry entries as of release date
+- Added [trusted publishing][tp] for fully automated releases. Developed by
+  Samuel Giddins in [#109][pull-109], merged manually with some updates.
 
 ## 3.2025.0204 / 2025-02-04
 
 - Updated the Apache and IANA media registry entries as of release date
 
 - Added the Changelog URL to the README so that RubyGems.org is updated with the
-  `changelog_uri` on release. Contributed by Mark Young in [#96][#96].
+  `changelog_uri` on release. Contributed by Mark Young in [#96][pull-96].
 
 - Fixed an issue with automated releases that added thousands of files because
   `vendor/` was no longer ignored.
 
 - Fixed the automated release builder process to handle the case when the
   `automatic-release` tag is followed by a `## NEXT / YYYY-MM-DD` header so that
-  changes merged normally are picked up on automatic releases. [#98][#98]
+  changes merged normally are picked up on automatic releases. [#98][pull-98]
 
 ## 3.2025.0107 / 2025-01-07
 
@@ -62,7 +61,7 @@
 - Updated the Apache and IANA media registry entries as of release date.
 
 - Added `.jxl` extension for `image/jxl`. Contributed by Shane Eskritt in
-  [#81][#81].
+  [#81][pull-81].
 
 ## 3.2024.0806 / 2024-08-06
 
@@ -77,7 +76,7 @@
   - This update adds a new `haptics/` group with three media types defined.
 
 - Moved extensions from `audio/x-aac` to `audio/aac` and mark `audio/x-aac` as
-  obsolete. Based on [#77][#77] by Samuel Williams.
+  obsolete. Based on [#77][pull-77] by Samuel Williams.
 
   - Made the same changes for `audio/flac` and `audio/matroska`.
 
@@ -140,8 +139,8 @@
   information available to deprecate `text/javascript` in favour of
   `application/javascript`. Since the previous update (2022-01-05), IANA has
   officially deprecated `application/javascript` in favour of `text/javascript`.
-  Samuel Williams discovered this in [#55][#55] by noting that all `js` types
-  were marked obsolete in version 3.2023.0218.
+  Samuel Williams discovered this in [#55][issue-55] by noting that all `js`
+  types were marked obsolete in version 3.2023.0218.
 
   A hotfix has been applied to resolve this. However, note that
   `application/javascript` will not be returned by default, only
@@ -152,15 +151,15 @@
 - Updated the Apache and IANA media registry entries as of release date.
 
 - Mohammed Gad added the `jfif` file extension for `image/jpeg` text format.
-  [#52][#52]
+  [#52][pull-52]
 
 - Reworked the loading of IANA provisional media registries to merge them into
   the top-level media-type registries instead of a standalone registry file.
-  [#53][#53] originally identified by Chris Salzberg in [#50][#50].
+  [#53][pull-53] originally identified by Chris Salzberg in [#50][pull-50].
 
   It is worth noting that this is an _imperfect_ solution as if a media type is
   provisionally registered and withdrawn, it will linger in the registry with no
-  clean way of identifying them at the moment. See [#54][#54].
+  clean way of identifying them at the moment. See [#54][issue-54].
 
   This release also fixes [ruby-mime-types#163][ruby-mime-types#163], where logs
   show "Type application/netcdf is already registered as a variant of
@@ -171,25 +170,25 @@
 - Updated the Apache and IANA media registry entries as of release date.
 
 - Fixed an incorrect definition of `image/bmp`, which had been marked obsolete
-  and later registered. Fixed [#48][#48], found by William T. Nelson.
+  and later registered. Fixed [#48][issue-48], found by William T. Nelson.
 
 ## 3.2021.1115 / 2021-11-15
 
 - Updated the Apache and IANA media registry entries as of release date.
 
 - Added conversion utilities that support the `mini_mime` data format. These
-  have been ported from the [mini_mime][mini_mime] repository. [#47][#47]
+  have been ported from the [mini\_mime][mini_mime] repository. [#47][pull-47]
 
-- Added IANA provisional media registries. Added some notes to Contributing.md
+- Added IANA provisional media registries. Added some notes to CONTRIBUTING.md
   about the transient nature of the provisional registration data. This was
-  triggered in part by a pull request by Jon Sneyers. Thanks! [#45][#45],
-  [#43][#43]
+  triggered in part by a pull request by Jon Sneyers. Thanks! [#45][pull-45],
+  [#43][pull-43]
 
 ## 3.2021.0901 / 2021-09-01
 
 - Updated the Apache and IANA media registry entries as of release date.
 
-- Added file extension for WebVTT text format. [#46][#46]
+- Added file extension for WebVTT text format. [#46][pull-46]
 
 ## 3.2021.0704 / 2021-07-04
 
@@ -199,7 +198,7 @@
 
 - Updated the Apache and IANA media registry entries as of release date.
 
-- Added file extension for AVIF video format. [#40][#40]
+- Added file extension for AVIF video format. [#40][pull-40]
 
 ## 3.2021.0212 / 2021-02-12
 
@@ -214,67 +213,68 @@
 
 - Updated the IANA media registry entries as of release date.
 
-- Added `application/x-zip-compressed`. [#36][#36]
+- Added `application/x-zip-compressed`. [#36][pull-36]
 
 - Updated the contributing guide to include information about the release
-  process as described in [#18][#18]
+  process as described in [#18][issue-18]
 
-- Corrected a misspelling of Yoran Brondsema’s name. Sorry, Yoran. [#35][#35]
+- Corrected a misspelling of Yoran Brondsema's name. Sorry, Yoran.
+  [#35][pull-35]
 
 ## 3.2020.0512 / 2020-05-12
 
 - Updated the IANA media registry entries as of release date.
 
-- Added file extensions for HEIC image types. [#34][#34]
+- Added file extensions for HEIC image types. [#34][pull-34]
 
 ## 3.2020.0425 / 2020-04-25
 
 - Updated the IANA media registry entries as of release date.
 
 - Added several RAW image types based on data from GNOME RAW Thumbnailer.
-  [#33][#33] fixing [#32][#32]
+  [#33][pull-33] fixing [#32][issue-32]
 
-- Added `audio/wav`. [#31][#31]
+- Added `audio/wav`. [#31][pull-31]
 
-- Added a type for Smarttech notebook files. [#30][#30]
+- Added a type for Smarttech notebook files. [#30][pull-30]
 
-- Added an alias for audio/m4a files. [#29][#29]
+- Added an alias for audio/m4a files. [#29][pull-29]
 
-- Added application/x-ms-dos-executable. [#28][#28]
+- Added application/x-ms-dos-executable. [#28][pull-28]
 
 ## 3.2019.1009 / 2019-10-09
 
 - Updated the IANA media registry entries as of release date.
 
 - Reordered the `.ai` extension so that it is not the preferred extension for
-  `application/pdf` [#24][#24]
+  `application/pdf` [#24][pull-24]
 
 ## 3.2019.0904 / 2019-09-04
 
 - Updated the IANA media registry entries as of release date.
 
 - Moved the `.ai` extension from `application/postscript` to `application/pdf`.
-  [#23][#23] fixing [#22][#22]
+  [#23][pull-23] fixing [#22][issue-22]
 
 ## 3.2019.0331 / 2019-03-31
 
 - Updated the IANA media registry entries as of release date.
 
-- Added support for `application/wasm` with extension `.wasm`. [#21][#21]
+- Added support for `application/wasm` with extension `.wasm`. [#21][pull-21]
 
-- Fixed `application/ecmascript` extensions. [#20][#20]
+- Fixed `application/ecmascript` extensions. [#20][pull-20]
 
 ## 3.2018.0812 / 2018-08-12
 
-- Added `.xsd` extension to `text/xml`. [#10][#10]
+- Added `.xsd` extension to `text/xml`. [#10][pull-10]
 
 - Added `.js` and `.mjs` extensions to `text/ecmascript` and `text/javascript`.
-  [#11][#11]
+  [#11][pull-11]
 
-- Added `.ipa` extension to `application/octet-stream`. [#12][#12]
+- Added `.ipa` extension to `application/octet-stream`. [#12][pull-12]
 
 - Moved extensions `.markdown` and `.md` and added `.mkd` extension to
-  `text/markdown`. [#13][#13]
+  `text/markdown`. [#13][pull-13]
 
 - Because of a bug found with mime-types 3 before 3.2.1, this version requires
   mime-types 3.1 or later to manage data.
@@ -293,7 +293,7 @@
 - Updated the known extension list for application/octet-stream and
   application/pgp-encrypted to include gpg as an extension. Fixes
   [#3](https://github.com/mime-types/mime-types-data/pull/3) by Tao Guo
-  (@taoza).
+  ([@taoza](https://github.com/taoza)).
 - Updated the IANA media registry entries as of release date:
 
   - Updated metadata for application/EmergencyCallData.Comment+xml,
@@ -346,7 +346,7 @@
 ## 3.2015.1120 / 2015-11-20
 
 - Extracted from [ruby-mime-types][rmt].
-- Added a [Code of Conduct].
+- Added a [Code of Conduct][Code of Conduct].
 - The versioning has changed to be semantic on format plus date in two parts.
 
   - All registry formats have been updated to remove deprecated data.
@@ -387,7 +387,7 @@
 
 ## 2.6 / 2015-05-25
 
-- Steven Michael Thomas (@stevenmichaelthomas) added `woff2` as an extension to
+- Steven Michael Thomas ([@stevenmichaelthomas](https://github.com/stevenmichaelthomas)) added `woff2` as an extension to
   application/font-woff, [ruby-mime-types#99][ruby-mime-types#99].
 - Updated the IANA media registry entries as of release date:
   - Updated metadata for application/jose, application/jose+json,
@@ -419,17 +419,17 @@
     (RFC7396), application/smil, application/vnd.arastra.swi,
     application/vnd.geocube+xml, application/vnd.gmx, application/xhtml+xml,
     text/directory.
-- Andy Brody (@ab) fixed a pair of embarrassing typos in text/csv and
+- Andy Brody ([@ab](https://github.com/ab)) fixed a pair of embarrassing typos in text/csv and
   text/tab-separated-values,
   [ruby-mime-types#89](https://github.com/mime-types/ruby-mime-types/pull/89).
-- Aggelos Avgerinos (@eavgerinos) added the unregistered MIME type
+- Aggelos Avgerinos ([@eavgerinos](https://github.com/eavgerinos)) added the unregistered MIME type
   image/x-ms-bmp with the extension `bmp`,
   [ruby-mime-types#90](https://github.com/mime-types/ruby-mime-types/pull/90).
 
 ## 2.4.2 / 2014-10-15
 
 - Added application/vnd.ms-outlook as an unregistered MIME type with the
-  extension `msg`. Provided by @keerthisiv in
+  extension `msg`. Provided by [@keerthisiv](https://github.com/keerthisiv) in
   [ruby-mime-types#72](https://github.com/mime-types/ruby-mime-types/pull/72).
 
 ## 2.4.1 / 2014-10-07
@@ -487,7 +487,7 @@
 ## 2.2 / 2014-03-14
 
 - Added <tt>.sj</tt> to `application/javascript` as provided by Brandon
-  Galbraith (@brandongalbraith) in
+  Galbraith ([@brandongalbraith](https://github.com/brandongalbraith)) in
   [ruby-mime-types#58](https://github.com/mime-types/ruby-mime-types/pull/58).
 - Marked application/excel and application/x-excel as obsolete in favour of
   application/vnd.ms-excel per
@@ -654,7 +654,8 @@
 [#96]: https://github.com/mime-types/mime-types-data/pull/96
 [#98]: https://github.com/mime-types/mime-types-data/pull/98
 [rmt]: https://github.com/mime-types/ruby-mime-types
-[code of conduct]: Code-of-Conduct.md
+[code of conduct]: CODE_OF_CONDUCT.md
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41
 [ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
 [ruby-mime-types#163]: https://github.com/mime-types/ruby-mime-types/issues/163
+[tp]: https://guides.rubygems.org/trusted-publishing/

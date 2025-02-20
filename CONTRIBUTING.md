@@ -114,8 +114,12 @@ The release process is almost completely automated, where upstream MIME types
 will be updated weekly (on Tuesdays) and be presented in a reviewable pull
 request. Once merged, I need to perform a release and the update is complete.
 
-If performing a manual release outside of the update cycle, the IANA updates
-should be performed manually.
+With the addition of [trusted publishing][tp], there should no longer be a need
+for manual releases outside of the update cycle. Pull requests merged between
+cycles will be released on the next cycle.
+
+If it becomes necessary to perform a manual release, IANA updates should be
+performed manually.
 
 1. Review any outstanding issues or pull requests to see if anything needs to be
    addressed. This is necessary because there is no automated source for
@@ -129,22 +133,18 @@ should be performed manually.
 4. Write up the changes in `CHANGELOG.md`. If any PRs have been merged, these
    should be noted specifically and contributions should be added in
    `Contributing.md`.
-5. Commit the changes and push to GitHub.
-6. `bundle exec rake release VERSION=newversion`
+5. Ensure that the `VERSION` in `lib/mime/types/data.rb` is updated with the
+   current date UTC.
+6. Run `rake gemspec` to ensure that `mime-types.gemspec` has been updated.
+7. Commit the changes and push to GitHub. The automated trusted publishing
+   workflow will pick up the changes.
 
-This is based on an issue [#18][#18].
+This is based on an issue [#18][issue-18].
 
-### Help Wanted
-
-I want to automate this even further. I am **not** switching from Hoe for
-release management, so the use of [rubygems/release-gem][release-gem] requires
-some care (perhaps by exporting `VERSION=$(rake version)` to the job), but
-assistance in getting this action going for an automated release would be
-greatly appreciated.
-
-[#18]: https://github.com/mime-types/mime-types-data/issues/18
+[issue-18]: https://github.com/mime-types/mime-types-data/issues/18
 [hoe]: https://github.com/seattlerb/hoe
 [qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [release-gem]: https://github.com/rubygems/release-gem
 [rmt]: https://github.com/mime-types/ruby-mime-types/
 [standardrb]: https://github.com/standardrb/standard
+[tp]: https://guides.rubygems.org/trusted-publishing/
