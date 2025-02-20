@@ -17,6 +17,8 @@ Hoe.plugins.delete :signing
 Hoe.spec "mime-types-data" do
   developer("Austin Ziegler", "halostatue@gmail.com")
 
+  self.trusted_release = ENV["rubygems_release_gem"] == "true"
+
   require_ruby_version ">= 2.0"
 
   license "MIT"
