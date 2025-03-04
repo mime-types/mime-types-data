@@ -1268,6 +1268,14 @@
     - application/dicom+xml
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/did
+  encoding: base64
+  xrefs:
+    person:
+    - W3C_DID_WG
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/DII
   encoding: base64
   xrefs:
