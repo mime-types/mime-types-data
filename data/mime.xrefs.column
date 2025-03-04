@@ -133,6 +133,7 @@ rfc^rfc4235|template^application/dialog-info+xml
 rfc^rfc3240|template^application/dicom
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+json
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+xml
+person^W3C_DID_WG
 person^ASAM^Thomas_Thomsen|template^application/DII
 person^ASAM^Thomas_Thomsen|template^application/DIT
 rfc^rfc4027|template^application/dns

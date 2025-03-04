@@ -133,6 +133,7 @@ application/dialog-info+xml
 application/dicom dcm
 application/dicom+json
 application/dicom+xml
+application/did
 application/DII
 application/DIT
 application/dns
