@@ -1,0 +1,5 @@
+rules:
+  artipacked:
+    ignore:
+      - generate.yml:25
+      - publish-gem.yml:42
