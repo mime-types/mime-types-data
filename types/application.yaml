@@ -1273,6 +1273,8 @@
   xrefs:
     person:
     - W3C_DID_WG
+    template:
+    - application/did
   registered: true
   provisional: true
 - !ruby/object:MIME::Type

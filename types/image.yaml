@@ -624,6 +624,15 @@
     - image/vnd.airzip.accelerator.azv
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/vnd.clip
+  encoding: base64
+  xrefs:
+    person:
+    - Ryo_Inaba
+    template:
+    - image/vnd.clip
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/vnd.cns.inf2
   encoding: base64
   xrefs:
