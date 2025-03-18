@@ -133,7 +133,7 @@ rfc^rfc4235|template^application/dialog-info+xml
 rfc^rfc3240|template^application/dicom
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+json
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+xml
-person^W3C_DID_WG
+person^W3C_DID_WG|template^application/did
 person^ASAM^Thomas_Thomsen|template^application/DII
 person^ASAM^Thomas_Thomsen|template^application/DIT
 rfc^rfc4027|template^application/dns
@@ -2192,6 +2192,7 @@ rfc^rfc3302|template^image/tiff
 rfc^rfc3950|template^image/tiff-fx
 person^Kim_Scarborough|template^image/vnd.adobe.photoshop
 person^Gary_Clueit|template^image/vnd.airzip.accelerator.azv
+person^Ryo_Inaba|template^image/vnd.clip
 person^Ann_McLaughlin|template^image/vnd.cns.inf2
 person^Michael_A_Dolan|template^image/vnd.dece.graphic
 -
