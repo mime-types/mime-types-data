@@ -112,7 +112,7 @@ in your application if you require provisional types.
 
 The release process is almost completely automated, where upstream MIME types
 will be updated weekly (on Tuesdays) and be presented in a reviewable pull
-request. Once merged, I need to perform a release and the update is complete.
+request. Once merged, the release will be automatically published to RubyGems.
 
 With the addition of [trusted publishing][tp], there should no longer be a need
 for manual releases outside of the update cycle. Pull requests merged between
@@ -139,10 +139,10 @@ performed manually.
 7. Commit the changes and push to GitHub. The automated trusted publishing
    workflow will pick up the changes.
 
-This is based on an issue [#18][issue-18].
+This list is based on issue [#18][issue-18].
 
-[issue-18]: https://github.com/mime-types/mime-types-data/issues/18
 [hoe]: https://github.com/seattlerb/hoe
+[issue-18]: https://github.com/mime-types/mime-types-data/issues/18
 [qcm]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [release-gem]: https://github.com/rubygems/release-gem
 [rmt]: https://github.com/mime-types/ruby-mime-types/

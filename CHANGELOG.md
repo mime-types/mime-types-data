@@ -274,7 +274,7 @@
 
 ## 3.2018.0812 / 2018-08-12
 
-- Added `.xsd` extension to `text/xml`. [#10][pull-10]
+- Added `.xsd` extension to `text/xml`. [pull-10][pull-10]
 
 - Added `.js` and `.mjs` extensions to `text/ecmascript` and `text/javascript`.
   [#11][pull-11]
@@ -395,8 +395,10 @@
 
 ## 2.6 / 2015-05-25
 
-- Steven Michael Thomas ([@stevenmichaelthomas](https://github.com/stevenmichaelthomas)) added `woff2` as an extension to
-  application/font-woff, [ruby-mime-types#99][ruby-mime-types#99].
+- Steven Michael Thomas
+  ([@stevenmichaelthomas](https://github.com/stevenmichaelthomas)) added `woff2`
+  as an extension to application/font-woff,
+  [ruby-mime-types#99][ruby-mime-types#99].
 - Updated the IANA media registry entries as of release date:
   - Updated metadata for application/jose, application/jose+json,
     application/jwk+json, application/jwk-set+json, application/jwt to reflect
@@ -427,11 +429,11 @@
     (RFC7396), application/smil, application/vnd.arastra.swi,
     application/vnd.geocube+xml, application/vnd.gmx, application/xhtml+xml,
     text/directory.
-- Andy Brody ([@ab](https://github.com/ab)) fixed a pair of embarrassing typos in text/csv and
-  text/tab-separated-values,
+- Andy Brody ([@ab](https://github.com/ab)) fixed a pair of embarrassing typos
+  in text/csv and text/tab-separated-values,
   [ruby-mime-types#89](https://github.com/mime-types/ruby-mime-types/pull/89).
-- Aggelos Avgerinos ([@eavgerinos](https://github.com/eavgerinos)) added the unregistered MIME type
-  image/x-ms-bmp with the extension `bmp`,
+- Aggelos Avgerinos ([@eavgerinos](https://github.com/eavgerinos)) added the
+  unregistered MIME type image/x-ms-bmp with the extension `bmp`,
   [ruby-mime-types#90](https://github.com/mime-types/ruby-mime-types/pull/90).
 
 ## 2.4.2 / 2014-10-15
@@ -627,43 +629,44 @@
     video/x-mng, video/x-ms-vob, video/x-smv
 - Merged the non-standard VMS platform text/plain with the standard text/plain.
 
-[#10]: https://github.com/mime-types/mime-types-data/pull/10
-[#11]: https://github.com/mime-types/mime-types-data/pull/11
-[#12]: https://github.com/mime-types/mime-types-data/pull/12
-[#13]: https://github.com/mime-types/mime-types-data/pull/13
-[#18]: https://github.com/mime-types/mime-types-data/issues/18
-[#20]: https://github.com/mime-types/mime-types-data/pull/20
-[#21]: https://github.com/mime-types/mime-types-data/pull/21
-[#22]: https://github.com/mime-types/mime-types-data/issues/22
-[#23]: https://github.com/mime-types/mime-types-data/pull/23
-[#24]: https://github.com/mime-types/mime-types-data/pull/24
-[#28]: https://github.com/mime-types/mime-types-data/pull/28
-[#29]: https://github.com/mime-types/mime-types-data/pull/29
-[#30]: https://github.com/mime-types/mime-types-data/pull/30
-[#31]: https://github.com/mime-types/mime-types-data/pull/31
-[#32]: https://github.com/mime-types/mime-types-data/issues/32
-[#33]: https://github.com/mime-types/mime-types-data/pull/33
-[#34]: https://github.com/mime-types/mime-types-data/pull/34
-[#35]: https://github.com/mime-types/mime-types-data/pull/35
-[#36]: https://github.com/mime-types/mime-types-data/pull/36
-[#40]: https://github.com/mime-types/mime-types-data/pull/40
-[#43]: https://github.com/mime-types/mime-types-data/pull/43
-[#45]: https://github.com/mime-types/mime-types-data/pull/45
-[#46]: https://github.com/mime-types/mime-types-data/pull/46
-[#47]: https://github.com/mime-types/mime-types-data/pull/47
-[#48]: https://github.com/mime-types/mime-types-data/issues/48
-[#50]: https://github.com/mime-types/mime-types-data/pull/50
-[#52]: https://github.com/mime-types/mime-types-data/pull/52
-[#53]: https://github.com/mime-types/mime-types-data/pull/53
-[#54]: https://github.com/mime-types/mime-types-data/issues/54
-[#55]: https://github.com/mime-types/mime-types-data/issues/55
-[#77]: https://github.com/mime-types/mime-types-data/pull/77
-[#81]: https://github.com/mime-types/mime-types-data/pull/81
-[#96]: https://github.com/mime-types/mime-types-data/pull/96
-[#98]: https://github.com/mime-types/mime-types-data/pull/98
-[rmt]: https://github.com/mime-types/ruby-mime-types
 [code of conduct]: CODE_OF_CONDUCT.md
+[issue-18]: https://github.com/mime-types/mime-types-data/issues/18
+[issue-22]: https://github.com/mime-types/mime-types-data/issues/22
+[issue-32]: https://github.com/mime-types/mime-types-data/issues/32
+[issue-48]: https://github.com/mime-types/mime-types-data/issues/48
+[issue-54]: https://github.com/mime-types/mime-types-data/issues/54
+[issue-55]: https://github.com/mime-types/mime-types-data/issues/55
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41
-[ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
+[pull-109]: https://github.com/mime-types/mime-types-data/pull/109
+[pull-10]: https://github.com/mime-types/mime-types-data/pull/10
+[pull-11]: https://github.com/mime-types/mime-types-data/pull/11
+[pull-12]: https://github.com/mime-types/mime-types-data/pull/12
+[pull-13]: https://github.com/mime-types/mime-types-data/pull/13
+[pull-20]: https://github.com/mime-types/mime-types-data/pull/20
+[pull-21]: https://github.com/mime-types/mime-types-data/pull/21
+[pull-23]: https://github.com/mime-types/mime-types-data/pull/23
+[pull-24]: https://github.com/mime-types/mime-types-data/pull/24
+[pull-28]: https://github.com/mime-types/mime-types-data/pull/28
+[pull-29]: https://github.com/mime-types/mime-types-data/pull/29
+[pull-30]: https://github.com/mime-types/mime-types-data/pull/30
+[pull-31]: https://github.com/mime-types/mime-types-data/pull/31
+[pull-33]: https://github.com/mime-types/mime-types-data/pull/33
+[pull-34]: https://github.com/mime-types/mime-types-data/pull/34
+[pull-35]: https://github.com/mime-types/mime-types-data/pull/35
+[pull-36]: https://github.com/mime-types/mime-types-data/pull/36
+[pull-40]: https://github.com/mime-types/mime-types-data/pull/40
+[pull-43]: https://github.com/mime-types/mime-types-data/pull/43
+[pull-45]: https://github.com/mime-types/mime-types-data/pull/45
+[pull-46]: https://github.com/mime-types/mime-types-data/pull/46
+[pull-47]: https://github.com/mime-types/mime-types-data/pull/47
+[pull-50]: https://github.com/mime-types/mime-types-data/pull/50
+[pull-52]: https://github.com/mime-types/mime-types-data/pull/52
+[pull-53]: https://github.com/mime-types/mime-types-data/pull/53
+[pull-77]: https://github.com/mime-types/mime-types-data/pull/77
+[pull-81]: https://github.com/mime-types/mime-types-data/pull/81
+[pull-96]: https://github.com/mime-types/mime-types-data/pull/96
+[pull-98]: https://github.com/mime-types/mime-types-data/pull/98
+[rmt]: https://github.com/mime-types/ruby-mime-types
 [ruby-mime-types#163]: https://github.com/mime-types/ruby-mime-types/issues/163
+[ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
 [tp]: https://guides.rubygems.org/trusted-publishing/

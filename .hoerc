@@ -23,15 +23,15 @@ exclude: !ruby/regexp '/
       | standard.*
       | travis
       | unused
-      )\.yml
+    )\.yml$
     | (?:
         typos
-      )\.toml
-    )$
+    )\.toml$
+  )
   | ^\.(?:
       bundle
-    | github
     | git
+    | github
     | hg
     | idea
     | svn
@@ -42,8 +42,8 @@ exclude: !ruby/regexp '/
   | (?i:TAGS)$
   | Vagrantfile$
   | ^(?:
-        support
-      | types
-      | vendor
+      support
+    | types
+    | vendor
   )\/
 /x'
