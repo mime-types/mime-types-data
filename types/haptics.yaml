@@ -3,8 +3,8 @@
   content-type: haptics/hjif
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-mediaman-haptics-05
+    rfc:
+    - rfc9695
     template:
     - haptics/hjif
   registered: true
@@ -12,8 +12,8 @@
   content-type: haptics/hmpg
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-mediaman-haptics-05
+    rfc:
+    - rfc9695
     template:
     - haptics/hmpg
   registered: true
@@ -21,8 +21,8 @@
   content-type: haptics/ivs
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-mediaman-haptics-05
+    rfc:
+    - rfc9695
     template:
     - haptics/ivs
   registered: true

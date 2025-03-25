@@ -914,9 +914,9 @@ person^Samu_Sarivaara|template^application/vnd.f-secure.mobile
 person^Gordon_Clarke|template^application/vnd.familysearch.gedcom+zip
 person^Thomas_Huth|template^application/vnd.fastcopy-disk-image
 person^Steve_Zilles|template^application/vnd.fdf
-person^Chad_Trabant|template^application/vnd.fdsn.mseed
+person^International_FDSN|template^application/vnd.fdsn.mseed
 person^Chad_Trabant|template^application/vnd.fdsn.seed
-person^Chad_Trabant|template^application/vnd.fdsn.stationxml+xml
+person^International_FDSN|template^application/vnd.fdsn.stationxml+xml
 person^Holstage|template^application/vnd.ffsns
 person^Steve_Gilberd|template^application/vnd.ficlab.flb+zip
 person^Harms_Moeller|template^application/vnd.filmit.zfc
@@ -2131,9 +2131,9 @@ rfc^rfc8081|template^font/sfnt
 rfc^rfc8081|template^font/ttf
 rfc^rfc8081|template^font/woff
 rfc^rfc8081|template^font/woff2
-draft^RFC-ietf-mediaman-haptics-05|template^haptics/hjif
-draft^RFC-ietf-mediaman-haptics-05|template^haptics/hmpg
-draft^RFC-ietf-mediaman-haptics-05|template^haptics/ivs
+rfc^rfc9695|template^haptics/hjif
+rfc^rfc9695|template^haptics/hmpg
+rfc^rfc9695|template^haptics/ivs
 person^Howard_Lukk^SMPTE|template^image/aces
 person^W3C^W3C_PNG_WG|template^image/apng
 person^David_Singer^ISO-IEC_JTC_1|template^image/avci
