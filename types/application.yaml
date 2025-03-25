@@ -9031,7 +9031,7 @@
   - mseed
   xrefs:
     person:
-    - Chad_Trabant
+    - International_FDSN
     template:
     - application/vnd.fdsn.mseed
   registered: true
@@ -9054,7 +9054,7 @@
   encoding: base64
   xrefs:
     person:
-    - Chad_Trabant
+    - International_FDSN
     template:
     - application/vnd.fdsn.stationxml+xml
   registered: true
