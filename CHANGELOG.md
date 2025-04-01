@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0402 / 2025-04-02
+
+- Updated the Apache and IANA media registry entries as of release date
+
 ## 3.2025.0325 / 2025-03-25
 
 - Updated the Apache and IANA media registry entries as of release date

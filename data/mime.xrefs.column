@@ -462,6 +462,7 @@ rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
 rfc^rfc5055|template^application/scvp-vp-response
+draft^RFC-ietf-asdf-sdf-23|template^application/sdf+json
 rfc^rfc8866|template^application/sdp
 rfc^rfc8417|template^application/secevent+jwt
 rfc^rfc8428|template^application/senml+cbor
@@ -2462,6 +2463,7 @@ notes^(OBSOLETED by request)|person^Nicholas_Parks_Young|template^text/vnd.si.ur
 person^Petter_Reinholdtsen|template^text/vnd.sosi
 person^Gary_Adams|template^text/vnd.sun.j2me.app-descriptor
 person^David_Lee_Lambert|template^text/vnd.trolltech.linguist
+person^Martin_Haug|template^text/vnd.typst
 person^Anand_Jahagirdar|template^text/vnd.vcf
 person^WAP-Forum|template^text/vnd.wap.si
 person^WAP-Forum|template^text/vnd.wap.sl
@@ -2586,7 +2588,7 @@ person^Michael_A_Dolan|template^video/vnd.uvvu.mp4
 person^John_Wolfe|template^video/vnd.vivo
 person^Google|template^video/vnd.youtube.yt
 rfc^rfc7741|template^video/VP8
-draft^RFC-ietf-payload-vp9-16|template^video/VP9
+rfc^rfc9628|template^video/VP9
 -
 -
 -

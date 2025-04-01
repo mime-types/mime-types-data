@@ -462,6 +462,7 @@ application/scvp-cv-request scq
 application/scvp-cv-response scs
 application/scvp-vp-request spq
 application/scvp-vp-response spp
+application/sdf+json
 application/sdp sdp
 application/secevent+jwt
 application/senml+cbor
@@ -2462,6 +2463,7 @@ text/vnd.si.uricatalogue
 text/vnd.sosi
 text/vnd.sun.j2me.app-descriptor jad
 text/vnd.trolltech.linguist
+text/vnd.typst
 text/vnd.vcf
 text/vnd.wap.si si
 text/vnd.wap.sl sl

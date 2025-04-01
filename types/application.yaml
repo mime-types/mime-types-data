@@ -4569,6 +4569,15 @@
     - application/scvp-vp-response
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/sdf+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-asdf-sdf-23
+    template:
+    - application/sdf+json
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/sdp
   friendly:
     en: Session Description Protocol
