@@ -1029,6 +1029,15 @@
     - text/vnd.trolltech.linguist
   registered: true
 - !ruby/object:MIME::Type
+  content-type: text/vnd.typst
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Martin_Haug
+    template:
+    - text/vnd.typst
+  registered: true
+- !ruby/object:MIME::Type
   content-type: text/vnd.vcf
   encoding: quoted-printable
   xrefs:

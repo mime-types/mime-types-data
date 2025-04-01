@@ -1014,8 +1014,8 @@
   content-type: video/VP9
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-payload-vp9-16
+    rfc:
+    - rfc9628
     template:
     - video/VP9
   registered: true
