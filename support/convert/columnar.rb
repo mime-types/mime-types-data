@@ -17,7 +17,7 @@ class Convert::Columnar < Convert
   def to_columnar(options = {})
     root = options[:destination] or require_destination!
     @root = must_be_directory!(root)
-    @data = @loader.container.sort.map(&:to_h)
+    @data = @loader.container.sort_by(&:simplified).map(&:to_h)
 
     column_file("content_type") do |type|
       [type["content-type"], Array(type["extensions"]).join(" ")]
@@ -25,12 +25,18 @@ class Convert::Columnar < Convert
     end
 
     required_file("encoding")
-    optional_file("pext", "preferred-extension")
-    optional_file("docs")
+    option_file("pext", "preferred-extension")
+    option_file("docs")
     bool_file("flags", "obsolete", "registered", "signature", "provisional")
     dict_file("xrefs")
     dict_file("friendly")
-    optional_file("use_instead", "use-instead")
+    option_file("use_instead", "use-instead")
+    dict_file("extpri", "extension-priorities")
+    bin_file("spri", "sort-priority")
+  end
+
+  def bin_file(name, field = name)
+    File.binwrite(File.join(@root, "mime.#{name}.column"), @data.map { |type| type[field] }.pack("C*"))
   end
 
   def column_file(name, &block)
@@ -52,7 +58,7 @@ class Convert::Columnar < Convert
     column_file(name) { |type| type[field] }
   end
 
-  def optional_file(name, field = name)
+  def option_file(name, field = name)
     column_file(name) { |type| opt(type[field]) }
   end
 

@@ -8,6 +8,7 @@
     template:
     - audio/1d-interleaved-parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/32kadpcm
   encoding: base64
@@ -18,6 +19,7 @@
     template:
     - audio/32kadpcm
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/3gpp
   encoding: base64
@@ -28,6 +30,7 @@
     template:
     - audio/3gpp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/3gpp2
   encoding: base64
@@ -38,6 +41,7 @@
     template:
     - audio/3gpp2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/aac
   encoding: base64
@@ -50,6 +54,7 @@
     template:
     - audio/aac
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/ac3
   encoding: base64
@@ -59,6 +64,7 @@
     template:
     - audio/ac3
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/adpcm
   friendly:
@@ -67,6 +73,7 @@
   extensions:
   - adp
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/AMR
   encoding: base64
@@ -78,6 +85,7 @@
     template:
     - audio/AMR
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/AMR-WB
   encoding: base64
@@ -89,6 +97,7 @@
     template:
     - audio/AMR-WB
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/amr-wb+
   encoding: base64
@@ -98,6 +107,7 @@
     template:
     - audio/amr-wb+
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/aptx
   encoding: base64
@@ -107,6 +117,7 @@
     template:
     - audio/aptx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/asc
   encoding: base64
@@ -116,6 +127,7 @@
     template:
     - audio/asc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC-ADVANCED-LOSSLESS
   encoding: base64
@@ -125,6 +137,7 @@
     template:
     - audio/ATRAC-ADVANCED-LOSSLESS
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC-X
   encoding: base64
@@ -134,6 +147,7 @@
     template:
     - audio/ATRAC-X
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ATRAC3
   encoding: base64
@@ -143,6 +157,7 @@
     template:
     - audio/ATRAC3
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/basic
   friendly:
@@ -158,6 +173,7 @@
     template:
     - audio/basic
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: audio/BV16
   encoding: base64
@@ -167,6 +183,7 @@
     template:
     - audio/BV16
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/BV32
   encoding: base64
@@ -176,6 +193,7 @@
     template:
     - audio/BV32
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/clearmode
   encoding: base64
@@ -185,6 +203,7 @@
     template:
     - audio/clearmode
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/CN
   encoding: base64
@@ -194,6 +213,7 @@
     template:
     - audio/CN
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/DAT12
   encoding: base64
@@ -203,6 +223,7 @@
     template:
     - audio/DAT12
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/dls
   encoding: base64
@@ -212,6 +233,7 @@
     template:
     - audio/dls
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es201108
   encoding: base64
@@ -221,6 +243,7 @@
     template:
     - audio/dsr-es201108
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202050
   encoding: base64
@@ -230,6 +253,7 @@
     template:
     - audio/dsr-es202050
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202211
   encoding: base64
@@ -239,6 +263,7 @@
     template:
     - audio/dsr-es202211
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/dsr-es202212
   encoding: base64
@@ -248,6 +273,7 @@
     template:
     - audio/dsr-es202212
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/DV
   encoding: base64
@@ -257,6 +283,7 @@
     template:
     - audio/DV
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/DVI4
   encoding: base64
@@ -266,6 +293,7 @@
     template:
     - audio/DVI4
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/eac3
   encoding: base64
@@ -275,6 +303,7 @@
     template:
     - audio/eac3
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/encaprtp
   encoding: base64
@@ -284,6 +313,7 @@
     template:
     - audio/encaprtp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRC
   encoding: base64
@@ -295,6 +325,7 @@
     template:
     - audio/EVRC
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/EVRC-QCP
   encoding: base64
@@ -304,6 +335,7 @@
     template:
     - audio/EVRC-QCP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRC0
   encoding: base64
@@ -313,6 +345,7 @@
     template:
     - audio/EVRC0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRC1
   encoding: base64
@@ -322,6 +355,7 @@
     template:
     - audio/EVRC1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB
   encoding: base64
@@ -331,6 +365,7 @@
     template:
     - audio/EVRCB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB0
   encoding: base64
@@ -340,6 +375,7 @@
     template:
     - audio/EVRCB0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCB1
   encoding: base64
@@ -349,6 +385,7 @@
     template:
     - audio/EVRCB1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW
   encoding: base64
@@ -358,6 +395,7 @@
     template:
     - audio/EVRCNW
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW0
   encoding: base64
@@ -367,6 +405,7 @@
     template:
     - audio/EVRCNW0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCNW1
   encoding: base64
@@ -376,6 +415,7 @@
     template:
     - audio/EVRCNW1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB
   encoding: base64
@@ -385,6 +425,7 @@
     template:
     - audio/EVRCWB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB0
   encoding: base64
@@ -394,6 +435,7 @@
     template:
     - audio/EVRCWB0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVRCWB1
   encoding: base64
@@ -403,6 +445,7 @@
     template:
     - audio/EVRCWB1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/EVS
   encoding: base64
@@ -413,6 +456,7 @@
     template:
     - audio/EVS
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/example
   encoding: base64
@@ -422,6 +466,7 @@
     template:
     - audio/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/flac
   encoding: base64
@@ -433,6 +478,7 @@
     template:
     - audio/flac
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/flexfec
   encoding: base64
@@ -442,6 +488,7 @@
     template:
     - audio/flexfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/fwdred
   encoding: base64
@@ -451,6 +498,7 @@
     template:
     - audio/fwdred
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G711-0
   encoding: base64
@@ -460,6 +508,7 @@
     template:
     - audio/G711-0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G719
   encoding: base64
@@ -471,6 +520,7 @@
     template:
     - audio/G719
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G722
   encoding: base64
@@ -480,6 +530,7 @@
     template:
     - audio/G722
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G7221
   encoding: base64
@@ -489,6 +540,7 @@
     template:
     - audio/G7221
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G723
   encoding: base64
@@ -498,6 +550,7 @@
     template:
     - audio/G723
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G726-16
   encoding: base64
@@ -507,6 +560,7 @@
     template:
     - audio/G726-16
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G726-24
   encoding: base64
@@ -516,6 +570,7 @@
     template:
     - audio/G726-24
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G726-32
   encoding: base64
@@ -525,6 +580,7 @@
     template:
     - audio/G726-32
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G726-40
   encoding: base64
@@ -534,6 +590,7 @@
     template:
     - audio/G726-40
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G728
   encoding: base64
@@ -543,6 +600,7 @@
     template:
     - audio/G728
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G729
   encoding: base64
@@ -552,6 +610,7 @@
     template:
     - audio/G729
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G7291
   encoding: base64
@@ -562,6 +621,7 @@
     template:
     - audio/G7291
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G729D
   encoding: base64
@@ -571,6 +631,7 @@
     template:
     - audio/G729D
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/G729E
   encoding: base64
@@ -580,6 +641,7 @@
     template:
     - audio/G729E
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/GSM
   encoding: base64
@@ -589,6 +651,7 @@
     template:
     - audio/GSM
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/GSM-EFR
   encoding: base64
@@ -598,6 +661,7 @@
     template:
     - audio/GSM-EFR
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/GSM-HR-08
   encoding: base64
@@ -607,6 +671,7 @@
     template:
     - audio/GSM-HR-08
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/iLBC
   encoding: base64
@@ -616,6 +681,7 @@
     template:
     - audio/iLBC
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ip-mr_v2.5
   encoding: base64
@@ -625,6 +691,7 @@
     template:
     - audio/ip-mr_v2.5
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/L16
   encoding: base64
@@ -636,6 +703,7 @@
     template:
     - audio/L16
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/L20
   encoding: base64
@@ -645,6 +713,7 @@
     template:
     - audio/L20
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/L24
   encoding: base64
@@ -654,6 +723,7 @@
     template:
     - audio/L24
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/L8
   encoding: base64
@@ -663,6 +733,7 @@
     template:
     - audio/L8
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/LPC
   encoding: base64
@@ -672,6 +743,7 @@
     template:
     - audio/LPC
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/matroska
   encoding: base64
@@ -683,6 +755,7 @@
     template:
     - audio/matroska
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/MELP
   encoding: base64
@@ -692,6 +765,7 @@
     template:
     - audio/MELP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/MELP1200
   encoding: base64
@@ -701,6 +775,7 @@
     template:
     - audio/MELP1200
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/MELP2400
   encoding: base64
@@ -710,6 +785,7 @@
     template:
     - audio/MELP2400
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/MELP600
   encoding: base64
@@ -719,6 +795,7 @@
     template:
     - audio/MELP600
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/mhas
   encoding: base64
@@ -730,6 +807,7 @@
     template:
     - audio/mhas
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/midi
   friendly:
@@ -741,6 +819,7 @@
   - midi
   - rmi
   registered: false
+  sort-priority: 44
 - !ruby/object:MIME::Type
   content-type: audio/midi-clip
   encoding: base64
@@ -752,6 +831,7 @@
     - audio/midi-clip
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: audio/mobile-xmf
   encoding: base64
@@ -761,6 +841,7 @@
     template:
     - audio/mobile-xmf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/mp4
   friendly:
@@ -780,6 +861,7 @@
     template:
     - audio/mp4
   registered: true
+  sort-priority: 10
 - !ruby/object:MIME::Type
   content-type: audio/MP4A-LATM
   encoding: base64
@@ -791,6 +873,7 @@
     template:
     - audio/MP4A-LATM
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/MPA
   encoding: base64
@@ -800,6 +883,7 @@
     template:
     - audio/MPA
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/mpa-robust
   encoding: base64
@@ -809,6 +893,7 @@
     template:
     - audio/mpa-robust
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/mpeg
   friendly:
@@ -827,6 +912,7 @@
     template:
     - audio/mpeg
   registered: true
+  sort-priority: 10
 - !ruby/object:MIME::Type
   content-type: audio/mpeg4-generic
   encoding: base64
@@ -838,6 +924,7 @@
     template:
     - audio/mpeg4-generic
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ogg
   friendly:
@@ -855,6 +942,7 @@
     template:
     - audio/ogg
   registered: true
+  sort-priority: 12
 - !ruby/object:MIME::Type
   content-type: audio/opus
   encoding: base64
@@ -864,6 +952,7 @@
     template:
     - audio/opus
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/parityfec
   encoding: base64
@@ -873,6 +962,7 @@
     template:
     - audio/parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/PCMA
   encoding: base64
@@ -882,6 +972,7 @@
     template:
     - audio/PCMA
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/PCMA-WB
   encoding: base64
@@ -891,6 +982,7 @@
     template:
     - audio/PCMA-WB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/PCMU
   encoding: base64
@@ -900,6 +992,7 @@
     template:
     - audio/PCMU
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/PCMU-WB
   encoding: base64
@@ -909,6 +1002,7 @@
     template:
     - audio/PCMU-WB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/prs.sid
   encoding: base64
@@ -918,6 +1012,7 @@
     template:
     - audio/prs.sid
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/QCELP
   encoding: base64
@@ -928,6 +1023,7 @@
     template:
     - audio/QCELP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/raptorfec
   encoding: base64
@@ -937,6 +1033,7 @@
     template:
     - audio/raptorfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/RED
   encoding: base64
@@ -946,6 +1043,7 @@
     template:
     - audio/RED
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/rtp-enc-aescm128
   encoding: base64
@@ -955,6 +1053,7 @@
     template:
     - audio/rtp-enc-aescm128
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/rtp-midi
   encoding: base64
@@ -964,6 +1063,7 @@
     template:
     - audio/rtp-midi
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/rtploopback
   encoding: base64
@@ -973,6 +1073,7 @@
     template:
     - audio/rtploopback
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/rtx
   encoding: base64
@@ -982,12 +1083,14 @@
     template:
     - audio/rtx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/s3m
   encoding: base64
   extensions:
   - s3m
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/scip
   encoding: base64
@@ -997,12 +1100,14 @@
     template:
     - audio/scip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/silk
   encoding: base64
   extensions:
   - sil
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/SMV
   encoding: base64
@@ -1014,6 +1119,7 @@
     template:
     - audio/SMV
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/SMV-QCP
   encoding: base64
@@ -1023,6 +1129,7 @@
     template:
     - audio/SMV-QCP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/SMV0
   encoding: base64
@@ -1032,6 +1139,7 @@
     template:
     - audio/SMV0
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/sofa
   encoding: base64
@@ -1042,6 +1150,7 @@
     template:
     - audio/sofa
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/sp-midi
   encoding: base64
@@ -1052,6 +1161,7 @@
     template:
     - audio/sp-midi
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/speex
   encoding: base64
@@ -1061,6 +1171,7 @@
     template:
     - audio/speex
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/t140c
   encoding: base64
@@ -1070,6 +1181,7 @@
     template:
     - audio/t140c
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/t38
   encoding: base64
@@ -1079,6 +1191,7 @@
     template:
     - audio/t38
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/telephone-event
   encoding: base64
@@ -1088,6 +1201,7 @@
     template:
     - audio/telephone-event
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/TETRA_ACELP
   encoding: base64
@@ -1098,6 +1212,7 @@
     template:
     - audio/TETRA_ACELP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/TETRA_ACELP_BB
   encoding: base64
@@ -1108,6 +1223,7 @@
     template:
     - audio/TETRA_ACELP_BB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/tone
   encoding: base64
@@ -1117,6 +1233,7 @@
     template:
     - audio/tone
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/TSVCIS
   encoding: base64
@@ -1126,6 +1243,7 @@
     template:
     - audio/TSVCIS
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/UEMCLIP
   encoding: base64
@@ -1135,6 +1253,7 @@
     template:
     - audio/UEMCLIP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/ulpfec
   encoding: base64
@@ -1144,6 +1263,7 @@
     template:
     - audio/ulpfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/usac
   encoding: base64
@@ -1154,6 +1274,7 @@
     template:
     - audio/usac
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/VDVI
   encoding: base64
@@ -1163,6 +1284,7 @@
     template:
     - audio/VDVI
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/VMR-WB
   encoding: base64
@@ -1173,6 +1295,7 @@
     template:
     - audio/VMR-WB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.3gpp.iufp
   encoding: base64
@@ -1182,6 +1305,7 @@
     template:
     - audio/vnd.3gpp.iufp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.4SB
   encoding: base64
@@ -1191,6 +1315,7 @@
     template:
     - audio/vnd.4SB
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.audiokoz
   encoding: base64
@@ -1200,6 +1325,7 @@
     template:
     - audio/vnd.audiokoz
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.CELP
   encoding: base64
@@ -1209,6 +1335,7 @@
     template:
     - audio/vnd.CELP
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cisco.nse
   encoding: base64
@@ -1218,6 +1345,7 @@
     template:
     - audio/vnd.cisco.nse
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cmles.radio-events
   encoding: base64
@@ -1227,6 +1355,7 @@
     template:
     - audio/vnd.cmles.radio-events
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cns.anp1
   encoding: base64
@@ -1236,6 +1365,7 @@
     template:
     - audio/vnd.cns.anp1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.cns.inf1
   encoding: base64
@@ -1245,6 +1375,7 @@
     template:
     - audio/vnd.cns.inf1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dece.audio
   friendly:
@@ -1259,6 +1390,7 @@
     template:
     - audio/vnd.dece.audio
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: audio/vnd.digital-winds
   friendly:
@@ -1272,6 +1404,7 @@
     template:
     - audio/vnd.digital-winds
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dlna.adts
   encoding: base64
@@ -1281,6 +1414,7 @@
     template:
     - audio/vnd.dlna.adts
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.heaac.1
   encoding: base64
@@ -1290,6 +1424,7 @@
     template:
     - audio/vnd.dolby.heaac.1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.heaac.2
   encoding: base64
@@ -1299,6 +1434,7 @@
     template:
     - audio/vnd.dolby.heaac.2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.mlp
   encoding: base64
@@ -1308,6 +1444,7 @@
     template:
     - audio/vnd.dolby.mlp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.mps
   encoding: base64
@@ -1317,6 +1454,7 @@
     template:
     - audio/vnd.dolby.mps
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2
   encoding: base64
@@ -1326,6 +1464,7 @@
     template:
     - audio/vnd.dolby.pl2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2x
   encoding: base64
@@ -1335,6 +1474,7 @@
     template:
     - audio/vnd.dolby.pl2x
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pl2z
   encoding: base64
@@ -1344,6 +1484,7 @@
     template:
     - audio/vnd.dolby.pl2z
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dolby.pulse.1
   encoding: base64
@@ -1353,6 +1494,7 @@
     template:
     - audio/vnd.dolby.pulse.1
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dra
   friendly:
@@ -1366,6 +1508,7 @@
     template:
     - audio/vnd.dra
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dts
   friendly:
@@ -1379,6 +1522,7 @@
     template:
     - audio/vnd.dts
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dts.hd
   friendly:
@@ -1392,6 +1536,7 @@
     template:
     - audio/vnd.dts.hd
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dts.uhd
   encoding: base64
@@ -1401,6 +1546,7 @@
     template:
     - audio/vnd.dts.uhd
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.dvb.file
   encoding: base64
@@ -1410,6 +1556,7 @@
     template:
     - audio/vnd.dvb.file
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.everad.plj
   encoding: base64
@@ -1421,6 +1568,7 @@
     template:
     - audio/vnd.everad.plj
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.hns.audio
   encoding: base64
@@ -1430,6 +1578,7 @@
     template:
     - audio/vnd.hns.audio
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.lucent.voice
   friendly:
@@ -1443,6 +1592,7 @@
     template:
     - audio/vnd.lucent.voice
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.ms-playready.media.pya
   friendly:
@@ -1456,6 +1606,7 @@
     template:
     - audio/vnd.ms-playready.media.pya
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.nokia.mobile-xmf
   encoding: base64
@@ -1467,6 +1618,7 @@
     template:
     - audio/vnd.nokia.mobile-xmf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.nortel.vbk
   encoding: base64
@@ -1478,6 +1630,7 @@
     template:
     - audio/vnd.nortel.vbk
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.nuera.ecelp4800
   friendly:
@@ -1491,6 +1644,7 @@
     template:
     - audio/vnd.nuera.ecelp4800
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.nuera.ecelp7470
   friendly:
@@ -1504,6 +1658,7 @@
     template:
     - audio/vnd.nuera.ecelp7470
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.nuera.ecelp9600
   friendly:
@@ -1517,6 +1672,7 @@
     template:
     - audio/vnd.nuera.ecelp9600
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.octel.sbc
   encoding: base64
@@ -1526,6 +1682,7 @@
     template:
     - audio/vnd.octel.sbc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.presonus.multitrack
   encoding: base64
@@ -1535,6 +1692,7 @@
     template:
     - audio/vnd.presonus.multitrack
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.qcelp
   encoding: base64
@@ -1550,6 +1708,7 @@
     notes:
     - "- DEPRECATED in favor of audio/qcelp"
   registered: true
+  sort-priority: 143
 - !ruby/object:MIME::Type
   content-type: audio/vnd.rhetorex.32kadpcm
   encoding: base64
@@ -1559,6 +1718,7 @@
     template:
     - audio/vnd.rhetorex.32kadpcm
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vnd.rip
   friendly:
@@ -1572,6 +1732,7 @@
     template:
     - audio/vnd.rip
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vnd.sealedmedia.softseal.mpeg
   encoding: base64
@@ -1585,6 +1746,7 @@
     template:
     - audio/vnd.sealedmedia.softseal.mpeg
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: audio/vnd.vmx.cvsd
   encoding: base64
@@ -1594,6 +1756,7 @@
     template:
     - audio/vnd.vmx.cvsd
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vorbis
   encoding: base64
@@ -1603,6 +1766,7 @@
     template:
     - audio/vorbis
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/vorbis-config
   encoding: base64
@@ -1612,6 +1776,7 @@
     template:
     - audio/vorbis-config
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/wav
   friendly:
@@ -1620,6 +1785,7 @@
   extensions:
   - wav
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/webm
   friendly:
@@ -1629,6 +1795,7 @@
   - weba
   - webm
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: audio/x-aac
   friendly:
@@ -1639,6 +1806,7 @@
   obsolete: true
   use-instead: audio/aac
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: audio/x-aiff
   friendly:
@@ -1649,12 +1817,14 @@
   - aifc
   - aiff
   registered: false
+  sort-priority: 45
 - !ruby/object:MIME::Type
   content-type: audio/x-caf
   encoding: base64
   extensions:
   - caf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-flac
   encoding: base64
@@ -1663,10 +1833,12 @@
   obsolete: true
   use-instead: audio/flac
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: audio/x-m4a
   encoding: base64
   registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: audio/x-matroska
   encoding: base64
@@ -1675,6 +1847,7 @@
   obsolete: true
   use-instead: audio/matroska
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: audio/x-midi
   encoding: base64
@@ -1683,6 +1856,7 @@
   - midi
   - kar
   registered: false
+  sort-priority: 45
 - !ruby/object:MIME::Type
   content-type: audio/x-mpegurl
   friendly:
@@ -1691,6 +1865,7 @@
   extensions:
   - m3u
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-ms-wax
   friendly:
@@ -1699,6 +1874,7 @@
   extensions:
   - wax
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-ms-wma
   friendly:
@@ -1707,12 +1883,14 @@
   extensions:
   - wma
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-ms-wmv
   encoding: base64
   extensions:
   - wmv
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-pn-realaudio
   friendly:
@@ -1722,6 +1900,7 @@
   - ra
   - ram
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: audio/x-pn-realaudio-plugin
   friendly:
@@ -1731,12 +1910,14 @@
   - rmp
   - rpm
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: audio/x-realaudio
   encoding: base64
   extensions:
   - ra
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-wav
   friendly:
@@ -1745,9 +1926,11 @@
   extensions:
   - wav
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/xm
   encoding: base64
   extensions:
   - xm
   registered: false
+  sort-priority: 47
