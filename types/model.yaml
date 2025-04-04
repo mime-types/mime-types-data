@@ -11,6 +11,7 @@
     template:
     - model/3mf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/e57
   encoding: base64
@@ -20,6 +21,7 @@
     template:
     - model/e57
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/example
   encoding: base64
@@ -29,6 +31,7 @@
     template:
     - model/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/gltf+json
   encoding: base64
@@ -39,6 +42,7 @@
     template:
     - model/gltf+json
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/gltf-binary
   encoding: base64
@@ -49,6 +53,7 @@
     template:
     - model/gltf-binary
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/iges
   friendly:
@@ -63,6 +68,7 @@
     template:
     - model/iges
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: model/JT
   encoding: base64
@@ -73,6 +79,7 @@
     template:
     - model/JT
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/mesh
   friendly:
@@ -88,6 +95,7 @@
     template:
     - model/mesh
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: model/mtl
   encoding: base64
@@ -99,6 +107,7 @@
     template:
     - model/mtl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/obj
   encoding: base64
@@ -110,6 +119,7 @@
     template:
     - model/obj
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/prc
   encoding: base64
@@ -120,6 +130,7 @@
     template:
     - model/prc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/step
   encoding: base64
@@ -130,6 +141,7 @@
     template:
     - model/step
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/step+xml
   encoding: base64
@@ -140,6 +152,7 @@
     template:
     - model/step+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/step+zip
   encoding: base64
@@ -150,6 +163,7 @@
     template:
     - model/step+zip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/step-xml+zip
   encoding: base64
@@ -160,6 +174,7 @@
     template:
     - model/step-xml+zip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/stl
   encoding: base64
@@ -171,6 +186,7 @@
     template:
     - model/stl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/u3d
   encoding: base64
@@ -181,6 +197,7 @@
     template:
     - model/u3d
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.bary
   encoding: base64
@@ -190,6 +207,7 @@
     template:
     - model/vnd.bary
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.cld
   encoding: base64
@@ -199,6 +217,7 @@
     template:
     - model/vnd.cld
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.collada+xml
   friendly:
@@ -212,6 +231,7 @@
     template:
     - model/vnd.collada+xml
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vnd.dwf
   friendly:
@@ -225,6 +245,7 @@
     template:
     - model/vnd.dwf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vnd.flatland.3dml
   encoding: base64
@@ -234,6 +255,7 @@
     template:
     - model/vnd.flatland.3dml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.gdl
   friendly:
@@ -247,6 +269,7 @@
     template:
     - model/vnd.gdl
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vnd.gs-gdl
   encoding: base64
@@ -256,6 +279,7 @@
     template:
     - model/vnd.gs-gdl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.gtw
   friendly:
@@ -269,6 +293,7 @@
     template:
     - model/vnd.gtw
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vnd.moml+xml
   encoding: base64
@@ -278,6 +303,7 @@
     template:
     - model/vnd.moml+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.mts
   friendly:
@@ -291,6 +317,7 @@
     template:
     - model/vnd.mts
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vnd.opengex
   encoding: base64
@@ -300,6 +327,7 @@
     template:
     - model/vnd.opengex
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.parasolid.transmit.binary
   encoding: base64
@@ -312,6 +340,7 @@
     template:
     - model/vnd.parasolid.transmit.binary
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: model/vnd.parasolid.transmit.text
   encoding: quoted-printable
@@ -324,6 +353,7 @@
     template:
     - model/vnd.parasolid.transmit.text
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: model/vnd.pytha.pyox
   encoding: base64
@@ -333,6 +363,7 @@
     template:
     - model/vnd.pytha.pyox
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.rosette.annotated-data-model
   encoding: base64
@@ -342,6 +373,7 @@
     template:
     - model/vnd.rosette.annotated-data-model
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.sap.vds
   encoding: base64
@@ -352,6 +384,7 @@
     template:
     - model/vnd.sap.vds
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.usda
   encoding: base64
@@ -361,6 +394,7 @@
     template:
     - model/vnd.usda
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.usdz+zip
   encoding: base64
@@ -370,6 +404,7 @@
     template:
     - model/vnd.usdz+zip
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.valve.source.compiled-map
   encoding: base64
@@ -379,6 +414,7 @@
     template:
     - model/vnd.valve.source.compiled-map
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/vnd.vtu
   friendly:
@@ -392,6 +428,7 @@
     template:
     - model/vnd.vtu
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/vrml
   friendly:
@@ -406,6 +443,7 @@
     template:
     - model/vrml
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: model/x3d+binary
   encoding: base64
@@ -413,6 +451,7 @@
   - x3db
   - x3dbz
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: model/x3d+fastinfoset
   encoding: base64
@@ -422,6 +461,7 @@
     template:
     - model/x3d+fastinfoset
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: model/x3d+vrml
   encoding: base64
@@ -429,6 +469,7 @@
   - x3dv
   - x3dvz
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: model/x3d+xml
   encoding: base64
@@ -442,6 +483,7 @@
     template:
     - model/x3d+xml
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: model/x3d-vrml
   encoding: base64
@@ -452,3 +494,4 @@
     template:
     - model/x3d-vrml
   registered: true
+  sort-priority: 16
