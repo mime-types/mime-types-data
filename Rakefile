@@ -4,8 +4,7 @@ require "rubygems"
 require "hoe"
 require "rake/clean"
 
-$LOAD_PATH.unshift("lib")
-$LOAD_PATH.unshift("support")
+$LOAD_PATH.unshift("lib", "support")
 
 Hoe.plugin :halostatue
 
@@ -81,11 +80,16 @@ namespace :release do
   end
 end
 
-desc "Default conversion from YAML to JSON and Columnar"
+desc "Full data conversion for release"
 task :convert do
   require "prepare_release"
 
   PrepareRelease.new.convert_types
+end
+
+task "convert:upgrade" do
+  require "convert"
+  Convert.from_yaml_to_yaml
 end
 
 Rake::Task["gem"].prerequisites.unshift("convert")
