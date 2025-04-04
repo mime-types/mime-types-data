@@ -2,6 +2,11 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0506.pre1 / 2025-04-03
+
+- Pre-release of data supporting precomputed priority sorting. The date is set
+  roughly one month in the future for testing purposes.
+
 ## 3.2025.0402 / 2025-04-02
 
 - Updated the Apache and IANA media registry entries as of release date

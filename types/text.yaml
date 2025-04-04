@@ -8,6 +8,7 @@
     template:
     - text/1d-interleaved-parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/cache-manifest
   encoding: quoted-printable
@@ -21,6 +22,7 @@
     template:
     - text/cache-manifest
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: text/calendar
   friendly:
@@ -35,6 +37,7 @@
     template:
     - text/calendar
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: text/comma-separated-values
   encoding: 8bit
@@ -43,6 +46,7 @@
   obsolete: true
   use-instead: text/csv
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: text/cql
   encoding: quoted-printable
@@ -53,6 +57,7 @@
     template:
     - text/cql
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/cql-expression
   encoding: quoted-printable
@@ -63,6 +68,7 @@
     template:
     - text/cql-expression
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/cql-identifier
   encoding: quoted-printable
@@ -73,6 +79,7 @@
     template:
     - text/cql-identifier
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/css
   friendly:
@@ -86,6 +93,7 @@
     template:
     - text/css
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/csv
   friendly:
@@ -100,6 +108,7 @@
     template:
     - text/csv
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/csv-schema
   encoding: quoted-printable
@@ -110,6 +119,7 @@
     template:
     - text/csv-schema
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/directory
   encoding: quoted-printable
@@ -123,6 +133,7 @@
     notes:
     - "- DEPRECATED by RFC6350"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: text/dns
   encoding: quoted-printable
@@ -132,6 +143,7 @@
     template:
     - text/dns
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/ecmascript
   encoding: quoted-printable
@@ -148,6 +160,7 @@
     notes:
     - "(OBSOLETED in favor of text/javascript)"
   registered: true
+  sort-priority: 142
 - !ruby/object:MIME::Type
   content-type: text/encaprtp
   encoding: quoted-printable
@@ -157,6 +170,7 @@
     template:
     - text/encaprtp
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/enriched
   encoding: quoted-printable
@@ -166,6 +180,7 @@
     template:
     - text/enriched
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/example
   encoding: quoted-printable
@@ -175,6 +190,7 @@
     template:
     - text/example
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/fhirpath
   encoding: quoted-printable
@@ -185,6 +201,7 @@
     template:
     - text/fhirpath
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/flexfec
   encoding: quoted-printable
@@ -194,6 +211,7 @@
     template:
     - text/flexfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/fwdred
   encoding: quoted-printable
@@ -203,6 +221,7 @@
     template:
     - text/fwdred
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/gff3
   encoding: quoted-printable
@@ -212,6 +231,7 @@
     template:
     - text/gff3
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/grammar-ref-list
   encoding: quoted-printable
@@ -221,6 +241,7 @@
     template:
     - text/grammar-ref-list
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/hl7v2
   encoding: quoted-printable
@@ -231,6 +252,7 @@
     template:
     - text/hl7v2
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/html
   friendly:
@@ -249,6 +271,7 @@
     template:
     - text/html
   registered: true
+  sort-priority: 11
 - !ruby/object:MIME::Type
   content-type: text/javascript
   encoding: quoted-printable
@@ -262,36 +285,42 @@
     template:
     - text/javascript
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: text/javascript1.0
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/javascript1.1
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/javascript1.2
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/javascript1.3
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/javascript1.4
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/jcr-cnd
   encoding: quoted-printable
@@ -301,18 +330,21 @@
     template:
     - text/jcr-cnd
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/jscript
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/livescript
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/markdown
   encoding: quoted-printable
@@ -326,6 +358,7 @@
     template:
     - text/markdown
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: text/mizar
   encoding: quoted-printable
@@ -335,6 +368,7 @@
     template:
     - text/mizar
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/n3
   friendly:
@@ -349,6 +383,7 @@
     template:
     - text/n3
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/nfo
   encoding: quoted-printable
@@ -357,6 +392,7 @@
     - Sean_Leonard
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: text/parameters
   encoding: quoted-printable
@@ -366,6 +402,7 @@
     template:
     - text/parameters
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/parityfec
   encoding: quoted-printable
@@ -375,6 +412,7 @@
     template:
     - text/parityfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/plain
   friendly:
@@ -408,6 +446,7 @@
     template:
     - text/plain
   registered: true
+  sort-priority: 0
 - !ruby/object:MIME::Type
   content-type: text/provenance-notation
   encoding: quoted-printable
@@ -418,6 +457,7 @@
     template:
     - text/provenance-notation
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/prs.fallenstein.rst
   encoding: quoted-printable
@@ -429,6 +469,7 @@
     template:
     - text/prs.fallenstein.rst
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/prs.lines.tag
   friendly:
@@ -442,6 +483,7 @@
     template:
     - text/prs.lines.tag
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/prs.prop.logic
   encoding: quoted-printable
@@ -451,6 +493,7 @@
     template:
     - text/prs.prop.logic
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/prs.texi
   encoding: quoted-printable
@@ -460,6 +503,7 @@
     template:
     - text/prs.texi
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/raptorfec
   encoding: quoted-printable
@@ -469,6 +513,7 @@
     template:
     - text/raptorfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/RED
   encoding: quoted-printable
@@ -478,6 +523,7 @@
     template:
     - text/RED
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/rfc822-headers
   encoding: quoted-printable
@@ -487,6 +533,7 @@
     template:
     - text/rfc822-headers
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/richtext
   friendly:
@@ -501,6 +548,7 @@
     template:
     - text/richtext
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/rtf
   encoding: 8bit
@@ -512,6 +560,7 @@
     template:
     - text/rtf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/rtp-enc-aescm128
   encoding: quoted-printable
@@ -521,6 +570,7 @@
     template:
     - text/rtp-enc-aescm128
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/rtploopback
   encoding: quoted-printable
@@ -530,6 +580,7 @@
     template:
     - text/rtploopback
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/rtx
   encoding: quoted-printable
@@ -539,6 +590,7 @@
     template:
     - text/rtx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/sgml
   friendly:
@@ -553,6 +605,7 @@
     template:
     - text/SGML
   registered: true
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: text/shaclc
   encoding: quoted-printable
@@ -563,6 +616,7 @@
     template:
     - text/shaclc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/shex
   encoding: quoted-printable
@@ -573,6 +627,7 @@
     template:
     - text/shex
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/spdx
   encoding: quoted-printable
@@ -583,6 +638,7 @@
     template:
     - text/spdx
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/strings
   encoding: quoted-printable
@@ -592,6 +648,7 @@
     template:
     - text/strings
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/t140
   encoding: quoted-printable
@@ -601,6 +658,7 @@
     template:
     - text/t140
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/tab-separated-values
   friendly:
@@ -614,6 +672,7 @@
     template:
     - text/tab-separated-values
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/troff
   friendly:
@@ -633,6 +692,7 @@
     template:
     - text/troff
   registered: true
+  sort-priority: 9
 - !ruby/object:MIME::Type
   content-type: text/turtle
   friendly:
@@ -647,6 +707,7 @@
     template:
     - text/turtle
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/ulpfec
   encoding: quoted-printable
@@ -656,6 +717,7 @@
     template:
     - text/ulpfec
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/uri-list
   friendly:
@@ -671,6 +733,7 @@
     template:
     - text/uri-list
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: text/vcard
   encoding: quoted-printable
@@ -683,6 +746,7 @@
     - text/vcard
   registered: true
   signature: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.a
   encoding: quoted-printable
@@ -692,6 +756,7 @@
     template:
     - text/vnd.a
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.abc
   encoding: quoted-printable
@@ -701,6 +766,7 @@
     template:
     - text/vnd.abc
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.ascii-art
   encoding: quoted-printable
@@ -710,6 +776,7 @@
     template:
     - text/vnd.ascii-art
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.curl
   friendly:
@@ -723,6 +790,7 @@
     template:
     - text/vnd.curl
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.curl.dcurl
   friendly:
@@ -731,6 +799,7 @@
   extensions:
   - dcurl
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/vnd.curl.mcurl
   friendly:
@@ -739,6 +808,7 @@
   extensions:
   - mcurl
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/vnd.curl.scurl
   friendly:
@@ -747,6 +817,7 @@
   extensions:
   - scurl
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/vnd.debian.copyright
   encoding: quoted-printable
@@ -756,6 +827,7 @@
     template:
     - text/vnd.debian.copyright
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.DMClientScript
   encoding: quoted-printable
@@ -765,6 +837,7 @@
     template:
     - text/vnd.DMClientScript
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.dvb.subtitle
   encoding: quoted-printable
@@ -777,6 +850,7 @@
     template:
     - text/vnd.dvb.subtitle
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.esmertec.theme-descriptor
   encoding: quoted-printable
@@ -786,6 +860,7 @@
     template:
     - text/vnd.esmertec.theme-descriptor
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.exchangeable
   encoding: quoted-printable
@@ -795,6 +870,7 @@
     template:
     - text/vnd.exchangeable
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.familysearch.gedcom
   encoding: quoted-printable
@@ -804,6 +880,7 @@
     template:
     - text/vnd.familysearch.gedcom
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.ficlab.flt
   encoding: quoted-printable
@@ -813,12 +890,14 @@
     template:
     - text/vnd.ficlab.flt
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.flatland.3dml
   encoding: quoted-printable
   obsolete: true
   use-instead: model/vnd.flatland.3dml
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/vnd.fly
   friendly:
@@ -832,6 +911,7 @@
     template:
     - text/vnd.fly
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.fmi.flexstor
   friendly:
@@ -845,6 +925,7 @@
     template:
     - text/vnd.fmi.flexstor
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.gml
   encoding: quoted-printable
@@ -854,6 +935,7 @@
     template:
     - text/vnd.gml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.graphviz
   friendly:
@@ -867,6 +949,7 @@
     template:
     - text/vnd.graphviz
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.hans
   encoding: quoted-printable
@@ -876,6 +959,7 @@
     template:
     - text/vnd.hans
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.hgl
   encoding: quoted-printable
@@ -885,6 +969,7 @@
     template:
     - text/vnd.hgl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.in3d.3dml
   friendly:
@@ -898,6 +983,7 @@
     template:
     - text/vnd.in3d.3dml
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.in3d.spot
   friendly:
@@ -911,6 +997,7 @@
     template:
     - text/vnd.in3d.spot
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.IPTC.NewsML
   encoding: quoted-printable
@@ -920,6 +1007,7 @@
     template:
     - text/vnd.IPTC.NewsML
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.IPTC.NITF
   encoding: quoted-printable
@@ -929,6 +1017,7 @@
     template:
     - text/vnd.IPTC.NITF
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.latex-z
   encoding: quoted-printable
@@ -938,6 +1027,7 @@
     template:
     - text/vnd.latex-z
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.motorola.reflex
   encoding: quoted-printable
@@ -947,6 +1037,7 @@
     template:
     - text/vnd.motorola.reflex
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.ms-mediapackage
   encoding: quoted-printable
@@ -956,6 +1047,7 @@
     template:
     - text/vnd.ms-mediapackage
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.net2phone.commcenter.command
   encoding: quoted-printable
@@ -967,6 +1059,7 @@
     template:
     - text/vnd.net2phone.commcenter.command
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.radisys.msml-basic-layout
   encoding: quoted-printable
@@ -976,6 +1069,7 @@
     template:
     - text/vnd.radisys.msml-basic-layout
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.senx.warpscript
   encoding: quoted-printable
@@ -985,6 +1079,7 @@
     template:
     - text/vnd.senx.warpscript
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.si.uricatalogue
   encoding: quoted-printable
@@ -997,6 +1092,7 @@
     notes:
     - "(OBSOLETED by request)"
   registered: true
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: text/vnd.sosi
   encoding: quoted-printable
@@ -1006,6 +1102,7 @@
     template:
     - text/vnd.sosi
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.sun.j2me.app-descriptor
   friendly:
@@ -1019,6 +1116,7 @@
     template:
     - text/vnd.sun.j2me.app-descriptor
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.trolltech.linguist
   encoding: quoted-printable
@@ -1028,6 +1126,7 @@
     template:
     - text/vnd.trolltech.linguist
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.typst
   encoding: quoted-printable
@@ -1037,6 +1136,7 @@
     template:
     - text/vnd.typst
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.vcf
   encoding: quoted-printable
@@ -1046,6 +1146,7 @@
     template:
     - text/vnd.vcf
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.wap.si
   encoding: quoted-printable
@@ -1057,6 +1158,7 @@
     template:
     - text/vnd.wap.si
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.wap.sl
   encoding: quoted-printable
@@ -1068,6 +1170,7 @@
     template:
     - text/vnd.wap.sl
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.wap.wml
   friendly:
@@ -1081,6 +1184,7 @@
     template:
     - text/vnd.wap.wml
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.wap.wmlscript
   friendly:
@@ -1094,6 +1198,7 @@
     template:
     - text/vnd.wap.wmlscript
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/vnd.zoo.kcl
   encoding: quoted-printable
@@ -1103,6 +1208,7 @@
     template:
     - text/vnd.zoo.kcl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vtt
   encoding: quoted-printable
@@ -1115,6 +1221,7 @@
     template:
     - text/vtt
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: text/wgsl
   encoding: quoted-printable
@@ -1125,6 +1232,7 @@
     template:
     - text/wgsl
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/x-asm
   friendly:
@@ -1134,6 +1242,7 @@
   - asm
   - s
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: text/x-c
   friendly:
@@ -1148,24 +1257,28 @@
   - h
   - hh
   registered: false
+  sort-priority: 41
 - !ruby/object:MIME::Type
   content-type: text/x-coffescript
   encoding: 8bit
   extensions:
   - coffee
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-component
   encoding: 8bit
   extensions:
   - htc
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-ecmascript
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/x-fortran
   friendly:
@@ -1177,6 +1290,7 @@
   - f90
   - for
   registered: false
+  sort-priority: 44
 - !ruby/object:MIME::Type
   content-type: text/x-java-source
   friendly:
@@ -1185,18 +1299,21 @@
   extensions:
   - java
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-nfo
   encoding: quoted-printable
   extensions:
   - nfo
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-opml
   encoding: quoted-printable
   extensions:
   - opml
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-pascal
   friendly:
@@ -1206,6 +1323,7 @@
   - p
   - pas
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: text/x-rtf
   encoding: 8bit
@@ -1214,6 +1332,7 @@
   obsolete: true
   use-instead: text/rtf
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: text/x-setext
   friendly:
@@ -1222,12 +1341,14 @@
   extensions:
   - etx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-sfv
   encoding: quoted-printable
   extensions:
   - sfv
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-uuencode
   friendly:
@@ -1236,6 +1357,7 @@
   extensions:
   - uu
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-vcalendar
   friendly:
@@ -1244,6 +1366,7 @@
   extensions:
   - vcs
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-vcard
   friendly:
@@ -1253,12 +1376,14 @@
   - vcf
   registered: false
   signature: true
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-vnd.flatland.3dml
   encoding: quoted-printable
   obsolete: true
   use-instead: model/vnd.flatland.3dml
   registered: false
+  sort-priority: 176
 - !ruby/object:MIME::Type
   content-type: text/x-yaml
   encoding: 8bit
@@ -1266,6 +1391,7 @@
   - yaml
   - yml
   registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: text/xml
   encoding: 8bit
@@ -1279,6 +1405,7 @@
     template:
     - text/xml
   registered: true
+  sort-priority: 13
 - !ruby/object:MIME::Type
   content-type: text/xml-external-parsed-entity
   encoding: quoted-printable
@@ -1288,3 +1415,4 @@
     template:
     - text/xml-external-parsed-entity
   registered: true
+  sort-priority: 16

@@ -7,6 +7,7 @@
   extensions:
   - cdx
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: chemical/x-cif
   friendly:
@@ -15,6 +16,7 @@
   extensions:
   - cif
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: chemical/x-cmdf
   friendly:
@@ -23,6 +25,7 @@
   extensions:
   - cmdf
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: chemical/x-cml
   friendly:
@@ -31,6 +34,7 @@
   extensions:
   - cml
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: chemical/x-csml
   friendly:
@@ -39,6 +43,7 @@
   extensions:
   - csml
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: chemical/x-pdb
   encoding: base64
@@ -47,6 +52,7 @@
   obsolete: true
   use-instead: x-chemical/x-pdb
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: chemical/x-xyz
   friendly:
@@ -57,15 +63,18 @@
   obsolete: true
   use-instead: x-chemical/x-xyz
   registered: false
+  sort-priority: 175
 - !ruby/object:MIME::Type
   content-type: x-chemical/x-pdb
   encoding: base64
   extensions:
   - pdb
   registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: x-chemical/x-xyz
   encoding: base64
   extensions:
   - xyz
   registered: false
+  sort-priority: 47

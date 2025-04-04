@@ -8,6 +8,7 @@
     template:
     - haptics/hjif
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: haptics/hmpg
   encoding: base64
@@ -17,6 +18,7 @@
     template:
     - haptics/hmpg
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: haptics/ivs
   encoding: base64
@@ -26,3 +28,4 @@
     template:
     - haptics/ivs
   registered: true
+  sort-priority: 16
