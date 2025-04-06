@@ -31,7 +31,6 @@ class Convert::Columnar < Convert
     dict_file("xrefs")
     dict_file("friendly")
     option_file("use_instead", "use-instead")
-    dict_file("extpri", "extension-priorities")
     bin_file("spri", "sort-priority")
   end
 

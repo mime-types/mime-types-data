@@ -28,7 +28,7 @@ Hoe.spec "mime-types-data" do
 
   extra_dev_deps << ["hoe", "~> 4.0"]
   extra_dev_deps << ["hoe-halostatue", "~> 2.0"]
-  extra_dev_deps << ["mime-types", ">= 3.4.0", "< 4"]
+  extra_dev_deps << ["mime-types", ">= 3.7.0.pre1", "< 4"]
   extra_dev_deps << ["nokogiri", "~> 1.6"]
   extra_dev_deps << ["rake", ">= 10.0", "< 14"]
   extra_dev_deps << ["standard", "~> 1.0"]
