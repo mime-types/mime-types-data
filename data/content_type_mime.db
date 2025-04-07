@@ -820,7 +820,7 @@ uu          text/x-uuencode                                                     
 vcs         text/x-vcalendar                                                          8bit            
 vcf         text/x-vcard                                                              8bit            
 yaml        text/x-yaml                                                               8bit            
-xml         text/xml                                                                  8bit            
+dtd         text/xml                                                                  8bit            
 3gp         video/3gpp                                                                base64          
 3g2         video/3gpp2                                                               base64          
 dv          video/DV                                                                  base64          
@@ -829,7 +829,7 @@ h263        video/H263                                                          
 h264        video/H264                                                                base64          
 jpgv        video/JPEG                                                                base64          
 mj2         video/MJ2                                                                 base64          
-ts          video/MP2T                                                                base64          
+bdm         video/MP2T                                                                base64          
 mp4         video/mp4                                                                 base64          
 mp2         video/mpeg                                                                base64          
 ogg         video/ogg                                                                 base64          
