@@ -1,8 +1,8 @@
-# stub: mime-types-data 3.2025.0506.pre1 ruby lib
+# stub: mime-types-data 3.2025.0506.pre2 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2025.0506.pre1".freeze
+  s.version = "3.2025.0506.pre2".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = {"bug_tracker_uri" => "https://github.com/mime-types/mime-types-data/issues", "changelog_uri" => "https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md", "homepage_uri" => "https://github.com/mime-types/mime-types-data/", "rubygems_mfa_required" => "true", "source_code_uri" => "https://github.com/mime-types/mime-types-data/"} if s.respond_to? :metadata=
@@ -20,11 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency("hoe".freeze, ["~> 4.0".freeze])
   s.add_development_dependency("hoe-halostatue".freeze, ["~> 2.0".freeze])
-  s.add_development_dependency("mime-types".freeze, [">= 3.4.0".freeze, "< 4".freeze])
-  s.add_development_dependency("nokogiri".freeze, ["~> 1.6".freeze])
-  s.add_development_dependency("rake".freeze, [">= 10.0".freeze, "< 14".freeze])
-  s.add_development_dependency("standard".freeze, ["~> 1.0".freeze])
-  s.add_development_dependency("mime-types".freeze, [">= 3.7.0.pre1".freeze, "< 4".freeze])
+  s.add_development_dependency("mime-types".freeze, [">= 3.7.0.pre2".freeze, "< 4".freeze])
   s.add_development_dependency("nokogiri".freeze, ["~> 1.6".freeze])
   s.add_development_dependency("rake".freeze, [">= 10.0".freeze, "< 14".freeze])
   s.add_development_dependency("standard".freeze, ["~> 1.0".freeze])
