@@ -16,6 +16,7 @@ data/mime.encoding.column
 data/mime.flags.column
 data/mime.friendly.column
 data/mime.pext.column
+data/mime.spri.column
 data/mime.use_instead.column
 data/mime.xrefs.column
 lib/mime-types-data.rb

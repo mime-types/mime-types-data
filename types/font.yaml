@@ -10,6 +10,7 @@
     template:
     - font/collection
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/otf
   encoding: base64
@@ -21,6 +22,7 @@
     template:
     - font/otf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/sfnt
   encoding: base64
@@ -30,6 +32,7 @@
     template:
     - font/sfnt
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: font/ttf
   encoding: base64
@@ -41,6 +44,7 @@
     template:
     - font/ttf
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/woff
   encoding: base64
@@ -52,6 +56,7 @@
     template:
     - font/woff
   registered: true
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: font/woff2
   encoding: base64
@@ -63,3 +68,4 @@
     template:
     - font/woff2
   registered: true
+  sort-priority: 15

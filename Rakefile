@@ -4,8 +4,7 @@ require "rubygems"
 require "hoe"
 require "rake/clean"
 
-$LOAD_PATH.unshift("lib")
-$LOAD_PATH.unshift("support")
+$LOAD_PATH.unshift("lib", "support")
 
 Hoe.plugin :halostatue
 
@@ -29,7 +28,7 @@ Hoe.spec "mime-types-data" do
 
   extra_dev_deps << ["hoe", "~> 4.0"]
   extra_dev_deps << ["hoe-halostatue", "~> 2.0"]
-  extra_dev_deps << ["mime-types", ">= 3.4.0", "< 4"]
+  extra_dev_deps << ["mime-types", ">= 3.7.0.pre2", "< 4"]
   extra_dev_deps << ["nokogiri", "~> 1.6"]
   extra_dev_deps << ["rake", ">= 10.0", "< 14"]
   extra_dev_deps << ["standard", "~> 1.0"]
@@ -81,11 +80,16 @@ namespace :release do
   end
 end
 
-desc "Default conversion from YAML to JSON and Columnar"
+desc "Full data conversion for release"
 task :convert do
   require "prepare_release"
 
   PrepareRelease.new.convert_types
+end
+
+task "convert:upgrade" do
+  require "convert"
+  Convert.from_yaml_to_yaml
 end
 
 Rake::Task["gem"].prerequisites.unshift("convert")
