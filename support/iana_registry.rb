@@ -119,7 +119,14 @@ class IANARegistry
 
   def save
     @to.mkpath
-    File.open(@file, "wb") { |f| f.puts @types.map.to_a.sort.uniq.to_yaml }
+    File.open(@file, "wb") { |f|
+      f.puts @types
+        .map
+        .to_a
+        .sort { |a, b| a.content_type.casecmp(b.content_type) }
+        .uniq
+        .to_yaml
+    }
   end
 
   def merge_types(other)
