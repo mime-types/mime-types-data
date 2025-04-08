@@ -3,11 +3,13 @@ require_relative "convert"
 require_relative "convert/columnar"
 require_relative "convert/mini_mime_db"
 require_relative "iana_registry"
+require_relative "tika_mime_types"
 
 class PrepareRelease
   def download_and_convert
     download_apache_mime_types
     download_iana_mime_types
+    download_tike_mime_types
     convert_types
     self
   end
@@ -83,6 +85,10 @@ class PrepareRelease
     IANARegistry.download(to: destination)
   end
 
+  def download_tike_mime_types(destination = nil)
+    TikeMIMETypes.download(to: destination)
+  end
+
   def convert_yaml_to_json
     Convert.from_yaml_to_json
   end
@@ -123,6 +129,10 @@ class PrepareRelease
   end
 
   def history_body
-    "- Updated the Apache and IANA media registry entries as of release date"
+    <<-MARKDOWN
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
+  and the [Apache Tika media registry][tika] as of the release date.
+    MARKDOWN
   end
 end

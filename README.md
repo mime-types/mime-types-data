@@ -3,7 +3,8 @@
 - home :: https://github.com/mime-types/mime-types-data/
 - issues :: https://github.com/mime-types/mime-types-data/issues
 - code :: https://github.com/mime-types/mime-types-data/
-- changelog :: https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md
+- changelog ::
+  https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md
 
 ## Description
 
@@ -20,7 +21,8 @@ provided in mime-types-data contains detailed information about MIME entities.
 There are many types defined by RFCs and vendors, so the list is long but
 invariably; don't hesitate to offer additional type definitions for
 consideration. MIME type definitions found in mime-types are from RFCs, W3C
-recommendations, the [IANA Media Types registry][registry], and user
+recommendations, the [IANA Media Types registry][registry], the
+[Apache httpd registry][httpd], the [Apache Tika media registry][tika] and user
 contributions. It conforms to RFCs 2045 and 2231.
 
 ### Data Formats Supported in this Registry
@@ -51,17 +53,19 @@ This registry contains the MIME media types in four formats:
 
 ## mime-types-data Modified Semantic Versioning
 
-mime-types-data uses a heavily modified [Semantic Versioning][semver] scheme to
-indicate that the data formats compatibility based on a `SCHEMA` version and the
-date of the data update: `SCHEMA.YEAR.MONTHDAY`.
+mime-types-data uses a [Semantic Versioning][semver] scheme heavily modified
+with [Calendar Versioning][calver] aspects to indicate that the data formats
+compatibility based on a `SCHEMA` version and the date of the data update:
+`SCHEMA.YEAR.MONTHDAY`.
 
 1. If an incompatible data format change is made to any of the supported
    formats, `SCHEMA` will be incremented. The current `SCHEMA` is 3, supporting
-   the YAML, JSON, and columnar formats required for Ruby mime-types 3.0.
+   the YAML, JSON, columnar, and mini-mime formats required for Ruby mime-types
+   3.0.
 
 2. When the data is updated, the `YEAR.MONTHDAY` combination will be updated. An
-   update on the last day of October 2015 would be written as `2015.1031`,
-   resulting in the full version of `3.2015.1031`.
+   update on the last day of October 2025 would be written as `2025.1031`,
+   resulting in the full version of `3.2025.1031`.
 
 3. If multiple versions of the data need to be released on the same day due to
    error, there will be an additional `REVISION` field incremented on the end of
@@ -69,6 +73,9 @@ date of the data update: `SCHEMA.YEAR.MONTHDAY`.
    2015, the last release would be `3.2015.1031.2` (remember that the first
    release has an implied `0`.)
 
-[registry]: https://www.iana.org/assignments/media-types/media-types.xhtml
+[registry]: https://www.iana.org/assignments/media-types/media-types.xml
 [semver]: http://semver.org/
 [minimime]: https://github.com/discourse/mini_mime
+[httpd]: https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
+[tika]: https://github.com/apache/tika/blob/main/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
+[calver]: https://calver.org
