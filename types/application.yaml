@@ -871,6 +871,14 @@
     - application/cfw
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/cid
+  encoding: base64
+  xrefs:
+    person:
+    - Michael_B_Jones
+  registered: true
+  provisional: true
+- !ruby/object:MIME::Type
   content-type: application/cid-edhoc+cbor-seq
   encoding: base64
   xrefs:
@@ -16647,6 +16655,15 @@
     - Delton_Rowe
     template:
     - application/vnd.vsf
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.wantverse
+  encoding: base64
+  xrefs:
+    person:
+    - John_J_Kolb_V
+    template:
+    - application/vnd.wantverse
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.wap.sic

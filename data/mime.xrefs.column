@@ -90,6 +90,7 @@ rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses-07
 person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
+person^Michael_B_Jones
 rfc^rfc9528|template^application/cid-edhoc+cbor-seq
 person^OGC^Scott_Simmons|template^application/city+json
 person^OGC^Scott_Simmons|template^application/city+json-seq
@@ -1638,6 +1639,7 @@ person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
 person^Wu_Chang|template^application/vnd.vocalshaper.vsp4
 person^Delton_Rowe|template^application/vnd.vsf
+person^John_J_Kolb_V|template^application/vnd.wantverse
 person^WAP-Forum|template^application/vnd.wap.sic
 person^WAP-Forum|template^application/vnd.wap.slc
 person^Peter_Stark|template^application/vnd.wap.wbxml
