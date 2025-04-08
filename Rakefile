@@ -41,10 +41,16 @@ namespace :mime do
     IANARegistry.download(to: args.destination)
   end
 
-  desc "Download the current MIME type configuration from Apache."
+  desc "Download the current MIME type configuration from Apache httpd."
   task :apache, [:destination] do |_, args|
     require "apache_mime_types"
     ApacheMIMETypes.download(to: args.destination)
+  end
+
+  desc "Download the current MIME type configuration from Apache Tika."
+  task :tika, [:destination] do |_, args|
+    require "tika_mime_types"
+    TikeMIMETypes.download(to: args.destination)
   end
 end
 
