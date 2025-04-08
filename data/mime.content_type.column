@@ -90,6 +90,7 @@ application/cellml+xml
 application/cert-chain+cbor
 application/CESR
 application/cfw
+application/cid
 application/cid-edhoc+cbor-seq
 application/city+json
 application/city+json-seq
@@ -1638,6 +1639,7 @@ application/vnd.visionary vis
 application/vnd.vividence.scriptfile
 application/vnd.vocalshaper.vsp4
 application/vnd.vsf vsf
+application/vnd.wantverse
 application/vnd.wap.sic sic
 application/vnd.wap.slc slc
 application/vnd.wap.wbxml wbxml
