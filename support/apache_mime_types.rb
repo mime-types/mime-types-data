@@ -11,10 +11,10 @@ require "English"
 
 require "mime/types/support"
 
-# Update MIME types from the Apache master list
+# Update MIME types from the Apache httpd master list
 class ApacheMIMETypes
   DEFAULTS = {
-    url: "http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types",
+    url: "https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types",
     to: Pathname(__FILE__).join("../../types")
   }.freeze.each_value(&:freeze)
 
@@ -24,7 +24,7 @@ class ApacheMIMETypes
     dest = Pathname(options[:to] || DEFAULTS[:to]).expand_path
     url = options.fetch(:url, DEFAULTS[:url])
 
-    puts "Downloading Apache MIME type list."
+    puts "Downloading Apache httpd MIME type list."
     puts "\t#{url}"
     data = URI.parse(url).open(&:read).split($INPUT_RECORD_SEPARATOR)
     data.delete_if { |line| line.start_with?("#") }
@@ -84,7 +84,14 @@ class ApacheMIMETypes
 
   def save
     @to.mkpath
-    File.open(@file, "wb") { |f| f.puts @types.map.to_a.sort.to_yaml }
+    File.open(@file, "wb") { |f|
+      f.puts @types
+        .map
+        .to_a
+        .sort { |a, b| a.content_type.casecmp(b.content_type) }
+        .uniq
+        .to_yaml
+    }
   end
 
   private
