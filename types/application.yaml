@@ -970,6 +970,7 @@
     - Michael_B_Jones
   registered: true
   provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/cid-edhoc+cbor-seq
   encoding: base64
@@ -18305,6 +18306,7 @@
     template:
     - application/vnd.wantverse
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.wap.sic
   encoding: base64

@@ -2,7 +2,7 @@
 
 <!-- automatic-release -->
 
-## 3.2025.0506.pre2 / 2025-04-03
+## 3.2025.0506.pre3 / 2025-04-08
 
 - Pre-release of data supporting precomputed priority sorting. The date is set
   roughly one month in the future for testing purposes.
