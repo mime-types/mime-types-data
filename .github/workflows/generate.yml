@@ -28,6 +28,7 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
+            objects.githubusercontent.com:443
             api.github.com:443
             github.com:443
             index.rubygems.org:443
