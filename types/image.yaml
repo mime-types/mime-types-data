@@ -624,6 +624,15 @@
     - image/vnd.airzip.accelerator.azv
   registered: true
 - !ruby/object:MIME::Type
+  content-type: image/vnd.blockfact.facti
+  encoding: base64
+  xrefs:
+    person:
+    - Egbert_von_Frankenberg
+    template:
+    - image/vnd.blockfact.facti
+  registered: true
+- !ruby/object:MIME::Type
   content-type: image/vnd.clip
   encoding: base64
   xrefs:

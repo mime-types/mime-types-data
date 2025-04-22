@@ -876,6 +876,9 @@
   xrefs:
     person:
     - Michael_B_Jones
+    - W3C_Verifiable_Credentials_WG
+    template:
+    - application/cid
   registered: true
   provisional: true
 - !ruby/object:MIME::Type
@@ -5266,6 +5269,15 @@
     - application/TETRA_ISI
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/texinfo
+  encoding: base64
+  xrefs:
+    person:
+    - Simon_Josefsson
+    template:
+    - application/texinfo
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/thraud+xml
   friendly:
     en: Sharing Transaction Fraud Data
@@ -5374,6 +5386,8 @@
     - Ben_van_Hartingsveldt
     uri:
     - https://github.com/toml-lang/toml/issues/870
+    note:
+    - '2'
     template:
     - application/toml
   registered: true
@@ -7297,6 +7311,15 @@
     - Yüksel_Aydemir
     template:
     - application/vnd.capasystems-pg+json
+  registered: true
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cel
+  encoding: base64
+  xrefs:
+    person:
+    - Tristan_Swadell
+    template:
+    - application/vnd.cel
   registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.cendio.thinlinc.clientconf
@@ -14735,6 +14758,15 @@
     - application/vnd.pmi.widget
   registered: true
 - !ruby/object:MIME::Type
+  content-type: application/vnd.pmtiles
+  encoding: base64
+  xrefs:
+    person:
+    - Sascha_Brawer
+    template:
+    - application/vnd.pmtiles
+  registered: true
+- !ruby/object:MIME::Type
   content-type: application/vnd.poc.group-advertisement+xml
   encoding: base64
   xrefs:
@@ -15971,6 +16003,15 @@
   extensions:
   - stw
   registered: false
+- !ruby/object:MIME::Type
+  content-type: application/vnd.superfile.super
+  encoding: base64
+  xrefs:
+    person:
+    - Shane_Valdez
+    template:
+    - application/vnd.superfile.super
+  registered: true
 - !ruby/object:MIME::Type
   content-type: application/vnd.sus-calendar
   friendly:

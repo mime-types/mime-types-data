@@ -533,6 +533,7 @@ application/taxii+json
 application/td+json
 application/tei+xml tei teicorpus
 application/TETRA_ISI
+application/texinfo
 application/thraud+xml tfi
 application/timestamp-query
 application/timestamp-reply
@@ -742,6 +743,7 @@ application/vnd.cab-jscript
 application/vnd.canon-cpdl
 application/vnd.canon-lips
 application/vnd.capasystems-pg+json
+application/vnd.cel
 application/vnd.cendio.thinlinc.clientconf
 application/vnd.century-systems.tcp_stream
 application/vnd.chemdraw+xml cdxml
@@ -1450,6 +1452,7 @@ application/vnd.pg.osasli ei6
 application/vnd.piaccess.application-licence
 application/vnd.picsel efif
 application/vnd.pmi.widget wg
+application/vnd.pmtiles
 application/vnd.poc.group-advertisement+xml
 application/vnd.pocketlearn plf
 application/vnd.powerbuilder6 pbd
@@ -1573,6 +1576,7 @@ application/vnd.sun.xml.math sxm
 application/vnd.sun.xml.writer sxw
 application/vnd.sun.xml.writer.global sxg
 application/vnd.sun.xml.writer.template stw
+application/vnd.superfile.super
 application/vnd.sus-calendar sus susp
 application/vnd.svd svd
 application/vnd.swiftview-ics
@@ -2195,6 +2199,7 @@ image/tiff tiff tif
 image/tiff-fx
 image/vnd.adobe.photoshop psd
 image/vnd.airzip.accelerator.azv
+image/vnd.blockfact.facti
 image/vnd.clip
 image/vnd.cns.inf2
 image/vnd.dece.graphic uvg uvi uvvg uvvi

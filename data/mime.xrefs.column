@@ -90,7 +90,7 @@ rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses-07
 person^Samuel_M._Smith
 rfc^rfc6230|template^application/cfw
-person^Michael_B_Jones
+person^Michael_B_Jones^W3C_Verifiable_Credentials_WG|template^application/cid
 rfc^rfc9528|template^application/cid-edhoc+cbor-seq
 person^OGC^Scott_Simmons|template^application/city+json
 person^OGC^Scott_Simmons|template^application/city+json-seq
@@ -533,6 +533,7 @@ person^Chet_Ensign^OASIS|template^application/taxii+json
 person^Matthias_Kovatsch^W3C|template^application/td+json
 rfc^rfc6129|template^application/tei+xml
 person^ETSI^Miguel_Angel_Reina_Ortega|template^application/TETRA_ISI
+person^Simon_Josefsson|template^application/texinfo
 rfc^rfc5941|template^application/thraud+xml
 rfc^rfc3161|template^application/timestamp-query
 rfc^rfc3161|template^application/timestamp-reply
@@ -543,7 +544,7 @@ person^Sebastian_Kaebisch^W3C|template^application/tm+json
 rfc^rfc8226|template^application/tnauthlist
 person^Ned_M._Smith^TCG_DICE|template^application/toc+cbor
 rfc^rfc9701|template^application/token-introspection+jwt
-person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
+note^2|person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github.com/toml-lang/toml/issues/870
 -
 rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_WG|template^application/trig
@@ -742,6 +743,7 @@ person^Joerg_Falkenberg|template^application/vnd.cab-jscript
 person^Shin_Muto|template^application/vnd.canon-cpdl
 person^Shin_Muto|template^application/vnd.canon-lips
 person^Yüksel_Aydemir|template^application/vnd.capasystems-pg+json
+person^Tristan_Swadell|template^application/vnd.cel
 person^Peter_Astrand|template^application/vnd.cendio.thinlinc.clientconf
 person^Shuji_Fujii|template^application/vnd.century-systems.tcp_stream
 person^Glenn_Howes|template^application/vnd.chemdraw+xml
@@ -1450,6 +1452,7 @@ person^April_Gandert|template^application/vnd.pg.osasli
 person^Lucas_Maneos|template^application/vnd.piaccess.application-licence
 person^Giuseppe_Naccarato|template^application/vnd.picsel
 person^Rhys_Lewis|template^application/vnd.pmi.widget
+person^Sascha_Brawer|template^application/vnd.pmtiles
 person^OMA_Push_to_Talk_over_Cellular_POC_WG^Sean_Kelley|template^application/vnd.poc.group-advertisement+xml
 person^Jorge_Pando|template^application/vnd.pocketlearn
 person^David_Guy|template^application/vnd.powerbuilder6
@@ -1573,6 +1576,7 @@ person^Marc_Hadley|template^application/vnd.sun.wadl+xml
 -
 -
 -
+person^Shane_Valdez|template^application/vnd.superfile.super
 person^Jonathan_Niedfeldt|template^application/vnd.sus-calendar
 person^Scott_Becker|template^application/vnd.svd
 person^Glenn_Widener|template^application/vnd.swiftview-ics
@@ -2195,6 +2199,7 @@ rfc^rfc3302|template^image/tiff
 rfc^rfc3950|template^image/tiff-fx
 person^Kim_Scarborough|template^image/vnd.adobe.photoshop
 person^Gary_Clueit|template^image/vnd.airzip.accelerator.azv
+person^Egbert_von_Frankenberg|template^image/vnd.blockfact.facti
 person^Ryo_Inaba|template^image/vnd.clip
 person^Ann_McLaughlin|template^image/vnd.cns.inf2
 person^Michael_A_Dolan|template^image/vnd.dece.graphic
