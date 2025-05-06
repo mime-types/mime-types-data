@@ -627,11 +627,16 @@ person^John_M_Meredith|template^application/vnd.3gpp.pic-bw-small
 person^John_M_Meredith|template^application/vnd.3gpp.pic-bw-var
 person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.pinapp-info+xml
 person^Yang_Yong^_3GPP|template^application/vnd.3gpp.s1ap
+person^_3GPP|template^application/vnd.3gpp.seal-app-comm-requirements-info+xml
+person^_3GPP|template^application/vnd.3gpp.seal-data-delivery-info+cbor
 person^Sapan_Shah|template^application/vnd.3gpp.seal-group-doc+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-info+xml
+person^_3GPP|template^application/vnd.3gpp.seal-location-info+cbor
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-location-info+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-mbms-usage-info+xml
+person^_3GPP|template^application/vnd.3gpp.seal-mbs-usage-info+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-network-QoS-management-info+xml
+person^_3GPP|template^application/vnd.3gpp.seal-network-resource-info+cbor
 person^Sapan_Shah|template^application/vnd.3gpp.seal-ue-config-info+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-unicast-info+xml
 person^Sapan_Shah|template^application/vnd.3gpp.seal-user-profile-info+xml
