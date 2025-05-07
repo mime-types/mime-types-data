@@ -690,6 +690,7 @@
     template:
     - image/vnd.blockfact.facti
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: image/vnd.clip
   encoding: base64

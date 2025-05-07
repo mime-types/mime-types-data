@@ -2,23 +2,11 @@
 
 <!-- automatic-release -->
 
-## 3.2025.0506 / 2025-05-06
+## 3.2025.0507 / 2025-05-07
 
-- Updated the Apache and IANA media registry entries as of release date
-
-## 3.2025.0429 / 2025-04-29
-
-- Updated the Apache and IANA media registry entries as of release date
-
-## 3.2025.0422 / 2025-04-22
-
-- Updated the Apache and IANA media registry entries as of release date
-
-## 3.2025.0415 / 2025-04-15
-
-- Updated the Apache and IANA media registry entries as of release date
-
-  - This new data requires mime-types 3.7.0 or later to manage data.
+- Added new data for pre-computed priority sorting. This new data requires Ruby
+  mime-types 3.7.0 or later to manage data but is ignored by older versions of
+  mime-types.
 
 - Added a parser for the [Apache Tika media registry][tika] to enrich the media
   definitions, mostly by adding new patterns for media type extensions. This
@@ -44,6 +32,24 @@
 
 - Some details were removed from older CHANGELOG entries relating to updated
   MIME types from more or less automated processes.
+
+## 3.2025.0506 / 2025-05-06
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache httpd media registry][httpd] as of the release date.
+
+## 3.2025.0429 / 2025-04-29
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache httpd media registry][httpd] as of the release date.
+
+## 3.2025.0422 / 2025-04-22
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache httpd media registry][httpd] as of the release date.
 
 ## 3.2025.0408 / 2025-04-08
 
