@@ -5812,6 +5812,7 @@
     template:
     - application/texinfo
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/thraud+xml
   friendly:
@@ -6797,6 +6798,7 @@
     template:
     - application/vnd.3gpp.seal-app-comm-requirements-info+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-data-delivery-info+cbor
   encoding: base64
@@ -6806,6 +6808,7 @@
     template:
     - application/vnd.3gpp.seal-data-delivery-info+cbor
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-group-doc+xml
   encoding: base64
@@ -6836,6 +6839,7 @@
     template:
     - application/vnd.3gpp.seal-location-info+cbor
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-location-info+xml
   encoding: base64
@@ -6867,6 +6871,7 @@
     template:
     - application/vnd.3gpp.seal-mbs-usage-info+xml
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-network-QoS-management-info+xml
   encoding: base64
@@ -6887,6 +6892,7 @@
     template:
     - application/vnd.3gpp.seal-network-resource-info+cbor
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-ue-config-info+xml
   encoding: base64
@@ -8110,6 +8116,7 @@
     template:
     - application/vnd.cel
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.cendio.thinlinc.clientconf
   encoding: base64
@@ -16263,6 +16270,7 @@
     template:
     - application/vnd.pmtiles
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.poc.group-advertisement+xml
   encoding: base64
@@ -17632,6 +17640,7 @@
     template:
     - application/vnd.superfile.super
   registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.sus-calendar
   friendly:
