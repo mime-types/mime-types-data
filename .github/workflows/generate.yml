@@ -28,6 +28,7 @@ jobs:
           disable-sudo: true
           egress-policy: block
           allowed-endpoints: >
+            raw.githubusercontent.com:443
             objects.githubusercontent.com:443
             api.github.com:443
             github.com:443
