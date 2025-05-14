@@ -49,6 +49,7 @@ class Convert::MiniMimeDb < Convert
     buffer.sort! { |a, b| [a[1], a[0]] <=> [b[1], b[0]] }
     buffer.each { |row| row.each { |col| col.strip! } }
     buffer.each do |row|
+      next if row[0].strip == ".htaccess"
       row[0] = @loader.container.type_for("xyz.#{row[0].strip}")[0].extensions[0].dup
     end
 
