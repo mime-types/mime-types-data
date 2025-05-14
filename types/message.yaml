@@ -270,3 +270,10 @@
     - message/vnd.wfa.wsc
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: message/x-emlx
+  encoding: base64
+  extensions:
+  - emlx
+  registered: false
+  sort-priority: 47

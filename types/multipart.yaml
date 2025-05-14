@@ -116,13 +116,16 @@
 - !ruby/object:MIME::Type
   content-type: multipart/related
   encoding: base64
+  extensions:
+  - mht
+  - mhtml
   xrefs:
     rfc:
     - rfc2387
     template:
     - multipart/related
   registered: true
-  sort-priority: 16
+  sort-priority: 14
 - !ruby/object:MIME::Type
   content-type: multipart/report
   encoding: base64

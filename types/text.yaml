@@ -10,6 +10,20 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/asp
+  encoding: quoted-printable
+  extensions:
+  - asp
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/aspdotnet
+  encoding: quoted-printable
+  extensions:
+  - aspx
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/cache-manifest
   encoding: quoted-printable
   extensions:
@@ -273,6 +287,13 @@
   registered: true
   sort-priority: 11
 - !ruby/object:MIME::Type
+  content-type: text/iso19139+xml
+  encoding: quoted-printable
+  extensions:
+  - iso19139
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/javascript
   encoding: quoted-printable
   extensions:
@@ -438,6 +459,71 @@
   - rst
   - text
   - textile
+  - install
+  - keys
+  - license
+  - notice
+  - readme
+  - abs-linkmap
+  - abs-menulinks
+  - aart
+  - ac
+  - am
+  - apt
+  - bsh
+  - classpath
+  - cnd
+  - cwiki
+  - data
+  - dcl
+  - dsp
+  - dsw
+  - egrm
+  - ent
+  - ft
+  - fn
+  - fv
+  - grm
+  - g
+  - ".htaccess"
+  - handlers
+  - htc
+  - ihtml
+  - jmx
+  - junit
+  - jx
+  - manifest
+  - m4
+  - mf
+  - meta
+  - mdo
+  - n3
+  - pen
+  - pod
+  - pom
+  - project
+  - rng
+  - rnx
+  - roles
+  - schemas
+  - tld
+  - types
+  - vm
+  - vsl
+  - wsdd
+  - xargs
+  - xcat
+  - xegrm
+  - xgrm
+  - xlex
+  - xlog
+  - xmap
+  - xroles
+  - xsamples
+  - xsp
+  - xtest
+  - xweb
+  - xwelcome
   xrefs:
     rfc:
     - rfc2046
@@ -686,13 +772,14 @@
   - man
   - me
   - ms
+  - nroff
   xrefs:
     rfc:
     - rfc4263
     template:
     - text/troff
   registered: true
-  sort-priority: 9
+  sort-priority: 8
 - !ruby/object:MIME::Type
   content-type: text/turtle
   friendly:
@@ -999,6 +1086,13 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: text/vnd.iptc.anpa
+  encoding: quoted-printable
+  extensions:
+  - anpa
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/vnd.IPTC.NewsML
   encoding: quoted-printable
   xrefs:
@@ -1234,6 +1328,40 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/x-actionscript
+  encoding: quoted-printable
+  extensions:
+  - as
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-ada
+  encoding: quoted-printable
+  extensions:
+  - ada
+  - adb
+  - ads
+  registered: false
+  sort-priority: 45
+- !ruby/object:MIME::Type
+  content-type: text/x-applescript
+  encoding: quoted-printable
+  extensions:
+  - applescript
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-asciidoc
+  encoding: quoted-printable
+  extensions:
+  - asciidoc
+  - adoc
+  - ad
+  - ad.txt
+  - adoc.txt
+  registered: false
+  sort-priority: 43
+- !ruby/object:MIME::Type
   content-type: text/x-asm
   friendly:
     en: Assembler Source File
@@ -1243,6 +1371,35 @@
   - s
   registered: false
   sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-aspectj
+  encoding: quoted-printable
+  extensions:
+  - aj
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-assembly
+  encoding: quoted-printable
+  extensions:
+  - s
+  - asm
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-awk
+  encoding: quoted-printable
+  extensions:
+  - awk
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-basic
+  encoding: quoted-printable
+  extensions:
+  - bas
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-c
   friendly:
@@ -1259,12 +1416,90 @@
   registered: false
   sort-priority: 41
 - !ruby/object:MIME::Type
+  content-type: text/x-c++hdr
+  encoding: quoted-printable
+  extensions:
+  - hpp
+  - hxx
+  - hh
+  - h
+  - h++
+  - hp
+  registered: false
+  sort-priority: 42
+- !ruby/object:MIME::Type
+  content-type: text/x-c++src
+  encoding: quoted-printable
+  extensions:
+  - cpp
+  - cxx
+  - cc
+  - c
+  - c++
+  registered: false
+  sort-priority: 43
+- !ruby/object:MIME::Type
+  content-type: text/x-cgi
+  encoding: quoted-printable
+  extensions:
+  - cgi
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-chdr
+  encoding: quoted-printable
+  extensions:
+  - h
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-clojure
+  encoding: quoted-printable
+  extensions:
+  - clj
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-cobol
+  encoding: quoted-printable
+  extensions:
+  - cbl
+  - cob
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-coffeescript
+  encoding: quoted-printable
+  extensions:
+  - coffee
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/x-coffescript
   encoding: 8bit
   extensions:
   - coffee
   registered: false
   sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-coldfusion
+  encoding: quoted-printable
+  extensions:
+  - cfm
+  - cfml
+  - cfc
+  registered: false
+  sort-priority: 45
+- !ruby/object:MIME::Type
+  content-type: text/x-common-lisp
+  encoding: quoted-printable
+  extensions:
+  - cl
+  - jl
+  - lisp
+  - lsp
+  registered: false
+  sort-priority: 44
 - !ruby/object:MIME::Type
   content-type: text/x-component
   encoding: 8bit
@@ -1273,12 +1508,86 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: text/x-config
+  encoding: quoted-printable
+  extensions:
+  - config
+  - conf
+  - cfg
+  - xconf
+  registered: false
+  sort-priority: 44
+- !ruby/object:MIME::Type
+  content-type: text/x-csharp
+  encoding: quoted-printable
+  extensions:
+  - cs
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-csrc
+  encoding: quoted-printable
+  extensions:
+  - c
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-d
+  encoding: quoted-printable
+  extensions:
+  - d
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-diff
+  encoding: quoted-printable
+  extensions:
+  - diff
+  - patch
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
   content-type: text/x-ecmascript
   encoding: quoted-printable
   obsolete: true
   use-instead: text/javascript
   registered: false
   sort-priority: 176
+- !ruby/object:MIME::Type
+  content-type: text/x-eiffel
+  encoding: quoted-printable
+  extensions:
+  - e
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-emacs-lisp
+  encoding: quoted-printable
+  extensions:
+  - el
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-erlang
+  encoding: quoted-printable
+  extensions:
+  - erl
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-expect
+  encoding: quoted-printable
+  extensions:
+  - exp
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-forth
+  encoding: quoted-printable
+  extensions:
+  - 4th
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-fortran
   friendly:
@@ -1292,6 +1601,63 @@
   registered: false
   sort-priority: 44
 - !ruby/object:MIME::Type
+  content-type: text/x-go
+  encoding: quoted-printable
+  extensions:
+  - go
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-groovy
+  encoding: quoted-printable
+  extensions:
+  - groovy
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-haml
+  encoding: quoted-printable
+  extensions:
+  - haml
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-haskell
+  encoding: quoted-printable
+  extensions:
+  - hs
+  - lhs
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-haxe
+  encoding: quoted-printable
+  extensions:
+  - hx
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-idl
+  encoding: quoted-printable
+  extensions:
+  - idl
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-ini
+  encoding: quoted-printable
+  extensions:
+  - ini
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-java-properties
+  encoding: quoted-printable
+  extensions:
+  - properties
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/x-java-source
   friendly:
     en: Java Source File
@@ -1301,12 +1667,92 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: text/x-jsp
+  encoding: quoted-printable
+  extensions:
+  - jsp
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-less
+  encoding: quoted-printable
+  extensions:
+  - less
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-lex
+  encoding: quoted-printable
+  extensions:
+  - l
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-log
+  encoding: quoted-printable
+  extensions:
+  - log
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-lua
+  encoding: quoted-printable
+  extensions:
+  - lua
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-makefile
+  encoding: quoted-printable
+  extensions:
+  - makefile
+  - gnumakefile
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-matlab
+  encoding: quoted-printable
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: text/x-ml
+  encoding: quoted-printable
+  extensions:
+  - ml
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-modula
+  encoding: quoted-printable
+  extensions:
+  - m3
+  - i3
+  - mg
+  - ig
+  registered: false
+  sort-priority: 44
+- !ruby/object:MIME::Type
   content-type: text/x-nfo
   encoding: quoted-printable
   extensions:
   - nfo
   registered: false
   sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-objcsrc
+  encoding: quoted-printable
+  extensions:
+  - m
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-ocaml
+  encoding: quoted-printable
+  extensions:
+  - ocaml
+  - mli
+  registered: false
+  sort-priority: 46
 - !ruby/object:MIME::Type
   content-type: text/x-opml
   encoding: quoted-printable
@@ -1322,8 +1768,71 @@
   extensions:
   - p
   - pas
+  - pp
+  - dpr
   registered: false
-  sort-priority: 46
+  sort-priority: 44
+- !ruby/object:MIME::Type
+  content-type: text/x-perl
+  encoding: quoted-printable
+  extensions:
+  - pl
+  - pm
+  - al
+  - perl
+  registered: false
+  sort-priority: 44
+- !ruby/object:MIME::Type
+  content-type: text/x-php
+  encoding: quoted-printable
+  extensions:
+  - php
+  - php3
+  - php4
+  registered: false
+  sort-priority: 45
+- !ruby/object:MIME::Type
+  content-type: text/x-prolog
+  encoding: quoted-printable
+  extensions:
+  - pro
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-python
+  encoding: quoted-printable
+  extensions:
+  - py
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-rexx
+  encoding: quoted-printable
+  extensions:
+  - rexx
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-robots
+  encoding: quoted-printable
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: text/x-rsrc
+  encoding: quoted-printable
+  extensions:
+  - r
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-rst
+  encoding: quoted-printable
+  extensions:
+  - rest
+  - rst
+  - restx
+  registered: false
+  sort-priority: 45
 - !ruby/object:MIME::Type
   content-type: text/x-rtf
   encoding: 8bit
@@ -1333,6 +1842,34 @@
   use-instead: text/rtf
   registered: false
   sort-priority: 175
+- !ruby/object:MIME::Type
+  content-type: text/x-ruby
+  encoding: quoted-printable
+  extensions:
+  - rb
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-scala
+  encoding: quoted-printable
+  extensions:
+  - scala
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-scheme
+  encoding: quoted-printable
+  extensions:
+  - scm
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-sed
+  encoding: quoted-printable
+  extensions:
+  - sed
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-setext
   friendly:
@@ -1350,12 +1887,62 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: text/x-sql
+  encoding: quoted-printable
+  extensions:
+  - sql
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-stsrc
+  encoding: quoted-printable
+  extensions:
+  - st
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-tcl
+  encoding: quoted-printable
+  extensions:
+  - itk
+  - tcl
+  - tk
+  registered: false
+  sort-priority: 45
+- !ruby/object:MIME::Type
+  content-type: text/x-tika-text-based-message
+  encoding: quoted-printable
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: text/x-uuencode
   friendly:
     en: UUEncode
   encoding: quoted-printable
   extensions:
   - uu
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-vbasic
+  encoding: quoted-printable
+  extensions:
+  - cls
+  - frm
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
+  content-type: text/x-vbdotnet
+  encoding: quoted-printable
+  extensions:
+  - vb
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-vbscript
+  encoding: quoted-printable
+  extensions:
+  - vbs
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
@@ -1378,12 +1965,44 @@
   signature: true
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: text/x-verilog
+  encoding: quoted-printable
+  extensions:
+  - v
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: text/x-vhdl
+  encoding: quoted-printable
+  extensions:
+  - vhd
+  - vhdl
+  registered: false
+  sort-priority: 46
+- !ruby/object:MIME::Type
   content-type: text/x-vnd.flatland.3dml
   encoding: quoted-printable
   obsolete: true
   use-instead: model/vnd.flatland.3dml
   registered: false
   sort-priority: 176
+- !ruby/object:MIME::Type
+  content-type: text/x-web-markdown
+  encoding: quoted-printable
+  extensions:
+  - md
+  - mdtext
+  - mkd
+  - markdown
+  registered: false
+  sort-priority: 44
+- !ruby/object:MIME::Type
+  content-type: text/x-yacc
+  encoding: quoted-printable
+  extensions:
+  - "y"
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: text/x-yaml
   encoding: 8bit

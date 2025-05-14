@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0514 / 2025-05-14
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
+  and the [Apache Tika media registry][tika] as of the release date.
+
+
 ## 3.2025.0507 / 2025-05-07
 
 - Added new data for pre-computed priority sorting. This new data requires Ruby
