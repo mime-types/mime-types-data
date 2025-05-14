@@ -15,13 +15,15 @@
 - !ruby/object:MIME::Type
   content-type: model/e57
   encoding: base64
+  extensions:
+  - e57
   xrefs:
     person:
     - ASTM
     template:
     - model/e57
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: model/example
   encoding: base64
@@ -247,6 +249,13 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: model/vnd.dwfx+xps
+  encoding: base64
+  extensions:
+  - dwfx
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: model/vnd.flatland.3dml
   encoding: base64
   xrefs:
@@ -280,6 +289,11 @@
     - model/vnd.gs-gdl
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: model/vnd.gs.gdl
+  encoding: base64
+  registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: model/vnd.gtw
   friendly:
@@ -444,6 +458,18 @@
     - model/vrml
   registered: true
   sort-priority: 14
+- !ruby/object:MIME::Type
+  content-type: model/x.stl-ascii
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: model/x.stl-binary
+  encoding: base64
+  extensions:
+  - stl
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: model/x3d+binary
   encoding: base64

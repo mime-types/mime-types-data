@@ -58,13 +58,15 @@
 - !ruby/object:MIME::Type
   content-type: audio/ac3
   encoding: base64
+  extensions:
+  - ac3
   xrefs:
     rfc:
     - rfc4184
     template:
     - audio/ac3
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/adpcm
   friendly:
@@ -854,6 +856,7 @@
   - f4b
   - mp4a
   - m4a
+  - m4b
   xrefs:
     rfc:
     - rfc4337
@@ -861,7 +864,7 @@
     template:
     - audio/mp4
   registered: true
-  sort-priority: 10
+  sort-priority: 9
 - !ruby/object:MIME::Type
   content-type: audio/MP4A-LATM
   encoding: base64
@@ -946,13 +949,15 @@
 - !ruby/object:MIME::Type
   content-type: audio/opus
   encoding: base64
+  extensions:
+  - opus
   xrefs:
     rfc:
     - rfc7587
     template:
     - audio/opus
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/parityfec
   encoding: base64
@@ -1165,13 +1170,15 @@
 - !ruby/object:MIME::Type
   content-type: audio/speex
   encoding: base64
+  extensions:
+  - spx
   xrefs:
     rfc:
     - rfc5574
     template:
     - audio/speex
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/t140c
   encoding: base64
@@ -1316,6 +1323,13 @@
     - audio/vnd.4SB
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: audio/vnd.adobe.soundbooth
+  encoding: base64
+  extensions:
+  - asnd
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/vnd.audiokoz
   encoding: base64
@@ -1758,15 +1772,24 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: audio/vnd.wave
+  encoding: base64
+  extensions:
+  - wav
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: audio/vorbis
   encoding: base64
+  extensions:
+  - ogg
   xrefs:
     rfc:
     - rfc5215
     template:
     - audio/vorbis
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: audio/vorbis-config
   encoding: base64
@@ -1808,6 +1831,11 @@
   registered: false
   sort-priority: 175
 - !ruby/object:MIME::Type
+  content-type: audio/x-adpcm
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: audio/x-aiff
   friendly:
     en: Audio Interchange File Format
@@ -1825,6 +1853,16 @@
   - caf
   registered: false
   sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: audio/x-dec-adpcm
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: audio/x-dec-basic
+  encoding: base64
+  registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: audio/x-flac
   encoding: base64
@@ -1857,6 +1895,13 @@
   - kar
   registered: false
   sort-priority: 45
+- !ruby/object:MIME::Type
+  content-type: audio/x-mod
+  encoding: base64
+  extensions:
+  - mod
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: audio/x-mpegurl
   friendly:
@@ -1892,6 +1937,16 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: audio/x-oggflac
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: audio/x-oggpcm
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: audio/x-pn-realaudio
   friendly:
     en: Real Audio Sound
@@ -1912,10 +1967,29 @@
   registered: false
   sort-priority: 46
 - !ruby/object:MIME::Type
+  content-type: audio/x-psf
+  encoding: base64
+  extensions:
+  - psf1
+  - psflib
+  - minipsf
+  - minipsf1
+  - gslib
+  - minigsf
+  registered: false
+  sort-priority: 42
+- !ruby/object:MIME::Type
   content-type: audio/x-realaudio
   encoding: base64
   extensions:
   - ra
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: audio/x-sap
+  encoding: base64
+  extensions:
+  - sap
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type

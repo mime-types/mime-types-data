@@ -92,6 +92,11 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: video/daala
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: video/dl
   encoding: base64
   extensions:
@@ -276,6 +281,8 @@
 - !ruby/object:MIME::Type
   content-type: video/iso.segment
   encoding: base64
+  extensions:
+  - m4s
   xrefs:
     person:
     - David_Singer
@@ -283,7 +290,7 @@
     template:
     - video/iso.segment
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: video/JPEG
   friendly:
@@ -628,6 +635,11 @@
     - video/SMPTE292M
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: video/theora
+  encoding: base64
+  registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: video/ulpfec
   encoding: base64
@@ -1126,6 +1138,13 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: video/x-dirac
+  encoding: base64
+  extensions:
+  - drc
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: video/x-dl
   encoding: base64
   extensions:
@@ -1148,6 +1167,13 @@
   encoding: base64
   extensions:
   - f4v
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: video/x-flc
+  encoding: base64
+  extensions:
+  - flc
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
@@ -1180,6 +1206,13 @@
   encoding: base64
   extensions:
   - ivf
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: video/x-jng
+  encoding: base64
+  extensions:
+  - jng
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
@@ -1275,6 +1308,28 @@
   encoding: base64
   extensions:
   - avi
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
+  content-type: video/x-oggrgb
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: video/x-ogguvs
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: video/x-oggyuv
+  encoding: base64
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: video/x-ogm
+  encoding: base64
+  extensions:
+  - ogm
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
