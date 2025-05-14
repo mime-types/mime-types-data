@@ -66,10 +66,13 @@ class PrepareRelease
       raise "This is not being run as a GitHub action, missing $GITHUB_ENV."
     end
 
+    history_path = File.join(Dir.mktmpdir, "body.md")
+    IO.write(history_path, history_body)
+
     body = <<~EOF_ENV
       UPDATE_VERSION=#{new_version}
       UPDATE_TITLE=Update mime-types-data #{release_header}
-      UPDATE_BODY=#{history_body}
+      UPDATE_BODY_PATH=#{history_path}
     EOF_ENV
 
     File.write(ENV["GITHUB_ENV"], body, mode: "a+")

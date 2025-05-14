@@ -58,7 +58,7 @@ jobs:
             ${{ env.UPDATE_BODY }}
           branch: update-mime-types-data/${{ env.UPDATE_VERSION }}
           title: ${{ env.UPDATE_TITLE }}
-          body: ${{ env.UPDATE_BODY }}
+          body-path: ${{ env.UPDATE_BODY_PATH }}
           labels: |
             automated
             data-update
