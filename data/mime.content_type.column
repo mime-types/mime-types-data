@@ -463,6 +463,7 @@ application/rpki-publication
 application/rpki-roa roa
 application/rpki-signed-tal
 application/rpki-updown
+application/rs-metadata+xml
 application/rsd+xml rsd
 application/rss+xml rss
 application/rtf rtf
@@ -2310,6 +2311,7 @@ audio/vnd.3gpp.iufp
 audio/vnd.4SB
 audio/vnd.adobe.soundbooth asnd
 audio/vnd.audiokoz
+audio/vnd.blockfact.facta
 audio/vnd.CELP
 audio/vnd.cisco.nse
 audio/vnd.cmles.radio-events
@@ -2924,6 +2926,7 @@ video/theora
 video/ulpfec
 video/vc1
 video/vc2
+video/vnd.blockfact.factv
 video/vnd.CCTV
 video/vnd.dece.hd uvh uvvh
 video/vnd.dece.mobile uvm uvvm

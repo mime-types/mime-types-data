@@ -671,6 +671,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: video/vnd.blockfact.factv
+  encoding: base64
+  xrefs:
+    person:
+    - Egbert_von_Frankenberg
+    template:
+    - video/vnd.blockfact.factv
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: video/vnd.CCTV
   encoding: base64
   xrefs:

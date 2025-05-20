@@ -1341,6 +1341,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: audio/vnd.blockfact.facta
+  encoding: base64
+  xrefs:
+    person:
+    - Egbert_von_Frankenberg
+    template:
+    - audio/vnd.blockfact.facta
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: audio/vnd.CELP
   encoding: base64
   xrefs:

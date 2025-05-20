@@ -4969,6 +4969,18 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/rs-metadata+xml
+  encoding: base64
+  xrefs:
+    rfc:
+    - rfc7865
+    draft:
+    - RFC-ietf-sipcore-siprec-fix-mediatype-06
+    template:
+    - application/rs-metadata+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/rsd+xml
   friendly:
     en: Really Simple Discovery
@@ -18108,7 +18120,7 @@
   encoding: base64
   xrefs:
     person:
-    - Dan_Luhring
+    - Dan_Nurmi
     template:
     - application/vnd.syft+json
   registered: true
