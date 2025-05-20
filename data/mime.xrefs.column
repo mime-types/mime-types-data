@@ -463,6 +463,7 @@ rfc^rfc8181|template^application/rpki-publication
 rfc^rfc9582|template^application/rpki-roa
 rfc^rfc9691|template^application/rpki-signed-tal
 rfc^rfc6492|template^application/rpki-updown
+draft^RFC-ietf-sipcore-siprec-fix-mediatype-06|rfc^rfc7865|template^application/rs-metadata+xml
 -
 -
 person^Paul_Lindner|template^application/rtf
@@ -1640,7 +1641,7 @@ person^Scott_Becker|template^application/vnd.svd
 person^Glenn_Widener|template^application/vnd.swiftview-ics
 person^Finn_Rayk_Gärtner|template^application/vnd.sybyl.mol2
 person^Johann_Terblanche|template^application/vnd.sycle+xml
-person^Dan_Luhring|template^application/vnd.syft+json
+person^Dan_Nurmi|template^application/vnd.syft+json
 -
 person^OMA_Data_Synchronization_WG|template^application/vnd.syncml+xml
 person^OMA-DM_Work_Group|template^application/vnd.syncml.dm+wbxml
@@ -2310,6 +2311,7 @@ person^Thomas_Belling|template^audio/vnd.3gpp.iufp
 person^Serge_De_Jaham|template^audio/vnd.4SB
 -
 person^Vicki_DeBarros|template^audio/vnd.audiokoz
+person^Egbert_von_Frankenberg|template^audio/vnd.blockfact.facta
 person^Serge_De_Jaham|template^audio/vnd.CELP
 person^Rajesh_Kumar|template^audio/vnd.cisco.nse
 person^Jean-Philippe_Goulet|template^audio/vnd.cmles.radio-events
@@ -2924,6 +2926,7 @@ rfc^rfc3497|template^video/SMPTE292M
 rfc^rfc5109|template^video/ulpfec
 rfc^rfc4425|template^video/vc1
 rfc^rfc8450|template^video/vc2
+person^Egbert_von_Frankenberg|template^video/vnd.blockfact.factv
 person^Frank_Rottmann|template^video/vnd.CCTV
 person^Michael_A_Dolan|template^video/vnd.dece.hd
 person^Michael_A_Dolan|template^video/vnd.dece.mobile
