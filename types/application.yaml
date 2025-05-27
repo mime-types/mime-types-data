@@ -5775,6 +5775,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/suit-envelope+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-suit-manifest-33
+    template:
+    - application/suit-envelope+cose
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/swid+cbor
   encoding: base64
   xrefs:
