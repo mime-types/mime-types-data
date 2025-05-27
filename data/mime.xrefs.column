@@ -536,6 +536,7 @@ person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110
 -
 person^Chet_Ensign^OASIS|template^application/stix+json
 note^1|person^Ben_van_Hartingsveldt|template^application/stratum
+draft^RFC-ietf-suit-manifest-33|template^application/suit-envelope+cose
 rfc^rfc9393|template^application/swid+cbor
 person^David_Waltermire^ISO-IEC_JTC_1^Ron_Brill|template^application/swid+xml
 rfc^rfc5934|template^application/tamp-apex-update
