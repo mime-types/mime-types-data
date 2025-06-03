@@ -271,6 +271,7 @@ application/jwk-set+json
 application/jwk-set+jwt
 application/jwt
 application/kate
+application/kb+jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json
@@ -481,6 +482,8 @@ application/scvp-cv-request scq
 application/scvp-cv-response scs
 application/scvp-vp-request spq
 application/scvp-vp-response spp
+application/sd-jwt
+application/sd-jwt+json
 application/sdf+json
 application/sdp sdp
 application/secevent+jwt

@@ -153,12 +153,12 @@ rfc^rfc5698|template^application/dssc+der
 rfc^rfc5698|template^application/dssc+xml
 rfc^rfc3029|template^application/dvcs
 -
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat+cwt
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat+jwt
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-bun+cbor
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-bun+json
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-ucs+cbor
-draft^RFC-ietf-rats-eat-media-type-12|template^application/eat-ucs+json
+rfc^rfc9782|template^application/eat+cwt
+rfc^rfc9782|template^application/eat+jwt
+rfc^rfc9782|template^application/eat-bun+cbor
+rfc^rfc9782|template^application/eat-bun+json
+rfc^rfc9782|template^application/eat-ucs+cbor
+rfc^rfc9782|template^application/eat-ucs+json
 notes^(OBSOLETED in favor of text/javascript)|rfc^rfc4329^rfc9239|template^application/ecmascript
 rfc^rfc9528|template^application/edhoc+cbor-seq
 rfc^rfc1767|template^application/EDI-consent
@@ -271,6 +271,7 @@ rfc^rfc7517|template^application/jwk-set+json
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/jwk-set+jwt
 rfc^rfc7519|template^application/jwt
 -
+draft^RFC-ietf-oauth-selective-disclosure-jwt-22|template^application/kb+jwt
 rfc^rfc4730|template^application/kpml-request+xml
 rfc^rfc4730|template^application/kpml-response+xml
 person^Ivan_Herman^W3C|template^application/ld+json
@@ -481,6 +482,8 @@ rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
 rfc^rfc5055|template^application/scvp-vp-response
+draft^RFC-ietf-oauth-selective-disclosure-jwt-22|template^application/sd-jwt
+draft^RFC-ietf-oauth-selective-disclosure-jwt-22|template^application/sd-jwt+json
 draft^RFC-ietf-asdf-sdf-23|template^application/sdf+json
 rfc^rfc8866|template^application/sdp
 rfc^rfc8417|template^application/secevent+jwt
@@ -536,7 +539,7 @@ person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110
 -
 person^Chet_Ensign^OASIS|template^application/stix+json
 note^1|person^Ben_van_Hartingsveldt|template^application/stratum
-draft^RFC-ietf-suit-manifest-33|template^application/suit-envelope+cose
+draft^RFC-ietf-suit-manifest-34|template^application/suit-envelope+cose
 rfc^rfc9393|template^application/swid+cbor
 person^David_Waltermire^ISO-IEC_JTC_1^Ron_Brill|template^application/swid+xml
 rfc^rfc5934|template^application/tamp-apex-update
@@ -576,8 +579,8 @@ person^W3C^W3C_Timed_Text_WG|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
 rfc^rfc9636|template^application/tzif
 rfc^rfc9636|template^application/tzif-leap
-draft^RFC-ietf-rats-uccs-12|template^application/uccs+cbor
-draft^RFC-ietf-rats-uccs-12|template^application/ujcs+json
+rfc^rfc9781|template^application/uccs+cbor
+rfc^rfc9781|template^application/ujcs+json
 rfc^rfc5109|template^application/ulpfec
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
