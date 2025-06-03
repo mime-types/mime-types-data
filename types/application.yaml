@@ -1598,8 +1598,8 @@
   content-type: application/eat+cwt
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat+cwt
   registered: true
@@ -1608,8 +1608,8 @@
   content-type: application/eat+jwt
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat+jwt
   registered: true
@@ -1618,8 +1618,8 @@
   content-type: application/eat-bun+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat-bun+cbor
   registered: true
@@ -1628,8 +1628,8 @@
   content-type: application/eat-bun+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat-bun+json
   registered: true
@@ -1638,8 +1638,8 @@
   content-type: application/eat-ucs+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat-ucs+cbor
   registered: true
@@ -1648,8 +1648,8 @@
   content-type: application/eat-ucs+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-media-type-12
+    rfc:
+    - rfc9782
     template:
     - application/eat-ucs+json
   registered: true
@@ -2840,6 +2840,16 @@
   encoding: base64
   registered: false
   sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: application/kb+jwt
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-oauth-selective-disclosure-jwt-22
+    template:
+    - application/kb+jwt
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/kpml-request+xml
   encoding: base64
@@ -5179,6 +5189,26 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/sd-jwt
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-oauth-selective-disclosure-jwt-22
+    template:
+    - application/sd-jwt
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/sd-jwt+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-oauth-selective-disclosure-jwt-22
+    template:
+    - application/sd-jwt+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/sdf+json
   encoding: base64
   xrefs:
@@ -5779,7 +5809,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-suit-manifest-33
+    - RFC-ietf-suit-manifest-34
     template:
     - application/suit-envelope+cose
   registered: true
@@ -6210,8 +6240,8 @@
   content-type: application/uccs+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-uccs-12
+    rfc:
+    - rfc9781
     template:
     - application/uccs+cbor
   registered: true
@@ -6220,8 +6250,8 @@
   content-type: application/ujcs+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-uccs-12
+    rfc:
+    - rfc9781
     template:
     - application/ujcs+json
   registered: true
