@@ -657,6 +657,7 @@ person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.pinapp-info+xml
 person^Yang_Yong^_3GPP|template^application/vnd.3gpp.s1ap
 person^_3GPP|template^application/vnd.3gpp.seal-app-comm-requirements-info+xml
 person^_3GPP|template^application/vnd.3gpp.seal-data-delivery-info+cbor
+person^_3GPP|template^application/vnd.3gpp.seal-data-delivery-info+xml
 person^Sapan_Shah|template^application/vnd.3gpp.seal-group-doc+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-info+xml
 person^_3GPP|template^application/vnd.3gpp.seal-location-info+cbor
