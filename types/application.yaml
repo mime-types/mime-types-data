@@ -7042,6 +7042,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.seal-data-delivery-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP
+    template:
+    - application/vnd.3gpp.seal-data-delivery-info+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-group-doc+xml
   encoding: base64
   xrefs:
