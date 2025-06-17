@@ -5745,7 +5745,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-tls-keylogfile-02
+    - RFC-ietf-tls-keylogfile-05
     template:
     - application/sslkeylogfile
   registered: true
@@ -10369,6 +10369,16 @@
     - Holstage
     template:
     - application/vnd.ffsns
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.fgb
+  encoding: base64
+  xrefs:
+    person:
+    - Björn_Harrtell
+    template:
+    - application/vnd.fgb
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -15548,6 +15558,17 @@
     - Julien_Grange
     template:
     - application/vnd.omaloc-supl-init
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.oms.cellular-cose-content+cbor
+  encoding: base64
+  xrefs:
+    person:
+    - OMS-Group_e._V.
+    - Torben_Markussen
+    template:
+    - application/vnd.oms.cellular-cose-content+cbor
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
