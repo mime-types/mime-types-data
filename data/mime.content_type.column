@@ -962,6 +962,7 @@ application/vnd.fdsn.mseed mseed
 application/vnd.fdsn.seed dataless seed
 application/vnd.fdsn.stationxml+xml
 application/vnd.ffsns
+application/vnd.fgb
 application/vnd.ficlab.flb+zip
 application/vnd.filmit.zfc
 application/vnd.fints
@@ -1405,6 +1406,7 @@ application/vnd.omads-email+xml
 application/vnd.omads-file+xml
 application/vnd.omads-folder+xml
 application/vnd.omaloc-supl-init
+application/vnd.oms.cellular-cose-content+cbor
 application/vnd.onepager
 application/vnd.onepagertamp
 application/vnd.onepagertamx
@@ -2900,6 +2902,7 @@ video/H266
 video/iso.segment m4s
 video/JPEG jpgv
 video/jpeg2000
+video/jpeg2000-scl
 video/jpm jpgm jpm
 video/jxsv
 video/lottie+json

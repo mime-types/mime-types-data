@@ -533,7 +533,7 @@ rfc^rfc4267|template^application/srgs
 rfc^rfc4267|template^application/srgs+xml
 rfc^rfc6207|template^application/sru+xml
 -
-draft^RFC-ietf-tls-keylogfile-02|template^application/sslkeylogfile
+draft^RFC-ietf-tls-keylogfile-05|template^application/sslkeylogfile
 rfc^rfc4267|template^application/ssml+xml
 person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110-41
 -
@@ -962,6 +962,7 @@ person^International_FDSN|template^application/vnd.fdsn.mseed
 person^Chad_Trabant|template^application/vnd.fdsn.seed
 person^International_FDSN|template^application/vnd.fdsn.stationxml+xml
 person^Holstage|template^application/vnd.ffsns
+person^Björn_Harrtell|template^application/vnd.fgb
 person^Steve_Gilberd|template^application/vnd.ficlab.flb+zip
 person^Harms_Moeller|template^application/vnd.filmit.zfc
 person^Ingo_Hammann|template^application/vnd.fints
@@ -1405,6 +1406,7 @@ person^OMA_Data_Synchronization_WG|template^application/vnd.omads-email+xml
 person^OMA_Data_Synchronization_WG|template^application/vnd.omads-file+xml
 person^OMA_Data_Synchronization_WG|template^application/vnd.omads-folder+xml
 person^Julien_Grange|template^application/vnd.omaloc-supl-init
+person^OMS-Group_e._V.^Torben_Markussen|template^application/vnd.oms.cellular-cose-content+cbor
 person^Nathan_Black|template^application/vnd.onepager
 person^Nathan_Black|template^application/vnd.onepagertamp
 person^Nathan_Black|template^application/vnd.onepagertamx
@@ -2900,6 +2902,7 @@ rfc^rfc9328|template^video/H266
 person^David_Singer^ISO-IEC_JTC_1|template^video/iso.segment
 rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
+draft^RFC-ietf-avtcore-rtp-j2k-scl-08|template^video/jpeg2000-scl
 -
 rfc^rfc9134|template^video/jxsv
 person^Lottie_Animation_Community|template^video/lottie+json
