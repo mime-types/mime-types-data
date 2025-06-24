@@ -10,7 +10,7 @@ person^ASAM^Thomas_Thomsen|template^application/A2L
 rfc^rfc9200|template^application/ace+cbor
 rfc^rfc9431|template^application/ace+json
 rfc^rfc9594|template^application/ace-groupcomm+cbor
-draft^RFC-ietf-ace-revoked-token-notification-09|template^application/ace-trl+cbor
+rfc^rfc9770|template^application/ace-trl+cbor
 person^Ehud_Shapiro|template^application/activemessage
 person^Benjamin_Goering^W3C|template^application/activity+json
 rfc^rfc9237|template^application/aif+cbor
@@ -1536,6 +1536,7 @@ person^Oren_Ben-Kiki|template^application/vnd.publishare-delta-tree
 person^Charles_P._Lamb|template^application/vnd.pvi.ptid1
 rfc^rfc3391|template^application/vnd.pwg-multiplexed
 person^Don_Wright|template^application/vnd.pwg-xhtml-print+xml
+person^Eduardo_Rodrigues|template^application/vnd.pyon+json
 person^Glenn_Forrester|template^application/vnd.qualcomm.brew-app-res
 person^Casper_Joost_Eyckelhof|template^application/vnd.quarantainenet
 person^Hannes_Scheidler|template^application/vnd.Quark.QuarkXPress
