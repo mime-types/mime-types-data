@@ -124,8 +124,8 @@
   content-type: application/ace-trl+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ace-revoked-token-notification-09
+    rfc:
+    - rfc9770
     template:
     - application/ace-trl+cbor
   registered: true
@@ -16951,6 +16951,16 @@
     - Don_Wright
     template:
     - application/vnd.pwg-xhtml-print+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.pyon+json
+  encoding: base64
+  xrefs:
+    person:
+    - Eduardo_Rodrigues
+    template:
+    - application/vnd.pyon+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type

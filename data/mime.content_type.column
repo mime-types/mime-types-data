@@ -1536,6 +1536,7 @@ application/vnd.publishare-delta-tree qps
 application/vnd.pvi.ptid1 pti ptid
 application/vnd.pwg-multiplexed
 application/vnd.pwg-xhtml-print+xml
+application/vnd.pyon+json
 application/vnd.qualcomm.brew-app-res
 application/vnd.quarantainenet
 application/vnd.Quark.QuarkXPress qxd qxt qwd qwt qxl qxb
