@@ -4984,8 +4984,7 @@
   xrefs:
     rfc:
     - rfc7865
-    draft:
-    - RFC-ietf-sipcore-siprec-fix-mediatype-06
+    - rfc9806
     template:
     - application/rs-metadata+xml
   registered: true
