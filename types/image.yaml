@@ -573,6 +573,8 @@
     person:
     - PNG_WG
     - W3C
+    uri:
+    - https://www.w3.org/TR/PNG/
     template:
     - image/png
   registered: true

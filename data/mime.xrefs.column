@@ -464,7 +464,7 @@ rfc^rfc8181|template^application/rpki-publication
 rfc^rfc9582|template^application/rpki-roa
 rfc^rfc9691|template^application/rpki-signed-tal
 rfc^rfc6492|template^application/rpki-updown
-draft^RFC-ietf-sipcore-siprec-fix-mediatype-06|rfc^rfc7865|template^application/rs-metadata+xml
+rfc^rfc7865^rfc9806|template^application/rs-metadata+xml
 -
 -
 person^Paul_Lindner|template^application/rtf
@@ -2451,7 +2451,7 @@ person^Ilya_Ferber|template^image/naplps
 -
 person^Pierre-Anthony_Lemieux
 -
-person^PNG_WG^W3C|template^image/png
+person^PNG_WG^W3C|template^image/png|uri^https://www.w3.org/TR/PNG/
 person^Ben_Simon|template^image/prs.btif
 person^Juern_Laun|template^image/prs.pti
 person^Michael_Sweet|template^image/pwg-raster
