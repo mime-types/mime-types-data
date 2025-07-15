@@ -2674,6 +2674,7 @@ multipart/x-ustar
 multipart/x-www-form-urlencoded
 multipart/x-zip
 text/1d-interleaved-parityfec
+text/asciidoc
 text/asp asp
 text/aspdotnet aspx
 text/cache-manifest appcache manifest
