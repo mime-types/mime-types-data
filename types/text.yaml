@@ -10,6 +10,15 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/asciidoc
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Frédéric_Desbiens
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: text/asp
   encoding: quoted-printable
   extensions:

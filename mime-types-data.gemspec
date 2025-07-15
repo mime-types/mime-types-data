@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: mime-types-data 3.2025.0708 ruby lib
+# stub: mime-types-data 3.2025.0715 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2025.0708".freeze
+  s.version = "3.2025.0715".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/mime-types/mime-types-data/issues", "changelog_uri" => "https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md", "homepage_uri" => "https://github.com/mime-types/mime-types-data/", "rubygems_mfa_required" => "true", "source_code_uri" => "https://github.com/mime-types/mime-types-data/" } if s.respond_to? :metadata=
