@@ -1,5 +1,5 @@
 rules:
   artipacked:
     ignore:
-      - generate.yml:25 # generate creates an automated release and creates a PR.
-      - publish-gem.yml:42 # publish-gem adds and pushes a tag.
+      - generate.yml:42 # generate creates an automated release and creates a PR.
+      - publish-gem.yml:58 # publish-gem adds and pushes a tag.

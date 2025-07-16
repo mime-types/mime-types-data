@@ -25,6 +25,8 @@ concurrency:
 
 jobs:
   release:
+    name: Publish Gem Version with Trusted Publishing
+
     if: github.repository == 'mime-types/mime-types-data' && (github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged))
 
     runs-on: ubuntu-latest
@@ -39,7 +41,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@6c439dc8bdf85cadbbce9ed30d1c7b959517bc49 # v2.12.2
+        uses: step-security/harden-runner@ec9f2d5744a09debf3a187a3f4f675c53b671911 # v2.13.0
         with:
           disable-sudo: true
           egress-policy: block
@@ -49,6 +51,7 @@ jobs:
             index.rubygems.org:443
             objects.githubusercontent.com:443
             rekor.sigstore.dev:443
+            release-assets.githubusercontent.com:443
             rubygems.org:443
             tuf-repo-cdn.sigstore.dev:443
 
@@ -58,10 +61,11 @@ jobs:
 
       - id: rubygems
         run: |
-          ruby -e 'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' mime-types-data.gemspec >> $GITHUB_OUTPUT
+          ruby -e \
+            'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' \
+            mime-types-data.gemspec >> "${GITHUB_OUTPUT}"
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651 #v1.245.0
+      - uses: ruby/setup-ruby@472790540115ce5bd69d399a020189a8c87d641f # v1.247.0
         with:
           bundler-cache: false
           ruby-version: ruby
@@ -72,5 +76,18 @@ jobs:
           bundle install --jobs 4 --retry 3
         env:
           RUBYGEMS_VERSION: ${{ steps.rubygems.outputs.version }}
+
+      - name: Get gem version
+        run: |
+          echo gem_version="$(rake version)" >>"${GITHUB_OUTPUT}"
+
+      - name: Ensure that gemspec is up-to-date
+        run: |
+          rake gemspec
+
+          if ! git diff >/dev/null 2>/dev/null; then
+            git commit -m "chore: Automatically update gemspec for ${gem_version} for release"
+            git push origin main
+          fi
 
       - uses: rubygems/release-gem@a25424ba2ba8b387abc8ef40807c2c85b96cbe32 # v1.1.1
