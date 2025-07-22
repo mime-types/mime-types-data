@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0722 / 2025-07-22
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
+  and the [Apache Tika media registry][tika] as of the release date.
+
+
 ## 3.2025.0715 / 2025-07-15
 
 - Updated registry entries from the IANA [media registry][registry] and
