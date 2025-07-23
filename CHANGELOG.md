@@ -10,6 +10,25 @@
   that format is obsolete by almost twenty years. Closes
   [ruby-mime-types#224][ruby-mime-types#224] with [#191][pull-191].
 
+- Handle promoted and withdrawn provisional IANA media types. Closes
+  [#54][issue-54] with [#192][pull-192].
+
+  The logic is three relatively simple phases:
+
+  1. When loading an existing registry grouping (such as
+     `types/application.yaml`), we mark any type that is `provisional` as
+     `obsolete`. This indicates that we consider any provisional type as
+     potentially withdrawn (and therefore obsolete).
+  2. When processing existing regular types, we clear both `provisional` and
+     `obsolete` flags so that a type promoted from provisional is now a regular
+     registry entry.
+  3. After merging the current list of registry entries, we _clear_
+     `provisional` if the type is marked both `provisional` and `obsolete`,
+     indicating that the provisional type has been withdrawn.
+
+  These heuristics match several types which have been promoted and withdrawn
+  since the handling of provisional types was improved with [#53][pull-53].
+
 ## 3.2025.0722 / 2025-07-22
 
 - Updated registry entries from the IANA [media registry][registry] and
@@ -632,13 +651,13 @@
 [issue-55]: https://github.com/mime-types/mime-types-data/issues/55
 [mini_mime]: https://github.com/discourse/mini_mime/issues/41
 [provisional]: https://www.iana.org/assignments/provisional-standard-media-types/provisional-standard-media-types.xml
-[pull-3]: https://github.com/mime-types/mime-types-data/pull/3
 [pull-109]: https://github.com/mime-types/mime-types-data/pull/109
-[pull-191]: https://github.com/mime-types/mime-types-data/pull/191
 [pull-10]: https://github.com/mime-types/mime-types-data/pull/10
 [pull-11]: https://github.com/mime-types/mime-types-data/pull/11
 [pull-12]: https://github.com/mime-types/mime-types-data/pull/12
 [pull-13]: https://github.com/mime-types/mime-types-data/pull/13
+[pull-191]: https://github.com/mime-types/mime-types-data/pull/191
+[pull-192]: https://github.com/mime-types/mime-types-data/pull/192
 [pull-20]: https://github.com/mime-types/mime-types-data/pull/20
 [pull-21]: https://github.com/mime-types/mime-types-data/pull/21
 [pull-23]: https://github.com/mime-types/mime-types-data/pull/23
@@ -651,6 +670,7 @@
 [pull-34]: https://github.com/mime-types/mime-types-data/pull/34
 [pull-35]: https://github.com/mime-types/mime-types-data/pull/35
 [pull-36]: https://github.com/mime-types/mime-types-data/pull/36
+[pull-3]: https://github.com/mime-types/mime-types-data/pull/3
 [pull-40]: https://github.com/mime-types/mime-types-data/pull/40
 [pull-43]: https://github.com/mime-types/mime-types-data/pull/43
 [pull-45]: https://github.com/mime-types/mime-types-data/pull/45

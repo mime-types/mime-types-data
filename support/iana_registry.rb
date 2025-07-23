@@ -110,8 +110,9 @@ class IANARegistry
         existing_types.each do |mt|
           mt.registered = true
           mt.xrefs = xrefs
-          mt.obsolete = obsolete if obsolete
+          mt.obsolete = obsolete
           mt.use_instead = use_instead if use_instead
+          mt.provisional = @provisional
         end
       end
     end
@@ -140,11 +141,14 @@ class IANARegistry
           emt.xrefs = mt.xrefs
           emt.registered = mt.registered
           emt.provisional = mt.provisional
-          emt.provisional = mt.provisional
           emt.obsolete = mt.obsolete
           emt.use_instead = mt.use_instead
         end
       end
+    end
+
+    @types.each do |t|
+      t.provisional = false if t.provisional && t.obsolete
     end
   end
 
@@ -154,6 +158,10 @@ class IANARegistry
     MIME::Types.new.tap do |container|
       if file.exist? && !@provisional
         container.add(*MIME::Types::Loader.load_from_yaml(file), :silent)
+
+        container.each do |t|
+          t.obsolete = true if t.provisional
+        end
       end
     end
   end

@@ -832,8 +832,7 @@
     template:
     - audio/midi-clip
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: audio/mobile-xmf
   encoding: base64

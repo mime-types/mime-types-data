@@ -662,8 +662,7 @@
     template:
     - application/bufr
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/c2pa
   encoding: base64
@@ -912,8 +911,7 @@
     template:
     - application/ce+cbor
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/CEA
   encoding: base64
@@ -983,8 +981,7 @@
     template:
     - application/cid
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/cid-edhoc+cbor-seq
   encoding: base64
@@ -1005,8 +1002,7 @@
     template:
     - application/city+json
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/city+json-seq
   encoding: base64
@@ -1384,12 +1380,12 @@
 - !ruby/object:MIME::Type
   content-type: application/deflate
   encoding: base64
+  obsolete: true
   xrefs:
     person:
     - David_Clunie
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: application/dialog-info+xml
   encoding: base64
@@ -1443,8 +1439,7 @@
     template:
     - application/did
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/dif+xml
   encoding: base64
@@ -2206,8 +2201,7 @@
     template:
     - application/geopose+json
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/geoxacml+json
   encoding: base64
@@ -2318,8 +2312,7 @@
     template:
     - application/grib
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/gxf
   encoding: base64
@@ -4447,8 +4440,7 @@
     template:
     - application/provided-claims+jwt
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/prql
   friendly:
@@ -5773,8 +5765,7 @@
     template:
     - application/ST2110-41
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/STEP
   encoding: base64
@@ -6106,8 +6097,7 @@
     template:
     - application/toc+cbor
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/token-introspection+jwt
   encoding: base64
@@ -6318,8 +6308,7 @@
     template:
     - application/vc
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vc+cose
   encoding: base64
@@ -6330,8 +6319,7 @@
     template:
     - application/vc+cose
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vc+jwt
   encoding: base64
@@ -6342,8 +6330,7 @@
     template:
     - application/vc+jwt
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vcard+json
   encoding: base64
@@ -19556,12 +19543,12 @@
 - !ruby/object:MIME::Type
   content-type: application/voucher-cose+cbor
   encoding: base64
+  obsolete: true
   xrefs:
     draft:
     - draft-ietf-anima-constrained-voucher-17
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: application/voucher-jws+json
   encoding: base64
@@ -19582,8 +19569,7 @@
     template:
     - application/vp
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vp+cose
   encoding: base64
@@ -19594,8 +19580,7 @@
     template:
     - application/vp+cose
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vp+jwt
   encoding: base64
@@ -19606,8 +19591,7 @@
     template:
     - application/vp+jwt
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vq-rtcpxr
   encoding: base64

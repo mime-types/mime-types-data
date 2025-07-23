@@ -355,8 +355,7 @@
     template:
     - video/lottie+json
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: video/matroska
   encoding: base64
