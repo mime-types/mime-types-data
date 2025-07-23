@@ -284,7 +284,7 @@ dms           application/octet-stream                                          
 dna           application/vnd.dna                                                       base64          
 dng           image/x-adobe-dng                                                         base64          
 do            application/x-stata-do                                                    base64          
-doc           text/plain                                                                quoted-printable
+doc           application/msword                                                        base64          
 docm          application/vnd.ms-word.document.macroEnabled.12                          base64          
 docx          application/vnd.openxmlformats-officedocument.wordprocessingml.document   base64          
 dot           application/msword                                                        base64          

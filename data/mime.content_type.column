@@ -2715,7 +2715,7 @@ text/n3 n3
 text/nfo
 text/parameters
 text/parityfec
-text/plain txt asc c cc h hh cpp hpp dat hlp conf def doc in list log rst text textile install keys license notice readme abs-linkmap abs-menulinks aart ac am apt bsh classpath cnd cwiki data dcl dsp dsw egrm ent ft fn fv grm g .htaccess handlers htc ihtml jmx junit jx manifest m4 mf meta mdo n3 pen pod pom project rng rnx roles schemas tld types vm vsl wsdd xargs xcat xegrm xgrm xlex xlog xmap xroles xsamples xsp xtest xweb xwelcome
+text/plain txt asc c cc h hh cpp hpp dat hlp conf def in list log rst text textile install keys license notice readme abs-linkmap abs-menulinks aart ac am apt bsh classpath cnd cwiki data dcl dsp dsw egrm ent ft fn fv grm g .htaccess handlers htc ihtml jmx junit jx manifest m4 mf meta mdo n3 pen pod pom project rng rnx roles schemas tld types vm vsl wsdd xargs xcat xegrm xgrm xlex xlog xmap xroles xsamples xsp xtest xweb xwelcome
 text/provenance-notation
 text/prs.fallenstein.rst rst
 text/prs.lines.tag dsc
