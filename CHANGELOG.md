@@ -2,82 +2,90 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM-DD
+
+- Remove `.doc` from `text/plain`: The use of `.doc` for `text/plain` documents
+  is mostly a holdover from VAX VMS where the default wasn't `.txt` but `.doc`.
+  The world now thinks that `.doc` mostly means `application/msword` even though
+  that format is obsolete by almost twenty years. Closes
+  [ruby-mime-types#224][ruby-mime-types#224] with [#191][pull-191].
+
 ## 3.2025.0722 / 2025-07-22
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0715 / 2025-07-15
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0708 / 2025-07-08
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0701 / 2025-07-01
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0624 / 2025-06-24
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0617 / 2025-06-17
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0610 / 2025-06-10
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0603 / 2025-06-03
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0527 / 2025-05-27
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0520 / 2025-05-20
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0514 / 2025-05-14
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0507 / 2025-05-07
 
@@ -626,6 +634,7 @@
 [provisional]: https://www.iana.org/assignments/provisional-standard-media-types/provisional-standard-media-types.xml
 [pull-3]: https://github.com/mime-types/mime-types-data/pull/3
 [pull-109]: https://github.com/mime-types/mime-types-data/pull/109
+[pull-191]: https://github.com/mime-types/mime-types-data/pull/191
 [pull-10]: https://github.com/mime-types/mime-types-data/pull/10
 [pull-11]: https://github.com/mime-types/mime-types-data/pull/11
 [pull-12]: https://github.com/mime-types/mime-types-data/pull/12
@@ -657,6 +666,7 @@
 [registry]: https://www.iana.org/assignments/media-types/media-types.xml
 [rmt]: https://github.com/mime-types/ruby-mime-types
 [ruby-mime-types#163]: https://github.com/mime-types/ruby-mime-types/issues/163
+[ruby-mime-types#224]: https://github.com/mime-types/ruby-mime-types/pull/224
 [ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
 [tika]: https://github.com/apache/tika/blob/main/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
 [tp]: https://guides.rubygems.org/trusted-publishing/
