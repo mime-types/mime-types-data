@@ -428,8 +428,7 @@
     template:
     - image/jxl
   registered: true
-  provisional: true
-  sort-priority: 79
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: image/jxr
   encoding: base64
@@ -550,12 +549,12 @@
 - !ruby/object:MIME::Type
   content-type: image/pdc
   encoding: base64
+  obsolete: true
   xrefs:
     person:
     - Pierre-Anthony_Lemieux
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: image/pjpeg
   docs: Fixes a bug with IE6 and progressive JPEGs
