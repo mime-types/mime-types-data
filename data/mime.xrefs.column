@@ -206,6 +206,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 -
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
+draft^RFC-ietf-regext-rdap-geofeed-14|template^application/geofeed+csv
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
 person^OGC^Scott_Simmons|template^application/geopose+json
 person^OGC^Scott_Simmons|template^application/geoxacml+json

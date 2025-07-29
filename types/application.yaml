@@ -2181,6 +2181,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/geofeed+csv
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-regext-rdap-geofeed-14
+    template:
+    - application/geofeed+csv
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/geopackage+sqlite3
   encoding: base64
   xrefs:
