@@ -206,6 +206,7 @@ application/framework-attributes+xml
 application/futuresplash spl
 application/geo+json
 application/geo+json-seq
+application/geofeed+csv
 application/geopackage+sqlite3
 application/geopose+json
 application/geoxacml+json

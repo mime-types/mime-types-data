@@ -2,7 +2,13 @@
 
 <!-- automatic-release -->
 
-## NEXT / YYYY-MM-DD
+## 3.2025.0729 / 2025-07-29
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
+  and the [Apache Tika media registry][tika] as of the release date.
+
+
 
 - Remove `.doc` from `text/plain`: The use of `.doc` for `text/plain` documents
   is mostly a holdover from VAX VMS where the default wasn't `.txt` but `.doc`.
