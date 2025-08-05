@@ -402,7 +402,7 @@ rfc^rfc2585|template^application/pkix-cert
 rfc^rfc2585|template^application/pkix-crl
 draft^draft-hallambaker-mesh-udf-05
 rfc^rfc6066|template^application/pkix-pkipath
-draft^RFC-ietf-lamps-rfc6712bis-10|template^application/pkixcmp
+rfc^rfc9811|template^application/pkixcmp
 rfc^rfc4267|template^application/pls+xml
 rfc^rfc4354|template^application/poc-settings+xml
 rfc^rfc2045^rfc2046|template^application/postscript
@@ -1528,6 +1528,7 @@ person^Reed_Shilts|template^application/vnd.powerbuilder7
 person^Reed_Shilts|template^application/vnd.powerbuilder7-s
 person^Reed_Shilts|template^application/vnd.powerbuilder75
 person^Reed_Shilts|template^application/vnd.powerbuilder75-s
+person^Graham_Leggett|template^application/vnd.pp.systemverify+xml
 person^Juoko_Tenhunen|template^application/vnd.preminet
 person^Roman_Smolgovsky|template^application/vnd.previewsystems.box
 person^Pete_Hoch|template^application/vnd.proteus.magazine
@@ -1608,6 +1609,7 @@ person^Mi_Tar|template^application/vnd.shx
 person^Uwe_Hermann|template^application/vnd.sigrok.session
 person^Patrick_Koh|template^application/vnd.SimTech-MindMapper
 person^Kevin_Swiber|template^application/vnd.siren+json
+person^Philipp_Schafft|template^application/vnd.sirtx.vmv0
 person^Center_for_Mobile_Learning_with_Digital_Technology|template^application/vnd.sketchometry
 person^Hiroaki_Takahashi|template^application/vnd.smaf
 person^Jonathan_Neitz|template^application/vnd.smart.notebook

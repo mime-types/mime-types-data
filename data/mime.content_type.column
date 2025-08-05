@@ -1528,6 +1528,7 @@ application/vnd.powerbuilder7
 application/vnd.powerbuilder7-s
 application/vnd.powerbuilder75
 application/vnd.powerbuilder75-s
+application/vnd.pp.systemverify+xml
 application/vnd.preminet
 application/vnd.previewsystems.box box
 application/vnd.proteus.magazine mgz
@@ -1608,6 +1609,7 @@ application/vnd.shx
 application/vnd.sigrok.session
 application/vnd.SimTech-MindMapper twd twds
 application/vnd.siren+json
+application/vnd.sirtx.vmv0
 application/vnd.sketchometry
 application/vnd.smaf mmf
 application/vnd.smart.notebook
