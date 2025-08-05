@@ -4306,8 +4306,8 @@
   extensions:
   - pki
   xrefs:
-    draft:
-    - RFC-ietf-lamps-rfc6712bis-10
+    rfc:
+    - rfc9811
     template:
     - application/pkixcmp
   registered: true
@@ -16843,6 +16843,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.pp.systemverify+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Graham_Leggett
+    template:
+    - application/vnd.pp.systemverify+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.preminet
   encoding: base64
   xrefs:
@@ -17749,6 +17759,16 @@
     - Kevin_Swiber
     template:
     - application/vnd.siren+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.sirtx.vmv0
+  encoding: base64
+  xrefs:
+    person:
+    - Philipp_Schafft
+    template:
+    - application/vnd.sirtx.vmv0
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
