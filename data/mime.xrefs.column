@@ -264,6 +264,7 @@ rfc^rfc9553|template^application/jscontact+json
 rfc^rfc8259|template^application/json
 person^Glen_Kleidon
 rfc^rfc6902|template^application/json-patch+json
+person^Lorna_Mitchell^TM_Forum|template^application/json-patch-query+json
 rfc^rfc7464|template^application/json-seq
 -
 rfc^rfc9535|template^application/jsonpath
@@ -1543,6 +1544,7 @@ person^Glenn_Forrester|template^application/vnd.qualcomm.brew-app-res
 person^Casper_Joost_Eyckelhof|template^application/vnd.quarantainenet
 person^Hannes_Scheidler|template^application/vnd.Quark.QuarkXPress
 person^Matthias_Ludwig|template^application/vnd.quobject-quoxdocument
+person^R74n|template^application/vnd.R74n.sandboxels+json
 rfc^rfc5707|template^application/vnd.radisys.moml+xml
 rfc^rfc5707|template^application/vnd.radisys.msml+xml
 rfc^rfc5707|template^application/vnd.radisys.msml-audit+xml

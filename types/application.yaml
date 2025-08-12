@@ -2772,6 +2772,17 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/json-patch-query+json
+  encoding: base64
+  xrefs:
+    person:
+    - Lorna_Mitchell
+    - TM_Forum
+    template:
+    - application/json-patch-query+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/json-seq
   encoding: base64
   xrefs:
@@ -17016,6 +17027,16 @@
     - Matthias_Ludwig
     template:
     - application/vnd.quobject-quoxdocument
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.R74n.sandboxels+json
+  encoding: base64
+  xrefs:
+    person:
+    - R74n
+    template:
+    - application/vnd.R74n.sandboxels+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
