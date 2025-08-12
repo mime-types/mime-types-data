@@ -264,6 +264,7 @@ application/jscontact+json
 application/json json
 application/json-nd
 application/json-patch+json
+application/json-patch-query+json
 application/json-seq
 application/jsonml+json jsonml
 application/jsonpath
@@ -1543,6 +1544,7 @@ application/vnd.qualcomm.brew-app-res
 application/vnd.quarantainenet
 application/vnd.Quark.QuarkXPress qxd qxt qwd qwt qxl qxb
 application/vnd.quobject-quoxdocument
+application/vnd.R74n.sandboxels+json
 application/vnd.radisys.moml+xml
 application/vnd.radisys.msml+xml
 application/vnd.radisys.msml-audit+xml
