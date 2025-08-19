@@ -997,6 +997,7 @@ person^Jann_Pruulman|template^application/vnd.fut-misnet
 person^Andrey_Galkin|template^application/vnd.futoin+cbor
 person^Andrey_Galkin|template^application/vnd.futoin+json
 person^Simon_Birtwistle|template^application/vnd.fuzzysheet
+person^Lucas_Guimarães|template^application/vnd.g3pix.g3fc
 person^GA4GH_Secretariat|template^application/vnd.ga4gh.passport+jwt
 person^Torben_Frey|template^application/vnd.genomatix.tuxedo
 person^Divon_Lan|template^application/vnd.genozip
@@ -1706,6 +1707,7 @@ person^Biplab_Sarkar^Lyndsey_Ferguson|template^application/vnd.vectorworks
 person^James_Wigger|template^application/vnd.vel+json
 person^Thomas_Fossati|template^application/vnd.veraison.tsm-report+cbor
 person^Thomas_Fossati|template^application/vnd.veraison.tsm-report+json
+person^Oliver_Terbu^OpenID_Foundation_Digital_Credentials_Protocols_WG|template^application/vnd.verifier-attestation+jwt
 person^Petr_Peterka|template^application/vnd.verimatrix.vcas
 person^Al_Brown|template^application/vnd.veritone.aion+json
 person^Massimo_Bertoli|template^application/vnd.veryant.thin

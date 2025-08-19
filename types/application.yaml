@@ -10783,6 +10783,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.g3pix.g3fc
+  encoding: base64
+  xrefs:
+    person:
+    - Lucas_Guimarães
+    template:
+    - application/vnd.g3pix.g3fc
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.ga4gh.passport+jwt
   encoding: base64
   xrefs:
@@ -18813,6 +18823,17 @@
     - Thomas_Fossati
     template:
     - application/vnd.veraison.tsm-report+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.verifier-attestation+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Oliver_Terbu
+    - OpenID_Foundation_Digital_Credentials_Protocols_WG
+    template:
+    - application/vnd.verifier-attestation+jwt
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
