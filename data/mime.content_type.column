@@ -997,6 +997,7 @@ application/vnd.fut-misnet
 application/vnd.futoin+cbor
 application/vnd.futoin+json
 application/vnd.fuzzysheet fzs
+application/vnd.g3pix.g3fc
 application/vnd.ga4gh.passport+jwt
 application/vnd.genomatix.tuxedo txd
 application/vnd.genozip
@@ -1706,6 +1707,7 @@ application/vnd.vectorworks
 application/vnd.vel+json
 application/vnd.veraison.tsm-report+cbor
 application/vnd.veraison.tsm-report+json
+application/vnd.verifier-attestation+jwt
 application/vnd.verimatrix.vcas
 application/vnd.veritone.aion+json
 application/vnd.veryant.thin
