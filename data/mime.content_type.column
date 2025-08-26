@@ -1325,6 +1325,7 @@ application/vnd.ntt-local.file-transfer
 application/vnd.ntt-local.ogw_remote-access
 application/vnd.ntt-local.sip-ta_remote
 application/vnd.ntt-local.sip-ta_tcp_stream
+application/vnd.nubaltec.nudoku-game
 application/vnd.oai.workflows
 application/vnd.oai.workflows+json
 application/vnd.oai.workflows+yaml
@@ -1730,6 +1731,7 @@ application/vnd.wfa.dpp
 application/vnd.wfa.p2p
 application/vnd.wfa.wsc
 application/vnd.windows.devicepairing
+application/vnd.wmap
 application/vnd.wmc
 application/vnd.wmf.bootstrap
 application/vnd.wolfram.mathematica
@@ -2686,6 +2688,7 @@ text/asp asp
 text/aspdotnet aspx
 text/cache-manifest appcache manifest
 text/calendar ics ifb
+text/cmcd
 text/comma-separated-values csv
 text/cql
 text/cql-expression

@@ -62,6 +62,15 @@
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
+  content-type: text/cmcd
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Alex_Giladi
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: text/comma-separated-values
   encoding: 8bit
   extensions:
