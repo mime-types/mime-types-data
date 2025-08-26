@@ -1325,6 +1325,7 @@ person^NTT-local|template^application/vnd.ntt-local.file-transfer
 person^NTT-local|template^application/vnd.ntt-local.ogw_remote-access
 person^NTT-local|template^application/vnd.ntt-local.sip-ta_remote
 person^NTT-local|template^application/vnd.ntt-local.sip-ta_tcp_stream
+person^Peter_Koellner|template^application/vnd.nubaltec.nudoku-game
 person^Frank_Kilcommins|template^application/vnd.oai.workflows
 person^Frank_Kilcommins|template^application/vnd.oai.workflows+json
 person^Frank_Kilcommins|template^application/vnd.oai.workflows+yaml
@@ -1730,6 +1731,7 @@ person^Dr._Jun_Tian^Wi-Fi_Alliance|template^application/vnd.wfa.dpp
 person^Mick_Conley|template^application/vnd.wfa.p2p
 person^Wi-Fi_Alliance|template^application/vnd.wfa.wsc
 person^Priya_Dandawate|template^application/vnd.windows.devicepairing
+person^Rubén_Fabián_Beltrán_del_Río_Vara|template^application/vnd.wmap
 person^Thomas_Kjornes|template^application/vnd.wmc
 person^Prakash_Iyer^Thinh_Nguyenphu|template^application/vnd.wmf.bootstrap
 person^Wolfram|template^application/vnd.wolfram.mathematica
@@ -2686,6 +2688,7 @@ person^Frédéric_Desbiens
 -
 person^Robin_Berjon^W3C|template^text/cache-manifest
 rfc^rfc5545|template^text/calendar
+person^Alex_Giladi
 -
 person^Bryn_Rhodes^HL7|template^text/cql
 person^Bryn_Rhodes^HL7|template^text/cql-expression

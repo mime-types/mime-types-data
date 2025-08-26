@@ -14616,6 +14616,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.nubaltec.nudoku-game
+  encoding: base64
+  xrefs:
+    person:
+    - Peter_Koellner
+    template:
+    - application/vnd.nubaltec.nudoku-game
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.oai.workflows
   encoding: base64
   xrefs:
@@ -19092,6 +19102,16 @@
     - Priya_Dandawate
     template:
     - application/vnd.windows.devicepairing
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.wmap
+  encoding: base64
+  xrefs:
+    person:
+    - Rubén_Fabián_Beltrán_del_Río_Vara
+    template:
+    - application/vnd.wmap
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
