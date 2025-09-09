@@ -2914,7 +2914,7 @@ rfc^rfc9328|template^video/H266
 person^David_Singer^ISO-IEC_JTC_1|template^video/iso.segment
 rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
-draft^RFC-ietf-avtcore-rtp-j2k-scl-08|template^video/jpeg2000-scl
+rfc^rfc9828|template^video/jpeg2000-scl
 -
 rfc^rfc9134|template^video/jxsv
 person^Lottie_Animation_Community|template^video/lottie+json

@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: mime-types-data 3.2025.0902 ruby lib
+# stub: mime-types-data 3.2025.0909 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "mime-types-data".freeze
-  s.version = "3.2025.0902".freeze
+  s.version = "3.2025.0909".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.metadata = { "bug_tracker_uri" => "https://github.com/mime-types/mime-types-data/issues", "changelog_uri" => "https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md", "homepage_uri" => "https://github.com/mime-types/mime-types-data/", "rubygems_mfa_required" => "true", "source_code_uri" => "https://github.com/mime-types/mime-types-data/" } if s.respond_to? :metadata=
@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
-  s.rubygems_version = "3.7.1".freeze
+  s.rubygems_version = "3.7.2".freeze
   s.summary = "mime-types-data provides a registry for information about MIME media type definitions".freeze
 
   s.specification_version = 4
