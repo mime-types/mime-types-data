@@ -320,8 +320,8 @@
   content-type: video/jpeg2000-scl
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-avtcore-rtp-j2k-scl-08
+    rfc:
+    - rfc9828
     template:
     - video/jpeg2000-scl
   registered: true
