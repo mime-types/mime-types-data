@@ -2,6 +2,12 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM—DD
+
+- Removed the [Apache httpd media registry][httpd] from automatic updates.
+  It is currently failing and no longer provides useful data compared to
+  other sources. 
+
 ## 3.2025.0916 / 2025-09-16
 
 - Updated registry entries from the IANA [media registry][registry] and
