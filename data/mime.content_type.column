@@ -40,6 +40,8 @@ application/appledouble
 application/applefile
 application/application/jwk-set+jwt
 application/applixware aw
+application/asyncapi+json
+application/asyncapi+yaml
 application/at+jwt
 application/ATF
 application/ATFX
@@ -274,6 +276,7 @@ application/jwk-set+jwt
 application/jwt
 application/kate
 application/kb+jwt
+application/kbl+xml
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json
@@ -594,6 +597,8 @@ application/vc+jwt
 application/vcard+json
 application/vcard+xml
 application/vda
+application/vec+xml
+application/vec-package
 application/vemmi
 application/vividence.scriptfile
 application/VMSBACKUP bck
