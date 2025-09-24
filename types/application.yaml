@@ -420,6 +420,24 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: application/asyncapi+json
+  encoding: base64
+  xrefs:
+    person:
+    - AsyncAPI_Initiative
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/asyncapi+yaml
+  encoding: base64
+  xrefs:
+    person:
+    - AsyncAPI_Initiative
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/at+jwt
   encoding: base64
   xrefs:
@@ -1083,8 +1101,8 @@
   content-type: application/coap-eap
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ace-wg-coap-eap-14
+    rfc:
+    - rfc9820
     template:
     - application/coap-eap
   registered: true
@@ -2862,6 +2880,17 @@
     - RFC-ietf-oauth-selective-disclosure-jwt-22
     template:
     - application/kb+jwt
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/kbl+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Nora_Tazir
+    - prostep_ivip
+    template:
+    - application/kbl+xml
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -6377,6 +6406,26 @@
   encoding: base64
   registered: false
   sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: application/vec+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Nora_Tazir
+    - prostep_ivip
+    template:
+    - application/vec+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vec-package
+  encoding: base64
+  xrefs:
+    person:
+    - Nora_Tazir
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/vemmi
   encoding: base64

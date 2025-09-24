@@ -40,6 +40,8 @@ person^Nathaniel_Borenstein|template^application/andrew-inset
 person^Patrik_Faltstrom|template^application/applefile
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/application/jwk-set+jwt
 -
+person^AsyncAPI_Initiative
+person^AsyncAPI_Initiative
 rfc^rfc9068|template^application/at+jwt
 person^ASAM^Thomas_Thomsen|template^application/ATF
 person^ASAM^Thomas_Thomsen|template^application/ATFX
@@ -102,7 +104,7 @@ rfc^rfc8846|template^application/clue_info+xml
 rfc^rfc7193|template^application/cms
 draft^draft-ietf-rats-msg-wrap-04
 rfc^rfc3367|template^application/cnrp+xml
-draft^RFC-ietf-ace-wg-coap-eap-14|template^application/coap-eap
+rfc^rfc9820|template^application/coap-eap
 rfc^rfc7390|template^application/coap-group+json
 rfc^rfc8075|template^application/coap-payload
 person^David_Glazer|template^application/commonground
@@ -274,6 +276,7 @@ person^OpenID_Foundation_Artifact_Binding_WG|template^application/jwk-set+jwt
 rfc^rfc7519|template^application/jwt
 -
 draft^RFC-ietf-oauth-selective-disclosure-jwt-22|template^application/kb+jwt
+person^Nora_Tazir^prostep_ivip|template^application/kbl+xml
 rfc^rfc4730|template^application/kpml-request+xml
 rfc^rfc4730|template^application/kpml-response+xml
 person^Ivan_Herman^W3C|template^application/ld+json
@@ -594,6 +597,8 @@ person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vc+jwt
 rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
+person^Nora_Tazir^prostep_ivip|template^application/vec+xml
+person^Nora_Tazir
 rfc^rfc2122|template^application/vemmi
 -
 -

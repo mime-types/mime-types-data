@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2025.0924 / 2025-09-24
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
+
+
 ## NEXT / YYYY-MM—DD
 
 - Removed the [Apache httpd media registry][httpd] from automatic updates.
