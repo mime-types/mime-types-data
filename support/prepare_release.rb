@@ -1,4 +1,3 @@
-require_relative "apache_mime_types"
 require_relative "convert"
 require_relative "convert/columnar"
 require_relative "convert/mini_mime_db"
@@ -7,7 +6,6 @@ require_relative "tika_mime_types"
 
 class PrepareRelease
   def download_and_convert
-    download_apache_mime_types
     download_iana_mime_types
     download_tike_mime_types
     convert_types
@@ -80,10 +78,6 @@ class PrepareRelease
     self
   end
 
-  def download_apache_mime_types(destination = nil)
-    ApacheMIMETypes.download(to: destination)
-  end
-
   def download_iana_mime_types(destination = nil)
     IANARegistry.download(to: destination)
   end
@@ -134,8 +128,8 @@ class PrepareRelease
   def history_body
     <<-MARKDOWN
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
     MARKDOWN
   end
 end
