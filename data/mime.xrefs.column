@@ -1539,6 +1539,7 @@ person^Reed_Shilts|template^application/vnd.powerbuilder75-s
 person^Graham_Leggett|template^application/vnd.pp.systemverify+xml
 person^Juoko_Tenhunen|template^application/vnd.preminet
 person^Roman_Smolgovsky|template^application/vnd.previewsystems.box
+person^Tianyu_Zhang|template^application/vnd.project-graph
 person^Pete_Hoch|template^application/vnd.proteus.magazine
 person^Kristopher_Durski|template^application/vnd.psfs
 person^Igor_Lima_Bolacha_Severino|template^application/vnd.pt.mundusmundi
@@ -1724,6 +1725,7 @@ person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
 person^Wu_Chang|template^application/vnd.vocalshaper.vsp4
 person^Delton_Rowe|template^application/vnd.vsf
+person^Phillip_Gimmi|template^application/vnd.vuq
 person^John_J_Kolb_V|template^application/vnd.wantverse
 person^WAP-Forum|template^application/vnd.wap.sic
 person^WAP-Forum|template^application/vnd.wap.slc
@@ -2728,6 +2730,7 @@ rfc^rfc7763|template^text/markdown
 person^Jesse_Alama|template^text/mizar
 person^Eric_Prudhommeaux^W3C|template^text/n3
 person^Sean_Leonard
+note^4|person^Jeffrey_Gipson^Org_Mode|template^text/org
 rfc^rfc7826|template^text/parameters
 rfc^rfc3009|template^text/parityfec
 rfc^rfc2046^rfc3676^rfc5147|template^text/plain

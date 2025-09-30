@@ -16957,6 +16957,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.project-graph
+  encoding: base64
+  xrefs:
+    person:
+    - Tianyu_Zhang
+    template:
+    - application/vnd.project-graph
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.proteus.magazine
   friendly:
     en: EFI Proteus
@@ -19012,6 +19022,16 @@
     - application/vnd.vsf
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vuq
+  encoding: base64
+  xrefs:
+    person:
+    - Phillip_Gimmi
+    template:
+    - application/vnd.vuq
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.wantverse
   encoding: base64
