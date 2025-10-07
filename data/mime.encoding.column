@@ -981,6 +981,10 @@ base64
 base64
 base64
 base64
+base64
+base64
+base64
+base64
 7bit
 base64
 base64
@@ -1549,6 +1553,7 @@ base64
 base64
 base64
 base64
+base64
 8bit
 base64
 base64
@@ -1719,6 +1724,7 @@ base64
 base64
 base64
 8bit
+base64
 base64
 base64
 base64
@@ -2714,6 +2720,7 @@ quoted-printable
 quoted-printable
 quoted-printable
 8bit
+quoted-printable
 quoted-printable
 quoted-printable
 quoted-printable

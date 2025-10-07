@@ -8115,6 +8115,46 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+uper
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+uper
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.astraea-software.iota
   encoding: base64
   extensions:
@@ -16957,6 +16997,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.project-graph
+  encoding: base64
+  xrefs:
+    person:
+    - Tianyu_Zhang
+    template:
+    - application/vnd.project-graph
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.proteus.magazine
   friendly:
     en: EFI Proteus
@@ -19012,6 +19062,16 @@
     - application/vnd.vsf
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vuq
+  encoding: base64
+  xrefs:
+    person:
+    - Phillip_Gimmi
+    template:
+    - application/vnd.vuq
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.wantverse
   encoding: base64

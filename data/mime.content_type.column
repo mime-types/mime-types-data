@@ -758,6 +758,10 @@ application/vnd.arastra.swi swi
 application/vnd.aristanetworks.swi swi
 application/vnd.artisan+json
 application/vnd.artsquare
+application/vnd.as207960.vas.config+jer
+application/vnd.as207960.vas.config+uper
+application/vnd.as207960.vas.tap+jer
+application/vnd.as207960.vas.tap+uper
 application/vnd.astraea-software.iota iota
 application/vnd.audiograph aep
 application/vnd.autopackage
@@ -1539,6 +1543,7 @@ application/vnd.powerbuilder75-s
 application/vnd.pp.systemverify+xml
 application/vnd.preminet
 application/vnd.previewsystems.box box
+application/vnd.project-graph
 application/vnd.proteus.magazine mgz
 application/vnd.psfs
 application/vnd.pt.mundusmundi
@@ -1724,6 +1729,7 @@ application/vnd.visionary vis
 application/vnd.vividence.scriptfile
 application/vnd.vocalshaper.vsp4
 application/vnd.vsf vsf
+application/vnd.vuq
 application/vnd.wantverse
 application/vnd.wap.sic sic
 application/vnd.wap.slc slc
@@ -2728,6 +2734,7 @@ text/markdown markdown md mkd
 text/mizar
 text/n3 n3
 text/nfo
+text/org
 text/parameters
 text/parityfec
 text/plain txt asc c cc h hh cpp hpp dat hlp conf def in list log rst text textile install keys license notice readme abs-linkmap abs-menulinks aart ac am apt bsh classpath cnd cwiki data dcl dsp dsw egrm ent ft fn fv grm g .htaccess handlers htc ihtml jmx junit jx manifest m4 mf meta mdo n3 pen pod pom project rng rnx roles schemas tld types vm vsl wsdd xargs xcat xegrm xgrm xlex xlog xmap xroles xsamples xsp xtest xweb xwelcome
