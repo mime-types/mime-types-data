@@ -6,6 +6,9 @@
 -
 -
 -
+-
+-
+-
 application/x-msaccess
 -
 -
@@ -523,6 +526,8 @@ application/remote-printing
 -
 -
 -
+-
+-
 application/smil+xml
 -
 -
@@ -575,6 +580,8 @@ application/smil+xml
 -
 -
 application/x-toolbook
+-
+-
 -
 -
 -
@@ -755,6 +762,10 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 application/vnd.aristanetworks.swi
+-
+-
+-
+-
 -
 -
 -
@@ -1317,6 +1328,7 @@ application/vnd.visionary
 -
 -
 -
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1338,6 +1350,8 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
 -
 -
 -
@@ -2724,6 +2738,7 @@ text/javascript
 -
 text/javascript
 text/javascript
+-
 -
 -
 -

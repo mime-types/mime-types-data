@@ -41,6 +41,33 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/3gpp-mbs-object-manifest+json
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP_Specifications_Manager
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/3gpp-mbs-user-service-descriptions+json
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP_Specifications_Manager
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/3gpp-media-delivery-metrics-report+json
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP_Specifications_Manager
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/3gppHal+json
   encoding: base64
   xrefs:
@@ -5174,6 +5201,26 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/scitt-receipt+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-scitt-architecture-21
+    template:
+    - application/scitt-receipt+cose
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/scitt-statement+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-scitt-architecture-21
+    template:
+    - application/scitt-statement+cose
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/scvp-cv-request
   friendly:
     en: Server-Based Certificate Validation Protocol - Validation Request
@@ -6419,6 +6466,24 @@
   sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vec-package
+  encoding: base64
+  obsolete: true
+  xrefs:
+    person:
+    - Nora_Tazir
+  registered: true
+  sort-priority: 144
+- !ruby/object:MIME::Type
+  content-type: application/vec-package+gzip
+  encoding: base64
+  xrefs:
+    person:
+    - Nora_Tazir
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/vec-package+zip
   encoding: base64
   xrefs:
     person:
@@ -8112,6 +8177,46 @@
     - Christopher_Smith
     template:
     - application/vnd.artsquare
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+uper
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+uper
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -12885,6 +12990,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.maml
+  encoding: base64
+  xrefs:
+    person:
+    - Anton_Medvedev
+    template:
+    - application/vnd.maml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.mapbox-vector-tile
   encoding: base64
   xrefs:
@@ -16957,6 +17072,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.project-graph
+  encoding: base64
+  xrefs:
+    person:
+    - Tianyu_Zhang
+    template:
+    - application/vnd.project-graph
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.proteus.magazine
   friendly:
     en: EFI Proteus
@@ -19012,6 +19137,16 @@
     - application/vnd.vsf
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vuq
+  encoding: base64
+  xrefs:
+    person:
+    - Phillip_Gimmi
+    template:
+    - application/vnd.vuq
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.wantverse
   encoding: base64
