@@ -23,7 +23,7 @@ Hoe.spec "mime-types-data" do
   license "MIT"
 
   spec_extras[:metadata] = ->(val) {
-    val.merge!({"rubygems_mfa_required" => "true"})
+    val["rubygems_mfa_required"] = "true"
   }
 
   extra_dev_deps << ["hoe", "~> 4.0"]

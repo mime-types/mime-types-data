@@ -16,9 +16,9 @@ jobs:
   update-definitions:
     name: Update data and open pull request
     permissions:
-      contents: write
-      issues: write
-      pull-requests: write
+      contents: write       # This workflow updates data and opens a pull request.
+      issues: write         # This workflow updates data and opens a pull request.
+      pull-requests: write  # This workflow updates data and opens a pull request.
 
     runs-on: ubuntu-latest
 

@@ -2,75 +2,77 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM-DD
+
+Manual contributions now require `Signed-off-by` trailers for assertion of the
+[Developer Certificate of Origin][dco]. More details will be added in the coming
+weeks.
+
 ## 3.2025.0924 / 2025-09-24
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
-## NEXT / YYYY-MM—DD
-
-- Removed the [Apache httpd media registry][httpd] from automatic updates.
-  It is currently failing and no longer provides useful data compared to
-  other sources. 
+- Removed the [Apache httpd media registry][httpd] from automatic updates. It is
+  currently failing and no longer provides useful data compared to other
+  sources.
 
 ## 3.2025.0916 / 2025-09-16
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0909 / 2025-09-09
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0902 / 2025-09-02
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0826 / 2025-08-26
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0819 / 2025-08-19
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0812 / 2025-08-12
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0805 / 2025-08-05
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2025.0729 / 2025-07-29
 
 - Updated registry entries from the IANA [media registry][registry] and
-  [provisional media registry][provisional], the [Apache httpd media registry][httpd],
-  and the [Apache Tika media registry][tika] as of the release date.
-
-
+  [provisional media registry][provisional], the
+  [Apache httpd media registry][httpd], and the
+  [Apache Tika media registry][tika] as of the release date.
 
 - Remove `.doc` from `text/plain`: The use of `.doc` for `text/plain` documents
   is mostly a holdover from VAX VMS where the default wasn't `.txt` but `.doc`.
@@ -758,3 +760,4 @@
 [ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
 [tika]: https://github.com/apache/tika/blob/main/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
 [tp]: https://guides.rubygems.org/trusted-publishing/
+[dco]: https://developercertificate.org
