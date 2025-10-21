@@ -35,6 +35,9 @@
 -
 -
 -
+-
+-
+-
 en^Andrew Toolkit
 -
 -
@@ -483,6 +486,8 @@ en^Rich Text Format
 en^Systems Biology Markup Language
 -
 -
+-
+-
 en^Server-Based Certificate Validation Protocol - Validation Request
 en^Server-Based Certificate Validation Protocol - Validation Response
 en^Server-Based Certificate Validation Protocol - Validation Policies - Request
@@ -567,6 +572,8 @@ en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
+-
 -
 -
 -
@@ -756,6 +763,10 @@ en^Multimedia Playlist Unicode
 -
 -
 en^Arista Networks Software Image
+-
+-
+-
+-
 -
 -
 -
@@ -1179,6 +1190,7 @@ en^MacPorts Port System
 -
 -
 -
+-
 en^Micro CADAM Helix D&D
 -
 -
@@ -1539,6 +1551,7 @@ en^PowerBuilder
 -
 -
 en^Preview Systems ZipLock/VBox
+-
 en^EFI Proteus
 -
 -
@@ -1724,6 +1737,7 @@ en^Visionary
 -
 -
 en^Viewport+
+-
 -
 -
 -
@@ -2727,6 +2741,7 @@ en^HyperText Markup Language (HTML)
 -
 -
 en^Notation3
+-
 -
 -
 -

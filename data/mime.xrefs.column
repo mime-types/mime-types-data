@@ -2,6 +2,9 @@ rfc^rfc6015|template^application/1d-interleaved-parityfec
 person^Rob_Coyle
 person^Ozgur_Oyman^_3GPP|template^application/3gpdash-qoe-report+xml
 person^John_M_Meredith^_3GPP|template^application/3gpp-ims+xml
+person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-object-manifest+json
+person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-user-service-descriptions+json
+person^_3GPP_Specifications_Manager
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHal+json
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
 person^ASAM^Thomas_Thomsen|template^application/A2L
@@ -208,7 +211,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 -
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
-draft^RFC-ietf-regext-rdap-geofeed-14|template^application/geofeed+csv
+rfc^rfc9877|template^application/geofeed+csv
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
 person^OGC^Scott_Simmons|template^application/geopose+json
 person^OGC^Scott_Simmons|template^application/geoxacml+json
@@ -483,6 +486,8 @@ person^Donald_L._Mendelson^FIX_Trading_Community|template^application/sbe
 rfc^rfc3823|template^application/sbml+xml
 person^Oskar_Jonsson^SIS|template^application/scaip+xml
 rfc^rfc7644|template^application/scim+json
+draft^RFC-ietf-scitt-architecture-21|template^application/scitt-receipt+cose
+draft^RFC-ietf-scitt-architecture-21|template^application/scitt-statement+cose
 rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
@@ -598,6 +603,8 @@ rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
 person^Nora_Tazir^prostep_ivip|template^application/vec+xml
+person^Nora_Tazir
+person^Nora_Tazir
 person^Nora_Tazir
 rfc^rfc2122|template^application/vemmi
 -
@@ -758,6 +765,10 @@ notes^(OBSOLETED in favor of application/vnd.aristanetworks.swi)|person^Bill_Fen
 person^Bill_Fenner|template^application/vnd.aristanetworks.swi
 person^Brad_Turner|template^application/vnd.artisan+json
 person^Christopher_Smith|template^application/vnd.artsquare
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.config+jer
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.config+uper
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.tap+jer
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.tap+uper
 person^Christopher_Snazell|template^application/vnd.astraea-software.iota
 person^Horia_Cristian_Slusanschi|template^application/vnd.audiograph
 person^Mike_Hearn|template^application/vnd.autopackage
@@ -1171,6 +1182,7 @@ person^Paul_Wattenberger|template^application/vnd.lotus-organizer
 person^Paul_Wattenberger|template^application/vnd.lotus-screencam
 person^Paul_Wattenberger|template^application/vnd.lotus-wordpro
 person^James_Berry|template^application/vnd.macports.portpkg
+person^Anton_Medvedev|template^application/vnd.maml
 person^Blake_Thompson|template^application/vnd.mapbox-vector-tile
 person^Gary_Ellison|template^application/vnd.marlin.drm.actiontoken+xml
 person^Gary_Ellison|template^application/vnd.marlin.drm.conftoken+xml
@@ -1539,6 +1551,7 @@ person^Reed_Shilts|template^application/vnd.powerbuilder75-s
 person^Graham_Leggett|template^application/vnd.pp.systemverify+xml
 person^Juoko_Tenhunen|template^application/vnd.preminet
 person^Roman_Smolgovsky|template^application/vnd.previewsystems.box
+person^Tianyu_Zhang|template^application/vnd.project-graph
 person^Pete_Hoch|template^application/vnd.proteus.magazine
 person^Kristopher_Durski|template^application/vnd.psfs
 person^Igor_Lima_Bolacha_Severino|template^application/vnd.pt.mundusmundi
@@ -1724,6 +1737,7 @@ person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
 person^Wu_Chang|template^application/vnd.vocalshaper.vsp4
 person^Delton_Rowe|template^application/vnd.vsf
+person^Phillip_Gimmi|template^application/vnd.vuq
 person^John_J_Kolb_V|template^application/vnd.wantverse
 person^WAP-Forum|template^application/vnd.wap.sic
 person^WAP-Forum|template^application/vnd.wap.slc
@@ -2728,6 +2742,7 @@ rfc^rfc7763|template^text/markdown
 person^Jesse_Alama|template^text/mizar
 person^Eric_Prudhommeaux^W3C|template^text/n3
 person^Sean_Leonard
+note^4|person^Jeffrey_Gipson^Org_Mode|template^text/org
 rfc^rfc7826|template^text/parameters
 rfc^rfc3009|template^text/parityfec
 rfc^rfc2046^rfc3676^rfc5147|template^text/plain
