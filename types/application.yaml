@@ -41,6 +41,37 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/3gpp-mbs-object-manifest+json
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_TSG_SA_WG4
+    template:
+    - application/3gpp-mbs-object-manifest+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/3gpp-mbs-user-service-descriptions+json
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    - _3GPP_TSG_SA_WG4
+    template:
+    - application/3gpp-mbs-user-service-descriptions+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/3gpp-media-delivery-metrics-report+json
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP_Specifications_Manager
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/3gppHal+json
   encoding: base64
   xrefs:
@@ -68,7 +99,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/A2L
   registered: true
@@ -366,7 +397,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/AML
   registered: true
@@ -453,7 +484,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/ATF
   registered: true
@@ -464,7 +495,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/ATFX
   registered: true
@@ -588,7 +619,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/ATXML
   registered: true
@@ -832,7 +863,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/CDFX+XML
   registered: true
@@ -936,7 +967,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/CEA
   registered: true
@@ -1037,6 +1068,15 @@
   encoding: base64
   registered: false
   sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: application/clf+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Frederick_Walls
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/clr
   encoding: base64
@@ -1380,7 +1420,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/DCD
   registered: true
@@ -1471,7 +1511,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/DII
   registered: true
@@ -1482,7 +1522,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/DIT
   registered: true
@@ -2202,8 +2242,8 @@
   content-type: application/geofeed+csv
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-regext-rdap-geofeed-14
+    rfc:
+    - rfc9877
     template:
     - application/geofeed+csv
   registered: true
@@ -3032,7 +3072,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/LXF
   registered: true
@@ -3414,7 +3454,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/MF4
   registered: true
@@ -3913,7 +3953,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/ODX
   registered: true
@@ -4106,7 +4146,7 @@
   xrefs:
     person:
     - ASAM
-    - Thomas_Thomsen
+    - Bernd_Wenzel
     template:
     - application/PDX
   registered: true
@@ -5171,6 +5211,26 @@
     - rfc7644
     template:
     - application/scim+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/scitt-receipt+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-scitt-architecture-21
+    template:
+    - application/scitt-receipt+cose
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/scitt-statement+cose
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-scitt-architecture-21
+    template:
+    - application/scitt-statement+cose
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -6419,6 +6479,24 @@
   sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vec-package
+  encoding: base64
+  obsolete: true
+  xrefs:
+    person:
+    - Nora_Tazir
+  registered: true
+  sort-priority: 144
+- !ruby/object:MIME::Type
+  content-type: application/vec-package+gzip
+  encoding: base64
+  xrefs:
+    person:
+    - Nora_Tazir
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/vec-package+zip
   encoding: base64
   xrefs:
     person:
@@ -8112,6 +8190,46 @@
     - Christopher_Smith
     template:
     - application/vnd.artsquare
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.config+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.config+uper
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+jer
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+jer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.as207960.vas.tap+uper
+  encoding: base64
+  xrefs:
+    person:
+    - AS207960_Cyfyngedig
+    template:
+    - application/vnd.as207960.vas.tap+uper
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -10344,6 +10462,16 @@
     - Samu_Sarivaara
     template:
     - application/vnd.f-secure.mobile
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.faf+yaml
+  encoding: base64
+  xrefs:
+    person:
+    - James_Wolfe
+    template:
+    - application/vnd.faf+yaml
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -12884,6 +13012,16 @@
     - application/vnd.macports.portpkg
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.maml
+  encoding: base64
+  xrefs:
+    person:
+    - Anton_Medvedev
+    template:
+    - application/vnd.maml
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.mapbox-vector-tile
   encoding: base64
@@ -16957,6 +17095,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.project-graph
+  encoding: base64
+  xrefs:
+    person:
+    - Tianyu_Zhang
+    template:
+    - application/vnd.project-graph
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.proteus.magazine
   friendly:
     en: EFI Proteus
@@ -19012,6 +19160,16 @@
     - application/vnd.vsf
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vuq
+  encoding: base64
+  xrefs:
+    person:
+    - Phillip_Gimmi
+    template:
+    - application/vnd.vuq
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.wantverse
   encoding: base64

@@ -2,9 +2,12 @@ rfc^rfc6015|template^application/1d-interleaved-parityfec
 person^Rob_Coyle
 person^Ozgur_Oyman^_3GPP|template^application/3gpdash-qoe-report+xml
 person^John_M_Meredith^_3GPP|template^application/3gpp-ims+xml
+person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-object-manifest+json
+person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-user-service-descriptions+json
+person^_3GPP_Specifications_Manager
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHal+json
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
-person^ASAM^Thomas_Thomsen|template^application/A2L
+person^ASAM^Bernd_Wenzel|template^application/A2L
 -
 -
 rfc^rfc9200|template^application/ace+cbor
@@ -34,7 +37,7 @@ rfc^rfc9569|template^application/alto-tips+json
 rfc^rfc9569|template^application/alto-tipsparams+json
 rfc^rfc8895|template^application/alto-updatestreamcontrol+json
 rfc^rfc8895|template^application/alto-updatestreamparams+json
-person^ASAM^Thomas_Thomsen|template^application/AML
+person^ASAM^Bernd_Wenzel|template^application/AML
 person^Nathaniel_Borenstein|template^application/andrew-inset
 -
 person^Patrik_Faltstrom|template^application/applefile
@@ -43,8 +46,8 @@ person^OpenID_Foundation_Artifact_Binding_WG|template^application/application/jw
 person^AsyncAPI_Initiative
 person^AsyncAPI_Initiative
 rfc^rfc9068|template^application/at+jwt
-person^ASAM^Thomas_Thomsen|template^application/ATF
-person^ASAM^Thomas_Thomsen|template^application/ATFX
+person^ASAM^Bernd_Wenzel|template^application/ATF
+person^ASAM^Bernd_Wenzel|template^application/ATFX
 rfc^rfc4287^rfc5023|template^application/atom+xml
 rfc^rfc5023|template^application/atomcat+xml
 rfc^rfc6721|template^application/atomdeleted+xml
@@ -55,7 +58,7 @@ person^ATSC|template^application/atsc-dynamic-event-message
 person^ATSC|template^application/atsc-held+xml
 person^ATSC|template^application/atsc-rdt+json
 person^ATSC|template^application/atsc-rsat+xml
-person^ASAM^Thomas_Thomsen|template^application/ATXML
+person^ASAM^Bernd_Wenzel|template^application/ATXML
 rfc^rfc4745|template^application/auth-policy+xml
 person^AutomationML_e.V.|template^application/automationml-aml+xml
 person^AutomationML_e.V.|template^application/automationml-amlx+zip
@@ -79,7 +82,7 @@ person^_3GPP|template^application/cccex
 rfc^rfc6503|template^application/ccmp+xml
 rfc^rfc4267|template^application/ccxml+xml
 person^HL7^Marc_Duteau|template^application/cda+xml
-person^ASAM^Thomas_Thomsen|template^application/CDFX+XML
+person^ASAM^Bernd_Wenzel|template^application/CDFX+XML
 rfc^rfc6208|template^application/cdmi-capability
 rfc^rfc6208|template^application/cdmi-container
 rfc^rfc6208|template^application/cdmi-domain
@@ -87,7 +90,7 @@ rfc^rfc6208|template^application/cdmi-object
 rfc^rfc6208|template^application/cdmi-queue
 rfc^rfc7736|template^application/cdni
 person^Ned_M._Smith^TCG_DICE_WG|template^application/ce+cbor|uri^https://trustedcomputinggroup.org/wp-content/uploads/TCG-DICE-Concise-Evidence-Binding-for-SPDM-Version-1.1-RC1_10April25.pdf
-person^ASAM^Thomas_Thomsen|template^application/CEA
+person^ASAM^Bernd_Wenzel|template^application/CEA
 person^Gottfried_Zimmermann|template^application/cea-2018+xml
 rfc^rfc4708|template^application/cellml+xml
 draft^draft-yasskin-http-origin-signed-responses-07
@@ -98,6 +101,7 @@ rfc^rfc9528|template^application/cid-edhoc+cbor-seq
 person^OGC^Scott_Simmons|template^application/city+json
 person^OGC^Scott_Simmons|template^application/city+json-seq
 -
+person^Frederick_Walls
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
 rfc^rfc8846|template^application/clue_info+xml
@@ -131,7 +135,7 @@ person^ISO-IEC_JTC_1|template^application/dash-patch+xml
 person^David_Furbeck|template^application/dashdelta
 rfc^rfc4709|template^application/davmount+xml
 person^Larry_Campbell|template^application/dca-rft
-person^ASAM^Thomas_Thomsen|template^application/DCD
+person^ASAM^Bernd_Wenzel|template^application/DCD
 person^Larry_Campbell|template^application/dec-dx
 person^David_Clunie
 rfc^rfc4235|template^application/dialog-info+xml
@@ -140,8 +144,8 @@ person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+json
 person^DICOM_Standard_Committee^David_Clunie|template^application/dicom+xml
 person^W3C_DID_WG|template^application/did
 -
-person^ASAM^Thomas_Thomsen|template^application/DII
-person^ASAM^Thomas_Thomsen|template^application/DIT
+person^ASAM^Bernd_Wenzel|template^application/DII
+person^ASAM^Bernd_Wenzel|template^application/DIT
 -
 rfc^rfc4027|template^application/dns
 rfc^rfc8427|template^application/dns+json
@@ -208,7 +212,7 @@ rfc^rfc6230|template^application/framework-attributes+xml
 -
 rfc^rfc7946|template^application/geo+json
 rfc^rfc8142|template^application/geo+json-seq
-draft^RFC-ietf-regext-rdap-geofeed-14|template^application/geofeed+csv
+rfc^rfc9877|template^application/geofeed+csv
 person^OGC^Scott_Simmons|template^application/geopackage+sqlite3
 person^OGC^Scott_Simmons|template^application/geopose+json
 person^OGC^Scott_Simmons|template^application/geoxacml+json
@@ -290,7 +294,7 @@ rfc^rfc5222|template^application/lost+xml
 rfc^rfc6739|template^application/lostsync+xml
 -
 person^Ivan_Herman^W3C|template^application/lpf+zip
-person^ASAM^Thomas_Thomsen|template^application/LXF
+person^ASAM^Bernd_Wenzel|template^application/LXF
 person^Patrik_Faltstrom|template^application/mac-binhex40
 -
 -
@@ -324,7 +328,7 @@ rfc^rfc7396|template^application/merge-patch+json
 -
 rfc^rfc5854|template^application/metalink4+xml
 rfc^rfc6207|template^application/mets+xml
-person^ASAM^Thomas_Thomsen|template^application/MF4
+person^ASAM^Bernd_Wenzel|template^application/MF4
 rfc^rfc3830|template^application/mikey
 person^Bryan_Blank^NCGIS|template^application/mipc
 rfc^rfc9177|template^application/missing-blocks+cbor-seq
@@ -369,7 +373,7 @@ rfc^rfc2045^rfc2046|template^application/octet-stream
 rfc^rfc1494|template^application/ODA
 person^Sam_Hume
 person^CDISC^Sam_Hume|template^application/odm+xml
-person^ASAM^Thomas_Thomsen|template^application/ODX
+person^ASAM^Bernd_Wenzel|template^application/ODX
 person^EPUB_3_WG^W3C|template^application/oebps-package+xml
 rfc^rfc5334^rfc7845|template^application/ogg
 rfc^rfc9458|template^application/ohttp-keys
@@ -387,7 +391,7 @@ rfc^rfc3009|template^application/parityfec
 rfc^rfc8225|template^application/passport
 rfc^rfc5261|template^application/patch-ops-error+xml
 rfc^rfc8118|template^application/pdf
-person^ASAM^Thomas_Thomsen|template^application/PDX
+person^ASAM^Bernd_Wenzel|template^application/PDX
 rfc^rfc8555|template^application/pem-certificate-chain
 rfc^rfc3156|template^application/pgp-encrypted
 rfc^rfc3156|template^application/pgp-keys
@@ -483,6 +487,8 @@ person^Donald_L._Mendelson^FIX_Trading_Community|template^application/sbe
 rfc^rfc3823|template^application/sbml+xml
 person^Oskar_Jonsson^SIS|template^application/scaip+xml
 rfc^rfc7644|template^application/scim+json
+draft^RFC-ietf-scitt-architecture-21|template^application/scitt-receipt+cose
+draft^RFC-ietf-scitt-architecture-21|template^application/scitt-statement+cose
 rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
@@ -598,6 +604,8 @@ rfc^rfc7095|template^application/vcard+json
 rfc^rfc6351|template^application/vcard+xml
 -
 person^Nora_Tazir^prostep_ivip|template^application/vec+xml
+person^Nora_Tazir
+person^Nora_Tazir
 person^Nora_Tazir
 rfc^rfc2122|template^application/vemmi
 -
@@ -758,6 +766,10 @@ notes^(OBSOLETED in favor of application/vnd.aristanetworks.swi)|person^Bill_Fen
 person^Bill_Fenner|template^application/vnd.aristanetworks.swi
 person^Brad_Turner|template^application/vnd.artisan+json
 person^Christopher_Smith|template^application/vnd.artsquare
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.config+jer
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.config+uper
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.tap+jer
+person^AS207960_Cyfyngedig|template^application/vnd.as207960.vas.tap+uper
 person^Christopher_Snazell|template^application/vnd.astraea-software.iota
 person^Horia_Cristian_Slusanschi|template^application/vnd.audiograph
 person^Mike_Hearn|template^application/vnd.autopackage
@@ -962,6 +974,7 @@ person^Bill_Kidwell|template^application/vnd.exstream-package
 person^ElectronicZombieCorp|template^application/vnd.ezpix-album
 person^ElectronicZombieCorp|template^application/vnd.ezpix-package
 person^Samu_Sarivaara|template^application/vnd.f-secure.mobile
+person^James_Wolfe|template^application/vnd.faf+yaml
 person^Gordon_Clarke|template^application/vnd.familysearch.gedcom+zip
 person^Thomas_Huth|template^application/vnd.fastcopy-disk-image
 person^Steve_Zilles|template^application/vnd.fdf
@@ -1171,6 +1184,7 @@ person^Paul_Wattenberger|template^application/vnd.lotus-organizer
 person^Paul_Wattenberger|template^application/vnd.lotus-screencam
 person^Paul_Wattenberger|template^application/vnd.lotus-wordpro
 person^James_Berry|template^application/vnd.macports.portpkg
+person^Anton_Medvedev|template^application/vnd.maml
 person^Blake_Thompson|template^application/vnd.mapbox-vector-tile
 person^Gary_Ellison|template^application/vnd.marlin.drm.actiontoken+xml
 person^Gary_Ellison|template^application/vnd.marlin.drm.conftoken+xml
@@ -1539,6 +1553,7 @@ person^Reed_Shilts|template^application/vnd.powerbuilder75-s
 person^Graham_Leggett|template^application/vnd.pp.systemverify+xml
 person^Juoko_Tenhunen|template^application/vnd.preminet
 person^Roman_Smolgovsky|template^application/vnd.previewsystems.box
+person^Tianyu_Zhang|template^application/vnd.project-graph
 person^Pete_Hoch|template^application/vnd.proteus.magazine
 person^Kristopher_Durski|template^application/vnd.psfs
 person^Igor_Lima_Bolacha_Severino|template^application/vnd.pt.mundusmundi
@@ -1724,6 +1739,7 @@ person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
 person^Wu_Chang|template^application/vnd.vocalshaper.vsp4
 person^Delton_Rowe|template^application/vnd.vsf
+person^Phillip_Gimmi|template^application/vnd.vuq
 person^John_J_Kolb_V|template^application/vnd.wantverse
 person^WAP-Forum|template^application/vnd.wap.sic
 person^WAP-Forum|template^application/vnd.wap.slc
@@ -2728,6 +2744,7 @@ rfc^rfc7763|template^text/markdown
 person^Jesse_Alama|template^text/mizar
 person^Eric_Prudhommeaux^W3C|template^text/n3
 person^Sean_Leonard
+note^4|person^Jeffrey_Gipson^Org_Mode|template^text/org
 rfc^rfc7826|template^text/parameters
 rfc^rfc3009|template^text/parityfec
 rfc^rfc2046^rfc3676^rfc5147|template^text/plain

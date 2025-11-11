@@ -2,6 +2,9 @@ application/1d-interleaved-parityfec
 application/1ob
 application/3gpdash-qoe-report+xml
 application/3gpp-ims+xml
+application/3gpp-mbs-object-manifest+json
+application/3gpp-mbs-user-service-descriptions+json
+application/3gpp-media-delivery-metrics-report+json
 application/3gppHal+json
 application/3gppHalForms+json
 application/A2L
@@ -98,6 +101,7 @@ application/cid-edhoc+cbor-seq
 application/city+json
 application/city+json-seq
 application/clariscad
+application/clf+xml
 application/clr
 application/clue+xml
 application/clue_info+xml
@@ -483,6 +487,8 @@ application/sbe
 application/sbml+xml sbml
 application/scaip+xml
 application/scim+json
+application/scitt-receipt+cose
+application/scitt-statement+cose
 application/scvp-cv-request scq
 application/scvp-cv-response scs
 application/scvp-vp-request spq
@@ -599,6 +605,8 @@ application/vcard+xml
 application/vda
 application/vec+xml
 application/vec-package
+application/vec-package+gzip
+application/vec-package+zip
 application/vemmi
 application/vividence.scriptfile
 application/VMSBACKUP bck
@@ -758,6 +766,10 @@ application/vnd.arastra.swi swi
 application/vnd.aristanetworks.swi swi
 application/vnd.artisan+json
 application/vnd.artsquare
+application/vnd.as207960.vas.config+jer
+application/vnd.as207960.vas.config+uper
+application/vnd.as207960.vas.tap+jer
+application/vnd.as207960.vas.tap+uper
 application/vnd.astraea-software.iota iota
 application/vnd.audiograph aep
 application/vnd.autopackage
@@ -962,6 +974,7 @@ application/vnd.exstream-package
 application/vnd.ezpix-album ez2
 application/vnd.ezpix-package ez3
 application/vnd.f-secure.mobile
+application/vnd.faf+yaml
 application/vnd.familysearch.gedcom+zip
 application/vnd.fastcopy-disk-image
 application/vnd.fdf fdf
@@ -1171,6 +1184,7 @@ application/vnd.lotus-organizer org
 application/vnd.lotus-screencam scm
 application/vnd.lotus-wordpro lwp
 application/vnd.macports.portpkg portpkg
+application/vnd.maml
 application/vnd.mapbox-vector-tile
 application/vnd.marlin.drm.actiontoken+xml
 application/vnd.marlin.drm.conftoken+xml
@@ -1539,6 +1553,7 @@ application/vnd.powerbuilder75-s
 application/vnd.pp.systemverify+xml
 application/vnd.preminet
 application/vnd.previewsystems.box box
+application/vnd.project-graph
 application/vnd.proteus.magazine mgz
 application/vnd.psfs
 application/vnd.pt.mundusmundi
@@ -1724,6 +1739,7 @@ application/vnd.visionary vis
 application/vnd.vividence.scriptfile
 application/vnd.vocalshaper.vsp4
 application/vnd.vsf vsf
+application/vnd.vuq
 application/vnd.wantverse
 application/vnd.wap.sic sic
 application/vnd.wap.slc slc
@@ -2728,6 +2744,7 @@ text/markdown markdown md mkd
 text/mizar
 text/n3 n3
 text/nfo
+text/org
 text/parameters
 text/parityfec
 text/plain txt asc c cc h hh cpp hpp dat hlp conf def in list log rst text textile install keys license notice readme abs-linkmap abs-menulinks aart ac am apt bsh classpath cnd cwiki data dcl dsp dsw egrm ent ft fn fv grm g .htaccess handlers htc ihtml jmx junit jx manifest m4 mf meta mdo n3 pen pod pom project rng rnx roles schemas tld types vm vsl wsdd xargs xcat xegrm xgrm xlex xlog xmap xroles xsamples xsp xtest xweb xwelcome
