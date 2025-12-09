@@ -6,6 +6,9 @@
 -
 -
 -
+-
+-
+-
 application/x-msaccess
 -
 -
@@ -71,6 +74,7 @@ application/x-bleeper
 -
 -
 application/cals-1840
+-
 -
 -
 -
@@ -288,6 +292,9 @@ text/javascript
 -
 -
 -
+-
+-
+-
 application/vnd.lotus-1-2-3
 -
 -
@@ -302,6 +309,8 @@ application/x-mac-compactpro
 application/vnd.mcd
 -
 application/x-mathematica-old
+-
+-
 -
 -
 -
@@ -523,6 +532,9 @@ application/remote-printing
 -
 -
 -
+-
+-
+-
 application/smil+xml
 -
 -
@@ -575,6 +587,8 @@ application/smil+xml
 -
 -
 application/x-toolbook
+-
+-
 -
 -
 -
@@ -755,6 +769,11 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 application/vnd.aristanetworks.swi
+-
+-
+-
+-
+-
 -
 -
 -
@@ -1317,6 +1336,7 @@ application/vnd.visionary
 -
 -
 -
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1338,6 +1358,9 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
+-
 -
 -
 -
@@ -2724,6 +2747,7 @@ text/javascript
 -
 text/javascript
 text/javascript
+-
 -
 -
 -
