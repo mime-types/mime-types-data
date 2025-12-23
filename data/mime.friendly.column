@@ -35,6 +35,9 @@
 -
 -
 -
+-
+-
+-
 en^Andrew Toolkit
 -
 -
@@ -85,6 +88,10 @@ en^Cloud Data Management Interface (CDMI) - Contaimer
 en^Cloud Data Management Interface (CDMI) - Domain
 en^Cloud Data Management Interface (CDMI) - Object
 en^Cloud Data Management Interface (CDMI) - Queue
+-
+-
+-
+-
 -
 -
 -
@@ -263,7 +270,10 @@ en^JavaScript
 -
 -
 -
+-
+-
 en^JavaScript Object Notation (JSON)
+-
 -
 -
 -
@@ -420,9 +430,12 @@ en^PostScript
 -
 -
 -
+-
+-
 en^Pipelined Relational Query Language
 -
 en^CU-Writer
+-
 -
 -
 -
@@ -483,10 +496,13 @@ en^Rich Text Format
 en^Systems Biology Markup Language
 -
 -
+-
+-
 en^Server-Based Certificate Validation Protocol - Validation Request
 en^Server-Based Certificate Validation Protocol - Validation Response
 en^Server-Based Certificate Validation Protocol - Validation Policies - Request
 en^Server-Based Certificate Validation Protocol - Validation Policies - Response
+-
 -
 -
 -
@@ -560,6 +576,7 @@ en^Speech Synthesis Markup Language
 -
 -
 -
+-
 en^Text Encoding and Interchange
 -
 -
@@ -567,6 +584,9 @@ en^Sharing Transaction Fraud Data
 -
 -
 en^Time Stamped Data Envelope
+-
+-
+-
 -
 -
 -
@@ -756,6 +776,10 @@ en^Multimedia Playlist Unicode
 -
 -
 en^Arista Networks Software Image
+-
+-
+-
+-
 -
 -
 -
@@ -961,6 +985,7 @@ en^MICROSEC e-Szign¢
 -
 en^EZPix Secure Photo Album
 en^EZPix Secure Photo Album
+-
 -
 -
 -
@@ -1171,6 +1196,7 @@ en^Lotus Organizer
 en^Lotus Screencam
 en^Lotus Wordpro
 en^MacPorts Port System
+-
 -
 -
 -
@@ -1446,6 +1472,7 @@ en^Open Office Extension
 -
 -
 -
+-
 en^Microsoft Office - OOXML - Presentation
 -
 -
@@ -1539,6 +1566,7 @@ en^PowerBuilder
 -
 -
 en^Preview Systems ZipLock/VBox
+-
 en^EFI Proteus
 -
 -
@@ -1727,6 +1755,7 @@ en^Viewport+
 -
 -
 -
+-
 en^WAP Binary XML (WBXML)
 en^Compiled Wireless Markup Language (WMLC)
 en^WMLScript
@@ -1779,6 +1808,7 @@ en^CustomMenu
 en^Z.U.L. Geometry
 en^Zzazz Deck
 en^VoiceXML
+-
 -
 -
 -
@@ -2727,6 +2757,7 @@ en^HyperText Markup Language (HTML)
 -
 -
 en^Notation3
+-
 -
 -
 -
