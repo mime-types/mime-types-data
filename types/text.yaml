@@ -214,6 +214,14 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/event-stream
+  encoding: 8bit
+  xrefs:
+    url:
+    - https://html.spec.whatwg.org/multipage/iana.html#text/event-stream
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: text/example
   encoding: quoted-printable
   xrefs:
@@ -452,6 +460,14 @@
     - text/parityfec
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: text/ping
+  encoding: 8bit
+  xrefs:
+    url:
+    - https://html.spec.whatwg.org/multipage/iana.html#text/ping
+  registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: text/plain
   friendly:

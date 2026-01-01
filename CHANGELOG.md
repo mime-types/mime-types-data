@@ -4,9 +4,12 @@
 
 ## NEXT / YYYY-MM-DD
 
-Manual contributions now require `Signed-off-by` trailers for assertion of the
-[Developer Certificate of Origin][dco]. More details will be added in the coming
-weeks.
+- Manual contributions now require `Signed-off-by` trailers for assertion of the
+  [Developer Certificate of Origin][dco]. More details will be added in the
+  coming weeks.
+
+- Added `application/microdata+json`, `application/speculationrules+json`,
+  `text/event-stream` and `text/ping` from the [WHATWG HTML spec][whatwg]
 
 ## 3.2025.0924 / 2025-09-24
 
@@ -712,6 +715,7 @@ weeks.
   `text/plain`.
 
 [code of conduct]: CODE_OF_CONDUCT.md
+[dco]: https://developercertificate.org
 [httpd]: https://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types
 [issue-18]: https://github.com/mime-types/mime-types-data/issues/18
 [issue-22]: https://github.com/mime-types/mime-types-data/issues/22
@@ -760,4 +764,4 @@ weeks.
 [ruby-mime-types#99]: https://github.com/mime-types/ruby-mime-types/pull/99
 [tika]: https://github.com/apache/tika/blob/main/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
 [tp]: https://guides.rubygems.org/trusted-publishing/
-[dco]: https://developercertificate.org
+[whatwg]: https://html.spec.whatwg.org/multipage/iana.html#text/event-stream

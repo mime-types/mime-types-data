@@ -3420,6 +3420,14 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/microdata+json
+  encoding: 8bit
+  xrefs:
+    url:
+    - https://html.spec.whatwg.org/multipage/iana.html#application/microdata+json
+  registered: false
+  sort-priority: 48
+- !ruby/object:MIME::Type
   content-type: application/mikey
   encoding: base64
   xrefs:
@@ -5712,6 +5720,14 @@
     - application/spdx+json
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/speculationrules+json
+  encoding: 8bit
+  xrefs:
+    url:
+    - https://html.spec.whatwg.org/multipage/iana.html#application/speculationrules+json
+  registered: false
+  sort-priority: 48
 - !ruby/object:MIME::Type
   content-type: application/spirits-event+xml
   encoding: base64
