@@ -138,6 +138,7 @@ commit messages. The following types are permitted:
 | `chore` | A code change that is neither a bug fix nor a feature |
 | `docs`  | Documentation updates                                 |
 | `deps`  | Dependency updates, including GitHub Actions.         |
+| `types` | Manually contributed MIME::Types                      |
 
 I encourage the use of [Tim Pope's][tpope-qcm] or [Chris Beam's][cbeams]
 guidelines on the writing of commit messages
