@@ -441,6 +441,19 @@
   provisional: true
   sort-priority: 80
 - !ruby/object:MIME::Type
+  content-type: text/org
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Jeffrey_Gipson
+    - Org_Mode
+    note:
+    - '4'
+    template:
+    - text/org
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/parameters
   encoding: quoted-printable
   xrefs:

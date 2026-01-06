@@ -2,7 +2,13 @@
 
 <!-- automatic-release -->
 
-## NEXT / YYYY-MM-DD
+## 3.2026.0106 / 2026-01-06
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
+
+
 
 - Manual contributions now require `Signed-off-by` trailers for assertion of the
   [Developer Certificate of Origin][dco]. More details will be added in the
