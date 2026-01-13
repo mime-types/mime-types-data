@@ -63,7 +63,7 @@ jobs:
         run: |
           ruby -e \
             'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' \
-            color.gemspec >>"${GITHUB_OUTPUT}"
+            mime-types-data.gemspec >>"${GITHUB_OUTPUT}"
 
       - uses: ruby/setup-ruby@d354de180d0c9e813cfddfcbdc079945d4be589b # v1.275.0
         with:
