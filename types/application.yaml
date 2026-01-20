@@ -2972,7 +2972,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-ietf-spice-sd-cwt-05
+    - draft-ietf-spice-sd-cwt-06
   registered: true
   provisional: true
   sort-priority: 80
@@ -5396,7 +5396,7 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-ietf-spice-sd-cwt-05
+    - draft-ietf-spice-sd-cwt-06
   registered: true
   provisional: true
   sort-priority: 80
@@ -19699,6 +19699,16 @@
     - Ben_Brown
     template:
     - application/vnd.xarin.cpj
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.xcdn
+  encoding: base64
+  xrefs:
+    person:
+    - Gioele_Stefano_Luca_Fierro
+    template:
+    - application/vnd.xcdn
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
