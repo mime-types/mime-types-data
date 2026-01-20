@@ -284,7 +284,7 @@ rfc^rfc7517|template^application/jwk-set+json
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/jwk-set+jwt
 rfc^rfc7519|template^application/jwt
 -
-draft^draft-ietf-spice-sd-cwt-05
+draft^draft-ietf-spice-sd-cwt-06
 rfc^rfc9901|template^application/kb+jwt
 person^Nora_Tazir^prostep_ivip|template^application/kbl+xml
 rfc^rfc4730|template^application/kpml-request+xml
@@ -503,7 +503,7 @@ rfc^rfc5055|template^application/scvp-cv-request
 rfc^rfc5055|template^application/scvp-cv-response
 rfc^rfc5055|template^application/scvp-vp-request
 rfc^rfc5055|template^application/scvp-vp-response
-draft^draft-ietf-spice-sd-cwt-05
+draft^draft-ietf-spice-sd-cwt-06
 rfc^rfc9901|template^application/sd-jwt
 rfc^rfc9901|template^application/sd-jwt+json
 draft^RFC-ietf-asdf-sdf-23|template^application/sdf+json
@@ -1788,6 +1788,7 @@ person^John_Ingi_Ingimundarson|template^application/vnd.wv.ssp+xml
 person^David_Brossard|template^application/vnd.xacml+json
 person^David_Matthewman|template^application/vnd.xara
 person^Ben_Brown|template^application/vnd.xarin.cpj
+person^Gioele_Stefano_Luca_Fierro|template^application/vnd.xcdn
 person^Svante_Seleborg|template^application/vnd.xecrets-encrypted
 person^Dave_Manning|template^application/vnd.xfdl
 person^Michael_Mansell|template^application/vnd.xfdl.webform
