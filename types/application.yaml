@@ -34,7 +34,7 @@
   encoding: base64
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     - _3GPP
     template:
     - application/3gpp-ims+xml
@@ -5101,13 +5101,18 @@
   encoding: base64
   extensions:
   - gbr
+  obsolete: true
   xrefs:
     rfc:
     - rfc6493
+    uri:
+    - https://datatracker.ietf.org/doc/status-change-rpki-ghostbusters-record-to-historic/
     template:
     - application/rpki-ghostbusters
+    notes:
+    - "(DEPRECATED)"
   registered: true
-  sort-priority: 15
+  sort-priority: 143
 - !ruby/object:MIME::Type
   content-type: application/rpki-manifest
   encoding: base64
@@ -5588,7 +5593,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     - _3GPP
     template:
     - application/session-info
@@ -6697,7 +6702,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-prose+xml
   registered: true
@@ -6727,7 +6732,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-prose-pc3ch+xml
   registered: true
@@ -6747,7 +6752,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-v2x-local-service-information
   registered: true
@@ -6812,7 +6817,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.access-transfer-events+xml
   registered: true
@@ -6822,7 +6827,7 @@
   encoding: base64
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.bsf+xml
   registered: true
@@ -6852,7 +6857,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.GMOP+xml
   registered: true
@@ -6873,7 +6878,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.interworking-data
   registered: true
@@ -6904,7 +6909,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-affiliation-command+xml
   registered: true
@@ -6914,7 +6919,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-info+xml
   registered: true
@@ -6934,7 +6939,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-payload
   registered: true
@@ -6954,7 +6959,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-service-config+xml
   registered: true
@@ -6964,7 +6969,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-signalling
   registered: true
@@ -6974,7 +6979,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-ue-config+xml
   registered: true
@@ -6984,7 +6989,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-user-profile+xml
   registered: true
@@ -6994,7 +6999,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-affiliation-command+xml
   registered: true
@@ -7004,7 +7009,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-floor-request+xml
   registered: true
@@ -7014,7 +7019,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-info+xml
   registered: true
@@ -7024,7 +7029,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-location-info+xml
   registered: true
@@ -7034,7 +7039,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-mbms-usage-info+xml
   registered: true
@@ -7054,7 +7059,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-service-config+xml
   registered: true
@@ -7064,7 +7069,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-signed+xml
   registered: true
@@ -7074,7 +7079,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-ue-config+xml
   registered: true
@@ -7084,7 +7089,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-ue-init-config+xml
   registered: true
@@ -7094,7 +7099,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-user-profile+xml
   registered: true
@@ -7104,7 +7109,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-affiliation-command+xml
   registered: true
@@ -7116,7 +7121,7 @@
   use-instead: application/vnd.3gpp.mcvideo-info+xml
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-affiliation-info+xml
     notes:
@@ -7128,7 +7133,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-info+xml
   registered: true
@@ -7138,7 +7143,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-location-info+xml
   registered: true
@@ -7148,7 +7153,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-mbms-usage-info+xml
   registered: true
@@ -7168,7 +7173,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-service-config+xml
   registered: true
@@ -7178,7 +7183,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-transmission-request+xml
   registered: true
@@ -7188,7 +7193,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-ue-config+xml
   registered: true
@@ -7198,7 +7203,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-user-profile+xml
   registered: true
@@ -7208,7 +7213,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mid-call+xml
   registered: true
@@ -7244,7 +7249,7 @@
   - plb
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.pic-bw-large
   registered: true
@@ -7258,7 +7263,7 @@
   - psb
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.pic-bw-small
   registered: true
@@ -7272,7 +7277,7 @@
   - pvb
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.pic-bw-var
   registered: true
@@ -7451,7 +7456,7 @@
   - sms
   xrefs:
     person:
-    - John_M_Meredith
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.sms
   registered: true
@@ -7461,7 +7466,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.sms+xml
   registered: true
@@ -7471,7 +7476,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.srvcc-ext+xml
   registered: true
@@ -7481,7 +7486,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.SRVCC-info+xml
   registered: true
@@ -7491,7 +7496,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.state-and-event-info+xml
   registered: true
@@ -7501,7 +7506,7 @@
   encoding: base64
   xrefs:
     person:
-    - Frederic_Firmin
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.ussd+xml
   registered: true
@@ -19971,6 +19976,16 @@
     - "(OBSOLETED in favor of video/vnd.youtube.yt)"
   registered: true
   sort-priority: 144
+- !ruby/object:MIME::Type
+  content-type: application/vnd.zoho-presentation.show
+  encoding: base64
+  xrefs:
+    person:
+    - Manivannan_Subburaj
+    template:
+    - application/vnd.zoho-presentation.show
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.zul
   friendly:
