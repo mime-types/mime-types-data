@@ -506,7 +506,7 @@ rfc^rfc5055|template^application/scvp-vp-response
 draft^draft-ietf-spice-sd-cwt-06
 rfc^rfc9901|template^application/sd-jwt
 rfc^rfc9901|template^application/sd-jwt+json
-draft^RFC-ietf-asdf-sdf-23|template^application/sdf+json
+rfc^rfc9880|template^application/sdf+json
 rfc^rfc8866|template^application/sdp
 rfc^rfc8417|template^application/secevent+jwt
 rfc^rfc8428|template^application/senml+cbor
@@ -744,6 +744,7 @@ person^Jörg_Palmer|template^application/vnd.afpc.modca-pagesegment
 person^Filippo_Valsorda|template^application/vnd.age
 person^Katsuhiko_Ichinose|template^application/vnd.ah-barcode
 person^Tor_Kristensen|template^application/vnd.ahead.space
+person^Alan_Johnson|template^application/vnd.aia
 person^Daniel_Mould^Gary_Clueit|template^application/vnd.airzip.filesecure.azf
 person^Daniel_Mould^Gary_Clueit|template^application/vnd.airzip.filesecure.azs
 person^Patrick_Brosse|template^application/vnd.amadeus+json

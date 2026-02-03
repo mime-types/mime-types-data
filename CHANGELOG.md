@@ -2,6 +2,13 @@
 
 <!-- automatic-release -->
 
+## 3.2026.0203 / 2026-02-03
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
+
+
 ## 3.2026.0127 / 2026-01-27
 
 - Updated registry entries from the IANA [media registry][registry] and
