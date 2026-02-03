@@ -5429,8 +5429,8 @@
   content-type: application/sdf+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-asdf-sdf-23
+    rfc:
+    - rfc9880
     template:
     - application/sdf+json
   registered: true
@@ -7947,6 +7947,16 @@
     - application/vnd.ahead.space
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.aia
+  encoding: base64
+  xrefs:
+    person:
+    - Alan_Johnson
+    template:
+    - application/vnd.aia
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.airzip.filesecure.azf
   friendly:
