@@ -8,6 +8,7 @@ person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-media-delivery-me
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHal+json
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
 person^ASAM^Bernd_Wenzel|template^application/A2L
+person^Sandeep_Rudra
 -
 -
 rfc^rfc9200|template^application/ace+cbor
@@ -198,6 +199,7 @@ rfc^rfc4735|template^application/example
 -
 person^W3C|template^application/exi|uri^http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration
 rfc^rfc9163|template^application/expect-ct-report+json
+person^Michael_B_Jones
 person^Dana_Tripp^ISO-TC_184-SC_4|template^application/express
 person^ISO-IEC_JTC_1_SC_6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastinfoset
 person^ISO-IEC_JTC_1_SC_6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastsoap
@@ -599,6 +601,7 @@ person^W3C^W3C_RDF_WG|template^application/trig
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-chain+json
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark+jwt
 person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark-delegation+jwt
+person^Michael_B_Jones
 person^W3C^W3C_Timed_Text_WG|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
 rfc^rfc9636|template^application/tzif
@@ -2353,6 +2356,7 @@ rfc^rfc3558|template^audio/SMV
 rfc^rfc3625|template^audio/SMV-QCP
 rfc^rfc3558|template^audio/SMV0
 person^AES^Piotr_Majdak|template^audio/sofa
+note^5|person^Aria_Barak|template^audio/soundfont
 person^Athan_Billias^MIDI_Association|template^audio/sp-midi
 rfc^rfc5574|template^audio/speex
 rfc^rfc4351|template^audio/t140c

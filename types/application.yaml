@@ -107,6 +107,15 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/aas+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Sandeep_Rudra
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/acad
   encoding: base64
   registered: false
@@ -2076,6 +2085,15 @@
     - application/expect-ct-report+json
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/explicit-registration-response+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Michael_B_Jones
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/express
   encoding: base64
@@ -6426,6 +6444,15 @@
     - application/trust-mark-delegation+jwt
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/trust-mark-status-response+jwt
+  encoding: base64
+  xrefs:
+    person:
+    - Michael_B_Jones
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/ttml+xml
   encoding: base64

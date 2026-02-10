@@ -8,6 +8,7 @@ application/3gpp-media-delivery-metrics-report+json
 application/3gppHal+json
 application/3gppHalForms+json
 application/A2L
+application/aas+zip
 application/acad
 application/access mdf mda mdb mde
 application/ace+cbor
@@ -198,6 +199,7 @@ application/example
 application/excel xls xlt
 application/exi exi
 application/expect-ct-report+json
+application/explicit-registration-response+jwt
 application/express
 application/fastinfoset
 application/fastsoap
@@ -599,6 +601,7 @@ application/trig
 application/trust-chain+json
 application/trust-mark+jwt
 application/trust-mark-delegation+jwt
+application/trust-mark-status-response+jwt
 application/ttml+xml ttml
 application/tve-trigger
 application/tzif
@@ -2353,6 +2356,7 @@ audio/SMV smv
 audio/SMV-QCP
 audio/SMV0
 audio/sofa
+audio/soundfont
 audio/sp-midi
 audio/speex spx
 audio/t140c

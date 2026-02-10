@@ -1156,6 +1156,18 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: audio/soundfont
+  encoding: base64
+  xrefs:
+    person:
+    - Aria_Barak
+    note:
+    - '5'
+    template:
+    - audio/soundfont
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: audio/sp-midi
   encoding: base64
   xrefs:
