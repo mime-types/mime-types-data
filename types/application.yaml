@@ -111,10 +111,12 @@
   encoding: base64
   xrefs:
     person:
+    - Industrial_Digital_Twin_Association
     - Sandeep_Rudra
+    template:
+    - application/aas+zip
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/acad
   encoding: base64
@@ -5075,6 +5077,24 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/roughtime-malfeasance+json
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-ntp-roughtime-16
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
+  content-type: application/roughtime-server+json
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-ntp-roughtime-16
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/route-apd+xml
   encoding: base64
   xrefs:
@@ -6061,7 +6081,7 @@
   encoding: base64
   xrefs:
     draft:
-    - RFC-ietf-suit-report-18
+    - RFC-ietf-suit-report-19
     template:
     - application/suit-report+cose
   registered: true
@@ -6419,6 +6439,7 @@
   encoding: base64
   xrefs:
     person:
+    - Michael_B_Jones
     - OpenID_Foundation_Artifact_Binding_WG
     template:
     - application/trust-chain+json
@@ -6429,6 +6450,7 @@
   encoding: base64
   xrefs:
     person:
+    - Michael_B_Jones
     - OpenID_Foundation_Artifact_Binding_WG
     template:
     - application/trust-mark+jwt
@@ -6440,6 +6462,7 @@
   xrefs:
     person:
     - OpenID_Foundation_Artifact_Binding_WG
+    - Roland_Hedberg
     template:
     - application/trust-mark-delegation+jwt
   registered: true
@@ -6450,9 +6473,11 @@
   xrefs:
     person:
     - Michael_B_Jones
+    - OpenID_Foundation_Artifact_Binding_WG
+    template:
+    - application/trust-mark-status-response+jwt
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/ttml+xml
   encoding: base64
