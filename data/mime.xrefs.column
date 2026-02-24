@@ -8,7 +8,7 @@ person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-media-delivery-me
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHal+json
 person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
 person^ASAM^Bernd_Wenzel|template^application/A2L
-person^Sandeep_Rudra
+person^Industrial_Digital_Twin_Association^Sandeep_Rudra|template^application/aas+zip
 -
 -
 rfc^rfc9200|template^application/ace+cbor
@@ -475,6 +475,8 @@ person^Sandro_Hawke
 person^Nick_Smith|template^application/riscos
 rfc^rfc4662|template^application/rlmi+xml
 rfc^rfc4826|template^application/rls-services+xml
+draft^draft-ietf-ntp-roughtime-16
+draft^draft-ietf-ntp-roughtime-16
 person^ATSC|template^application/route-apd+xml
 person^ATSC|template^application/route-s-tsid+xml
 person^ATSC|template^application/route-usd+xml
@@ -565,7 +567,7 @@ person^SMPTE^SMPTE_Director_of_Standards_Development|template^application/ST2110
 person^Chet_Ensign^OASIS|template^application/stix+json
 note^1|person^Ben_van_Hartingsveldt|template^application/stratum
 draft^RFC-ietf-suit-manifest-34|template^application/suit-envelope+cose
-draft^RFC-ietf-suit-report-18|template^application/suit-report+cose
+draft^RFC-ietf-suit-report-19|template^application/suit-report+cose
 rfc^rfc9393|template^application/swid+cbor
 person^David_Waltermire^ISO-IEC_JTC_1^Ron_Brill|template^application/swid+xml
 rfc^rfc5934|template^application/tamp-apex-update
@@ -598,10 +600,10 @@ note^2|person^Ben_van_Hartingsveldt|template^application/toml|uri^https://github
 -
 rfc^rfc8840|template^application/trickle-ice-sdpfrag
 person^W3C^W3C_RDF_WG|template^application/trig
-person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-chain+json
-person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark+jwt
-person^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark-delegation+jwt
-person^Michael_B_Jones
+person^Michael_B_Jones^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-chain+json
+person^Michael_B_Jones^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark+jwt
+person^OpenID_Foundation_Artifact_Binding_WG^Roland_Hedberg|template^application/trust-mark-delegation+jwt
+person^Michael_B_Jones^OpenID_Foundation_Artifact_Binding_WG|template^application/trust-mark-status-response+jwt
 person^W3C^W3C_Timed_Text_WG|template^application/ttml+xml
 person^Linda_Welsh|template^application/tve-trigger
 rfc^rfc9636|template^application/tzif

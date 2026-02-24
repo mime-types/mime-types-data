@@ -475,6 +475,8 @@ application/rif+xml
 application/riscos
 application/rlmi+xml
 application/rls-services+xml rs
+application/roughtime-malfeasance+json
+application/roughtime-server+json
 application/route-apd+xml
 application/route-s-tsid+xml
 application/route-usd+xml
