@@ -28,6 +28,7 @@ Thanks to everyone else who has contributed to mime-types:
 - Jon Sneyers
 - Jonas Petersen
 - Juanito Fatas
+- Juliana Lucena
 - Keerthi Siva
 - Ken Ip
 - Łukasz Śliwa

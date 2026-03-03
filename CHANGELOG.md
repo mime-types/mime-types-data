@@ -2,6 +2,12 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM-DD
+
+- Juliana Lucena ([@julianalucena](https://github.com/julianalucena)) added
+  `parquet` extension for `application/vnd.apache.parquet`. [#271][pull-271]
+
+
 ## 3.2026.0303 / 2026-03-03
 
 - Updated registry entries from the IANA [media registry][registry] and
@@ -798,6 +804,7 @@
 [pull-21]: https://github.com/mime-types/mime-types-data/pull/21
 [pull-23]: https://github.com/mime-types/mime-types-data/pull/23
 [pull-24]: https://github.com/mime-types/mime-types-data/pull/24
+[pull-271]: https://github.com/mime-types/mime-types-data/pull/271
 [pull-28]: https://github.com/mime-types/mime-types-data/pull/28
 [pull-29]: https://github.com/mime-types/mime-types-data/pull/29
 [pull-30]: https://github.com/mime-types/mime-types-data/pull/30
