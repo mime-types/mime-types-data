@@ -199,7 +199,7 @@ rfc^rfc4735|template^application/example
 -
 person^W3C|template^application/exi|uri^http://www.w3.org/TR/2009/CR-exi-20091208/#mediaTypeRegistration
 rfc^rfc9163|template^application/expect-ct-report+json
-person^Michael_B_Jones
+person^Michael_B_Jones^OpenID_Foundation_Artifact_Binding_WG|template^application/explicit-registration-response+jwt
 person^Dana_Tripp^ISO-TC_184-SC_4|template^application/express
 person^ISO-IEC_JTC_1_SC_6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastinfoset
 person^ISO-IEC_JTC_1_SC_6_ASN.1_Rapporteur^ITU-T_ASN.1_Rapporteur|template^application/fastsoap
@@ -329,6 +329,8 @@ person^_3GPP|template^application/mbms-register-response+xml
 person^Eric_Turcotte^_3GPP|template^application/mbms-schedule+xml
 person^_3GPP|template^application/mbms-user-service-description+xml
 rfc^rfc4155|template^application/mbox
+draft^RFC-ietf-rats-eat-measured-component-12|template^application/measured-component+cbor
+draft^RFC-ietf-rats-eat-measured-component-12|template^application/measured-component+json
 rfc^rfc6796|template^application/media-policy-dataset+xml
 rfc^rfc5168|template^application/media_control+xml
 rfc^rfc5022|template^application/mediaservercontrol+xml

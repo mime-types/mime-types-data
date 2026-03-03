@@ -329,6 +329,8 @@ application/mbms-register-response+xml
 application/mbms-schedule+xml
 application/mbms-user-service-description+xml
 application/mbox mbox
+application/measured-component+cbor
+application/measured-component+json
 application/media-policy-dataset+xml
 application/media_control+xml
 application/mediaservercontrol+xml mscml
