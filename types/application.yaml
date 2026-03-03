@@ -8195,6 +8195,8 @@
 - !ruby/object:MIME::Type
   content-type: application/vnd.apache.parquet
   encoding: base64
+  extensions:
+  - parquet
   xrefs:
     person:
     - Apache_Parquet_Project
