@@ -2093,9 +2093,11 @@
   xrefs:
     person:
     - Michael_B_Jones
+    - OpenID_Foundation_Artifact_Binding_WG
+    template:
+    - application/explicit-registration-response+jwt
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/express
   encoding: base64
@@ -3453,6 +3455,26 @@
     - application/mbox
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/measured-component+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-measured-component-12
+    template:
+    - application/measured-component+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/measured-component+json
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-rats-eat-measured-component-12
+    template:
+    - application/measured-component+json
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/media-policy-dataset+xml
   encoding: base64
