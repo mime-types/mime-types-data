@@ -617,6 +617,7 @@ application/urc-grpsheet+xml
 application/urc-ressheet+xml
 application/urc-targetdesc+xml
 application/urc-uisocketdesc+xml
+application/v3c
 application/vc
 application/vc+cose
 application/vc+jwt
@@ -2652,6 +2653,8 @@ message/http
 message/imdn+xml
 message/mls
 message/news
+message/ohttp-chunked-req
+message/ohttp-chunked-res
 message/ohttp-req
 message/ohttp-res
 message/partial

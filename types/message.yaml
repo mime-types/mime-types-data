@@ -156,6 +156,26 @@
   registered: true
   sort-priority: 144
 - !ruby/object:MIME::Type
+  content-type: message/ohttp-chunked-req
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ohai-chunked-ohttp-08
+    template:
+    - message/ohttp-chunked-req
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: message/ohttp-chunked-res
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-ohai-chunked-ohttp-08
+    template:
+    - message/ohttp-chunked-res
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: message/ohttp-req
   encoding: base64
   xrefs:

@@ -617,6 +617,7 @@ person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-grpsheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-ressheet+xml
 person^Gottfried_Zimmermann^ISO-IEC_JTC_1|template^application/urc-targetdesc+xml
 person^Gottfried_Zimmermann|template^application/urc-uisocketdesc+xml
+draft^RFC-ietf-avtcore-rtp-v3c-17|template^application/v3c
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vc
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vc+cose
 person^Ivan_Herman^W3C_Verifiable_Credentials_WG|template^application/vc+jwt
@@ -2652,6 +2653,8 @@ rfc^rfc9112|template^message/http
 rfc^rfc5438|template^message/imdn+xml
 rfc^rfc9420|template^message/mls
 notes^(OBSOLETED by )|person^Henry_Spencer|rfc^rfc5537|template^message/news
+draft^RFC-ietf-ohai-chunked-ohttp-08|template^message/ohttp-chunked-req
+draft^RFC-ietf-ohai-chunked-ohttp-08|template^message/ohttp-chunked-res
 rfc^rfc9458|template^message/ohttp-req
 rfc^rfc9458|template^message/ohttp-res
 rfc^rfc2045^rfc2046|template^message/partial

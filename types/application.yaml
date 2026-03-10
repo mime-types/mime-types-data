@@ -6617,6 +6617,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/v3c
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-avtcore-rtp-v3c-17
+    template:
+    - application/v3c
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vc
   encoding: base64
   xrefs:
