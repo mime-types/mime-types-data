@@ -157,6 +157,7 @@ apk         application/vnd.android.package-archive                             
 cii         application/vnd.anser-web-certificate-issue-initiation                    base64          
 fti         application/vnd.anser-web-funds-transfer-initiation                       base64          
 atx         application/vnd.antix.game-component                                      base64          
+parquet     application/vnd.apache.parquet                                            base64          
 mpkg        application/vnd.apple.installer+xml                                       base64          
 key         application/vnd.apple.keynote                                             base64          
 m3u8        application/vnd.apple.mpegurl                                             base64          
@@ -649,7 +650,6 @@ nzb         application/x-nzb                                                   
 scad        application/x-openscad                                                    base64          
 oex         application/x-opera-extension                                             base64          
 pm          application/x-pagemaker                                                   base64          
-parquet     application/x-parquet                                                     base64          
 p12         application/x-pkcs12                                                      base64          
 p7b         application/x-pkcs7-certificates                                          base64          
 p7r         application/x-pkcs7-certreqresp                                           base64          

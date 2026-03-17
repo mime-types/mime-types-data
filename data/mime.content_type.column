@@ -617,6 +617,7 @@ application/urc-grpsheet+xml
 application/urc-ressheet+xml
 application/urc-targetdesc+xml
 application/urc-uisocketdesc+xml
+application/v3c
 application/vc
 application/vc+cose
 application/vc+jwt
@@ -768,7 +769,7 @@ application/vnd.anser-web-funds-transfer-initiation fti
 application/vnd.antix.game-component atx
 application/vnd.apache.arrow.file
 application/vnd.apache.arrow.stream
-application/vnd.apache.parquet
+application/vnd.apache.parquet parquet
 application/vnd.apache.thrift.binary
 application/vnd.apache.thrift.compact
 application/vnd.apache.thrift.json
@@ -1086,6 +1087,8 @@ application/vnd.HandHeld-Entertainment+xml zmm
 application/vnd.hbci hbci hbc kom upa pkd bpd
 application/vnd.hc+json
 application/vnd.hcl-bireports
+application/vnd.hdfgroup.hdf4
+application/vnd.hdfgroup.hdf5
 application/vnd.hdt
 application/vnd.heroku+json
 application/vnd.hhe.lesson-player les
@@ -2652,6 +2655,8 @@ message/http
 message/imdn+xml
 message/mls
 message/news
+message/ohttp-chunked-req
+message/ohttp-chunked-res
 message/ohttp-req
 message/ohttp-res
 message/partial

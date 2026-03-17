@@ -6617,6 +6617,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/v3c
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-avtcore-rtp-v3c-17
+    template:
+    - application/v3c
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vc
   encoding: base64
   xrefs:
@@ -8225,7 +8235,7 @@
     template:
     - application/vnd.apache.parquet
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: application/vnd.apache.thrift.binary
   encoding: base64
@@ -11795,6 +11805,26 @@
     - Doug_R._Serres
     template:
     - application/vnd.hcl-bireports
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.hdfgroup.hdf4
+  encoding: base64
+  xrefs:
+    person:
+    - HDF_Group
+    template:
+    - application/vnd.hdfgroup.hdf4
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.hdfgroup.hdf5
+  encoding: base64
+  xrefs:
+    person:
+    - HDF_Group
+    template:
+    - application/vnd.hdfgroup.hdf5
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
