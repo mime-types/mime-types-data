@@ -921,7 +921,7 @@ pac           application/x-ns-proxy-autoconfig                                 
 pack          application/x-java-pack200                                                base64          
 pages         application/vnd.apple.pages                                               base64          
 pam           image/x-portable-arbitrarymap                                             base64          
-parquet       application/x-parquet                                                     base64          
+parquet       application/vnd.apache.parquet                                            base64          
 pas           text/x-pascal                                                             quoted-printable
 patch         text/x-diff                                                               quoted-printable
 paw           application/vnd.pawaafile                                                 base64          
