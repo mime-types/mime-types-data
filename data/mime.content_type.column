@@ -439,6 +439,7 @@ application/provenance+xml
 application/provided-claims+jwt
 application/prql prql
 application/prs.alvestrand.titrax-sheet
+application/prs.bwtc32key
 application/prs.cww cw cww
 application/prs.cyn
 application/prs.hpub+zip
@@ -585,6 +586,7 @@ application/tamp-update
 application/tamp-update-confirm
 application/taxii+json
 application/td+json
+application/teep+cbor
 application/tei+xml tei teicorpus
 application/TETRA_ISI
 application/texinfo
@@ -674,6 +676,7 @@ application/vnd.3gpp.mcptt-signed+xml
 application/vnd.3gpp.mcptt-ue-config+xml
 application/vnd.3gpp.mcptt-ue-init-config+xml
 application/vnd.3gpp.mcptt-user-profile+xml
+application/vnd.3gpp.mcs-location-user-config+xml
 application/vnd.3gpp.mcvideo-affiliation-command+xml
 application/vnd.3gpp.mcvideo-affiliation-info+xml
 application/vnd.3gpp.mcvideo-info+xml
@@ -900,6 +903,7 @@ application/vnd.dece.unspecified uvvx uvx
 application/vnd.dece.zip uvvz uvz
 application/vnd.denovo.fcselayout-link fe_launch
 application/vnd.desmume.movie
+application/vnd.deut+json
 application/vnd.digilite.prolights
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dm.delegation+xml
