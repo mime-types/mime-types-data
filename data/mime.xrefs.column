@@ -439,6 +439,7 @@ person^Ivan_Herman^W3C|template^application/provenance+xml
 person^Daniel_Fett^OpenID_Foundation_eKYC_and_IDA_WG|template^application/provided-claims+jwt
 -
 person^Harald_T._Alvestrand|template^application/prs.alvestrand.titrax-sheet
+person^Raja_Fjords|template^application/prs.bwtc32key
 person^Khemchart_Rungchavalnont|template^application/prs.cww
 person^Cynthia_Revström|template^application/prs.cyn
 person^Giulio_Zambon|template^application/prs.hpub+zip
@@ -585,6 +586,7 @@ rfc^rfc5934|template^application/tamp-update
 rfc^rfc5934|template^application/tamp-update-confirm
 person^Chet_Ensign^OASIS|template^application/taxii+json
 person^Matthias_Kovatsch^W3C|template^application/td+json
+draft^RFC-ietf-teep-protocol-26|template^application/teep+cbor
 rfc^rfc6129|template^application/tei+xml
 person^ETSI^Miguel_Angel_Reina_Ortega|template^application/TETRA_ISI
 note^3|person^Simon_Josefsson|template^application/texinfo
@@ -674,6 +676,7 @@ person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-signed+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-ue-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-ue-init-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-user-profile+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.mcs-location-user-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-affiliation-command+xml
 notes^(OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml)|person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-affiliation-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-info+xml
@@ -900,6 +903,7 @@ person^Michael_A_Dolan|template^application/vnd.dece.unspecified
 person^Michael_A_Dolan|template^application/vnd.dece.zip
 person^Michael_Dixon|template^application/vnd.denovo.fcselayout-link
 person^Henrik_Andersson|template^application/vnd.desmume.movie
+person^Deut.li|template^application/vnd.deut+json
 -
 person^Yamanaka|template^application/vnd.dir-bi.plate-dl-nosuffix
 person^Axel_Ferrazzini|template^application/vnd.dm.delegation+xml
@@ -1822,7 +1826,9 @@ person^Takehiro_Sukizaki|template^application/vnd.yamaha.tunnel-udpencap
 person^Jens_Jorgensen|template^application/vnd.yaoweme
 person^Mr._Yellow|template^application/vnd.yellowriver-custom-menu
 notes^(OBSOLETED in favor of video/vnd.youtube.yt)|person^Laura_Wood|template^application/vnd.youtube.yt
+person^Ganeshprabhu_Rajendran|template^application/vnd.zoho-document.writer
 person^Manivannan_Subburaj|template^application/vnd.zoho-presentation.show
+person^Srikanth_Sankar|template^application/vnd.zoho.spreadsheetml.sheet
 person^Rene_Grothmann|template^application/vnd.zul
 person^Micheal_Hewett|template^application/vnd.zzazz.deck+xml
 rfc^rfc4267|template^application/voicexml+xml
