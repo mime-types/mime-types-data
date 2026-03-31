@@ -4685,6 +4685,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/prs.bwtc32key
+  encoding: base64
+  xrefs:
+    person:
+    - Raja_Fjords
+    template:
+    - application/prs.bwtc32key
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/prs.cww
   friendly:
     en: CU-Writer
@@ -6263,6 +6273,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/teep+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-teep-protocol-26
+    template:
+    - application/teep+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/tei+xml
   friendly:
     en: Text Encoding and Interchange
@@ -7186,6 +7206,16 @@
     - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-user-profile+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.mcs-location-user-config+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Dongwook_Kim
+    template:
+    - application/vnd.3gpp.mcs-location-user-config+xml
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -9669,6 +9699,16 @@
     - Henrik_Andersson
     template:
     - application/vnd.desmume.movie
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.deut+json
+  encoding: base64
+  xrefs:
+    person:
+    - Deut.li
+    template:
+    - application/vnd.deut+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -20093,6 +20133,16 @@
   registered: true
   sort-priority: 144
 - !ruby/object:MIME::Type
+  content-type: application/vnd.zoho-document.writer
+  encoding: base64
+  xrefs:
+    person:
+    - Ganeshprabhu_Rajendran
+    template:
+    - application/vnd.zoho-document.writer
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.zoho-presentation.show
   encoding: base64
   xrefs:
@@ -20100,6 +20150,16 @@
     - Manivannan_Subburaj
     template:
     - application/vnd.zoho-presentation.show
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.zoho.spreadsheetml.sheet
+  encoding: base64
+  xrefs:
+    person:
+    - Srikanth_Sankar
+    template:
+    - application/vnd.zoho.spreadsheetml.sheet
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
