@@ -842,6 +842,9 @@ application/vnd.cloanto.rp9 rp9
 application/vnd.clonk.c4group c4d c4f c4g c4p c4u
 application/vnd.cluetrust.cartomobile-config c11amc
 application/vnd.cluetrust.cartomobile-config-pkg c11amz
+application/vnd.cmmf-configuration-information+json
+application/vnd.cmmf-efd+xml
+application/vnd.cmmf-encoder-configuration+json
 application/vnd.cncf.helm.chart.content.v1.tar+gzip
 application/vnd.cncf.helm.chart.provenance.v1.prov
 application/vnd.cncf.helm.config.v1+json
@@ -953,6 +956,7 @@ application/vnd.ecowin.fileupdate
 application/vnd.ecowin.series
 application/vnd.ecowin.seriesrequest
 application/vnd.ecowin.seriesupdate
+application/vnd.edulith.edux+json
 application/vnd.efi.img
 application/vnd.efi.iso
 application/vnd.eln+zip
@@ -1075,6 +1079,7 @@ application/vnd.google-earth.kmz kmz
 application/vnd.gov.sk.e-form+xml
 application/vnd.gov.sk.e-form+zip
 application/vnd.gov.sk.xmldatacontainer+xml
+application/vnd.gp3
 application/vnd.gpxsee.map+xml
 application/vnd.grafeq gqf gqs
 application/vnd.gridmp
@@ -1213,6 +1218,7 @@ application/vnd.lotus-organizer org
 application/vnd.lotus-screencam scm
 application/vnd.lotus-wordpro lwp
 application/vnd.macports.portpkg portpkg
+application/vnd.majikah.bundle
 application/vnd.maml
 application/vnd.mapbox-vector-tile
 application/vnd.marlin.drm.actiontoken+xml
@@ -1568,6 +1574,7 @@ application/vnd.pawaafile paw
 application/vnd.pcos
 application/vnd.pg.format str
 application/vnd.pg.osasli ei6
+application/vnd.phbk+xml
 application/vnd.piaccess.application-licence
 application/vnd.picsel efif
 application/vnd.pmi.widget wg
@@ -2851,6 +2858,7 @@ text/vnd.senx.warpscript
 text/vnd.si.uricatalogue
 text/vnd.sosi
 text/vnd.sun.j2me.app-descriptor jad
+text/vnd.tps
 text/vnd.trolltech.linguist
 text/vnd.typst
 text/vnd.vcf

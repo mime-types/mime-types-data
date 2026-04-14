@@ -1054,7 +1054,12 @@ application/vnd.aristanetworks.swi
 -
 -
 -
+-
+-
+-
+-
 application/geo+json
+-
 -
 -
 -
@@ -1360,6 +1365,7 @@ application/vnd.visionary
 -
 -
 -
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1381,6 +1387,7 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
 -
 -
 -
@@ -2831,6 +2838,7 @@ text/javascript
 -
 -
 model/vnd.flatland.3dml
+-
 -
 -
 -
