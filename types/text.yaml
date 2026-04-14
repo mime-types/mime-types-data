@@ -1258,6 +1258,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: text/vnd.tps
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Konstantin_Semenenko
+    template:
+    - text/vnd.tps
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/vnd.trolltech.linguist
   encoding: quoted-printable
   xrefs:

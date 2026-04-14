@@ -9024,6 +9024,36 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.cmmf-configuration-information+json
+  encoding: base64
+  xrefs:
+    person:
+    - Jason_Cloud
+    template:
+    - application/vnd.cmmf-configuration-information+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cmmf-efd+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Jason_Cloud
+    template:
+    - application/vnd.cmmf-efd+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cmmf-encoder-configuration+json
+  encoding: base64
+  xrefs:
+    person:
+    - Jason_Cloud
+    template:
+    - application/vnd.cmmf-encoder-configuration+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.cncf.helm.chart.content.v1.tar+gzip
   encoding: base64
   xrefs:
@@ -10222,6 +10252,16 @@
     - Thomas_Olsson
     template:
     - application/vnd.ecowin.seriesupdate
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.edulith.edux+json
+  encoding: base64
+  xrefs:
+    person:
+    - Heike_Håland_Østensen
+    template:
+    - application/vnd.edulith.edux+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -11635,6 +11675,16 @@
     - Stefan_Szilva
     template:
     - application/vnd.gov.sk.xmldatacontainer+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.gp3
+  encoding: base64
+  xrefs:
+    person:
+    - Robert_Clausing
+    template:
+    - application/vnd.gp3
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -13317,6 +13367,16 @@
     - application/vnd.macports.portpkg
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.majikah.bundle
+  encoding: base64
+  xrefs:
+    person:
+    - Josef_Elijah_Fabian
+    template:
+    - application/vnd.majikah.bundle
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.maml
   encoding: base64
@@ -17238,6 +17298,16 @@
     - application/vnd.pg.osasli
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.phbk+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Lost_Idea_Experiments
+    template:
+    - application/vnd.phbk+xml
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.piaccess.application-licence
   encoding: base64

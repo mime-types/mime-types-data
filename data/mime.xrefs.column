@@ -842,6 +842,9 @@ person^Mike_Labatt|template^application/vnd.cloanto.rp9
 person^Guenther_Brammer|template^application/vnd.clonk.c4group
 person^Gaige_Paulsen|template^application/vnd.cluetrust.cartomobile-config
 person^Gaige_Paulsen|template^application/vnd.cluetrust.cartomobile-config-pkg
+person^Jason_Cloud|template^application/vnd.cmmf-configuration-information+json
+person^Jason_Cloud|template^application/vnd.cmmf-efd+xml
+person^Jason_Cloud|template^application/vnd.cmmf-encoder-configuration+json
 person^Andrew_Block|template^application/vnd.cncf.helm.chart.content.v1.tar+gzip
 person^Andrew_Block|template^application/vnd.cncf.helm.chart.provenance.v1.prov
 person^Andrew_Block|template^application/vnd.cncf.helm.config.v1+json
@@ -953,6 +956,7 @@ person^Thomas_Olsson|template^application/vnd.ecowin.fileupdate
 person^Thomas_Olsson|template^application/vnd.ecowin.series
 person^Thomas_Olsson|template^application/vnd.ecowin.seriesrequest
 person^Thomas_Olsson|template^application/vnd.ecowin.seriesupdate
+person^Heike_Håland_Østensen|template^application/vnd.edulith.edux+json
 person^Fu_Siyuan^UEFI_Forum|template^application/vnd.efi.img
 person^Fu_Siyuan^UEFI_Forum|template^application/vnd.efi.iso
 person^Nicolas_CARPI|template^application/vnd.eln+zip
@@ -1075,6 +1079,7 @@ person^Michael_Ashbridge|template^application/vnd.google-earth.kmz
 notes^(OBSOLETED by request)|person^Stefan_Szilva|template^application/vnd.gov.sk.e-form+xml
 person^Stefan_Szilva|template^application/vnd.gov.sk.e-form+zip
 person^Stefan_Szilva|template^application/vnd.gov.sk.xmldatacontainer+xml
+person^Robert_Clausing|template^application/vnd.gp3
 person^Martin_Tůma|template^application/vnd.gpxsee.map+xml
 person^Jeff_Tupper|template^application/vnd.grafeq
 person^Jeff_Lawson|template^application/vnd.gridmp
@@ -1213,6 +1218,7 @@ person^Paul_Wattenberger|template^application/vnd.lotus-organizer
 person^Paul_Wattenberger|template^application/vnd.lotus-screencam
 person^Paul_Wattenberger|template^application/vnd.lotus-wordpro
 person^James_Berry|template^application/vnd.macports.portpkg
+person^Josef_Elijah_Fabian|template^application/vnd.majikah.bundle
 person^Anton_Medvedev|template^application/vnd.maml
 person^Blake_Thompson|template^application/vnd.mapbox-vector-tile
 person^Gary_Ellison|template^application/vnd.marlin.drm.actiontoken+xml
@@ -1568,6 +1574,7 @@ person^Prakash_Baskaran|template^application/vnd.pawaafile
 person^Slawomir_Lisznianski|template^application/vnd.pcos
 person^April_Gandert|template^application/vnd.pg.format
 person^April_Gandert|template^application/vnd.pg.osasli
+person^Lost_Idea_Experiments|template^application/vnd.phbk+xml
 person^Lucas_Maneos|template^application/vnd.piaccess.application-licence
 person^Giuseppe_Naccarato|template^application/vnd.picsel
 person^Rhys_Lewis|template^application/vnd.pmi.widget
@@ -2851,6 +2858,7 @@ person^Pierre_Papin|template^text/vnd.senx.warpscript
 notes^(OBSOLETED by request)|person^Nicholas_Parks_Young|template^text/vnd.si.uricatalogue
 person^Petter_Reinholdtsen|template^text/vnd.sosi
 person^Gary_Adams|template^text/vnd.sun.j2me.app-descriptor
+person^Konstantin_Semenenko|template^text/vnd.tps
 person^David_Lee_Lambert|template^text/vnd.trolltech.linguist
 person^Martin_Haug|template^text/vnd.typst
 person^Anand_Jahagirdar|template^text/vnd.vcf
