@@ -64,12 +64,12 @@
 - !ruby/object:MIME::Type
   content-type: text/cmcd
   encoding: quoted-printable
+  obsolete: true
   xrefs:
     person:
     - Alex_Giladi
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: text/comma-separated-values
   encoding: 8bit
@@ -1169,6 +1169,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/vnd.longform
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Matthew_Quinn
+    template:
+    - text/vnd.longform
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/vnd.motorola.reflex
   encoding: quoted-printable
   xrefs:
@@ -1295,6 +1305,16 @@
     - Anand_Jahagirdar
     template:
     - text/vnd.vcf
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: text/vnd.vri
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Huynh_Canh_Duongh
+    template:
+    - text/vnd.vri
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type

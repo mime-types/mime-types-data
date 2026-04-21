@@ -106,6 +106,7 @@ person^Frederick_Walls
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
 rfc^rfc8846|template^application/clue_info+xml
+person^Alexandra_Blasgen
 rfc^rfc7193|template^application/cms
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cbor
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cose
@@ -478,8 +479,8 @@ person^Sandro_Hawke
 person^Nick_Smith|template^application/riscos
 rfc^rfc4662|template^application/rlmi+xml
 rfc^rfc4826|template^application/rls-services+xml
-draft^draft-ietf-ntp-roughtime-16
-draft^draft-ietf-ntp-roughtime-16
+draft^RFC-ietf-ntp-roughtime-19|template^application/roughtime-malfeasance+json
+draft^RFC-ietf-ntp-roughtime-19|template^application/roughtime-server+json
 person^ATSC|template^application/route-apd+xml
 person^ATSC|template^application/route-s-tsid+xml
 person^ATSC|template^application/route-usd+xml
@@ -573,6 +574,7 @@ draft^RFC-ietf-suit-manifest-34|template^application/suit-envelope+cose
 draft^RFC-ietf-suit-report-19|template^application/suit-report+cose
 rfc^rfc9393|template^application/swid+cbor
 person^David_Waltermire^ISO-IEC_JTC_1^Ron_Brill|template^application/swid+xml
+note^6|person^Stephen_Berard|template^application/syslog-msg
 rfc^rfc5934|template^application/tamp-apex-update
 rfc^rfc5934|template^application/tamp-apex-update-confirm
 rfc^rfc5934|template^application/tamp-community-update
@@ -1021,6 +1023,7 @@ person^Alex_Dubov|template^application/vnd.firemonkeys.cloudcell
 person^Dick_Floersch|template^application/vnd.FloGraphIt
 person^Marc_Winter|template^application/vnd.fluxtime.clip
 person^George_Williams|template^application/vnd.font-fontforge-sfd
+person^Hristofor_Lydmilov_Hristov|template^application/vnd.foritech.container
 person^Mike_Wexler|template^application/vnd.framemaker
 person^Liu_Qiancen|template^application/vnd.freelog.comic
 notes^(OBSOLETE)|person^Alexis_Tamas^OP3FT|template^application/vnd.frogans.fnc
@@ -1625,6 +1628,7 @@ person^Kim_Scarborough|template^application/vnd.rar
 person^Nick_Reeves|template^application/vnd.realvnc.bed
 person^W3C_Music_Notation_Community_Group|template^application/vnd.recordare.musicxml
 person^W3C_Music_Notation_Community_Group|template^application/vnd.recordare.musicxml+xml
+person^Anders_Eknert|template^application/vnd.rego
 person^Frantisek_Kucera|template^application/vnd.relpipe
 person^James_Wick|template^application/vnd.RenLearn.rlprint
 person^Benedikt_Muessig|template^application/vnd.resilient.logic
@@ -1683,6 +1687,7 @@ person^Cliff_Gauntlett|template^application/vnd.solent.sdkm+xml
 person^Stefan_Jernberg|template^application/vnd.spotfire.dxp
 person^Stefan_Jernberg|template^application/vnd.spotfire.sfs
 person^Clemens_Ladisch|template^application/vnd.sqlite3
+person^Huynh_Canh_Duongh|template^application/vnd.sri
 person^Asang_Dani|template^application/vnd.sss-cod
 person^Eric_Bruno|template^application/vnd.sss-dtf
 person^Eric_Bruno|template^application/vnd.sss-ntf
@@ -1771,6 +1776,7 @@ person^Thomas_Fossati|template^application/vnd.veraison.tsm-report+json
 person^Oliver_Terbu^OpenID_Foundation_Digital_Credentials_Protocols_WG|template^application/vnd.verifier-attestation+jwt
 person^Petr_Peterka|template^application/vnd.verimatrix.vcas
 person^Al_Brown|template^application/vnd.veritone.aion+json
+person^Zur_Halfon|template^application/vnd.vertifile.pvf
 person^Massimo_Bertoli|template^application/vnd.veryant.thin
 person^Jim_Zubov|template^application/vnd.ves.encrypted
 person^Robert_Hess|template^application/vnd.vidsoft.vidconference
@@ -2568,6 +2574,7 @@ person^Greg_Ward^Randolph_Fritz|template^image/vnd.radiance
 person^David_Petersen|template^image/vnd.sealed.png
 person^David_Petersen|template^image/vnd.sealedmedia.softseal.gif
 person^David_Petersen|template^image/vnd.sealedmedia.softseal.jpg
+person^Gareth_Davidson|template^image/vnd.sld
 person^Jodi_Moline|template^image/vnd.svf
 person^Ni_Hui|template^image/vnd.tencent.tap
 person^Henrik_Andersson|template^image/vnd.valve.source.texture
@@ -2850,6 +2857,7 @@ person^Michael_Powers|template^text/vnd.in3d.spot
 person^IPTC|template^text/vnd.IPTC.NewsML
 person^IPTC|template^text/vnd.IPTC.NITF
 person^Mikusiak_Lubos|template^text/vnd.latex-z
+person^Matthew_Quinn|template^text/vnd.longform
 person^Mark_Patton|template^text/vnd.motorola.reflex
 person^Jan_Nelson|template^text/vnd.ms-mediapackage
 person^Feiyu_Xie|template^text/vnd.net2phone.commcenter.command
@@ -2862,6 +2870,7 @@ person^Konstantin_Semenenko|template^text/vnd.tps
 person^David_Lee_Lambert|template^text/vnd.trolltech.linguist
 person^Martin_Haug|template^text/vnd.typst
 person^Anand_Jahagirdar|template^text/vnd.vcf
+person^Huynh_Canh_Duongh|template^text/vnd.vri
 person^WAP-Forum|template^text/vnd.wap.si
 person^WAP-Forum|template^text/vnd.wap.sl
 person^Peter_Stark|template^text/vnd.wap.wml

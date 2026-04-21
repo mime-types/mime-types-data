@@ -1126,6 +1126,15 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/cmcd
+  encoding: base64
+  xrefs:
+    person:
+    - Alexandra_Blasgen
+  registered: true
+  provisional: true
+  sort-priority: 80
+- !ruby/object:MIME::Type
   content-type: application/cms
   encoding: base64
   xrefs:
@@ -5113,19 +5122,21 @@
   encoding: base64
   xrefs:
     draft:
-    - draft-ietf-ntp-roughtime-16
+    - RFC-ietf-ntp-roughtime-19
+    template:
+    - application/roughtime-malfeasance+json
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/roughtime-server+json
   encoding: base64
   xrefs:
     draft:
-    - draft-ietf-ntp-roughtime-16
+    - RFC-ietf-ntp-roughtime-19
+    template:
+    - application/roughtime-server+json
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/route-apd+xml
   encoding: base64
@@ -6138,6 +6149,18 @@
     - Ron_Brill
     template:
     - application/swid+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/syslog-msg
+  encoding: base64
+  xrefs:
+    person:
+    - Stephen_Berard
+    note:
+    - '6'
+    template:
+    - application/syslog-msg
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -10966,6 +10989,16 @@
     - George_Williams
     template:
     - application/vnd.font-fontforge-sfd
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.foritech.container
+  encoding: base64
+  xrefs:
+    person:
+    - Hristofor_Lydmilov_Hristov
+    template:
+    - application/vnd.foritech.container
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -17864,6 +17897,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.rego
+  encoding: base64
+  xrefs:
+    person:
+    - Anders_Eknert
+    template:
+    - application/vnd.rego
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.relpipe
   encoding: base64
   xrefs:
@@ -18535,6 +18578,16 @@
     - Clemens_Ladisch
     template:
     - application/vnd.sqlite3
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.sri
+  encoding: base64
+  xrefs:
+    person:
+    - Huynh_Canh_Duongh
+    template:
+    - application/vnd.sri
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -19476,6 +19529,16 @@
     - Al_Brown
     template:
     - application/vnd.veritone.aion+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.vertifile.pvf
+  encoding: base64
+  xrefs:
+    person:
+    - Zur_Halfon
+    template:
+    - application/vnd.vertifile.pvf
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
