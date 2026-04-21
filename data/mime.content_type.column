@@ -106,6 +106,7 @@ application/clf+xml
 application/clr
 application/clue+xml
 application/clue_info+xml
+application/cmcd
 application/cms
 application/cmw+cbor
 application/cmw+cose
@@ -573,6 +574,7 @@ application/suit-envelope+cose
 application/suit-report+cose
 application/swid+cbor
 application/swid+xml
+application/syslog-msg
 application/tamp-apex-update
 application/tamp-apex-update-confirm
 application/tamp-community-update
@@ -1021,6 +1023,7 @@ application/vnd.firemonkeys.cloudcell
 application/vnd.FloGraphIt gph
 application/vnd.fluxtime.clip ftc
 application/vnd.font-fontforge-sfd
+application/vnd.foritech.container
 application/vnd.framemaker frm maker frame fm fb book fbdoc
 application/vnd.freelog.comic
 application/vnd.frogans.fnc fnc
@@ -1625,6 +1628,7 @@ application/vnd.rar
 application/vnd.realvnc.bed bed
 application/vnd.recordare.musicxml mxl
 application/vnd.recordare.musicxml+xml musicxml
+application/vnd.rego
 application/vnd.relpipe
 application/vnd.RenLearn.rlprint
 application/vnd.resilient.logic
@@ -1683,6 +1687,7 @@ application/vnd.solent.sdkm+xml sdkd sdkm
 application/vnd.spotfire.dxp dxp
 application/vnd.spotfire.sfs sfs
 application/vnd.sqlite3
+application/vnd.sri
 application/vnd.sss-cod
 application/vnd.sss-dtf
 application/vnd.sss-ntf
@@ -1771,6 +1776,7 @@ application/vnd.veraison.tsm-report+json
 application/vnd.verifier-attestation+jwt
 application/vnd.verimatrix.vcas
 application/vnd.veritone.aion+json
+application/vnd.vertifile.pvf
 application/vnd.veryant.thin
 application/vnd.ves.encrypted
 application/vnd.vidsoft.vidconference vsc
@@ -2568,6 +2574,7 @@ image/vnd.radiance
 image/vnd.sealed.png
 image/vnd.sealedmedia.softseal.gif
 image/vnd.sealedmedia.softseal.jpg
+image/vnd.sld
 image/vnd.svf
 image/vnd.tencent.tap
 image/vnd.valve.source.texture
@@ -2850,6 +2857,7 @@ text/vnd.iptc.anpa anpa
 text/vnd.IPTC.NewsML
 text/vnd.IPTC.NITF
 text/vnd.latex-z
+text/vnd.longform
 text/vnd.motorola.reflex
 text/vnd.ms-mediapackage
 text/vnd.net2phone.commcenter.command ccc
@@ -2862,6 +2870,7 @@ text/vnd.tps
 text/vnd.trolltech.linguist
 text/vnd.typst
 text/vnd.vcf
+text/vnd.vri
 text/vnd.wap.si si
 text/vnd.wap.sl sl
 text/vnd.wap.wml wml

@@ -169,6 +169,7 @@ application/cals-1840
 -
 -
 -
+-
 text/javascript
 -
 -
@@ -601,6 +602,7 @@ application/smil+xml
 -
 -
 -
+-
 application/x-toolbook
 -
 -
@@ -789,6 +791,7 @@ application/vnd.3gpp.mcvideo-info+xml
 -
 -
 application/vnd.aristanetworks.swi
+-
 -
 -
 -
@@ -1387,6 +1390,9 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
+-
 -
 -
 -
@@ -2579,6 +2585,7 @@ image/vnd.net-fpx
 -
 -
 -
+-
 image/bmp
 -
 -
@@ -2838,6 +2845,8 @@ text/javascript
 -
 -
 model/vnd.flatland.3dml
+-
+-
 -
 -
 -

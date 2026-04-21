@@ -1043,6 +1043,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: image/vnd.sld
+  encoding: base64
+  xrefs:
+    person:
+    - Gareth_Davidson
+    template:
+    - image/vnd.sld
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: image/vnd.svf
   encoding: base64
   xrefs:
