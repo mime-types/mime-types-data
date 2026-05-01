@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e # v2.14.2
+        uses: step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40 # v2.19.0
         with:
           disable-sudo: true
           egress-policy: block
@@ -43,7 +43,7 @@ jobs:
         with:
           persist-credentials: true
 
-      - uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd #v1.288.0
+      - uses: ruby/setup-ruby@0cb964fd540e0a24c900370abf38a33466142735 #v1.305.0
         with:
           ruby-version: '3.3'
           rubygems: 'latest'
@@ -52,7 +52,7 @@ jobs:
 
       - run: bundle exec rake release:gha
 
-      - uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
+      - uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8.1.1
         with:
           commit-message: |
             ${{ env.UPDATE_TITLE }}
