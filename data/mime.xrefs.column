@@ -103,10 +103,11 @@ person^OGC^Scott_Simmons|template^application/city+json
 person^OGC^Scott_Simmons|template^application/city+json-seq
 -
 person^Frederick_Walls
+draft^RFC-ietf-oauth-rfc7523bis-11|template^application/client-authentication+jwt
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
 rfc^rfc8846|template^application/clue_info+xml
-person^Alexandra_Blasgen
+person^Alexandra_Blasgen^CTA|template^application/cmcd
 rfc^rfc7193|template^application/cms
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cbor
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cose
@@ -910,6 +911,7 @@ person^Michael_Dixon|template^application/vnd.denovo.fcselayout-link
 person^Henrik_Andersson|template^application/vnd.desmume.movie
 person^Deut.li|template^application/vnd.deut+json
 -
+person^Edwin_Spradley|template^application/vnd.digitalstack.document+zip
 person^Yamanaka|template^application/vnd.dir-bi.plate-dl-nosuffix
 person^Axel_Ferrazzini|template^application/vnd.dm.delegation+xml
 person^Meredith_Searcy|template^application/vnd.dna
@@ -1350,6 +1352,7 @@ person^Andreas_Molzer|template^application/vnd.nebumind.line
 person^Steve_Judkins|template^application/vnd.nervana
 person^Andy_Mutz|template^application/vnd.netfpx
 person^Dan_DuFeu|template^application/vnd.neurolanguage.nlu
+person^Manivannan_Subburaj|template^application/vnd.nila.protobuf-bundle+zip
 person^Amit_Kumar_Gupta|template^application/vnd.nimn
 person^Henrik_Andersson|template^application/vnd.nintendo.nitro.rom
 person^Henrik_Andersson|template^application/vnd.nintendo.snes.rom
@@ -2850,6 +2853,7 @@ person^Kari_E._Hurtta|template^text/vnd.fmi.flexstor
 person^Mi_Tar|template^text/vnd.gml
 person^John_Ellson|template^text/vnd.graphviz
 person^Hill_Hanxv|template^text/vnd.hans
+person^Michael_K_Malak|template^text/vnd.hekaya
 person^Heungsub_Lee|template^text/vnd.hgl
 person^Michael_Powers|template^text/vnd.in3d.3dml
 person^Michael_Powers|template^text/vnd.in3d.spot

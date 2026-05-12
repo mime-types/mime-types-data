@@ -103,6 +103,7 @@ application/city+json
 application/city+json-seq
 application/clariscad
 application/clf+xml
+application/client-authentication+jwt
 application/clr
 application/clue+xml
 application/clue_info+xml
@@ -910,6 +911,7 @@ application/vnd.denovo.fcselayout-link fe_launch
 application/vnd.desmume.movie
 application/vnd.deut+json
 application/vnd.digilite.prolights
+application/vnd.digitalstack.document+zip
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dm.delegation+xml
 application/vnd.dna dna
@@ -1350,6 +1352,7 @@ application/vnd.nebumind.line
 application/vnd.nervana ent entity req request bkm kcm
 application/vnd.netfpx
 application/vnd.neurolanguage.nlu nlu
+application/vnd.nila.protobuf-bundle+zip
 application/vnd.nimn
 application/vnd.nintendo.nitro.rom
 application/vnd.nintendo.snes.rom
@@ -2796,7 +2799,7 @@ text/javascript1.4
 text/jcr-cnd
 text/jscript
 text/livescript
-text/markdown markdown md mkd
+text/markdown markdown md mkd mdtext
 text/mizar
 text/n3 n3
 text/nfo
@@ -2850,6 +2853,7 @@ text/vnd.fmi.flexstor flx
 text/vnd.gml
 text/vnd.graphviz gv
 text/vnd.hans
+text/vnd.hekaya
 text/vnd.hgl
 text/vnd.in3d.3dml 3dml
 text/vnd.in3d.spot spot

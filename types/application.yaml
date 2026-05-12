@@ -1095,6 +1095,16 @@
   provisional: true
   sort-priority: 80
 - !ruby/object:MIME::Type
+  content-type: application/client-authentication+jwt
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-oauth-rfc7523bis-11
+    template:
+    - application/client-authentication+jwt
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/clr
   encoding: base64
   xrefs:
@@ -1131,9 +1141,11 @@
   xrefs:
     person:
     - Alexandra_Blasgen
+    - CTA
+    template:
+    - application/cmcd
   registered: true
-  provisional: true
-  sort-priority: 80
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/cms
   encoding: base64
@@ -9770,6 +9782,16 @@
   registered: false
   sort-priority: 48
 - !ruby/object:MIME::Type
+  content-type: application/vnd.digitalstack.document+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Edwin_Spradley
+    template:
+    - application/vnd.digitalstack.document+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.dir-bi.plate-dl-nosuffix
   encoding: base64
   xrefs:
@@ -14837,6 +14859,16 @@
     - application/vnd.neurolanguage.nlu
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nila.protobuf-bundle+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Manivannan_Subburaj
+    template:
+    - application/vnd.nila.protobuf-bundle+zip
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.nimn
   encoding: base64
