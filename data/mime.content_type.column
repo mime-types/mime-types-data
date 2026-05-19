@@ -103,6 +103,9 @@ application/city+json
 application/city+json-seq
 application/clariscad
 application/clf+xml
+application/client-authentication+jwt
+application/cloudevents+json
+application/cloudevents-batch+json
 application/clr
 application/clue+xml
 application/clue_info+xml
@@ -910,6 +913,7 @@ application/vnd.denovo.fcselayout-link fe_launch
 application/vnd.desmume.movie
 application/vnd.deut+json
 application/vnd.digilite.prolights
+application/vnd.digitalstack.document+zip
 application/vnd.dir-bi.plate-dl-nosuffix
 application/vnd.dm.delegation+xml
 application/vnd.dna dna
@@ -1008,6 +1012,7 @@ application/vnd.ezpix-album ez2
 application/vnd.ezpix-package ez3
 application/vnd.f-secure.mobile
 application/vnd.faf+yaml
+application/vnd.fafm+yaml
 application/vnd.familysearch.gedcom+zip
 application/vnd.fastcopy-disk-image
 application/vnd.fdf fdf
@@ -1220,6 +1225,7 @@ application/vnd.lotus-notes nsf
 application/vnd.lotus-organizer org
 application/vnd.lotus-screencam scm
 application/vnd.lotus-wordpro lwp
+application/vnd.lukuid.package+zip
 application/vnd.macports.portpkg portpkg
 application/vnd.majikah.bundle
 application/vnd.maml
@@ -1350,6 +1356,7 @@ application/vnd.nebumind.line
 application/vnd.nervana ent entity req request bkm kcm
 application/vnd.netfpx
 application/vnd.neurolanguage.nlu nlu
+application/vnd.nila.protobuf-bundle+zip
 application/vnd.nimn
 application/vnd.nintendo.nitro.rom
 application/vnd.nintendo.snes.rom
@@ -1780,6 +1787,7 @@ application/vnd.vertifile.pvf
 application/vnd.veryant.thin
 application/vnd.ves.encrypted
 application/vnd.vidsoft.vidconference vsc
+application/vnd.vimina.vma
 application/vnd.visio vsd vst vsw vss
 application/vnd.visionary vis
 application/vnd.vividence.scriptfile
@@ -2796,7 +2804,7 @@ text/javascript1.4
 text/jcr-cnd
 text/jscript
 text/livescript
-text/markdown markdown md mkd
+text/markdown markdown md mkd mdtext
 text/mizar
 text/n3 n3
 text/nfo
@@ -2850,6 +2858,7 @@ text/vnd.fmi.flexstor flx
 text/vnd.gml
 text/vnd.graphviz gv
 text/vnd.hans
+text/vnd.hekaya
 text/vnd.hgl
 text/vnd.in3d.3dml 3dml
 text/vnd.in3d.spot spot
