@@ -103,10 +103,13 @@ person^OGC^Scott_Simmons|template^application/city+json
 person^OGC^Scott_Simmons|template^application/city+json-seq
 -
 person^Frederick_Walls
+draft^RFC-ietf-oauth-rfc7523bis-11|template^application/client-authentication+jwt
+person^CloudEvents_Maintainers^Linux_Foundation|template^application/cloudevents+json
+person^CloudEvents_Maintainers^Linux_Foundation|template^application/cloudevents-batch+json
 person^Andy_Miller^IMS_Global|template^application/clr
 rfc^rfc8847|template^application/clue+xml
 rfc^rfc8846|template^application/clue_info+xml
-person^Alexandra_Blasgen
+person^Alexandra_Blasgen^CTA|template^application/cmcd
 rfc^rfc7193|template^application/cms
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cbor
 draft^RFC-ietf-rats-msg-wrap-22|template^application/cmw+cose
@@ -785,10 +788,11 @@ person^Adrian_Föder|template^application/vnd.apothekende.reservation+json
 person^Peter_Bierman|template^application/vnd.apple.installer+xml
 -
 person^Manichandra_Sajjanapu|template^application/vnd.apple.keynote
-rfc^rfc8216|template^application/vnd.apple.mpegurl
+draft^RFC-pantos-hls-rfc8216bis-22|template^application/vnd.apple.mpegurl
 person^Manichandra_Sajjanapu|template^application/vnd.apple.numbers
 person^Manichandra_Sajjanapu|template^application/vnd.apple.pages
 -
+draft^RFC-pantos-content-steering-05|template^application/vnd.apple.steering-list
 -
 notes^(OBSOLETED in favor of application/vnd.aristanetworks.swi)|person^Bill_Fenner|template^application/vnd.arastra.swi
 person^Bill_Fenner|template^application/vnd.aristanetworks.swi
@@ -910,6 +914,7 @@ person^Michael_Dixon|template^application/vnd.denovo.fcselayout-link
 person^Henrik_Andersson|template^application/vnd.desmume.movie
 person^Deut.li|template^application/vnd.deut+json
 -
+person^Edwin_Spradley|template^application/vnd.digitalstack.document+zip
 person^Yamanaka|template^application/vnd.dir-bi.plate-dl-nosuffix
 person^Axel_Ferrazzini|template^application/vnd.dm.delegation+xml
 person^Meredith_Searcy|template^application/vnd.dna
@@ -1008,6 +1013,7 @@ person^ElectronicZombieCorp|template^application/vnd.ezpix-album
 person^ElectronicZombieCorp|template^application/vnd.ezpix-package
 person^Samu_Sarivaara|template^application/vnd.f-secure.mobile
 person^James_Wolfe|template^application/vnd.faf+yaml
+person^James_Wolfe|template^application/vnd.fafm+yaml
 person^Gordon_Clarke|template^application/vnd.familysearch.gedcom+zip
 person^Thomas_Huth|template^application/vnd.fastcopy-disk-image
 person^Steve_Zilles|template^application/vnd.fdf
@@ -1220,6 +1226,7 @@ person^Michael_Laramie|template^application/vnd.lotus-notes
 person^Paul_Wattenberger|template^application/vnd.lotus-organizer
 person^Paul_Wattenberger|template^application/vnd.lotus-screencam
 person^Paul_Wattenberger|template^application/vnd.lotus-wordpro
+person^Johann_du_Toit|template^application/vnd.lukuid.package+zip
 person^James_Berry|template^application/vnd.macports.portpkg
 person^Josef_Elijah_Fabian|template^application/vnd.majikah.bundle
 person^Anton_Medvedev|template^application/vnd.maml
@@ -1350,6 +1357,7 @@ person^Andreas_Molzer|template^application/vnd.nebumind.line
 person^Steve_Judkins|template^application/vnd.nervana
 person^Andy_Mutz|template^application/vnd.netfpx
 person^Dan_DuFeu|template^application/vnd.neurolanguage.nlu
+person^Manivannan_Subburaj|template^application/vnd.nila.protobuf-bundle+zip
 person^Amit_Kumar_Gupta|template^application/vnd.nimn
 person^Henrik_Andersson|template^application/vnd.nintendo.nitro.rom
 person^Henrik_Andersson|template^application/vnd.nintendo.snes.rom
@@ -1780,6 +1788,7 @@ person^Zur_Halfon|template^application/vnd.vertifile.pvf
 person^Massimo_Bertoli|template^application/vnd.veryant.thin
 person^Jim_Zubov|template^application/vnd.ves.encrypted
 person^Robert_Hess|template^application/vnd.vidsoft.vidconference
+person^Sunny_Lynn|template^application/vnd.vimina.vma
 person^Troy_Sandal|template^application/vnd.visio
 person^Gayatri_Aravindakumar|template^application/vnd.visionary
 person^Mark_Risher|template^application/vnd.vividence.scriptfile
@@ -2850,6 +2859,7 @@ person^Kari_E._Hurtta|template^text/vnd.fmi.flexstor
 person^Mi_Tar|template^text/vnd.gml
 person^John_Ellson|template^text/vnd.graphviz
 person^Hill_Hanxv|template^text/vnd.hans
+person^Michael_K_Malak|template^text/vnd.hekaya
 person^Heungsub_Lee|template^text/vnd.hgl
 person^Michael_Powers|template^text/vnd.in3d.3dml
 person^Michael_Powers|template^text/vnd.in3d.spot

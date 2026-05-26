@@ -721,7 +721,7 @@ mde           application/x-msaccess                                            
 mdf           application/x-msaccess                                                    base64          
 mdi           image/vnd.ms-modi                                                         base64          
 mdo           text/plain                                                                quoted-printable
-mdtext        text/x-web-markdown                                                       quoted-printable
+mdtext        text/markdown                                                             quoted-printable
 me            text/troff                                                                8bit            
 mef           image/x-raw-mamiya                                                        base64          
 memgraph      application/x-memgraph                                                    base64          
