@@ -1016,7 +1016,6 @@ vcs         text/x-vcalendar                                                    
 vcf         text/x-vcard                                                              8bit            
 v           text/x-verilog                                                            quoted-printable
 vhd         text/x-vhdl                                                               quoted-printable
-md          text/x-web-markdown                                                       quoted-printable
 y           text/x-yacc                                                               quoted-printable
 yaml        text/x-yaml                                                               8bit            
 dtd         text/xml                                                                  8bit            
