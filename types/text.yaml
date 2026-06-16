@@ -399,13 +399,14 @@
   - markdown
   - md
   - mkd
+  - mdtext
   xrefs:
     rfc:
     - rfc7763
     template:
     - text/markdown
   registered: true
-  sort-priority: 13
+  sort-priority: 12
 - !ruby/object:MIME::Type
   content-type: text/mizar
   encoding: quoted-printable
@@ -1060,6 +1061,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: text/vnd.gist.mx
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Sachin_Nagda
+    template:
+    - text/vnd.gist.mx
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/vnd.gml
   encoding: quoted-printable
   xrefs:
@@ -1091,6 +1102,16 @@
     - Hill_Hanxv
     template:
     - text/vnd.hans
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: text/vnd.hekaya
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Michael_K_Malak
+    template:
+    - text/vnd.hekaya
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
