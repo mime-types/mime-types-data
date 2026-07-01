@@ -129,6 +129,9 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
+-
+-
 en^CU-SeeMe
 -
 -
@@ -493,6 +496,7 @@ en^XML Resource Lists
 -
 -
 en^Really Simple Discovery
+-
 en^RSS - Really Simple Syndication
 en^Rich Text Format
 -
@@ -560,12 +564,15 @@ en^SPARQL - Results
 -
 -
 -
+-
 en^Speech Recognition Grammar Specification
 en^Speech Recognition Grammar Specification - XML
 en^Search/Retrieve via URL Response Format
 -
 -
 en^Speech Synthesis Markup Language
+-
+-
 -
 -
 -
@@ -724,6 +731,7 @@ en^3rd Generation Partnership Project - Pic Var
 en^3rd Generation Partnership Project - Transaction Capabilities Application Part
 -
 en^3M Post It Notes
+-
 en^Simply Accounting
 en^Simply Accounting - Data Import
 -
@@ -756,6 +764,8 @@ en^Adobe XML Forms Data Format
 -
 -
 -
+-
+-
 en^Ahead AIR Application
 -
 en^AirZip FileSECURE
@@ -765,6 +775,7 @@ en^Amazon Kindle eBook format
 -
 en^Active Content Compression
 en^AmigaDE
+-
 -
 -
 en^Android Package Archive
@@ -791,6 +802,7 @@ en^Multimedia Playlist Unicode
 -
 -
 -
+-
 en^Arista Networks Software Image
 -
 -
@@ -800,6 +812,7 @@ en^Arista Networks Software Image
 -
 -
 en^Audiograph
+-
 -
 -
 -
@@ -912,6 +925,7 @@ en^FCS Express Layout Link
 -
 -
 -
+-
 en^New Moon Liftoff/DNA
 -
 en^Dolby Meridian Lossless Packing
@@ -1006,6 +1020,8 @@ en^MICROSEC e-Szign¢
 -
 en^EZPix Secure Photo Album
 en^EZPix Secure Photo Album
+-
+-
 -
 -
 -
@@ -1220,6 +1236,7 @@ en^Lotus Notes
 en^Lotus Organizer
 en^Lotus Screencam
 en^Lotus Wordpro
+-
 en^MacPorts Port System
 -
 -
@@ -1350,6 +1367,7 @@ en^Muvee Automatic Video Editing
 -
 -
 en^neuroLanguage
+-
 -
 -
 -
@@ -1573,6 +1591,7 @@ en^PalmOS Data
 -
 -
 -
+-
 en^PawaaFILE
 -
 en^Proprietary P&G Standard Reporting System
@@ -1683,6 +1702,7 @@ en^SMART Technologies Apps
 -
 -
 -
+-
 en^SudokuMagic
 en^TIBCO Spotfire
 en^TIBCO Spotfire
@@ -1713,8 +1733,10 @@ en^OpenOffice - Writer (Text - HTML)
 en^OpenOffice - Writer (Text - HTML)
 en^OpenOffice - Writer Template (Text - HTML)
 -
+-
 en^ScheduleUs
 en^SourceView Document
+-
 -
 -
 -
@@ -1768,6 +1790,7 @@ en^Unique Object Markup Language
 -
 -
 en^VirtualCatalog
+-
 -
 -
 -
@@ -2848,7 +2871,9 @@ en^Curl - Source Code
 en^mod_fly / fly.cgi
 en^FLEXSTOR
 -
+-
 en^Graphviz
+-
 -
 -
 en^In3D - 3DML

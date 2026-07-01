@@ -15,8 +15,7 @@
   xrefs:
     rfc:
     - rfc9695
-    draft:
-    - RFC-ietf-avtcore-rtp-haptics-13
+    - rfc9993
     template:
     - haptics/hmpg
   registered: true

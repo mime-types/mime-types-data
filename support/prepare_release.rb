@@ -28,9 +28,9 @@ class PrepareRelease
       # additional changes because there is a NEXT header.
       pattern =
         if %r{^## NEXT / (?:YYYY|\d{4})-(?:MM|\d{2})-(?:DD|\d{2})}.match?(history)
-          %r{[<]!-- automatic-release --[>]\n\n## NEXT / (?:YYYY|\d{4})-(?:MM|\d{2})-(?:DD|\d{2})}
+          %r{<!-- automatic-release -->\n\n## NEXT / (?:YYYY|\d{4})-(?:MM|\d{2})-(?:DD|\d{2})}
         else
-          %r{[<]!-- automatic-release --[>]\n}
+          %r{<!-- automatic-release -->\n}
         end
 
       note = <<~NOTE
@@ -65,7 +65,7 @@ class PrepareRelease
     end
 
     history_path = File.join(Dir.mktmpdir, "body.md")
-    IO.write(history_path, history_body)
+    IO.write(history_path, history_body_text)
 
     body = <<~EOF_ENV
       UPDATE_VERSION=#{new_version}
@@ -131,5 +131,12 @@ class PrepareRelease
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
     MARKDOWN
+  end
+
+  def history_body_text
+    history_body
+      .gsub(/\[([^\]]+)\]\[\w+\]/, '\\1')
+      .gsub(/\n\s+/, " ")
+      .gsub(/^- /, "")
   end
 end
