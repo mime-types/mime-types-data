@@ -2,12 +2,26 @@
 
 <!-- automatic-release -->
 
-## 3.2026.0421 / 2026-04-21
+## 3.2026.0630 / 2026-06-30
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
+
+## 3.2026.0701 / 2026-07-01
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
+
+- Upgraded `hoe-halostatue` to ensure reproducible builds.
+
+## 3.2026.0421 / 2026-04-21
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
 
 ## 3.2026.0414 / 2026-04-14
 
@@ -15,13 +29,11 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0407 / 2026-04-07
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
-
 
 ## 3.2026.0331 / 2026-03-31
 
@@ -29,18 +41,14 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0317 / 2026-03-17
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
-
 - Juliana Lucena ([@julianalucena](https://github.com/julianalucena)) added
   `parquet` extension for `application/vnd.apache.parquet`. [#271][pull-271]
-
 
 ## 3.2026.0303 / 2026-03-03
 
@@ -48,13 +56,11 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0224 / 2026-02-24
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
-
 
 ## 3.2026.0217 / 2026-02-17
 
@@ -62,13 +68,11 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0210 / 2026-02-10
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
-
 
 ## 3.2026.0203 / 2026-02-03
 
@@ -76,13 +80,11 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0127 / 2026-01-27
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
-
 
 ## 3.2026.0120 / 2026-01-20
 
@@ -90,21 +92,17 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0113 / 2026-01-13
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-
 ## 3.2026.0106 / 2026-01-06
 
 - Updated registry entries from the IANA [media registry][registry] and
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
-
-
 
 - Manual contributions now require `Signed-off-by` trailers for assertion of the
   [Developer Certificate of Origin][dco]. More details will be added in the

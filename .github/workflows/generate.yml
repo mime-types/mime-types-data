@@ -24,7 +24,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e # v2.14.2
+        uses: step-security/harden-runner@9af89fc71515a100421586dfdb3dc9c984fbf411 # v2.19.4
         with:
           disable-sudo: true
           egress-policy: block
@@ -39,11 +39,11 @@ jobs:
             svn.apache.org:80
             www.iana.org:443
 
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: true
 
-      - uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd #v1.288.0
+      - uses: ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd # v1.288.0
         with:
           ruby-version: '3.3'
           rubygems: 'latest'
@@ -52,19 +52,13 @@ jobs:
 
       - run: bundle exec rake release:gha
 
-      - uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
-        with:
-          commit-message: |
-            ${{ env.UPDATE_TITLE }}
+      - run: |
+          git switch --create update-mime-types-data/"${UPDATE_VERSION}"
+          printf "%s\n\n%s" "${UPDATE_TITLE}" "$(fmt -w 72 "${UPDATE_BODY_PATH}")" |
+            git commit --all -F-
 
-            ${{ env.UPDATE_BODY }}
-          branch: update-mime-types-data/${{ env.UPDATE_VERSION }}
-          title: ${{ env.UPDATE_TITLE }}
-          body-path: ${{ env.UPDATE_BODY_PATH }}
-          labels: |
-            automated
-            data-update
-          assignees: |
-            halostatue
-          reviewers: |
-            halostatue
+          gh pr create --title "${UPDATE_TITLE}" \
+             --body-file "${UPDATE_BODY_PATH}" \
+             --assignee halostatue \
+             --reviewer halostatue \
+             --label automated,data-update
