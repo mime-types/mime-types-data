@@ -1008,6 +1008,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: audio/prs.aaud
+  encoding: base64
+  xrefs:
+    person:
+    - Ai_Media_Format
+    template:
+    - audio/prs.aaud
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: audio/prs.sid
   encoding: base64
   xrefs:
@@ -1716,6 +1726,16 @@
     - Greg_Vaudreuil
     template:
     - audio/vnd.octel.sbc
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: audio/vnd.opennbs.nbs
+  encoding: base64
+  xrefs:
+    person:
+    - OpenNBS_Project
+    template:
+    - audio/vnd.opennbs.nbs
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type

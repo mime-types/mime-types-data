@@ -132,6 +132,13 @@ en^Cloud Data Management Interface (CDMI) - Queue
 -
 -
 -
+-
+-
+-
+-
+-
+-
+-
 en^CU-SeeMe
 -
 -
@@ -142,6 +149,7 @@ en^CU-SeeMe
 -
 -
 en^Web Distributed Authoring and Versioning
+-
 -
 -
 -
@@ -307,6 +315,7 @@ en^JavaScript Object Notation (JSON)
 -
 -
 -
+-
 en^Macintosh BinHex 4.0
 en^Compact Pro
 -
@@ -364,6 +373,7 @@ en^MPEG4
 -
 -
 en^Microsoft Word
+-
 -
 -
 -
@@ -444,6 +454,7 @@ en^PostScript
 en^Pipelined Relational Query Language
 -
 -
+-
 en^CU-Writer
 -
 -
@@ -482,6 +493,8 @@ en^XML Resource Lists Diff
 -
 -
 en^XML Resource Lists
+-
+-
 -
 -
 -
@@ -728,6 +741,7 @@ en^3rd Generation Partnership Project - Pic Var
 -
 -
 -
+-
 en^3rd Generation Partnership Project - Transaction Capabilities Application Part
 -
 en^3M Post It Notes
@@ -748,6 +762,8 @@ en^Adobe Flex Project
 -
 en^Adobe XML Data Package
 en^Adobe XML Forms Data Format
+-
+-
 -
 -
 -
@@ -812,6 +828,7 @@ en^Arista Networks Software Image
 -
 -
 en^Audiograph
+-
 -
 -
 -
@@ -908,6 +925,8 @@ en^CURL Applet
 -
 -
 -
+-
+-
 en^RemoteDocs R-Viewer
 -
 -
@@ -919,7 +938,9 @@ en^RemoteDocs R-Viewer
 -
 -
 -
+-
 en^FCS Express Layout Link
+-
 -
 -
 -
@@ -940,6 +961,7 @@ en^DreamFactory
 -
 -
 en^Digital Video Broadcasting
+-
 -
 -
 -
@@ -1018,6 +1040,7 @@ en^MICROSEC e-Szign¢
 -
 -
 -
+-
 en^EZPix Secure Photo Album
 en^EZPix Secure Photo Album
 -
@@ -1029,6 +1052,9 @@ en^EZPix Secure Photo Album
 en^Forms Data Format
 -
 en^Digital Siesmograph Networks - SEED Datafiles
+-
+-
+-
 -
 -
 -
@@ -1201,6 +1227,7 @@ en^Mobile Information Device Profile
 en^RhymBox
 en^Joda Archive
 -
+-
 en^Kahootz
 en^KDE KOffice Office Suite - Karbon
 en^KDE KOffice Office Suite - KChart
@@ -1216,6 +1243,7 @@ en^Kenamea App
 -
 en^Kidspiration
 en^Kinar Applications
+-
 en^SSEYO Koan Play File
 en^Kodak Storyshare
 -
@@ -1238,6 +1266,7 @@ en^Lotus Screencam
 en^Lotus Wordpro
 -
 en^MacPorts Port System
+-
 -
 -
 -
@@ -1275,6 +1304,7 @@ en^Mobius Management Systems - Query File
 en^Mobius Management Systems - Script Language
 en^Mobius Management Systems - Policy Definition Language File
 en^Mobius Management Systems - Topic Index File
+-
 -
 en^Mophun VM
 en^Mophun Certificate
@@ -1392,6 +1422,7 @@ en^N-Gage Game Installer
 -
 en^Nokia Radio Application - Preset
 en^Nokia Radio Application - Preset
+-
 en^Novadigm's RADIA and EDM products
 en^Novadigm's RADIA and EDM products
 en^Novadigm's RADIA and EDM products
@@ -1467,6 +1498,7 @@ en^Sugar Linux Application Bundle
 -
 -
 en^OMA Download Agents
+-
 -
 -
 -
@@ -1603,6 +1635,7 @@ en^Qualcomm's Plaza Mobile Internet
 -
 -
 en^PocketLearn Viewers
+-
 en^PowerBuilder
 -
 -
@@ -1612,6 +1645,8 @@ en^PowerBuilder
 -
 -
 en^Preview Systems ZipLock/VBox
+-
+-
 -
 en^EFI Proteus
 -
@@ -1661,6 +1696,7 @@ en^ROUTE 66 Location Based Services
 -
 -
 en^SailingTracker
+-
 -
 -
 -
@@ -1752,6 +1788,7 @@ en^SyncML - Device Management
 -
 -
 -
+-
 en^Tao Intent
 -
 -
@@ -1790,6 +1827,7 @@ en^Unique Object Markup Language
 -
 -
 en^VirtualCatalog
+-
 -
 -
 -
@@ -2430,6 +2468,7 @@ en^Ogg Audio
 -
 -
 -
+-
 en^DECE Audio
 en^Digital Winds Music
 -
@@ -2455,6 +2494,7 @@ en^Microsoft PlayReady Ecosystem
 en^Nuera ECELP 4800
 en^Nuera ECELP 7470
 en^Nuera ECELP 9600
+-
 -
 -
 -
@@ -2557,6 +2597,7 @@ en^OpenGL Textures (KTX)
 -
 -
 en^Portable Network Graphics (PNG)
+-
 en^BTIF
 -
 -
@@ -2668,6 +2709,7 @@ en^Portable Pixmap Format
 -
 -
 -
+-
 en^Silicon Graphics RGB Bitmap
 en^Sigma Raw Image
 en^Sony Raw Image
@@ -2740,6 +2782,7 @@ en^Geometric Description Language (GDL)
 en^Gen-Trix Studio
 -
 en^Virtue MTS
+-
 -
 -
 -
@@ -2836,6 +2879,7 @@ en^PRS Lines Tag
 -
 -
 -
+-
 en^Rich Text Format (RTF)
 -
 -
@@ -2852,6 +2896,7 @@ en^troff
 en^Turtle (Terse RDF Triple Language)
 -
 en^URI Resolution Services
+-
 -
 -
 -
@@ -3038,6 +3083,7 @@ en^MPEG Video
 -
 -
 en^Ogg Video
+-
 -
 -
 en^Quicktime Video

@@ -120,8 +120,10 @@
   extensions:
   - css
   xrefs:
-    rfc:
-    - rfc2318
+    person:
+    - W3C
+    uri:
+    - https://www.w3.org/TR/css
     template:
     - text/css
   registered: true
@@ -638,6 +640,18 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/qml
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Qt
+    note:
+    - '7'
+    template:
+    - text/qml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/raptorfec
   encoding: quoted-printable
   xrefs:
@@ -909,6 +923,16 @@
     - Kim_Scarborough
     template:
     - text/vnd.ascii-art
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: text/vnd.bovnar
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Janos_Sonntag
+    template:
+    - text/vnd.bovnar
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type

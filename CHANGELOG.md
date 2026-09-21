@@ -2,7 +2,13 @@
 
 <!-- automatic-release -->
 
-## NEXT / YYYY-MM-DD
+## 3.2026.0921 / 2026-09-21
+
+- Updated registry entries from the IANA [media registry][registry] and
+  [provisional media registry][provisional] and the
+  [Apache Tika media registry][tika] as of the release date.
+
+
 
 - Upgraded `hoe-halostatue` with a fix for YAML issues.
 

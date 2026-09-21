@@ -400,6 +400,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: model/vnd.sdf3d.s3d
+  encoding: base64
+  xrefs:
+    person:
+    - ff6f8d68
+    template:
+    - model/vnd.sdf3d.s3d
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: model/vnd.usda
   encoding: base64
   xrefs:

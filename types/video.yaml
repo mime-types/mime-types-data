@@ -548,6 +548,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: video/prs.avid
+  encoding: base64
+  xrefs:
+    person:
+    - Ai_Media_Format
+    template:
+    - video/prs.avid
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: video/quicktime
   friendly:
     en: Quicktime Video
