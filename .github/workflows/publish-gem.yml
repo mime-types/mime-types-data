@@ -59,7 +59,7 @@ jobs:
       - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: app-token
         with:
-          app-id: ${{ vars.FACTOTUM_APP_ID }}
+          client-id: ${{ vars.FACTOTUM_APP_ID }}
           private-key: ${{ secrets.FACTOTUM_APP_PRIVATE_KEY }}
 
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -67,11 +67,19 @@ jobs:
           persist-credentials: true
           token: ${{ steps.app-token.outputs.token }}
 
+      - name: Resolve app bot user id
+        id: user-id
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+        run: |
+          echo "user-id=$(gh api "/users/${APP_SLUG}[bot]" --jq .id)" >>"${GITHUB_OUTPUT}"
+
       - name: Resolve app bot identity
         id: bot
         env:
           APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
-          USER_ID: ${{ steps.app-token.outputs.user-id }}
+          USER_ID: ${{ steps.user-id.outputs.user-id }}
         run: |
           {
             echo "name=${APP_SLUG}[bot]"
