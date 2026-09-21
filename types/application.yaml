@@ -1182,8 +1182,8 @@
   content-type: application/cmw+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-msg-wrap-22
+    rfc:
+    - rfc9999
     template:
     - application/cmw+cbor
   registered: true
@@ -1192,8 +1192,8 @@
   content-type: application/cmw+cose
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-msg-wrap-22
+    rfc:
+    - rfc9999
     template:
     - application/cmw+cose
   registered: true
@@ -1202,8 +1202,8 @@
   content-type: application/cmw+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-msg-wrap-22
+    rfc:
+    - rfc9999
     template:
     - application/cmw+json
   registered: true
@@ -1212,8 +1212,8 @@
   content-type: application/cmw+jws
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-msg-wrap-22
+    rfc:
+    - rfc9999
     template:
     - application/cmw+jws
   registered: true
@@ -1303,6 +1303,76 @@
     - rfc9052
     template:
     - application/cose
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509-cert+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509-cert+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509-crtemplate+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509-crtemplate+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509-pem+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509-pem+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509-pkcs10+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509-pkcs10+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-c509-privkey+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-c509-privkey+cbor
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/cose-certhash+cbor
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-cose-cbor-encoded-cert-20
+    template:
+    - application/cose-certhash+cbor
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -1495,6 +1565,15 @@
     - application/davmount+xml
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/dc+sd-jwt
+  encoding: base64
+  xrefs:
+    draft:
+    - draft-ietf-oauth-sd-jwt-vc-18
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/dca-rft
   encoding: base64
@@ -2988,6 +3067,18 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/jumbf
+  encoding: base64
+  xrefs:
+    person:
+    - Frederik_Temmermans
+    - ISO-IEC_JTC_1_SC_29_WG_1
+    - Leonard_Rosenthol
+    template:
+    - application/jumbf
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/jwk+json
   encoding: base64
   xrefs:
@@ -3502,8 +3593,8 @@
   content-type: application/measured-component+cbor
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-measured-component-12
+    rfc:
+    - rfc10013
     template:
     - application/measured-component+cbor
   registered: true
@@ -3512,8 +3603,8 @@
   content-type: application/measured-component+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-rats-eat-measured-component-12
+    rfc:
+    - rfc10013
     template:
     - application/measured-component+json
   registered: true
@@ -3871,6 +3962,15 @@
     - application/multipart-core
   registered: true
   sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/mwf
+  encoding: base64
+  xrefs:
+    person:
+    - Kazuhiko_Muramatsu
+  registered: true
+  provisional: true
+  sort-priority: 80
 - !ruby/object:MIME::Type
   content-type: application/mxf
   friendly:
@@ -4670,8 +4770,8 @@
   content-type: application/protobuf
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-dispatch-mime-protobuf-06
+    rfc:
+    - rfc9996
     template:
     - application/protobuf
   registered: true
@@ -4680,8 +4780,8 @@
   content-type: application/protobuf+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-dispatch-mime-protobuf-06
+    rfc:
+    - rfc9996
     template:
     - application/protobuf+json
   registered: true
@@ -4725,6 +4825,16 @@
     - Harald_T._Alvestrand
     template:
     - application/prs.alvestrand.titrax-sheet
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/prs.archive-markdown-format
+  encoding: base64
+  xrefs:
+    person:
+    - Scott_Smith
+    template:
+    - application/prs.archive-markdown-format
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -5202,6 +5312,26 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/rpki-ccr
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-sidrops-rpki-ccr-11
+    template:
+    - application/rpki-ccr
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/rpki-ccr+gzip
+  encoding: base64
+  xrefs:
+    draft:
+    - RFC-ietf-sidrops-rpki-ccr-11
+    template:
+    - application/rpki-ccr+gzip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/rpki-checklist
   encoding: base64
   xrefs:
@@ -5448,8 +5578,8 @@
   content-type: application/scitt-receipt+cose
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-scitt-architecture-21
+    rfc:
+    - rfc9943
     template:
     - application/scitt-receipt+cose
   registered: true
@@ -5458,8 +5588,8 @@
   content-type: application/scitt-statement+cose
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-scitt-architecture-21
+    rfc:
+    - rfc9943
     template:
     - application/scitt-statement+cose
   registered: true
@@ -6104,8 +6234,8 @@
   content-type: application/sslkeylogfile
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-tls-keylogfile-05
+    rfc:
+    - rfc9850
     template:
     - application/sslkeylogfile
   registered: true
@@ -6656,6 +6786,8 @@
   xrefs:
     rfc:
     - rfc9636
+    rfc-errata:
+    - '9028'
     template:
     - application/tzif-leap
   registered: true
@@ -6737,8 +6869,8 @@
   content-type: application/v3c
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-avtcore-rtp-v3c-17
+    rfc:
+    - rfc10034
     template:
     - application/v3c
   registered: true
@@ -7630,6 +7762,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.3gpp.seal-store-forward-events-info+xml
+  encoding: base64
+  xrefs:
+    person:
+    - _3GPP
+    template:
+    - application/vnd.3gpp.seal-store-forward-events-info+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.3gpp.seal-ue-config-info+xml
   encoding: base64
   xrefs:
@@ -7995,6 +8137,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.aep+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Anton_Sokolov
+    template:
+    - application/vnd.aep+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.aether.imp
   encoding: base64
   xrefs:
@@ -8142,6 +8294,16 @@
     - Filippo_Valsorda
     template:
     - application/vnd.age
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.agentmug.agent+json
+  encoding: base64
+  xrefs:
+    person:
+    - Abdullah_Jamal_Aldahshan
+    template:
+    - application/vnd.agentmug.agent+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -8833,6 +8995,16 @@
     - Victor_Costan
     template:
     - application/vnd.blink-idb-value-wrapper
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.blockfact.facts
+  encoding: base64
+  xrefs:
+    person:
+    - Egbert_von_Frankenberg
+    template:
+    - application/vnd.blockfact.facts
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -9650,6 +9822,26 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: application/vnd.cxtf
+  encoding: base64
+  xrefs:
+    person:
+    - Stefan_Gies
+    template:
+    - application/vnd.cxtf
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.cxzip
+  encoding: base64
+  xrefs:
+    person:
+    - Stefan_Gies
+    template:
+    - application/vnd.cxzip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.cyan.dean.root+xml
   encoding: base64
   xrefs:
@@ -9860,6 +10052,16 @@
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
+  content-type: application/vnd.deckyard.deck
+  encoding: base64
+  xrefs:
+    person:
+    - Jaap_Stronks
+    template:
+    - application/vnd.deckyard.deck
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.denovo.fcselayout-link
   friendly:
     en: FCS Express Layout Link
@@ -9891,6 +10093,16 @@
     - Deut.li
     template:
     - application/vnd.deut+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.dgl
+  encoding: base64
+  xrefs:
+    person:
+    - Yusuf_Vızvız
+    template:
+    - application/vnd.dgl
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -10081,6 +10293,16 @@
     - application/vnd.dvb.ait
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.dvb.dash-playlist+xml
+  encoding: base64
+  xrefs:
+    person:
+    - Emily_DUBS
+    template:
+    - application/vnd.dvb.dash-playlist+xml
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.dvb.dvbisl+xml
   encoding: base64
@@ -10419,13 +10641,14 @@
 - !ruby/object:MIME::Type
   content-type: application/vnd.edulith.edux+json
   encoding: base64
+  obsolete: true
   xrefs:
-    person:
-    - Heike_Håland_Østensen
     template:
     - application/vnd.edulith.edux+json
+    notes:
+    - "(OBSOLETED by request)"
   registered: true
-  sort-priority: 16
+  sort-priority: 144
 - !ruby/object:MIME::Type
   content-type: application/vnd.efi.img
   encoding: base64
@@ -10894,6 +11117,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.excelano.slipcase+zip
+  encoding: base64
+  xrefs:
+    person:
+    - David_M._Anderson
+    template:
+    - application/vnd.excelano.slipcase+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.exstream-empower+zip
   encoding: base64
   xrefs:
@@ -11080,6 +11313,36 @@
     - Steve_Gilberd
     template:
     - application/vnd.ficlab.flb+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.fiduswriter+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Johannes_Wilm
+    template:
+    - application/vnd.fiduswriter+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.fiduswriter.book+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Johannes_Wilm
+    template:
+    - application/vnd.fiduswriter.book+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.fiduswriter.template+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Johannes_Wilm
+    template:
+    - application/vnd.fiduswriter.template+zip
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -11647,6 +11910,8 @@
 - !ruby/object:MIME::Type
   content-type: application/vnd.geogebra.pinboard
   encoding: base64
+  extensions:
+  - ggp
   xrefs:
     person:
     - GeoGebra
@@ -11654,7 +11919,7 @@
     template:
     - application/vnd.geogebra.pinboard
   registered: true
-  sort-priority: 16
+  sort-priority: 15
 - !ruby/object:MIME::Type
   content-type: application/vnd.geogebra.slides
   encoding: base64
@@ -13085,6 +13350,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.jupyter
+  encoding: base64
+  xrefs:
+    person:
+    - Jupyter_Team
+    template:
+    - application/vnd.jupyter
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.kahootz
   friendly:
     en: Kahootz
@@ -13287,6 +13562,16 @@
     - application/vnd.Kinar
   registered: true
   sort-priority: 13
+- !ruby/object:MIME::Type
+  content-type: application/vnd.klypix+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Abdullah_Jamal_Aldahshan
+    template:
+    - application/vnd.klypix+zip
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.koan
   friendly:
@@ -13577,6 +13862,16 @@
     - Josef_Elijah_Fabian
     template:
     - application/vnd.majikah.bundle
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.majikah.mjksig
+  encoding: base64
+  xrefs:
+    person:
+    - Josef_Elijah_Fabian
+    template:
+    - application/vnd.majikah.mjksig
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -14009,6 +14304,16 @@
     - Elliott_Brown
     template:
     - application/vnd.modl
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.mohnetic
+  encoding: base64
+  xrefs:
+    person:
+    - Kostiantyn_Cherednychenko
+    template:
+    - application/vnd.mohnetic
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -15288,6 +15593,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.nomos+json
+  encoding: base64
+  xrefs:
+    person:
+    - Allan_Sendagi
+    template:
+    - application/vnd.nomos+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.novadigm.EDM
   friendly:
     en: Novadigm's RADIA and EDM products
@@ -16430,6 +16745,16 @@
     - Hans_Busch
     template:
     - application/vnd.onvif.metadata
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ootmm.patch+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Maxime_Bacoux
+    template:
+    - application/vnd.ootmm.patch+zip
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -17604,6 +17929,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.portableweb+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Omprakash_Selvaraj
+    template:
+    - application/vnd.portableweb+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.powerbuilder6
   friendly:
     en: PowerBuilder
@@ -17701,6 +18036,26 @@
     - application/vnd.previewsystems.box
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.prismatic
+  encoding: base64
+  xrefs:
+    person:
+    - Thomas_Hern
+    template:
+    - application/vnd.prismatic
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.prml+yaml
+  encoding: base64
+  xrefs:
+    person:
+    - Cuneyt_Ozturk
+    template:
+    - application/vnd.prml+yaml
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.project-graph
   encoding: base64
@@ -18232,6 +18587,16 @@
     - application/vnd.sailingtracker.track
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.salvanote.sal
+  encoding: base64
+  xrefs:
+    person:
+    - Geoff_Ellison
+    template:
+    - application/vnd.salvanote.sal
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.sar
   encoding: base64
@@ -19232,6 +19597,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.tablafocus.notation
+  encoding: base64
+  xrefs:
+    person:
+    - Sreeram_Kongeseri
+    template:
+    - application/vnd.tablafocus.notation
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.tableschema+json
   encoding: base64
   xrefs:
@@ -19697,6 +20072,16 @@
     - James_Wigger
     template:
     - application/vnd.vel+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.veraison.nvidia-gpu-evidence+json
+  encoding: base64
+  xrefs:
+    person:
+    - Jagannathan_Raman
+    template:
+    - application/vnd.veraison.nvidia-gpu-evidence+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
