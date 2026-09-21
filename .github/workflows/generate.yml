@@ -39,9 +39,27 @@ jobs:
             svn.apache.org:80
             www.iana.org:443
 
+      - uses: actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b # v1.11.0
+        id: app-token
+        with:
+          app-id: ${{ vars.FACTOTUM_APP_ID }}
+          private-key: ${{ secrets.FACTOTUM_APP_PRIVATE_KEY }}
+
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: true
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Resolve app bot identity
+        id: bot
+        env:
+          APP_SLUG: ${{ steps.app-token.outputs.app-slug }}
+          USER_ID: ${{ steps.app-token.outputs.user-id }}
+        run: |
+          {
+            echo "name=${APP_SLUG}[bot]"
+            echo "email=${USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
+          } >>"${GITHUB_OUTPUT}"
 
       - uses: ruby/setup-ruby@bec3f19a76460dbe12f60def7d1a77585f07516c # v1.322.0
         with:
@@ -53,13 +71,13 @@ jobs:
       - run: bundle exec rake release:gha
 
       - run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "github-actions[bot]"
+          git config --global user.email "${GIT_AUTHOR_EMAIL}"
+          git config --global user.name "${GIT_AUTHOR_NAME}"
 
           git switch --create update-mime-types-data/"${UPDATE_VERSION}"
 
           printf "%s\n\n%s" "${UPDATE_TITLE}" "$(fmt -w 72 "${UPDATE_BODY_PATH}")" |
-            git commit --all -F-
+            git commit --signoff --all -F-
 
           git push --set-upstream origin update-mime-types-data/"${UPDATE_VERSION}"
 
@@ -69,4 +87,6 @@ jobs:
              --reviewer halostatue \
              --label automated,data-update
         env:
-          GH_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          GIT_AUTHOR_NAME: ${{ steps.bot.outputs.name }}
+          GIT_AUTHOR_EMAIL: ${{ steps.bot.outputs.email }}
