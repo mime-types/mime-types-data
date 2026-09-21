@@ -18,13 +18,13 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze]
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
-  s.rubygems_version = "4.0.10".freeze
+  s.rubygems_version = "4.0.20".freeze
   s.summary = "mime-types-data provides a registry for information about MIME media type definitions".freeze
 
   s.specification_version = 4
 
   s.add_development_dependency(%q<hoe>.freeze, ["~> 4.0".freeze])
-  s.add_development_dependency(%q<hoe-halostatue>.freeze, ["~> 3.0".freeze])
+  s.add_development_dependency(%q<hoe-halostatue>.freeze, [">= 3.0.2".freeze, "< 4".freeze])
   s.add_development_dependency(%q<mime-types>.freeze, ["> 3.6.2".freeze, "< 5".freeze])
   s.add_development_dependency(%q<nokogiri>.freeze, ["~> 1.6".freeze])
   s.add_development_dependency(%q<rake>.freeze, [">= 10.0".freeze, "< 14".freeze])

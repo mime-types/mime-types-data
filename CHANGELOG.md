@@ -2,6 +2,10 @@
 
 <!-- automatic-release -->
 
+## NEXT / YYYY-MM-DD
+
+- Upgraded `hoe-halostatue` with a fix for YAML issues.
+
 ## 3.2026.0701 / 2026-07-01
 
 - Updated registry entries from the IANA [media registry][registry] and
@@ -97,9 +101,9 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-- Manual contributions now require `Signed-off-by` trailers for assertion of the
-  [Developer Certificate of Origin][dco]. More details will be added in the
-  coming weeks.
+- Manual contributions now require `Signed-off-by` trailers for assertion of
+  the [Developer Certificate of Origin][dco]. More details will be added in
+  the coming weeks.
 
 - Added `application/microdata+json`, `application/speculationrules+json`,
   `text/event-stream` and `text/ping` from the [WHATWG HTML spec][whatwg]
@@ -110,8 +114,8 @@
   [provisional media registry][provisional] and the
   [Apache Tika media registry][tika] as of the release date.
 
-- Removed the [Apache httpd media registry][httpd] from automatic updates. It is
-  currently failing and no longer provides useful data compared to other
+- Removed the [Apache httpd media registry][httpd] from automatic updates. It
+  is currently failing and no longer provides useful data compared to other
   sources.
 
 ## 3.2025.0916 / 2025-09-16
@@ -170,11 +174,12 @@
   [Apache httpd media registry][httpd], and the
   [Apache Tika media registry][tika] as of the release date.
 
-- Remove `.doc` from `text/plain`: The use of `.doc` for `text/plain` documents
-  is mostly a holdover from VAX VMS where the default wasn't `.txt` but `.doc`.
-  The world now thinks that `.doc` mostly means `application/msword` even though
-  that format is obsolete by almost twenty years. Closes
-  [ruby-mime-types#224][ruby-mime-types#224] with [#191][pull-191].
+- Remove `.doc` from `text/plain`: The use of `.doc` for `text/plain`
+  documents is mostly a holdover from VAX VMS where the default wasn't `.txt`
+  but `.doc`. The world now thinks that `.doc` mostly means
+  `application/msword` even though that format is obsolete by almost twenty
+  years. Closes [ruby-mime-types#224][ruby-mime-types#224] with
+  [#191][pull-191].
 
 - Handle promoted and withdrawn provisional IANA media types. Closes
   [#54][issue-54] with [#192][pull-192].
@@ -186,8 +191,8 @@
      `obsolete`. This indicates that we consider any provisional type as
      potentially withdrawn (and therefore obsolete).
   2. When processing existing regular types, we clear both `provisional` and
-     `obsolete` flags so that a type promoted from provisional is now a regular
-     registry entry.
+     `obsolete` flags so that a type promoted from provisional is now a
+     regular registry entry.
   3. After merging the current list of registry entries, we _clear_
      `provisional` if the type is marked both `provisional` and `obsolete`,
      indicating that the provisional type has been withdrawn.
@@ -274,26 +279,26 @@
 
 ## 3.2025.0507 / 2025-05-07
 
-- Added new data for pre-computed priority sorting. This new data requires Ruby
-  mime-types 3.7.0 or later to manage data but is ignored by older versions of
-  mime-types.
+- Added new data for pre-computed priority sorting. This new data requires
+  Ruby mime-types 3.7.0 or later to manage data but is ignored by older
+  versions of mime-types.
 
-- Added a parser for the [Apache Tika media registry][tika] to enrich the media
-  definitions, mostly by adding new patterns for media type extensions. This
-  parser:
+- Added a parser for the [Apache Tika media registry][tika] to enrich the
+  media definitions, mostly by adding new patterns for media type extensions.
+  This parser:
 
   1. Parses the current `tika-mimetypes.xml` from the main branch of
      [Tika][tika] on GitHub.
 
-  2. Skips over any `mime-type` record that has attributes. That is, any record
-     which looks like `media/subtype;format=foo` or `media/subtype;version=2`
-     will be skipped. Support for attributes does not currently exist in the
-     mime-types library.
+  2. Skips over any `mime-type` record that has attributes. That is, any
+     record which looks like `media/subtype;format=foo` or
+     `media/subtype;version=2` will be skipped. Support for attributes does
+     not currently exist in the mime-types library.
 
   3. Extracts the `glob` entries for use in the `extensions` field. Globs that
      use `*` in the middle of a filename are excluded, because that's now how
-     the Ruby MIME::Types field works (I could add a new `glob` field, but that
-     will take a bit more work).
+     the Ruby MIME::Types field works (I could add a new `glob` field, but
+     that will take a bit more work).
 
   4. Updates the `extensions` field for any existing MIME::Type or creates new
      unregistered (not defined in IANA) types for new ones.
@@ -366,15 +371,16 @@
   [provisional media registry][provisional] and the
   [Apache httpd media registry][httpd] as of the release date.
 
-- Added the Changelog URL to the README so that RubyGems.org is updated with the
-  `changelog_uri` on release. Contributed by Mark Young in [#96][pull-96].
+- Added the Changelog URL to the README so that RubyGems.org is updated with
+  the `changelog_uri` on release. Contributed by Mark Young in [#96][pull-96].
 
 - Fixed an issue with automated releases that added thousands of files because
   `vendor/` was no longer ignored.
 
 - Fixed the automated release builder process to handle the case when the
-  `automatic-release` tag is followed by a `## NEXT / YYYY-MM-DD` header so that
-  changes merged normally are picked up on automatic releases. [#98][pull-98]
+  `automatic-release` tag is followed by a `## NEXT / YYYY-MM-DD` header so
+  that changes merged normally are picked up on automatic releases.
+  [#98][pull-98]
 
 ## 3.2025.0107 / 2025-01-07
 
@@ -459,8 +465,8 @@
 
   - Update to latest version of Rubygems for testing.
 
-  - Remove restriction on Pysch version as that does not work well with current
-    Rubies.
+  - Remove restriction on Pysch version as that does not work well with
+    current Rubies.
 
   - Fix a bug with the history generation on automatic updates.
 
@@ -529,9 +535,9 @@
 - When this data library was created in 2015, I made the decision based on
   information available to deprecate `text/javascript` in favour of
   `application/javascript`. Since the previous update (2022-01-05), IANA has
-  officially deprecated `application/javascript` in favour of `text/javascript`.
-  Samuel Williams discovered this in [#55][issue-55] by noting that all `js`
-  types were marked obsolete in version 3.2023.0218.
+  officially deprecated `application/javascript` in favour of
+  `text/javascript`. Samuel Williams discovered this in [#55][issue-55] by
+  noting that all `js` types were marked obsolete in version 3.2023.0218.
 
   A hot fix has been applied to resolve this. However, note that
   `application/javascript` will not be returned by default, only
@@ -550,12 +556,12 @@
   the top-level media-type registries instead of a standalone registry file.
   [#53][pull-53] originally identified by Chris Salzberg in [#50][pull-50].
 
-  It is worth noting that this is an _imperfect_ solution as if a media type is
-  provisionally registered and withdrawn, it will linger in the registry with no
-  clean way of identifying them at the moment. See [#54][issue-54].
+  It is worth noting that this is an _imperfect_ solution as if a media type
+  is provisionally registered and withdrawn, it will linger in the registry
+  with no clean way of identifying them at the moment. See [#54][issue-54].
 
-  This release also fixes [ruby-mime-types#163][ruby-mime-types#163], where logs
-  show "Type `application/netcdf` is already registered as a variant of
+  This release also fixes [ruby-mime-types#163][ruby-mime-types#163], where
+  logs show "Type `application/netcdf` is already registered as a variant of
   `application/netcdf`".
 
 ## 3.2022.0105 / 2022-01-05
@@ -608,9 +614,9 @@
 - Updated the IANA media registry entries as of release date.
 
 - Added a new rake task (`release:automatic`) that downloads and converts the
-  data from Apache httpd and IANA registries; if there are changes detected, it
-  updates the release version, changelog, manifest, and `gemspec` and commits
-  the changes to git.
+  data from Apache httpd and IANA registries; if there are changes detected,
+  it updates the release version, changelog, manifest, and `gemspec` and
+  commits the changes to git.
 
 ## 3.2020.1104 / 2020-11-04
 
@@ -656,8 +662,8 @@
 
 - Updated the IANA media registry entries as of release date.
 
-- Moved the `.ai` extension from `application/postscript` to `application/pdf`.
-  [#23][pull-23] fixing [#22][issue-22]
+- Moved the `.ai` extension from `application/postscript` to
+  `application/pdf`. [#23][pull-23] fixing [#22][issue-22]
 
 ## 3.2019.0331 / 2019-03-31
 
@@ -671,8 +677,8 @@
 
 - Added `.xsd` extension to `text/xml`. [pull-10][pull-10]
 
-- Added `.js` and `.mjs` extensions to `text/ecmascript` and `text/javascript`.
-  [#11][pull-11]
+- Added `.js` and `.mjs` extensions to `text/ecmascript` and
+  `text/javascript`. [#11][pull-11]
 
 - Added `.ipa` extension to `application/octet-stream`. [#12][pull-12]
 
@@ -682,8 +688,8 @@
 - Because of a bug found with mime-types 3 before 3.2.1, this version requires
   mime-types 3.2 or later to manage data.
 
-- Updated the IANA media registry entries as of release date. The biggest major
-  change here is the addition of the `font/` top-level media type.
+- Updated the IANA media registry entries as of release date. The biggest
+  major change here is the addition of the `font/` top-level media type.
 
 - MIME type changes not introduced by pull requests will no longer be
   individually tracked.
@@ -708,8 +714,8 @@
 
 - Updated to [Contributor Covenant 1.4][code of conduct].
 
-- Shift the support code in this repository to be developed with Ruby 2.3. This
-  involves:
+- Shift the support code in this repository to be developed with Ruby 2.3.
+  This involves:
 
   - Adding `frozen_string_literal: true` to all Ruby files.
   - Applied some recommended readability and performance suggestions from
@@ -738,8 +744,8 @@
 ## 2.6 / 2015-05-25
 
 - Steven Michael Thomas
-  ([@stevenmichaelthomas](https://github.com/stevenmichaelthomas)) added `woff2`
-  as an extension to `application/font-woff`,
+  ([@stevenmichaelthomas](https://github.com/stevenmichaelthomas)) added
+  `woff2` as an extension to `application/font-woff`,
   [ruby-mime-types#99][ruby-mime-types#99].
 - Updated the IANA media registry entries as of release date.
 
@@ -766,8 +772,8 @@
 - Changed the sort order of many of the extensions to restore behaviour from
   mime-types 1.25.1.
 - Added `friendly` MIME::Type descriptions where known.
-- Added `reg`, `ps1`, and `vbs` extensions to `application/x-msdos-program` and
-  `application/x-msdownload`.
+- Added `reg`, `ps1`, and `vbs` extensions to `application/x-msdos-program`
+  and `application/x-msdownload`.
 - Updated the IANA media registry entries as of release date.
 
 ## 2.3 / 2014-05-23
@@ -780,13 +786,13 @@
   ([@brandongalbraith](https://github.com/brandongalbraith)) in
   [ruby-mime-types#58](https://github.com/mime-types/ruby-mime-types/pull/58).
 
-- Marked `application/excel` and `application/x-excel` as obsolete in favour of
-  `application/vnd.ms-excel` per
+- Marked `application/excel` and `application/x-excel` as obsolete in favour
+  of `application/vnd.ms-excel` per
   [ruby-mime-types#60](https://github.com/mime-types/ruby-mime-types/pull/60).
 
-- Merged duplicate MIME types into the registered MIME type. The only difference
-  between the MIME types was capitalization; the MIME type registry is
-  case-preserving.
+- Merged duplicate MIME types into the registered MIME type. The only
+  difference between the MIME types was capitalization; the MIME type registry
+  is case-preserving.
 
 - Updated the IANA media registry entries as of release date.
 
@@ -794,15 +800,15 @@
 
 - The IANA media type registry format changed, resulting in updates to most of
   the 1,427 registered MIME types.
-  - Many registered MIME types have had some metadata updates due to the change
-    in the IANA registry format.
-    - MIME types having a publicly available registry application now include a
-      link to that file in references.
+  - Many registered MIME types have had some metadata updates due to the
+    change in the IANA registry format.
+    - MIME types having a publicly available registry application now include
+      a link to that file in references.
   - Added `xrefs` data as discovered (see the API changes noted above).
 
 - The Apache httpd mime types configuration has been added to track additional
-  common but unregistered MIME types and known extensions for those MIME types.
-  This has affected many of the available MIME types.
+  common but unregistered MIME types and known extensions for those MIME
+  types. This has affected many of the available MIME types.
 
 - Merged the non-standard VMS platform `text/plain` with the standard
   `text/plain`.
