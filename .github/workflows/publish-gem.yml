@@ -56,7 +56,7 @@ jobs:
             rubygems.org:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b # v1.11.0
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         id: app-token
         with:
           app-id: ${{ vars.FACTOTUM_APP_ID }}
