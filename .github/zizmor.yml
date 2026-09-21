@@ -1,5 +1,9 @@
 rules:
   artipacked:
     ignore:
-      - generate.yml:42 # generate creates an automated release and creates a PR.
-      - publish-gem.yml:58 # publish-gem adds and pushes a tag.
+      - generate.yml:46 # generate creates an automated release and creates a PR
+      - publish-gem.yml:66 # publish-gem adds and pushes a tag
+  secrets-outside-env:
+    config:
+      allow:
+        - FACTOTUM_APP_PRIVATE_KEY

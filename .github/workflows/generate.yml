@@ -15,11 +15,6 @@ concurrency:
 jobs:
   update-definitions:
     name: Update data and open pull request
-    permissions:
-      contents: write       # This workflow updates data and opens a pull request.
-      issues: write         # This workflow updates data and opens a pull request.
-      pull-requests: write  # This workflow updates data and opens a pull request.
-
     runs-on: ubuntu-latest
 
     steps:
@@ -44,6 +39,9 @@ jobs:
         with:
           client-id: ${{ vars.FACTOTUM_APP_ID }}
           private-key: ${{ secrets.FACTOTUM_APP_PRIVATE_KEY }}
+          permission-contents: write
+          permission-pull-requests: write
+          permission-issues: write
 
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
