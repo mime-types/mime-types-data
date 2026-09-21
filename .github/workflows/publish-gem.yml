@@ -60,6 +60,7 @@ jobs:
           persist-credentials: true
 
       - id: rubygems
+        name: Get RubyGems version
         run: |
           ruby -e \
             'print "version=", Gem::Specification.load(ARGV[0]).rubygems_version, "\n"' \
@@ -85,12 +86,17 @@ jobs:
         run: |
           rake gemspec
 
-          if ! git diff >/dev/null 2>/dev/null; then
+          if ! git diff --quiet; then
             git config --global user.email "github-actions@github.com"
             git config --global user.name "github-actions[bot]"
-            git add .
+            git add -u
             git commit -m "chore: Automatically update gemspec for ${gem_version} for release"
             git push origin main
+            git log -1
+          else
+            echo ::notice::No gemspec changes found
           fi
+
+          git diff
 
       - uses: rubygems/release-gem@7f9650160c1a4e7989fdc9855807bdbd421d8b6b # v1.4.1
