@@ -86,6 +86,9 @@ jobs:
           rake gemspec
 
           if ! git diff >/dev/null 2>/dev/null; then
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "github-actions[bot]"
+            git add .
             git commit -m "chore: Automatically update gemspec for ${gem_version} for release"
             git push origin main
           fi

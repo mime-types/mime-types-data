@@ -53,6 +53,8 @@ jobs:
       - run: bundle exec rake release:gha
 
       - run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "github-actions[bot]"
           git switch --create update-mime-types-data/"${UPDATE_VERSION}"
           printf "%s\n\n%s" "${UPDATE_TITLE}" "$(fmt -w 72 "${UPDATE_BODY_PATH}")" |
             git commit --all -F-
