@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.metadata = { "bug_tracker_uri" => "https://github.com/mime-types/mime-types-data/issues", "changelog_uri" => "https://github.com/mime-types/mime-types-data/blob/main/CHANGELOG.md", "homepage_uri" => "https://github.com/mime-types/mime-types-data/", "rubygems_mfa_required" => "true", "source_code_uri" => "https://github.com/mime-types/mime-types-data/" } if s.respond_to? :metadata=
   s.require_paths = ["lib".freeze]
   s.authors = ["Austin Ziegler".freeze]
-  s.date = "1970-01-01"
+  s.date = "1980-01-02"
   s.description = "mime-types-data provides a registry for information about MIME media type definitions. It can be used with the Ruby mime-types library or other software to determine defined filename extensions for MIME types, or to use filename extensions to look up the likely MIME type definitions.  ==== To Install: ".freeze
   s.email = ["halostatue@gmail.com".freeze]
   s.extra_rdoc_files = ["CHANGELOG.md".freeze, "CODE_OF_CONDUCT.md".freeze, "CONTRIBUTING.md".freeze, "CONTRIBUTORS.md".freeze, "LICENCE.md".freeze, "README.md".freeze, "SECURITY.md".freeze, "licences/dco.txt".freeze]
