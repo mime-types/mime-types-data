@@ -954,6 +954,7 @@ en^Dolby Meridian Lossless Packing
 -
 -
 en^DPGraph
+-
 en^DreamFactory
 -
 -
@@ -1049,6 +1050,7 @@ en^EZPix Secure Photo Album
 -
 -
 -
+-
 en^Forms Data Format
 -
 en^Digital Siesmograph Networks - SEED Datafiles
@@ -1117,6 +1119,10 @@ en^GeospacW
 -
 -
 en^GameMaker ActiveX
+-
+-
+-
+-
 -
 -
 en^Google Earth - KML
@@ -1397,6 +1403,7 @@ en^Muvee Automatic Video Editing
 -
 -
 en^neuroLanguage
+-
 -
 -
 -
@@ -2779,6 +2786,8 @@ en^Autodesk Design Web Format (DWF)
 en^Geometric Description Language (GDL)
 -
 -
+-
+-
 en^Gen-Trix Studio
 -
 en^Virtue MTS
@@ -2915,6 +2924,8 @@ en^Curl - Source Code
 -
 en^mod_fly / fly.cgi
 en^FLEXSTOR
+-
+-
 -
 -
 en^Graphviz

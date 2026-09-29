@@ -954,6 +954,7 @@ person^Steve_Hattersley|template^application/vnd.dolby.mobile.1
 person^Steve_Hattersley|template^application/vnd.dolby.mobile.2
 person^Erik_Ronström|template^application/vnd.doremir.scorecloud-binary-document
 person^David_Parker|template^application/vnd.dpgraph
+person^Drawoble|template^application/vnd.drawoble.drawing+zip
 person^William_C._Appleton|template^application/vnd.dreamfactory
 person^Keith_Kester|template^application/vnd.drive+json
 -
@@ -1044,6 +1045,7 @@ person^Bill_Kidwell|template^application/vnd.exstream-package
 person^ElectronicZombieCorp|template^application/vnd.ezpix-album
 person^ElectronicZombieCorp|template^application/vnd.ezpix-package
 person^Samu_Sarivaara|template^application/vnd.f-secure.mobile
+person^MHH_Benders|template^application/vnd.fabylon.book
 person^James_Wolfe|template^application/vnd.faf+yaml
 person^James_Wolfe|template^application/vnd.fafa+yaml
 person^James_Wolfe|template^application/vnd.fafm+yaml
@@ -1119,6 +1121,10 @@ person^Gil_Bernabeu|template^application/vnd.globalplatform.card-content-mgt-res
 notes^- DEPRECATED|person^Christian_V._Sciberras|template^application/vnd.gmx
 person^Christian_Grothoff|template^application/vnd.gnu.taler.exchange+json
 person^Christian_Grothoff|template^application/vnd.gnu.taler.merchant+json
+person^Godot_Foundation|template^application/vnd.godot.project.binary
+person^Godot_Foundation|template^application/vnd.godot.project.text
+person^Godot_Foundation|template^application/vnd.godot.resource.binary
+person^Godot_Foundation|template^application/vnd.godot.resource.text
 person^Michael_Ashbridge|template^application/vnd.google-earth.kml+xml
 person^Michael_Ashbridge|template^application/vnd.google-earth.kmz
 notes^(OBSOLETED by request)|person^Stefan_Szilva|template^application/vnd.gov.sk.e-form+xml
@@ -1402,6 +1408,7 @@ person^Amit_Kumar_Gupta|template^application/vnd.nimn
 person^Henrik_Andersson|template^application/vnd.nintendo.nitro.rom
 person^Henrik_Andersson|template^application/vnd.nintendo.snes.rom
 person^Steve_Rogan|template^application/vnd.nitf
+person^Grid_Heap|template^application/vnd.nnu.profile+json
 person^Monty_Solomon|template^application/vnd.noblenet-directory
 person^Monty_Solomon|template^application/vnd.noblenet-sealer
 person^Monty_Solomon|template^application/vnd.noblenet-web
@@ -2777,6 +2784,8 @@ person^Jason_Pratt|template^model/vnd.dwf
 -
 person^Michael_Powers|template^model/vnd.flatland.3dml
 person^Attila_Babits|template^model/vnd.gdl
+person^Godot_Foundation|template^model/vnd.godot.scene.binary
+person^Godot_Foundation|template^model/vnd.godot.scene.text
 person^Attila_Babits|template^model/vnd.gs-gdl
 -
 person^Yutaka_Ozaki|template^model/vnd.gtw
@@ -2917,6 +2926,8 @@ person^John-Mark_Gurney|template^text/vnd.fly
 person^Kari_E._Hurtta|template^text/vnd.fmi.flexstor
 person^Sachin_Nagda|template^text/vnd.gist.mx
 person^Mi_Tar|template^text/vnd.gml
+person^Godot_Foundation|template^text/vnd.godot.gdscript
+person^Godot_Foundation|template^text/vnd.godot.gdshader
 person^John_Ellson|template^text/vnd.graphviz
 person^Hill_Hanxv|template^text/vnd.hans
 person^Michael_K_Malak|template^text/vnd.hekaya
@@ -3068,7 +3079,7 @@ rfc^rfc3555|template^video/JPEG
 rfc^rfc5371^rfc5372|template^video/jpeg2000
 rfc^rfc9828|template^video/jpeg2000-scl
 -
-rfc^rfc9134|template^video/jxsv
+draft^RFC-ietf-avtcore-rtp-jpegxs-3ed-08|template^video/jxsv
 person^Lottie_Animation_Community|template^video/lottie+json
 rfc^rfc9559|template^video/matroska
 rfc^rfc9559|template^video/matroska-3d

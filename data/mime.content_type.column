@@ -954,6 +954,7 @@ application/vnd.dolby.mobile.1
 application/vnd.dolby.mobile.2
 application/vnd.doremir.scorecloud-binary-document
 application/vnd.dpgraph dpg
+application/vnd.drawoble.drawing+zip
 application/vnd.dreamfactory dfac
 application/vnd.drive+json
 application/vnd.ds-keypoint kpxx
@@ -1044,6 +1045,7 @@ application/vnd.exstream-package
 application/vnd.ezpix-album ez2
 application/vnd.ezpix-package ez3
 application/vnd.f-secure.mobile
+application/vnd.fabylon.book
 application/vnd.faf+yaml
 application/vnd.fafa+yaml
 application/vnd.fafm+yaml
@@ -1119,6 +1121,10 @@ application/vnd.globalplatform.card-content-mgt-response
 application/vnd.gmx gmx
 application/vnd.gnu.taler.exchange+json
 application/vnd.gnu.taler.merchant+json
+application/vnd.godot.project.binary
+application/vnd.godot.project.text
+application/vnd.godot.resource.binary
+application/vnd.godot.resource.text
 application/vnd.google-earth.kml+xml kml
 application/vnd.google-earth.kmz kmz
 application/vnd.gov.sk.e-form+xml
@@ -1402,6 +1408,7 @@ application/vnd.nimn
 application/vnd.nintendo.nitro.rom
 application/vnd.nintendo.snes.rom
 application/vnd.nitf nitf ntf
+application/vnd.nnu.profile+json
 application/vnd.noblenet-directory nnd
 application/vnd.noblenet-sealer nns
 application/vnd.noblenet-web nnw
@@ -2777,6 +2784,8 @@ model/vnd.dwf dwf
 model/vnd.dwfx+xps dwfx
 model/vnd.flatland.3dml
 model/vnd.gdl gdl
+model/vnd.godot.scene.binary
+model/vnd.godot.scene.text
 model/vnd.gs-gdl
 model/vnd.gs.gdl
 model/vnd.gtw gtw
@@ -2917,6 +2926,8 @@ text/vnd.fly fly
 text/vnd.fmi.flexstor flx
 text/vnd.gist.mx
 text/vnd.gml
+text/vnd.godot.gdscript
+text/vnd.godot.gdshader
 text/vnd.graphviz gv
 text/vnd.hans
 text/vnd.hekaya

@@ -340,8 +340,8 @@
   content-type: video/jxsv
   encoding: base64
   xrefs:
-    rfc:
-    - rfc9134
+    draft:
+    - RFC-ietf-avtcore-rtp-jpegxs-3ed-08
     template:
     - video/jxsv
   registered: true

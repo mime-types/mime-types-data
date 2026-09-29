@@ -10218,6 +10218,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.drawoble.drawing+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Drawoble
+    template:
+    - application/vnd.drawoble.drawing+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.dreamfactory
   friendly:
     en: DreamFactory
@@ -11185,6 +11195,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.fabylon.book
+  encoding: base64
+  xrefs:
+    person:
+    - MHH_Benders
+    template:
+    - application/vnd.fabylon.book
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.faf+yaml
   encoding: base64
   xrefs:
@@ -12071,6 +12091,46 @@
     - Christian_Grothoff
     template:
     - application/vnd.gnu.taler.merchant+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.godot.project.binary
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - application/vnd.godot.project.binary
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.godot.project.text
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - application/vnd.godot.project.text
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.godot.resource.binary
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - application/vnd.godot.resource.binary
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.godot.resource.text
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - application/vnd.godot.resource.text
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -15364,6 +15424,16 @@
     - application/vnd.nitf
   registered: true
   sort-priority: 14
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nnu.profile+json
+  encoding: base64
+  xrefs:
+    person:
+    - Grid_Heap
+    template:
+    - application/vnd.nnu.profile+json
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.noblenet-directory
   friendly:
