@@ -1105,6 +1105,26 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/vnd.godot.gdscript
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - text/vnd.godot.gdscript
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: text/vnd.godot.gdshader
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - text/vnd.godot.gdshader
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/vnd.graphviz
   friendly:
     en: Graphviz

@@ -280,6 +280,26 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: model/vnd.godot.scene.binary
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - model/vnd.godot.scene.binary
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: model/vnd.godot.scene.text
+  encoding: base64
+  xrefs:
+    person:
+    - Godot_Foundation
+    template:
+    - model/vnd.godot.scene.text
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: model/vnd.gs-gdl
   encoding: base64
   xrefs:
