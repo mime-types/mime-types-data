@@ -763,6 +763,7 @@ person^Tapani_Otala|template^application/vnd.adobe.partial-upload
 person^John_Brinkman|template^application/vnd.adobe.xdp+xml
 person^Roberto_Perelman|template^application/vnd.adobe.xfdf
 person^Anton_Sokolov|template^application/vnd.aep+zip
+person^Ewerson_Silva|template^application/vnd.aethel.package
 person^Jay_Moskowitz|template^application/vnd.aether.imp
 person^Jörg_Palmer|template^application/vnd.afpc.afplinedata
 person^Jörg_Palmer|template^application/vnd.afpc.afplinedata-pagedef
@@ -926,6 +927,7 @@ person^Patrick_Dwyer|template^application/vnd.cyclonedx+xml
 person^Viktor_Haag|template^application/vnd.d2l.coursepackage1p0+zip
 person^Mi_Tar|template^application/vnd.d3m-dataset
 person^Mi_Tar|template^application/vnd.d3m-problem
+person^Christopher_Whitlow|template^application/vnd.dai
 person^Anders_Sandholm|template^application/vnd.dart
 person^James_Fields|template^application/vnd.data-vision.rdz
 person^Simon_Johnston|template^application/vnd.datalog
@@ -1000,6 +1002,7 @@ person^Fu_Siyuan^UEFI_Forum|template^application/vnd.efi.img
 person^Fu_Siyuan^UEFI_Forum|template^application/vnd.efi.iso
 person^Nicolas_CARPI|template^application/vnd.eln+zip
 person^Filip_Navara|template^application/vnd.emclient.accessrequest+xml
+person^Iman_Schrock|template^application/vnd.emilia.authorization-evidence-challenge+json
 person^Paul_Santinelli_Jr.|template^application/vnd.enliven
 person^Chris_Eich|template^application/vnd.enphase.envoy
 person^Tim_Brody|template^application/vnd.eprints.data+xml
@@ -1392,6 +1395,7 @@ person^Greg_Adams|template^application/vnd.musician
 person^Chandrashekhara_Anantharamu|template^application/vnd.muvee.style
 person^Franck_Lefevre|template^application/vnd.mynfc
 person^Sebastian_A._Weiss|template^application/vnd.nacamar.ybrid+json
+person^Chaitanya_Kumar_Arra|template^application/vnd.nanorix.auditproof+json
 person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+cbor
 person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+json
 person^Aidan_Murdock|template^application/vnd.nato.bindingdataobject+xml
@@ -2667,6 +2671,7 @@ rfc^rfc7903|template^image/wmf
 -
 -
 notes^- DEPRECATED in favor of image/emf|rfc^rfc7903|template^image/emf
+-
 -
 -
 -

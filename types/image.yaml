@@ -1753,6 +1753,13 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: image/x-win-bitmap
+  encoding: base64
+  extensions:
+  - cur
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: image/x-win-bmp
   encoding: base64
   registered: false

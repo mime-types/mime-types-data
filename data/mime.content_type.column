@@ -763,6 +763,7 @@ application/vnd.adobe.partial-upload
 application/vnd.adobe.xdp+xml xdp
 application/vnd.adobe.xfdf xfdf
 application/vnd.aep+zip
+application/vnd.aethel.package
 application/vnd.aether.imp
 application/vnd.afpc.afplinedata
 application/vnd.afpc.afplinedata-pagedef
@@ -926,6 +927,7 @@ application/vnd.cyclonedx+xml
 application/vnd.d2l.coursepackage1p0+zip
 application/vnd.d3m-dataset
 application/vnd.d3m-problem
+application/vnd.dai
 application/vnd.dart dart
 application/vnd.data-vision.rdz rdz
 application/vnd.datalog
@@ -1000,6 +1002,7 @@ application/vnd.efi.img
 application/vnd.efi.iso
 application/vnd.eln+zip
 application/vnd.emclient.accessrequest+xml
+application/vnd.emilia.authorization-evidence-challenge+json
 application/vnd.enliven nml
 application/vnd.enphase.envoy
 application/vnd.eprints.data+xml
@@ -1392,6 +1395,7 @@ application/vnd.musician mus
 application/vnd.muvee.style msty
 application/vnd.mynfc taglet
 application/vnd.nacamar.ybrid+json
+application/vnd.nanorix.auditproof+json
 application/vnd.nato.bindingdataobject+cbor
 application/vnd.nato.bindingdataobject+json
 application/vnd.nato.bindingdataobject+xml
@@ -2725,6 +2729,7 @@ image/x-sony-srf srf
 image/x-targa tga
 image/x-tga tga icb vda
 image/x-vnd.dgn dgn
+image/x-win-bitmap cur
 image/x-win-bmp
 image/x-wmf
 image/x-xbitmap xbm
