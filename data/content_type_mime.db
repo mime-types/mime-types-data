@@ -895,6 +895,7 @@ arw         image/x-raw-sony                                                    
 rgb         image/x-rgb                                                               base64          
 tga         image/x-tga                                                               base64          
 dgn         image/x-vnd.dgn                                                           base64          
+cur         image/x-win-bitmap                                                        base64          
 xbm         image/x-xbitmap                                                           7bit            
 xcf         image/x-xcf                                                               base64          
 xpm         image/x-xpixmap                                                           8bit            

@@ -8147,6 +8147,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.aethel.package
+  encoding: base64
+  xrefs:
+    person:
+    - Ewerson_Silva
+    template:
+    - application/vnd.aethel.package
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.aether.imp
   encoding: base64
   xrefs:
@@ -9912,6 +9922,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.dai
+  encoding: base64
+  xrefs:
+    person:
+    - Christopher_Whitlow
+    template:
+    - application/vnd.dai
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.dart
   encoding: base64
   extensions:
@@ -10699,6 +10719,16 @@
     - Filip_Navara
     template:
     - application/vnd.emclient.accessrequest+xml
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.emilia.authorization-evidence-challenge+json
+  encoding: base64
+  xrefs:
+    person:
+    - Iman_Schrock
+    template:
+    - application/vnd.emilia.authorization-evidence-challenge+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -15248,6 +15278,16 @@
     - Sebastian_A._Weiss
     template:
     - application/vnd.nacamar.ybrid+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.nanorix.auditproof+json
+  encoding: base64
+  xrefs:
+    person:
+    - Chaitanya_Kumar_Arra
+    template:
+    - application/vnd.nanorix.auditproof+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
