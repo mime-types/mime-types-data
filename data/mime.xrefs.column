@@ -493,8 +493,8 @@ person^Sandro_Hawke
 person^Nick_Smith|template^application/riscos
 rfc^rfc4662|template^application/rlmi+xml
 rfc^rfc4826|template^application/rls-services+xml
-draft^RFC-ietf-ntp-roughtime-19|template^application/roughtime-malfeasance+json
-draft^RFC-ietf-ntp-roughtime-19|template^application/roughtime-server+json
+rfc^rfc10049|template^application/roughtime-malfeasance+json
+rfc^rfc10049|template^application/roughtime-server+json
 person^ATSC|template^application/route-apd+xml
 person^ATSC|template^application/route-s-tsid+xml
 person^ATSC|template^application/route-usd+xml
@@ -1277,6 +1277,7 @@ person^Johann_du_Toit|template^application/vnd.lukuid.package+zip
 person^James_Berry|template^application/vnd.macports.portpkg
 person^Josef_Elijah_Fabian|template^application/vnd.majikah.bundle
 person^Josef_Elijah_Fabian|template^application/vnd.majikah.mjksig
+person^Josef_Elijah_Fabian|template^application/vnd.majikah.mjksmap
 person^Anton_Medvedev|template^application/vnd.maml
 person^Blake_Thompson|template^application/vnd.mapbox-vector-tile
 person^Gary_Ellison|template^application/vnd.marlin.drm.actiontoken+xml
