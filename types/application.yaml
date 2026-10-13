@@ -5265,8 +5265,8 @@
   content-type: application/roughtime-malfeasance+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ntp-roughtime-19
+    rfc:
+    - rfc10049
     template:
     - application/roughtime-malfeasance+json
   registered: true
@@ -5275,8 +5275,8 @@
   content-type: application/roughtime-server+json
   encoding: base64
   xrefs:
-    draft:
-    - RFC-ietf-ntp-roughtime-19
+    rfc:
+    - rfc10049
     template:
     - application/roughtime-server+json
   registered: true
@@ -13962,6 +13962,16 @@
     - Josef_Elijah_Fabian
     template:
     - application/vnd.majikah.mjksig
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.majikah.mjksmap
+  encoding: base64
+  xrefs:
+    person:
+    - Josef_Elijah_Fabian
+    template:
+    - application/vnd.majikah.mjksmap
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
