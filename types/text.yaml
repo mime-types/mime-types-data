@@ -1991,6 +1991,13 @@
   registered: false
   sort-priority: 47
 - !ruby/object:MIME::Type
+  content-type: text/x-rust
+  encoding: quoted-printable
+  extensions:
+  - rs
+  registered: false
+  sort-priority: 47
+- !ruby/object:MIME::Type
   content-type: text/x-scala
   encoding: quoted-printable
   extensions:

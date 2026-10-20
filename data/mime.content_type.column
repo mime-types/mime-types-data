@@ -3031,6 +3031,7 @@ text/x-rsrc r
 text/x-rst rest rst restx
 text/x-rtf rtf
 text/x-ruby rb
+text/x-rust rs
 text/x-scala scala
 text/x-scheme scm
 text/x-sed sed
