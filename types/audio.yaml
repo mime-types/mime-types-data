@@ -1018,6 +1018,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: audio/prs.elupon-eua
+  encoding: base64
+  xrefs:
+    person:
+    - Artem_Sladkih
+    template:
+    - audio/prs.elupon-eua
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: audio/prs.sid
   encoding: base64
   xrefs:

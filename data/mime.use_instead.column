@@ -1170,6 +1170,7 @@ application/geo+json
 -
 -
 -
+-
 vnd.afpc.afplinedata
 -
 -
@@ -1429,6 +1430,7 @@ application/vnd.visionary
 -
 -
 -
+-
 application/vnd.nokia.ncd
 -
 -
@@ -1451,6 +1453,7 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
 -
 -
 -
@@ -2192,6 +2195,7 @@ application/msword
 -
 -
 -
+-
 application/rtf
 -
 -
@@ -2307,6 +2311,7 @@ application/vnd.wordperfect
 -
 -
 application/x400-bp
+-
 -
 -
 -
@@ -2927,7 +2932,9 @@ text/javascript
 -
 -
 -
+-
 model/vnd.flatland.3dml
+-
 -
 -
 -

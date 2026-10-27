@@ -1118,6 +1118,7 @@ application/vnd.geometry-explorer gex gre
 application/vnd.geonext gxt
 application/vnd.geoplan g2w
 application/vnd.geospace g3w
+application/vnd.geovirtuallis.geov+zip
 application/vnd.gerber
 application/vnd.globalplatform.card-content-mgt
 application/vnd.globalplatform.card-content-mgt-response
@@ -1287,6 +1288,7 @@ application/vnd.marlin.drm.mdcf
 application/vnd.mason+json
 application/vnd.maxar.archive.3tz+zip
 application/vnd.maxmind.maxmind-db
+application/vnd.mcap
 application/vnd.mcd mcd
 application/vnd.mdl
 application/vnd.mdl-mbsdf
@@ -1638,6 +1640,7 @@ application/vnd.patentdive
 application/vnd.patientecommsdoc
 application/vnd.pawaafile paw
 application/vnd.pcos
+application/vnd.penguin-pn.theuip
 application/vnd.pg.format str
 application/vnd.pg.osasli ei6
 application/vnd.phbk+xml
@@ -2165,6 +2168,7 @@ application/x-mysql-misam-compressed-index myi
 application/x-mysql-misam-data myd
 application/x-mysql-misam-index
 application/x-mysql-table-definition
+application/x-navi-animation ani
 application/x-nesrom nes
 application/x-netcdf nc cdf
 application/x-ns-proxy-autoconfig pac
@@ -2441,6 +2445,7 @@ audio/PCMA-WB
 audio/PCMU
 audio/PCMU-WB
 audio/prs.aaud
+audio/prs.elupon-eua
 audio/prs.sid
 audio/QCELP
 audio/raptorfec
@@ -2889,6 +2894,7 @@ text/plain txt asc c cc h hh cpp hpp dat hlp conf def in list log rst text texti
 text/provenance-notation
 text/prs.fallenstein.rst rst
 text/prs.lines.tag dsc
+text/prs.mtsv
 text/prs.prop.logic
 text/prs.texi
 text/qml
@@ -2930,6 +2936,7 @@ text/vnd.ficlab.flt
 text/vnd.flatland.3dml
 text/vnd.fly fly
 text/vnd.fmi.flexstor flx
+text/vnd.geml
 text/vnd.gist.mx
 text/vnd.gml
 text/vnd.godot.gdscript
