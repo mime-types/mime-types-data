@@ -1118,6 +1118,7 @@ person^Michael_Hvidsten|template^application/vnd.geometry-explorer
 person^Matthias_Ehmann|template^application/vnd.geonext
 person^Christian_Mercat|template^application/vnd.geoplan
 person^Christian_Mercat|template^application/vnd.geospace
+person^Lyes_Mokraoui|template^application/vnd.geovirtuallis.geov+zip
 person^Thomas_Weyn|template^application/vnd.gerber
 person^Gil_Bernabeu|template^application/vnd.globalplatform.card-content-mgt
 person^Gil_Bernabeu|template^application/vnd.globalplatform.card-content-mgt-response
@@ -1287,6 +1288,7 @@ person^Gary_Ellison|template^application/vnd.marlin.drm.mdcf
 person^Jorn_Wildt|template^application/vnd.mason+json
 person^Björn_Blissing|template^application/vnd.maxar.archive.3tz+zip
 person^William_Stevenson|template^application/vnd.maxmind.maxmind-db
+person^Mat_Sadowski|template^application/vnd.mcap
 person^Tadashi_Gotoh|template^application/vnd.mcd
 person^Lutz_Kettner|template^application/vnd.mdl
 person^Lutz_Kettner|template^application/vnd.mdl-mbsdf
@@ -1638,6 +1640,7 @@ person^Christian_Trosclair|template^application/vnd.patentdive
 person^Andrew_David_Kendall|template^application/vnd.patientecommsdoc
 person^Prakash_Baskaran|template^application/vnd.pawaafile
 person^Slawomir_Lisznianski|template^application/vnd.pcos
+person^Penguin_Web_Messaging_Maintainer|template^application/vnd.penguin-pn.theuip
 person^April_Gandert|template^application/vnd.pg.format
 person^April_Gandert|template^application/vnd.pg.osasli
 person^Lost_Idea_Experiments|template^application/vnd.phbk+xml
@@ -2180,6 +2183,7 @@ person^W3C|template^application/wspolicy+xml
 -
 -
 -
+-
 rfc^rfc8894|template^application/x-pki-message
 -
 -
@@ -2441,6 +2445,7 @@ rfc^rfc5391|template^audio/PCMA-WB
 rfc^rfc4856|template^audio/PCMU
 rfc^rfc5391|template^audio/PCMU-WB
 person^Ai_Media_Format|template^audio/prs.aaud
+person^Artem_Sladkih|template^audio/prs.elupon-eua
 person^Linus_Walleij|template^audio/prs.sid
 rfc^rfc3555^rfc3625|template^audio/QCELP
 rfc^rfc6682|template^audio/raptorfec
@@ -2889,6 +2894,7 @@ rfc^rfc2046^rfc3676^rfc5147|template^text/plain
 person^Ivan_Herman^W3C|template^text/provenance-notation
 person^Benja_Fallenstein|template^text/prs.fallenstein.rst
 person^John_Lines|template^text/prs.lines.tag
+draft^draft-demosra-mtsv-01|template^text/prs.mtsv
 person^Hans-Dieter_A._Hiep|template^text/prs.prop.logic
 person^Matin_Bavardi|template^text/prs.texi
 note^7|person^Qt|template^text/qml
@@ -2930,6 +2936,7 @@ person^Steve_Gilberd|template^text/vnd.ficlab.flt
 -
 person^John-Mark_Gurney|template^text/vnd.fly
 person^Kari_E._Hurtta|template^text/vnd.fmi.flexstor
+person^Jieying_Xiong|template^text/vnd.geml
 person^Sachin_Nagda|template^text/vnd.gist.mx
 person^Mi_Tar|template^text/vnd.gml
 person^Godot_Foundation|template^text/vnd.godot.gdscript

@@ -12057,6 +12057,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.geovirtuallis.geov+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Lyes_Mokraoui
+    template:
+    - application/vnd.geovirtuallis.geov+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.gerber
   encoding: base64
   xrefs:
@@ -14062,6 +14072,16 @@
     - William_Stevenson
     template:
     - application/vnd.maxmind.maxmind-db
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.mcap
+  encoding: base64
+  xrefs:
+    person:
+    - Mat_Sadowski
+    template:
+    - application/vnd.mcap
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -17935,6 +17955,16 @@
     - Slawomir_Lisznianski
     template:
     - application/vnd.pcos
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.penguin-pn.theuip
+  encoding: base64
+  xrefs:
+    person:
+    - Penguin_Web_Messaging_Maintainer
+    template:
+    - application/vnd.penguin-pn.theuip
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -22986,6 +23016,13 @@
   encoding: base64
   registered: false
   sort-priority: 48
+- !ruby/object:MIME::Type
+  content-type: application/x-navi-animation
+  encoding: base64
+  extensions:
+  - ani
+  registered: false
+  sort-priority: 47
 - !ruby/object:MIME::Type
   content-type: application/x-nesrom
   encoding: base64

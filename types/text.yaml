@@ -620,6 +620,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: text/prs.mtsv
+  encoding: quoted-printable
+  xrefs:
+    draft:
+    - draft-demosra-mtsv-01
+    template:
+    - text/prs.mtsv
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/prs.prop.logic
   encoding: quoted-printable
   xrefs:
@@ -1084,6 +1094,16 @@
     - text/vnd.fmi.flexstor
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: text/vnd.geml
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - Jieying_Xiong
+    template:
+    - text/vnd.geml
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: text/vnd.gist.mx
   encoding: quoted-printable
