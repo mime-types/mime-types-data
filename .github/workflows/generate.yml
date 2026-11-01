@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Harden the runner
-        uses: step-security/harden-runner@e14015d583714f6e62063499dc959a02595150a1 # v2.21.1
+        uses: step-security/harden-runner@dc2769abcc0fcfbadfc1df54081c1608579ef6b2 # v2.22.2
         with:
           disable-sudo: true
           egress-policy: block
@@ -34,7 +34,7 @@ jobs:
             svn.apache.org:80
             www.iana.org:443
 
-      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+      - uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         id: app-token
         with:
           client-id: ${{ vars.FACTOTUM_APP_ID }}
@@ -67,7 +67,7 @@ jobs:
             echo "email=${USER_ID}+${APP_SLUG}[bot]@users.noreply.github.com"
           } >>"${GITHUB_OUTPUT}"
 
-      - uses: ruby/setup-ruby@bec3f19a76460dbe12f60def7d1a77585f07516c # v1.322.0
+      - uses: ruby/setup-ruby@7f797815d8adceb1c412e7abefdd1ab4abc47a5f # v1.335.0
         with:
           ruby-version: '4.0'
           rubygems: 'latest'
