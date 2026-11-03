@@ -5,8 +5,8 @@ person^Dongwook_Kim^_3GPP|template^application/3gpp-ims+xml
 person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-object-manifest+json
 person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-mbs-user-service-descriptions+json
 person^Dongwook_Kim^_3GPP_TSG_SA_WG4|template^application/3gpp-media-delivery-metrics-report+json
-person^Ulrich_Wiehe^_3GPP|template^application/3gppHal+json
-person^Ulrich_Wiehe^_3GPP|template^application/3gppHalForms+json
+person^Dongwook_Kim^_3GPP|template^application/3gppHal+json
+person^Dongwook_Kim^_3GPP|template^application/3gppHalForms+json
 person^ASAM^Bernd_Wenzel|template^application/A2L
 person^Industrial_Digital_Twin_Association^Sandeep_Rudra|template^application/aas+zip
 -
@@ -659,10 +659,10 @@ rfc^rfc2122|template^application/vemmi
 person^Franz_Ombler|template^application/vnd.1000minds.decision-model+xml
 person^Rob_Coyle|template^application/vnd.1ob
 person^Dongwook_Kim|template^application/vnd.3gpp-prose+xml
-person^Haorui_Yang|template^application/vnd.3gpp-prose-pc3a+xml
-person^Haorui_Yang|template^application/vnd.3gpp-prose-pc3ach+xml
+person^Dongwook_Kim|template^application/vnd.3gpp-prose-pc3a+xml
+person^Dongwook_Kim|template^application/vnd.3gpp-prose-pc3ach+xml
 person^Dongwook_Kim|template^application/vnd.3gpp-prose-pc3ch+xml
-person^Haorui_Yang|template^application/vnd.3gpp-prose-pc8+xml
+person^Dongwook_Kim|template^application/vnd.3gpp-prose-pc8+xml
 person^Dongwook_Kim|template^application/vnd.3gpp-v2x-local-service-information
 person^Jones_Lu_Yunjie^_3GPP|template^application/vnd.3gpp.5gnas
 person^Dongwook_Kim^_3GPP_CT1|template^application/vnd.3gpp.5gsa2x
@@ -677,12 +677,12 @@ person^Dongwook_Kim|template^application/vnd.3gpp.GMOP+xml
 person^Yang_Yong^_3GPP|template^application/vnd.3gpp.gtpc
 person^Dongwook_Kim|template^application/vnd.3gpp.interworking-data
 person^Jones_Lu_Yunjie^_3GPP|template^application/vnd.3gpp.lpp
-person^Tim_Woodward|template^application/vnd.3gpp.mc-signalling-ear
+person^Dongwook_Kim|template^application/vnd.3gpp.mc-signalling-ear
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-affiliation-command+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-info+xml
-person^Kiran_Kapale|template^application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-payload
-person^Kiran_Kapale|template^application/vnd.3gpp.mcdata-regroup+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-regroup+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-service-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-signalling
 person^Dongwook_Kim|template^application/vnd.3gpp.mcdata-ue-config+xml
@@ -692,7 +692,7 @@ person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-floor-request+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-location-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-mbms-usage-info+xml
-person^Kiran_Kapale|template^application/vnd.3gpp.mcptt-regroup+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-regroup+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-service-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-signed+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcptt-ue-config+xml
@@ -704,14 +704,14 @@ notes^(OBSOLETED in favor of application/vnd.3gpp.mcvideo-info+xml)|person^Dongw
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-location-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-mbms-usage-info+xml
-person^Kiran_Kapale|template^application/vnd.3gpp.mcvideo-regroup+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-regroup+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-service-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-transmission-request+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-ue-config+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mcvideo-user-profile+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.mid-call+xml
 person^Yang_Yong^_3GPP|template^application/vnd.3gpp.ngap
-person^Bruno_Landais^_3GPP|template^application/vnd.3gpp.pfcp
+person^Dongwook_Kim^_3GPP|template^application/vnd.3gpp.pfcp
 person^Dongwook_Kim|template^application/vnd.3gpp.pic-bw-large
 person^Dongwook_Kim|template^application/vnd.3gpp.pic-bw-small
 person^Dongwook_Kim|template^application/vnd.3gpp.pic-bw-var
@@ -720,7 +720,7 @@ person^Yang_Yong^_3GPP|template^application/vnd.3gpp.s1ap
 person^_3GPP|template^application/vnd.3gpp.seal-app-comm-requirements-info+xml
 person^_3GPP|template^application/vnd.3gpp.seal-data-delivery-info+cbor
 person^_3GPP|template^application/vnd.3gpp.seal-data-delivery-info+xml
-person^Sapan_Shah|template^application/vnd.3gpp.seal-group-doc+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.seal-group-doc+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-info+xml
 person^_3GPP|template^application/vnd.3gpp.seal-location-info+cbor
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-location-info+xml
@@ -729,9 +729,9 @@ person^_3GPP|template^application/vnd.3gpp.seal-mbs-usage-info+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-network-QoS-management-info+xml
 person^_3GPP|template^application/vnd.3gpp.seal-network-resource-info+cbor
 person^_3GPP|template^application/vnd.3gpp.seal-store-forward-events-info+xml
-person^Sapan_Shah|template^application/vnd.3gpp.seal-ue-config-info+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.seal-ue-config-info+xml
 person^Christian_Herrero-Veron^_3GPP|template^application/vnd.3gpp.seal-unicast-info+xml
-person^Sapan_Shah|template^application/vnd.3gpp.seal-user-profile-info+xml
+person^Dongwook_Kim|template^application/vnd.3gpp.seal-user-profile-info+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.sms
 person^Dongwook_Kim|template^application/vnd.3gpp.sms+xml
 person^Dongwook_Kim|template^application/vnd.3gpp.srvcc-ext+xml
@@ -839,6 +839,7 @@ person^José_Del_Romano|template^application/vnd.banana-accounting
 person^Broadband_Forum|template^application/vnd.bbf.usp.error
 person^Broadband_Forum|template^application/vnd.bbf.usp.msg
 person^Broadband_Forum|template^application/vnd.bbf.usp.msg+json
+person^Dick_Brooks|template^application/vnd.BCG.TrustDeclaration
 person^Jegulsky|template^application/vnd.bekitzur-stech+json
 person^Dmytro_Yunchyk|template^application/vnd.belightsoft.lhzd+zip
 person^Dmytro_Yunchyk|template^application/vnd.belightsoft.lhzl+zip
@@ -1177,7 +1178,9 @@ person^Amir_Herzberg|template^application/vnd.ibm.MiniPay
 notes^(OBSOLETED in favor of application/vnd.afpc.modca)|person^Reinhard_Hohensee|template^application/vnd.ibm.modcap
 person^Bruce_Tantlinger|template^application/vnd.ibm.rights-management
 person^Bruce_Tantlinger|template^application/vnd.ibm.secure-container
+person^Boris_Opalic|template^application/vnd.ibus+json
 person^Phil_Green|template^application/vnd.iccprofile
+person^Kacper_Gościniak|template^application/vnd.idop+zip
 person^Purva_R_Rajkotia|template^application/vnd.ieee.1905
 person^Tim_Fisher|template^application/vnd.igloader
 person^Dirk_Farin|template^application/vnd.imagemeter.folder+zip
@@ -1237,6 +1240,7 @@ person^Mikhail_Gorshenev|template^application/vnd.jcp.javame.midlet-rms
 person^Sebastiaan_Deckers|template^application/vnd.jisp
 person^Joost|template^application/vnd.joost.joda-archive
 person^Yokoyama_Kiyonobu|template^application/vnd.jsk.isdn-ngn
+person^Fernando_Daniel_Garcia|template^application/vnd.jupiter.jdx+json
 person^Jupyter_Team|template^application/vnd.jupyter
 person^Tim_Macdonald|template^application/vnd.kahootz
 person^David_Faure|template^application/vnd.kde.karbon
@@ -1410,6 +1414,8 @@ person^Andreas_Molzer|template^application/vnd.nebumind.line
 person^Steve_Judkins|template^application/vnd.nervana
 person^Andy_Mutz|template^application/vnd.netfpx
 person^Dan_DuFeu|template^application/vnd.neurolanguage.nlu
+person^Nguyễn_Duy_Tuấn_Anh|template^application/vnd.ngdtuanh.abook+zip
+person^Nguyễn_Duy_Tuấn_Anh|template^application/vnd.ngdtuanh.abookproj+zip
 person^Manivannan_Subburaj|template^application/vnd.nila.protobuf-bundle+zip
 person^Amit_Kumar_Gupta|template^application/vnd.nimn
 person^Henrik_Andersson|template^application/vnd.nintendo.nitro.rom
@@ -1640,6 +1646,7 @@ person^Christian_Trosclair|template^application/vnd.patentdive
 person^Andrew_David_Kendall|template^application/vnd.patientecommsdoc
 person^Prakash_Baskaran|template^application/vnd.pawaafile
 person^Slawomir_Lisznianski|template^application/vnd.pcos
+person^Bediako_George|template^application/vnd.pebblestream.psosf+zip
 person^Penguin_Web_Messaging_Maintainer|template^application/vnd.penguin-pn.theuip
 person^April_Gandert|template^application/vnd.pg.format
 person^April_Gandert|template^application/vnd.pg.osasli
@@ -1672,6 +1679,7 @@ rfc^rfc3391|template^application/vnd.pwg-multiplexed
 person^Don_Wright|template^application/vnd.pwg-xhtml-print+xml
 person^Eduardo_Rodrigues|template^application/vnd.pyon+json
 person^Glenn_Forrester|template^application/vnd.qualcomm.brew-app-res
+person^Quantum_Sequrity|template^application/vnd.quantumsequrity.qnsqy
 person^Casper_Joost_Eyckelhof|template^application/vnd.quarantainenet
 person^Hannes_Scheidler|template^application/vnd.Quark.QuarkXPress
 person^Matthias_Ludwig|template^application/vnd.quobject-quoxdocument
@@ -2476,7 +2484,7 @@ rfc^rfc5109|template^audio/ulpfec
 person^ISO-IEC_JTC_1^Max_Neuendorf|template^audio/usac
 rfc^rfc4856|template^audio/VDVI
 rfc^rfc4348^rfc4424|template^audio/VMR-WB
-person^Thomas_Belling|template^audio/vnd.3gpp.iufp
+person^Dongwook_Kim|template^audio/vnd.3gpp.iufp
 person^Serge_De_Jaham|template^audio/vnd.4SB
 -
 person^Vicki_DeBarros|template^audio/vnd.audiokoz
@@ -2805,6 +2813,7 @@ person^Boris_Rabinovitch|template^model/vnd.mts
 person^Eric_Lengyel|template^model/vnd.opengex
 person^Parasolid|template^model/vnd.parasolid.transmit.binary
 person^Parasolid|template^model/vnd.parasolid.transmit.text
+person^Prachaya_Buapad|template^model/vnd.pygrassreal.py3s
 person^Daniel_Flassig|template^model/vnd.pytha.pyox
 person^Benson_Margulies|template^model/vnd.rosette.annotated-data-model
 person^Igor_Afanasyev^SAP_SE|template^model/vnd.sap.vds
@@ -2896,6 +2905,7 @@ person^Benja_Fallenstein|template^text/prs.fallenstein.rst
 person^John_Lines|template^text/prs.lines.tag
 draft^draft-demosra-mtsv-01|template^text/prs.mtsv
 person^Hans-Dieter_A._Hiep|template^text/prs.prop.logic
+person^William_Short|template^text/prs.rowih
 person^Matin_Bavardi|template^text/prs.texi
 note^7|person^Qt|template^text/qml
 rfc^rfc6682|template^text/raptorfec

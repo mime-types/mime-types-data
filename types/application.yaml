@@ -78,7 +78,7 @@
   encoding: base64
   xrefs:
     person:
-    - Ulrich_Wiehe
+    - Dongwook_Kim
     - _3GPP
     template:
     - application/3gppHal+json
@@ -89,7 +89,7 @@
   encoding: base64
   xrefs:
     person:
-    - Ulrich_Wiehe
+    - Dongwook_Kim
     - _3GPP
     template:
     - application/3gppHalForms+json
@@ -7045,7 +7045,7 @@
   encoding: base64
   xrefs:
     person:
-    - Haorui_Yang
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-prose-pc3a+xml
   registered: true
@@ -7055,7 +7055,7 @@
   encoding: base64
   xrefs:
     person:
-    - Haorui_Yang
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-prose-pc3ach+xml
   registered: true
@@ -7075,7 +7075,7 @@
   encoding: base64
   xrefs:
     person:
-    - Haorui_Yang
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp-prose-pc8+xml
   registered: true
@@ -7232,7 +7232,7 @@
   encoding: base64
   xrefs:
     person:
-    - Tim_Woodward
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mc-signalling-ear
   registered: true
@@ -7262,7 +7262,7 @@
   encoding: base64
   xrefs:
     person:
-    - Kiran_Kapale
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-msgstore-ctrl-request+xml
   registered: true
@@ -7282,7 +7282,7 @@
   encoding: base64
   xrefs:
     person:
-    - Kiran_Kapale
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcdata-regroup+xml
   registered: true
@@ -7382,7 +7382,7 @@
   encoding: base64
   xrefs:
     person:
-    - Kiran_Kapale
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcptt-regroup+xml
   registered: true
@@ -7506,7 +7506,7 @@
   encoding: base64
   xrefs:
     person:
-    - Kiran_Kapale
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.mcvideo-regroup+xml
   registered: true
@@ -7577,7 +7577,7 @@
   encoding: base64
   xrefs:
     person:
-    - Bruno_Landais
+    - Dongwook_Kim
     - _3GPP
     template:
     - application/vnd.3gpp.pfcp
@@ -7682,7 +7682,7 @@
   encoding: base64
   xrefs:
     person:
-    - Sapan_Shah
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.seal-group-doc+xml
   registered: true
@@ -7776,7 +7776,7 @@
   encoding: base64
   xrefs:
     person:
-    - Sapan_Shah
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.seal-ue-config-info+xml
   registered: true
@@ -7797,7 +7797,7 @@
   encoding: base64
   xrefs:
     person:
-    - Sapan_Shah
+    - Dongwook_Kim
     template:
     - application/vnd.3gpp.seal-user-profile-info+xml
   registered: true
@@ -8945,6 +8945,16 @@
     - Broadband_Forum
     template:
     - application/vnd.bbf.usp.msg+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.BCG.TrustDeclaration
+  encoding: base64
+  xrefs:
+    person:
+    - Dick_Brooks
+    template:
+    - application/vnd.BCG.TrustDeclaration
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -12780,6 +12790,16 @@
   registered: true
   sort-priority: 15
 - !ruby/object:MIME::Type
+  content-type: application/vnd.ibus+json
+  encoding: base64
+  xrefs:
+    person:
+    - Boris_Opalic
+    template:
+    - application/vnd.ibus+json
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.iccprofile
   friendly:
     en: ICC profile
@@ -12794,6 +12814,16 @@
     - application/vnd.iccprofile
   registered: true
   sort-priority: 14
+- !ruby/object:MIME::Type
+  content-type: application/vnd.idop+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Kacper_Gościniak
+    template:
+    - application/vnd.idop+zip
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.ieee.1905
   encoding: base64
@@ -13447,6 +13477,16 @@
     - Yokoyama_Kiyonobu
     template:
     - application/vnd.jsk.isdn-ngn
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.jupiter.jdx+json
+  encoding: base64
+  xrefs:
+    person:
+    - Fernando_Daniel_Garcia
+    template:
+    - application/vnd.jupiter.jdx+json
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
@@ -15441,6 +15481,26 @@
     - application/vnd.neurolanguage.nlu
   registered: true
   sort-priority: 15
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ngdtuanh.abook+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Nguyễn_Duy_Tuấn_Anh
+    template:
+    - application/vnd.ngdtuanh.abook+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.ngdtuanh.abookproj+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Nguyễn_Duy_Tuấn_Anh
+    template:
+    - application/vnd.ngdtuanh.abookproj+zip
+  registered: true
+  sort-priority: 16
 - !ruby/object:MIME::Type
   content-type: application/vnd.nila.protobuf-bundle+zip
   encoding: base64
@@ -17958,6 +18018,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: application/vnd.pebblestream.psosf+zip
+  encoding: base64
+  xrefs:
+    person:
+    - Bediako_George
+    template:
+    - application/vnd.pebblestream.psosf+zip
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: application/vnd.penguin-pn.theuip
   encoding: base64
   xrefs:
@@ -18317,6 +18387,16 @@
     - Glenn_Forrester
     template:
     - application/vnd.qualcomm.brew-app-res
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
+  content-type: application/vnd.quantumsequrity.qnsqy
+  encoding: base64
+  xrefs:
+    person:
+    - Quantum_Sequrity
+    template:
+    - application/vnd.quantumsequrity.qnsqy
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type

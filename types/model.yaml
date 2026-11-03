@@ -389,6 +389,16 @@
   registered: true
   sort-priority: 14
 - !ruby/object:MIME::Type
+  content-type: model/vnd.pygrassreal.py3s
+  encoding: base64
+  xrefs:
+    person:
+    - Prachaya_Buapad
+    template:
+    - model/vnd.pygrassreal.py3s
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: model/vnd.pytha.pyox
   encoding: base64
   xrefs:

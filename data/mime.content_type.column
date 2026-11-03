@@ -839,6 +839,7 @@ application/vnd.banana-accounting
 application/vnd.bbf.usp.error
 application/vnd.bbf.usp.msg
 application/vnd.bbf.usp.msg+json
+application/vnd.BCG.TrustDeclaration
 application/vnd.bekitzur-stech+json
 application/vnd.belightsoft.lhzd+zip
 application/vnd.belightsoft.lhzl+zip
@@ -1177,7 +1178,9 @@ application/vnd.ibm.MiniPay mpy
 application/vnd.ibm.modcap afp list3820 listafp
 application/vnd.ibm.rights-management irm
 application/vnd.ibm.secure-container sc
+application/vnd.ibus+json
 application/vnd.iccprofile icc icm
+application/vnd.idop+zip
 application/vnd.ieee.1905
 application/vnd.igloader igl
 application/vnd.imagemeter.folder+zip
@@ -1237,6 +1240,7 @@ application/vnd.jcp.javame.midlet-rms rms
 application/vnd.jisp jisp
 application/vnd.joost.joda-archive joda
 application/vnd.jsk.isdn-ngn
+application/vnd.jupiter.jdx+json
 application/vnd.jupyter
 application/vnd.kahootz ktr ktz
 application/vnd.kde.karbon karbon
@@ -1410,6 +1414,8 @@ application/vnd.nebumind.line
 application/vnd.nervana ent entity req request bkm kcm
 application/vnd.netfpx
 application/vnd.neurolanguage.nlu nlu
+application/vnd.ngdtuanh.abook+zip
+application/vnd.ngdtuanh.abookproj+zip
 application/vnd.nila.protobuf-bundle+zip
 application/vnd.nimn
 application/vnd.nintendo.nitro.rom
@@ -1640,6 +1646,7 @@ application/vnd.patentdive
 application/vnd.patientecommsdoc
 application/vnd.pawaafile paw
 application/vnd.pcos
+application/vnd.pebblestream.psosf+zip
 application/vnd.penguin-pn.theuip
 application/vnd.pg.format str
 application/vnd.pg.osasli ei6
@@ -1672,6 +1679,7 @@ application/vnd.pwg-multiplexed
 application/vnd.pwg-xhtml-print+xml
 application/vnd.pyon+json
 application/vnd.qualcomm.brew-app-res
+application/vnd.quantumsequrity.qnsqy
 application/vnd.quarantainenet
 application/vnd.Quark.QuarkXPress qxd qxt qwd qwt qxl qxb
 application/vnd.quobject-quoxdocument
@@ -2805,6 +2813,7 @@ model/vnd.mts mts
 model/vnd.opengex
 model/vnd.parasolid.transmit.binary x_b xmt_bin
 model/vnd.parasolid.transmit.text x_t xmt_txt
+model/vnd.pygrassreal.py3s
 model/vnd.pytha.pyox
 model/vnd.rosette.annotated-data-model
 model/vnd.sap.vds
@@ -2896,6 +2905,7 @@ text/prs.fallenstein.rst rst
 text/prs.lines.tag dsc
 text/prs.mtsv
 text/prs.prop.logic
+text/prs.rowih
 text/prs.texi
 text/qml
 text/raptorfec

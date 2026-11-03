@@ -1108,6 +1108,7 @@ application/vnd.aristanetworks.swi
 -
 -
 -
+-
 application/geo+json
 -
 -
@@ -1194,7 +1195,12 @@ application/vnd.afpc.modca
 -
 -
 -
+-
+-
 application/vnd.visionary
+-
+-
+-
 -
 -
 -
@@ -1453,6 +1459,8 @@ application/vnd.nokia.ncd
 -
 -
 application/vnd.oasis.opendocument.base
+-
+-
 -
 -
 -
@@ -2839,6 +2847,7 @@ image/wmf
 -
 -
 -
+-
 multipart/parallel
 -
 -
@@ -2882,6 +2891,7 @@ text/javascript
 -
 text/javascript
 text/javascript
+-
 -
 -
 -
