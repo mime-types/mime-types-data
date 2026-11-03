@@ -640,6 +640,16 @@
   registered: true
   sort-priority: 16
 - !ruby/object:MIME::Type
+  content-type: text/prs.rowih
+  encoding: quoted-printable
+  xrefs:
+    person:
+    - William_Short
+    template:
+    - text/prs.rowih
+  registered: true
+  sort-priority: 16
+- !ruby/object:MIME::Type
   content-type: text/prs.texi
   encoding: quoted-printable
   xrefs:
